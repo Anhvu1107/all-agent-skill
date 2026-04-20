@@ -1,0 +1,8 @@
+interface:
+  display_name: "WEB Design Guidelines"
+  short_description: "ALWAYS use this when designing or reviewing website layout, structure, interaction patterns, accessibility, or production-facing web presentation."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $web-design-guidelines to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Architect Review"
+  short_description: "ALWAYS use this when the request matches Architect Review: Master software architect specializing in modern architecture"
+  brand_color: "#7C3AED"
+  default_prompt: "Use $architect-review to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

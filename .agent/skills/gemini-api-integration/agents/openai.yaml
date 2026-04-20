@@ -1,0 +1,8 @@
+interface:
+  display_name: "Gemini API Integration"
+  short_description: "ALWAYS use this when the request matches Gemini API Integration: Use when integrating Google Gemini API into projects."
+  brand_color: "#0F766E"
+  default_prompt: "Use $gemini-api-integration to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

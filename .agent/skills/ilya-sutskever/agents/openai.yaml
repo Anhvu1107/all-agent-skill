@@ -1,0 +1,8 @@
+interface:
+  display_name: "Ilya Sutskever"
+  short_description: "ALWAYS use this when the request matches Ilya Sutskever: Agente que simula Ilya Sutskever — co-fundador da OpenAI, ex-Chief Scientist, fundador da SS..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $ilya-sutskever to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

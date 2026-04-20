@@ -1,0 +1,8 @@
+interface:
+  display_name: "Projection Patterns"
+  short_description: "ALWAYS use this when the request matches Projection Patterns: Build read models and projections from event streams."
+  brand_color: "#374151"
+  default_prompt: "Use $projection-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

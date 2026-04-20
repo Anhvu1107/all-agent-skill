@@ -1,0 +1,8 @@
+interface:
+  display_name: "Sentry Automation"
+  short_description: "ALWAYS use this when the request matches Sentry Automation: Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure alerts, tr..."
+  brand_color: "#15803D"
+  default_prompt: "Use $sentry-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

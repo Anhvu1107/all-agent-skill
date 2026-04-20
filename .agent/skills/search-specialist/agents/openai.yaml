@@ -1,0 +1,8 @@
+interface:
+  display_name: "Search Specialist"
+  short_description: "ALWAYS use this when the request matches Search Specialist: Expert web researcher using advanced search techniques and"
+  brand_color: "#7C3AED"
+  default_prompt: "Use $search-specialist to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Leiloeiro Mercado"
+  short_description: "ALWAYS use this when the request matches Leiloeiro Mercado: Analise de mercado imobiliario para leiloes."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $leiloeiro-mercado to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

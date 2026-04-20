@@ -1,0 +1,8 @@
+interface:
+  display_name: "Vercel Automation"
+  short_description: "ALWAYS use this when the request matches Vercel Automation: Automate Vercel tasks via Rube MCP (Composio): manage deployments, domains, DNS, env vars..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $vercel-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

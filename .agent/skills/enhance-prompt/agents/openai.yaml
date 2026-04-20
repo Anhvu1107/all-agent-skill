@@ -1,0 +1,8 @@
+interface:
+  display_name: "Enhance Prompt"
+  short_description: "ALWAYS use this when the request matches Enhance Prompt: Transforms vague UI ideas into polished, Stitch-optimized prompts."
+  brand_color: "#2563EB"
+  default_prompt: "Use $enhance-prompt to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

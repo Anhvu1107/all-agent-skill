@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Cosmos DB PY"
+  short_description: "ALWAYS use this when the request matches Azure Cosmos DB PY: Build production-grade Azure Cosmos DB NoSQL services following clean code, security bes..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $azure-cosmos-db-py to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

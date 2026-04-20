@@ -1,0 +1,8 @@
+interface:
+  display_name: "E2e Testing"
+  short_description: "ALWAYS use this when the request matches E2e Testing: End-to-end testing workflow with Playwright for browser automation, visual regression, cross-br..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $e2e-testing to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

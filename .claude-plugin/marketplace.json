@@ -1,0 +1,46 @@
+{
+  "name": "avuzskill",
+  "owner": {
+    "name": "AVuzskill Maintainers"
+  },
+  "metadata": {
+    "description": "Hardened unified skill bundle with one canonical .agent/skills tree",
+    "version": "1.1.0"
+  },
+  "plugins": [
+    {
+      "name": "core-skills",
+      "description": "Routing, implementation, design, testing, and skill-authoring essentials",
+      "source": "../.agent",
+      "strict": false,
+      "skills": [
+        "./skills/workspace-operating-system",
+        "./skills/frontend-design",
+        "./skills/mcp-builder",
+        "./skills/webapp-testing",
+        "./skills/skill-creator"
+      ]
+    },
+    {
+      "name": "extended-skills",
+      "description": "General engineering, communication, verification, and creative support skills",
+      "source": "../.agent",
+      "strict": false,
+      "skills": [
+        "./skills/app-builder",
+        "./skills/architecture",
+        "./skills/api-patterns",
+        "./skills/database-design",
+        "./skills/testing-patterns",
+        "./skills/systematic-debugging",
+        "./skills/code-review-checklist",
+        "./skills/vulnerability-scanner",
+        "./skills/doc-coauthoring",
+        "./skills/internal-comms",
+        "./skills/brand-guidelines",
+        "./skills/canvas-design",
+        "./skills/slack-gif-creator"
+      ]
+    }
+  ]
+}

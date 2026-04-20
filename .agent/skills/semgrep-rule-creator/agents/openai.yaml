@@ -1,0 +1,8 @@
+interface:
+  display_name: "Semgrep Rule Creator"
+  short_description: "ALWAYS use this when the request matches Semgrep Rule Creator: Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $semgrep-rule-creator to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

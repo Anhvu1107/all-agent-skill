@@ -1,0 +1,8 @@
+interface:
+  display_name: "Voice Agents"
+  short_description: "ALWAYS use this when the request matches Voice Agents: Voice agents represent the frontier of AI interaction - humans speaking naturally with AI syst..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $voice-agents to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

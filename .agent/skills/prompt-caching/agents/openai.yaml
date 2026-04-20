@@ -1,0 +1,8 @@
+interface:
+  display_name: "Prompt Caching"
+  short_description: "ALWAYS use this when the request matches Prompt Caching: Caching strategies for LLM prompts including Anthropic prompt caching, response caching, and..."
+  brand_color: "#15803D"
+  default_prompt: "Use $prompt-caching to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

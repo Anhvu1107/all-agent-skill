@@ -1,0 +1,8 @@
+interface:
+  display_name: "Libreoffice Base"
+  short_description: "ALWAYS use this when the user or an upstream archive refers to `libreoffice-base`, the nested skill path form for `base`, or the equivalent slash pat..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $libreoffice-base to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

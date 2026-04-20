@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure AI Anomalydetector Java"
+  short_description: "ALWAYS use this when the request matches Azure AI Anomalydetector Java: Build anomaly detection applications with Azure AI Anomaly Detector SDK for J..."
+  brand_color: "#15803D"
+  default_prompt: "Use $azure-ai-anomalydetector-java to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

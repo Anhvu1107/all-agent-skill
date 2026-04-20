@@ -1,0 +1,8 @@
+interface:
+  display_name: "Sast Configuration"
+  short_description: "ALWAYS use this when the request matches Sast Configuration: Static Application Security Testing (SAST) tool setup, configuration, and custom rule cr..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $sast-configuration to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

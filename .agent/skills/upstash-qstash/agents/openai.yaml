@@ -1,0 +1,8 @@
+interface:
+  display_name: "Upstash Qstash"
+  short_description: "ALWAYS use this when the request matches Upstash Qstash: Upstash QStash expert for serverless message queues, scheduled jobs, and reliable HTTP-based..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $upstash-qstash to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Terraform Module Library"
+  short_description: "ALWAYS use this when the request matches Terraform Module Library: Production-ready Terraform module patterns for AWS, Azure, and GCP infrastructure."
+  brand_color: "#BE123C"
+  default_prompt: "Use $terraform-module-library to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

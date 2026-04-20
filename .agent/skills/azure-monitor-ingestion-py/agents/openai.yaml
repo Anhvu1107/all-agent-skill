@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Monitor Ingestion PY"
+  short_description: "ALWAYS use this when the request matches Azure Monitor Ingestion PY: Azure Monitor Ingestion SDK for Python."
+  brand_color: "#2563EB"
+  default_prompt: "Use $azure-monitor-ingestion-py to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

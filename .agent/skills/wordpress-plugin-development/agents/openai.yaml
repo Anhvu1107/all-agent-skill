@@ -1,0 +1,8 @@
+interface:
+  display_name: "Wordpress Plugin Development"
+  short_description: "ALWAYS use this when the request matches Wordpress Plugin Development: WordPress plugin development workflow covering plugin architecture, hooks, adm..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $wordpress-plugin-development to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

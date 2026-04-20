@@ -1,0 +1,8 @@
+interface:
+  display_name: "Todoist Automation"
+  short_description: "ALWAYS use this when the request matches Todoist Automation: Automate Todoist task management, projects, sections, filtering, and bulk operations via..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $todoist-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

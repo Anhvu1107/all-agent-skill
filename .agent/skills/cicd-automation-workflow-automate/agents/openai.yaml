@@ -1,0 +1,8 @@
+interface:
+  display_name: "Cicd Automation Workflow Automate"
+  short_description: "ALWAYS use this when the request matches Cicd Automation Workflow Automate: You are a workflow automation expert specializing in creating efficient C..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $cicd-automation-workflow-automate to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

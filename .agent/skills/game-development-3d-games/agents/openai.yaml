@@ -1,0 +1,8 @@
+interface:
+  display_name: "Game Development 3d Games"
+  short_description: "ALWAYS use this when the user or an upstream archive refers to `game-development-3d-games`, the nested skill path form for `3d-games`, or the equival..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $game-development-3d-games to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure AI Vision Imageanalysis Java"
+  short_description: "ALWAYS use this when the request matches Azure AI Vision Imageanalysis Java: Build image analysis applications with Azure AI Vision SDK for Java."
+  brand_color: "#2563EB"
+  default_prompt: "Use $azure-ai-vision-imageanalysis-java to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

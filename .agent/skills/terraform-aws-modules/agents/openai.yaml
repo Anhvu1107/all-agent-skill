@@ -1,0 +1,8 @@
+interface:
+  display_name: "Terraform AWS Modules"
+  short_description: "ALWAYS use this when the request matches Terraform AWS Modules: Terraform module creation for AWS — reusable modules, state management, and HCL best..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $terraform-aws-modules to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

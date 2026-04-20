@@ -1,0 +1,8 @@
+interface:
+  display_name: "Referral Program"
+  short_description: "ALWAYS use this when the request matches Referral Program: You are an expert in viral growth and referral marketing with access to referral program d..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $referral-program to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

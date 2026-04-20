@@ -1,0 +1,8 @@
+interface:
+  display_name: "AWS Security Audit"
+  short_description: "ALWAYS use this when the request matches AWS Security Audit: Comprehensive AWS security posture assessment using AWS CLI and security best practices"
+  brand_color: "#0F172A"
+  default_prompt: "Use $aws-security-audit to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Elixir PRO"
+  short_description: "ALWAYS use this when the request matches Elixir PRO: Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView."
+  brand_color: "#374151"
+  default_prompt: "Use $elixir-pro to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

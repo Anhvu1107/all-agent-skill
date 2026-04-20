@@ -1,0 +1,8 @@
+interface:
+  display_name: "Wordpress Penetration Testing"
+  short_description: "ALWAYS use this when the request matches Wordpress Penetration Testing: Assess WordPress installations for common vulnerabilities and WordPress 7.0 a..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $wordpress-penetration-testing to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

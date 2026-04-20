@@ -1,0 +1,8 @@
+interface:
+  display_name: "Datadog Automation"
+  short_description: "ALWAYS use this when the request matches Datadog Automation: Automate Datadog tasks via Rube MCP (Composio): query metrics, search logs, manage monit..."
+  brand_color: "#374151"
+  default_prompt: "Use $datadog-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

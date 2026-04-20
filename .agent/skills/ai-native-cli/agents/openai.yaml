@@ -1,0 +1,8 @@
+interface:
+  display_name: "AI Native CLI"
+  short_description: "ALWAYS use this when the request matches AI Native CLI: Design spec with 98 rules for building CLI tools that AI agents can safely use."
+  brand_color: "#EA580C"
+  default_prompt: "Use $ai-native-cli to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Monte Carlo Prevent"
+  short_description: "ALWAYS use this when the request matches Monte Carlo Prevent: Surfaces Monte Carlo data observability context (table health, alerts, lineage, blast r..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $monte-carlo-prevent to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

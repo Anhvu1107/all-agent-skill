@@ -1,0 +1,8 @@
+interface:
+  display_name: "Machine Learning OPS ML Pipeline"
+  short_description: "ALWAYS use this when the request matches Machine Learning OPS ML Pipeline: Design and implement a complete ML pipeline for: $ARGUMENTS"
+  brand_color: "#0F766E"
+  default_prompt: "Use $machine-learning-ops-ml-pipeline to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

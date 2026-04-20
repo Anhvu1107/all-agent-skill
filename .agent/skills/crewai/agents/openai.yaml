@@ -1,0 +1,8 @@
+interface:
+  display_name: "Crewai"
+  short_description: "ALWAYS use this when the request matches Crewai: Expert in CrewAI - the leading role-based multi-agent framework used by 60% of Fortune 500 companies."
+  brand_color: "#374151"
+  default_prompt: "Use $crewai to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

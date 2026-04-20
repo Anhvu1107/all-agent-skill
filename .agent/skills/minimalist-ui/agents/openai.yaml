@@ -1,0 +1,8 @@
+interface:
+  display_name: "Minimalist UI"
+  short_description: "ALWAYS use this when the request matches Minimalist UI: Use when creating clean editorial interfaces with warm monochrome palettes, crisp borders, re..."
+  brand_color: "#15803D"
+  default_prompt: "Use $minimalist-ui to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

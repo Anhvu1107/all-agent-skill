@@ -1,0 +1,8 @@
+interface:
+  display_name: "AI Product"
+  short_description: "ALWAYS use this when the user mentions AI Product, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in t..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $ai-product to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

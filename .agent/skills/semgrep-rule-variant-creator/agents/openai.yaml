@@ -1,0 +1,8 @@
+interface:
+  display_name: "Semgrep Rule Variant Creator"
+  short_description: "ALWAYS use this when the request matches Semgrep Rule Variant Creator: Creates language variants of existing Semgrep rules."
+  brand_color: "#2563EB"
+  default_prompt: "Use $semgrep-rule-variant-creator to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

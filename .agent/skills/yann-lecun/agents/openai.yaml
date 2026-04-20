@@ -1,0 +1,8 @@
+interface:
+  display_name: "Yann Lecun"
+  short_description: "ALWAYS use this when the request matches Yann Lecun: Agente que simula Yann LeCun — inventor das Convolutional Neural Networks, Chief AI Scientist da..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $yann-lecun to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

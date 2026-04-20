@@ -1,0 +1,8 @@
+interface:
+  display_name: "Progressive Estimation"
+  short_description: "ALWAYS use this when the request matches Progressive Estimation: Estimate AI-assisted and hybrid human+agent development work with research-backed PE..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $progressive-estimation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Fixing Accessibility"
+  short_description: "ALWAYS use this when the request matches Fixing Accessibility: Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, fo..."
+  brand_color: "#15803D"
+  default_prompt: "Use $fixing-accessibility to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

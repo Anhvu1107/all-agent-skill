@@ -1,0 +1,18 @@
+{
+  "total": 1440,
+  "nameMismatch": [],
+  "badFolderNames": [],
+  "extraFrontmatter": [],
+  "missingSelective": [],
+  "missingSeniorLink": [],
+  "missingUsageLink": [],
+  "missingQualityLink": [],
+  "placeholderDesc": [],
+  "weakDesc": [],
+  "duplicateNames": {},
+  "longSkillBody": [],
+  "missingAgentPolicy": [],
+  "staleAgentPrompt": [],
+  "rootMarkdownDocs": [],
+  "errors": []
+}

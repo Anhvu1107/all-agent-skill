@@ -1,0 +1,8 @@
+interface:
+  display_name: "Claude Monitor"
+  short_description: "ALWAYS use this when the request matches Claude Monitor: Monitor de performance do Claude Code e sistema local."
+  brand_color: "#374151"
+  default_prompt: "Use $claude-monitor to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

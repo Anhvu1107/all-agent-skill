@@ -1,0 +1,8 @@
+interface:
+  display_name: "Reddit Automation"
+  short_description: "ALWAYS use this when the request matches Reddit Automation: Automate Reddit tasks via Rube MCP (Composio): search subreddits, create posts, manage co..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $reddit-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

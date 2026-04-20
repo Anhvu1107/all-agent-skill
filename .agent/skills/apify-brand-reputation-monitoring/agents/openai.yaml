@@ -1,0 +1,8 @@
+interface:
+  display_name: "Apify Brand Reputation Monitoring"
+  short_description: "ALWAYS use this when the request matches Apify Brand Reputation Monitoring: Scrape reviews, ratings, and brand mentions from multiple platforms using..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $apify-brand-reputation-monitoring to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

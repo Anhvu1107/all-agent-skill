@@ -1,0 +1,8 @@
+interface:
+  display_name: "Template Skill"
+  short_description: "ALWAYS use this when the user asks for a minimal reusable SKILL.md template, official skill scaffold shape, or a starting skeleton for a new skill; t..."
+  brand_color: "#374151"
+  default_prompt: "Use $template-skill to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

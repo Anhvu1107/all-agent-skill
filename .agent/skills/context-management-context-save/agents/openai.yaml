@@ -1,0 +1,8 @@
+interface:
+  display_name: "Context Management Context Save"
+  short_description: "ALWAYS use this when the request matches Context Management Context Save: Use when working with context management context save"
+  brand_color: "#0F766E"
+  default_prompt: "Use $context-management-context-save to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

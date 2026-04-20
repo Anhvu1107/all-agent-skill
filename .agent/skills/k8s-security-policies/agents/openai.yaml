@@ -1,0 +1,8 @@
+interface:
+  display_name: "K8s Security Policies"
+  short_description: "ALWAYS use this when the request matches K8s Security Policies: Comprehensive guide for implementing NetworkPolicy, PodSecurityPolicy, RBAC, and Pod..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $k8s-security-policies to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

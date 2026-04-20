@@ -1,0 +1,8 @@
+interface:
+  display_name: "Gitlab CI Patterns"
+  short_description: "ALWAYS use this when the request matches Gitlab CI Patterns: Comprehensive GitLab CI/CD pipeline patterns for automated testing, building, and deploy..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $gitlab-ci-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

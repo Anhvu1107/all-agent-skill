@@ -1,0 +1,8 @@
+interface:
+  display_name: "Sred Project Organizer"
+  short_description: "ALWAYS use this when the request matches Sred Project Organizer: Take a list of projects and their related documentation, and organize them into the..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $sred-project-organizer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

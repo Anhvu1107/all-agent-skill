@@ -1,0 +1,8 @@
+interface:
+  display_name: "Documentation Templates"
+  short_description: "ALWAYS use this when the user needs structured technical docs, runbooks, RFCs, checklists, onboarding docs, or repeatable document shapes instead of..."
+  brand_color: "#374151"
+  default_prompt: "Use $documentation-templates to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Scikit Learn"
+  short_description: "ALWAYS use this when the request matches Scikit Learn: Machine learning in Python with scikit-learn."
+  brand_color: "#EA580C"
+  default_prompt: "Use $scikit-learn to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

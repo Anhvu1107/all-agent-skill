@@ -1,0 +1,8 @@
+interface:
+  display_name: "Marketing Psychology"
+  short_description: "ALWAYS use this when the request matches Marketing Psychology: Apply behavioral science and mental models to marketing decisions, prioritized using a..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $marketing-psychology to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

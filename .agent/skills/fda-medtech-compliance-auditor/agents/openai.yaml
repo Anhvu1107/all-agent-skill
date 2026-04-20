@@ -1,0 +1,8 @@
+interface:
+  display_name: "FDA Medtech Compliance Auditor"
+  short_description: "ALWAYS use this when the request matches FDA Medtech Compliance Auditor: Expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CF..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $fda-medtech-compliance-auditor to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

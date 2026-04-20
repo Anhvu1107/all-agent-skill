@@ -1,0 +1,8 @@
+interface:
+  display_name: "Googlesheets Automation"
+  short_description: "ALWAYS use this when the request matches Googlesheets Automation: Automate Google Sheets operations (read, write, format, filter, manage spreadsheets..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $googlesheets-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

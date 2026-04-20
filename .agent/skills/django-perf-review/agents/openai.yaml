@@ -1,0 +1,8 @@
+interface:
+  display_name: "Django Perf Review"
+  short_description: "ALWAYS use this when the user mentions Django Perf Review, asks to build, debug, review, document, automate, test, configure, migrate, or make decisi..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $django-perf-review to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

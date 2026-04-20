@@ -1,0 +1,8 @@
+interface:
+  display_name: "Marketing Ideas"
+  short_description: "ALWAYS use this when the request matches Marketing Ideas: Provide proven marketing strategies and growth ideas for SaaS and software products, priori..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $marketing-ideas to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

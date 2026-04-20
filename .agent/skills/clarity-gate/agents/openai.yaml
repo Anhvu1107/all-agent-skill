@@ -1,0 +1,8 @@
+interface:
+  display_name: "Clarity Gate"
+  short_description: "ALWAYS use this when the request matches Clarity Gate: Pre-ingestion verification for epistemic quality in RAG systems."
+  brand_color: "#0F172A"
+  default_prompt: "Use $clarity-gate to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

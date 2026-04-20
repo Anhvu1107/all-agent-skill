@@ -1,0 +1,8 @@
+interface:
+  display_name: "Error Diagnostics Smart Debug"
+  short_description: "ALWAYS use this when the request matches Error Diagnostics Smart Debug: Use when working with error diagnostics smart debug"
+  brand_color: "#BE123C"
+  default_prompt: "Use $error-diagnostics-smart-debug to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

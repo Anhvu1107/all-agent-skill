@@ -1,0 +1,8 @@
+interface:
+  display_name: "Instagram Automation"
+  short_description: "ALWAYS use this when the request matches Instagram Automation: Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage medi..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $instagram-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

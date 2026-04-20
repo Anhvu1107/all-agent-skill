@@ -1,0 +1,8 @@
+interface:
+  display_name: "Planning With Files"
+  short_description: "ALWAYS use this when the request matches Planning With Files: Work like Manus: Use persistent markdown files as your \"working memory on disk."
+  brand_color: "#0F766E"
+  default_prompt: "Use $planning-with-files to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

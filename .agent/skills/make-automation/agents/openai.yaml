@@ -1,0 +1,8 @@
+interface:
+  display_name: "Make Automation"
+  short_description: "ALWAYS use this when the request matches Make Automation: Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and t..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $make-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

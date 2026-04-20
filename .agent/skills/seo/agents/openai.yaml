@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO"
+  short_description: "ALWAYS use this when the request matches SEO: Run a broad SEO audit across technical SEO, on-page SEO, schema, sitemaps, content quality, AI search r..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $seo to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

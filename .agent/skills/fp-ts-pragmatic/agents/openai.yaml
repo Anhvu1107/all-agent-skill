@@ -1,0 +1,8 @@
+interface:
+  display_name: "FP TS Pragmatic"
+  short_description: "ALWAYS use this when the request matches FP TS Pragmatic: A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that ge..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $fp-ts-pragmatic to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

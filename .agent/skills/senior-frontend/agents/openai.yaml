@@ -1,0 +1,8 @@
+interface:
+  display_name: "Senior Frontend"
+  short_description: "ALWAYS use this when the request matches Senior Frontend: Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications."
+  brand_color: "#0F766E"
+  default_prompt: "Use $senior-frontend to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

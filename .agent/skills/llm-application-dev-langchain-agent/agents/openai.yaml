@@ -1,0 +1,8 @@
+interface:
+  display_name: "LLM Application DEV Langchain Agent"
+  short_description: "ALWAYS use this when the request matches LLM Application DEV Langchain Agent: You are an expert LangChain agent developer specializing in production-..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $llm-application-dev-langchain-agent to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

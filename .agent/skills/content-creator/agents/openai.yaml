@@ -1,0 +1,8 @@
+interface:
+  display_name: "Content Creator"
+  short_description: "ALWAYS use this when the request matches Content Creator: Professional-grade brand voice analysis, SEO optimization, and platform-specific content fr..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $content-creator to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

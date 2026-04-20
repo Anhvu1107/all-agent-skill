@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Mgmt Arizeaiobservabilityeval Dotnet"
+  short_description: "ALWAYS use this when the request matches Azure Mgmt Arizeaiobservabilityeval Dotnet: Azure Resource Manager SDK for Arize AI Observability and Evalua..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $azure-mgmt-arizeaiobservabilityeval-dotnet to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

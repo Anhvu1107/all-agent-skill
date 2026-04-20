@@ -1,0 +1,8 @@
+interface:
+  display_name: "Threejs Fundamentals"
+  short_description: "ALWAYS use this when the request matches Threejs Fundamentals: Three.js scene setup, cameras, renderer, Object3D hierarchy, coordinate systems."
+  brand_color: "#BE123C"
+  default_prompt: "Use $threejs-fundamentals to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

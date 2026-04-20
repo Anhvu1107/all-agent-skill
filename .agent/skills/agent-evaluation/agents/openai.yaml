@@ -1,0 +1,8 @@
+interface:
+  display_name: "Agent Evaluation"
+  short_description: "ALWAYS use this when the request matches Agent Evaluation: Testing and benchmarking LLM agents including behavioral testing, capability assessment, r..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $agent-evaluation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

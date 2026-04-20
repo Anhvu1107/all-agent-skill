@@ -1,0 +1,8 @@
+interface:
+  display_name: "Github Automation"
+  short_description: "ALWAYS use this when the request matches Github Automation: Automate GitHub repositories, issues, pull requests, branches, CI/CD, and permissions via..."
+  brand_color: "#15803D"
+  default_prompt: "Use $github-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

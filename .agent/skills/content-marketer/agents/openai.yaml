@@ -1,0 +1,8 @@
+interface:
+  display_name: "Content Marketer"
+  short_description: "ALWAYS use this when the request matches Content Marketer: Elite content marketing strategist specializing in AI-powered content creation, omnichanne..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $content-marketer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

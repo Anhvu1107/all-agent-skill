@@ -1,0 +1,8 @@
+interface:
+  display_name: "Skin Health Analyzer"
+  short_description: "ALWAYS use this when the request matches Skin Health Analyzer: Analyze skin health data, identify skin problem patterns, assess skin health status."
+  brand_color: "#0F172A"
+  default_prompt: "Use $skin-health-analyzer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

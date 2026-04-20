@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Functions"
+  short_description: "ALWAYS use this when the request matches Azure Functions: Expert patterns for Azure Functions development including isolated worker model, Durable Fu..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $azure-functions to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

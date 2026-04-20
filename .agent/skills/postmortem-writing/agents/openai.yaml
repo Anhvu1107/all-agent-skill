@@ -1,0 +1,8 @@
+interface:
+  display_name: "Postmortem Writing"
+  short_description: "ALWAYS use this when the request matches Postmortem Writing: Comprehensive guide to writing effective, blameless postmortems that drive organizationa..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $postmortem-writing to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

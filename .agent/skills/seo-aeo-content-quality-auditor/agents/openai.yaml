@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO AEO Content Quality Auditor"
+  short_description: "ALWAYS use this when the request matches SEO AEO Content Quality Auditor: Audits content for SEO and AEO performance with scored reports, severity-ra..."
+  brand_color: "#15803D"
+  default_prompt: "Use $seo-aeo-content-quality-auditor to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

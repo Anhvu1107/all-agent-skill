@@ -1,0 +1,8 @@
+interface:
+  display_name: "Odoo Migration Helper"
+  short_description: "ALWAYS use this when the request matches Odoo Migration Helper: Step-by-step guide for migrating Odoo custom modules between versions (v14→v15→v16→v1..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $odoo-migration-helper to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO Page"
+  short_description: "ALWAYS use this when the request matches SEO Page: Deep single-page SEO analysis covering on-page elements, content quality, technical meta tags, sch..."
+  brand_color: "#374151"
+  default_prompt: "Use $seo-page to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

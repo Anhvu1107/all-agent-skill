@@ -1,0 +1,8 @@
+interface:
+  display_name: "Pitch Psychologist"
+  short_description: "ALWAYS use this when the request matches Pitch Psychologist: One sentence - what this skill does and when to invoke it"
+  brand_color: "#2563EB"
+  default_prompt: "Use $pitch-psychologist to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

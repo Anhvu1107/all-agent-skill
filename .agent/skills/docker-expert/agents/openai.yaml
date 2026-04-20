@@ -1,0 +1,8 @@
+interface:
+  display_name: "Docker Expert"
+  short_description: "ALWAYS use this when the request matches Docker Expert: You are an advanced Docker containerization expert with comprehensive, practical knowledge of..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $docker-expert to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

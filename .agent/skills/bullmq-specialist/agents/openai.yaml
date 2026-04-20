@@ -1,0 +1,8 @@
+interface:
+  display_name: "Bullmq Specialist"
+  short_description: "ALWAYS use this when the request matches Bullmq Specialist: BullMQ expert for Redis-backed job queues, background processing, and reliable async exec..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $bullmq-specialist to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

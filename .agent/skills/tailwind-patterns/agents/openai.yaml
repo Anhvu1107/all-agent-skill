@@ -1,0 +1,8 @@
+interface:
+  display_name: "Tailwind Patterns"
+  short_description: "ALWAYS use this when the user mentions Tailwind Patterns, asks to build, debug, review, document, automate, test, configure, migrate, or make decisio..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $tailwind-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

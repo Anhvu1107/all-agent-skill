@@ -1,0 +1,8 @@
+interface:
+  display_name: "APP Builder"
+  short_description: "ALWAYS use this when the user mentions any app, website, dashboard, portal, admin panel, internal tool, SaaS product, mobile app, extension, or multi..."
+  brand_color: "#374151"
+  default_prompt: "Use $app-builder to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

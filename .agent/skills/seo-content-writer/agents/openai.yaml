@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO Content Writer"
+  short_description: "ALWAYS use this when the request matches SEO Content Writer: Writes SEO-optimized content based on provided keywords and topic briefs."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $seo-content-writer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

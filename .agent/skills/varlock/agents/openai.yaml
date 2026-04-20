@@ -1,0 +1,8 @@
+interface:
+  display_name: "Varlock"
+  short_description: "ALWAYS use this when the request matches Varlock: Secure-by-default environment variable management for Claude Code sessions."
+  brand_color: "#2563EB"
+  default_prompt: "Use $varlock to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

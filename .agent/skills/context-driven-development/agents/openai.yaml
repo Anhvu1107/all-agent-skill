@@ -1,0 +1,8 @@
+interface:
+  display_name: "Context Driven Development"
+  short_description: "ALWAYS use this when the request matches Context Driven Development: Guide for implementing and maintaining context as a managed artifact alongside c..."
+  brand_color: "#15803D"
+  default_prompt: "Use $context-driven-development to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Hugging Face Papers"
+  short_description: "ALWAYS use this when the request matches Hugging Face Papers: Read and analyze Hugging Face paper pages or arXiv papers with markdown and papers API..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $hugging-face-papers to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

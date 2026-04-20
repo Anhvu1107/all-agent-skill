@@ -1,0 +1,8 @@
+interface:
+  display_name: "SQL PRO"
+  short_description: "ALWAYS use this when the request matches SQL PRO: Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query technique..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $sql-pro to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

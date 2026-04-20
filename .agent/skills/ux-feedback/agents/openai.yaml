@@ -1,0 +1,8 @@
+interface:
+  display_name: "UX Feedback"
+  short_description: "ALWAYS use this when the request matches UX Feedback: Add loading, empty, error, and success feedback states to StyleSeed components and pages with p..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $ux-feedback to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

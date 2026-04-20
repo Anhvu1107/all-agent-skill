@@ -1,0 +1,8 @@
+interface:
+  display_name: "Game Development Game ART"
+  short_description: "ALWAYS use this when the user or an upstream archive refers to `game-development-game-art`, the nested skill path form for `game-art`, or the equival..."
+  brand_color: "#374151"
+  default_prompt: "Use $game-development-game-art to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Context Fundamentals"
+  short_description: "ALWAYS use this when the request matches Context Fundamentals: Context is the complete state available to a language model at inference time."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $context-fundamentals to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "AZD Deployment"
+  short_description: "ALWAYS use this when the request matches AZD Deployment: Deploy containerized frontend + backend applications to Azure Container Apps with remote bui..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $azd-deployment to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Salesforce Development"
+  short_description: "ALWAYS use this when the request matches Salesforce Development: Expert patterns for Salesforce platform development including Lightning Web Componen..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $salesforce-development to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

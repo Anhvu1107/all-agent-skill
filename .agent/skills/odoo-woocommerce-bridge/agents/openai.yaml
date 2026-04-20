@@ -1,0 +1,8 @@
+interface:
+  display_name: "Odoo Woocommerce Bridge"
+  short_description: "ALWAYS use this when the request matches Odoo Woocommerce Bridge: Sync Odoo with WooCommerce: products, inventory, orders, and customers via WooComme..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $odoo-woocommerce-bridge to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

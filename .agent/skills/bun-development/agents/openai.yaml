@@ -1,0 +1,8 @@
+interface:
+  display_name: "BUN Development"
+  short_description: "ALWAYS use this when the request matches BUN Development: Fast, modern JavaScript/TypeScript development with the Bun runtime, inspired by [oven-sh/b..."
+  brand_color: "#15803D"
+  default_prompt: "Use $bun-development to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

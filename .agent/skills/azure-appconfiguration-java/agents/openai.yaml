@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Appconfiguration Java"
+  short_description: "ALWAYS use this when the request matches Azure Appconfiguration Java: Azure App Configuration SDK for Java."
+  brand_color: "#374151"
+  default_prompt: "Use $azure-appconfiguration-java to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

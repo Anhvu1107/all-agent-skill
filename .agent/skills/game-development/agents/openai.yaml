@@ -1,0 +1,8 @@
+interface:
+  display_name: "Game Development"
+  short_description: "ALWAYS use this when the task is broadly about game development and you need to route by platform, engine, subsystem, or game-production concern befo..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $game-development to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "TDD Workflows TDD Cycle"
+  short_description: "ALWAYS use this when the request matches TDD Workflows TDD Cycle: Use when working with tdd workflows tdd cycle"
+  brand_color: "#EA580C"
+  default_prompt: "Use $tdd-workflows-tdd-cycle to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

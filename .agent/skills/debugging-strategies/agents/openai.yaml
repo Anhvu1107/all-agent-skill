@@ -1,0 +1,8 @@
+interface:
+  display_name: "Debugging Strategies"
+  short_description: "ALWAYS use this when the request matches Debugging Strategies: Transform debugging from frustrating guesswork into systematic problem-solving with pr..."
+  brand_color: "#15803D"
+  default_prompt: "Use $debugging-strategies to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

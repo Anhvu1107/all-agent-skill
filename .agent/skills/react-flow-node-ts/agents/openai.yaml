@@ -1,0 +1,8 @@
+interface:
+  display_name: "React Flow Node TS"
+  short_description: "ALWAYS use this when the request matches React Flow Node TS: Create React Flow node components following established patterns with proper TypeScript..."
+  brand_color: "#15803D"
+  default_prompt: "Use $react-flow-node-ts to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

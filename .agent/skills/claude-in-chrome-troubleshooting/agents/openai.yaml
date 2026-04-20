@@ -1,0 +1,8 @@
+interface:
+  display_name: "Claude IN Chrome Troubleshooting"
+  short_description: "ALWAYS use this when the request matches Claude IN Chrome Troubleshooting: Diagnose and fix Claude in Chrome MCP extension connectivity issues."
+  brand_color: "#15803D"
+  default_prompt: "Use $claude-in-chrome-troubleshooting to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Eventhub Java"
+  short_description: "ALWAYS use this when the request matches Azure Eventhub Java: Build real-time streaming applications with Azure Event Hubs SDK for Java."
+  brand_color: "#EA580C"
+  default_prompt: "Use $azure-eventhub-java to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

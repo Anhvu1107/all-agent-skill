@@ -1,0 +1,8 @@
+interface:
+  display_name: "Protocol Reverse Engineering"
+  short_description: "ALWAYS use this when the request matches Protocol Reverse Engineering: Comprehensive techniques for capturing, analyzing, and documenting network pro..."
+  brand_color: "#374151"
+  default_prompt: "Use $protocol-reverse-engineering to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

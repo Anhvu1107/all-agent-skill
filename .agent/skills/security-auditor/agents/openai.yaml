@@ -1,0 +1,8 @@
+interface:
+  display_name: "Security Auditor"
+  short_description: "ALWAYS use this when the request matches Security Auditor: Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compli..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $security-auditor to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

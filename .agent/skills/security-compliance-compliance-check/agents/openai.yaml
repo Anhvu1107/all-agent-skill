@@ -1,0 +1,8 @@
+interface:
+  display_name: "Security Compliance Compliance Check"
+  short_description: "ALWAYS use this when the request matches Security Compliance Compliance Check: You are a compliance expert specializing in regulatory requirements fo..."
+  brand_color: "#374151"
+  default_prompt: "Use $security-compliance-compliance-check to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Closed Loop Delivery"
+  short_description: "ALWAYS use this when a coding task needs to reach a real done state with acceptance criteria, implementation, verification, review follow-through, an..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $closed-loop-delivery to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

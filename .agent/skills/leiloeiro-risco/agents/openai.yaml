@@ -1,0 +1,8 @@
+interface:
+  display_name: "Leiloeiro Risco"
+  short_description: "ALWAYS use this when the request matches Leiloeiro Risco: Analise de risco em leiloes de imoveis."
+  brand_color: "#374151"
+  default_prompt: "Use $leiloeiro-risco to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

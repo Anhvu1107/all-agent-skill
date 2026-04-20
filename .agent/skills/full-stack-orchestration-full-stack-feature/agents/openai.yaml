@@ -1,0 +1,8 @@
+interface:
+  display_name: "Full Stack Orchestration Full Stack Feature"
+  short_description: "ALWAYS use this when the request matches Full Stack Orchestration Full Stack Feature: Use when working with full stack orchestration full stack featu..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $full-stack-orchestration-full-stack-feature to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

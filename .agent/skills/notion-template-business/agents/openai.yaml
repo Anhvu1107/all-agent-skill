@@ -1,0 +1,8 @@
+interface:
+  display_name: "Notion Template Business"
+  short_description: "ALWAYS use this when the request matches Notion Template Business: Expert in building and selling Notion templates as a business - not just making te..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $notion-template-business to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Expo UI Swift UI"
+  short_description: "ALWAYS use this when the user mentions Expo UI Swift UI, asks to build, debug, review, document, automate, test, configure, migrate, or make decision..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $expo-ui-swift-ui to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

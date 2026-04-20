@@ -1,0 +1,8 @@
+interface:
+  display_name: "Appdeploy"
+  short_description: "ALWAYS use this when the request matches Appdeploy: Deploy web apps with backend APIs, database, and file storage."
+  brand_color: "#2563EB"
+  default_prompt: "Use $appdeploy to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

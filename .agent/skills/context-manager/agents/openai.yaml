@@ -1,0 +1,8 @@
+interface:
+  display_name: "Context Manager"
+  short_description: "ALWAYS use this when the request matches Context Manager: Elite AI context engineering specialist mastering dynamic context management, vector databa..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $context-manager to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

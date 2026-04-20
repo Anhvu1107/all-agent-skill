@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Cosmos Rust"
+  short_description: "ALWAYS use this when the request matches Azure Cosmos Rust: Azure Cosmos DB SDK for Rust (NoSQL API)."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $azure-cosmos-rust to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

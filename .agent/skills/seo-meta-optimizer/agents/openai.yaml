@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO Meta Optimizer"
+  short_description: "ALWAYS use this when the request matches SEO Meta Optimizer: Creates optimized meta titles, descriptions, and URL suggestions based on character limi..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $seo-meta-optimizer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

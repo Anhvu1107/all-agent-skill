@@ -1,0 +1,8 @@
+interface:
+  display_name: "DDD Context Mapping"
+  short_description: "ALWAYS use this when the request matches DDD Context Mapping: Map relationships between bounded contexts and define integration contracts using DDD c..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $ddd-context-mapping to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

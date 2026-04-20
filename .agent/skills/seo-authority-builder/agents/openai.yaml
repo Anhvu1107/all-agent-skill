@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO Authority Builder"
+  short_description: "ALWAYS use this when the request matches SEO Authority Builder: Analyzes content for E-E-A-T signals and suggests improvements to build authority and..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $seo-authority-builder to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

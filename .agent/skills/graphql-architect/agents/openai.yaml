@@ -1,0 +1,8 @@
+interface:
+  display_name: "Graphql Architect"
+  short_description: "ALWAYS use this when the request matches Graphql Architect: Master modern GraphQL with federation, performance optimization, and enterprise security."
+  brand_color: "#0F766E"
+  default_prompt: "Use $graphql-architect to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

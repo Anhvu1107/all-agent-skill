@@ -1,0 +1,8 @@
+interface:
+  display_name: "Data Scientist"
+  short_description: "ALWAYS use this when the request matches Data Scientist: Expert data scientist for advanced analytics, machine learning, and statistical modeling."
+  brand_color: "#BE123C"
+  default_prompt: "Use $data-scientist to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

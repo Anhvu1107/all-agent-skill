@@ -1,0 +1,8 @@
+interface:
+  display_name: "Templates"
+  short_description: "ALWAYS use this when the request matches Templates: Project scaffolding templates for new applications."
+  brand_color: "#15803D"
+  default_prompt: "Use $templates to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

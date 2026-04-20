@@ -1,0 +1,8 @@
+interface:
+  display_name: "Price Psychology Strategist"
+  short_description: "ALWAYS use this when the request matches Price Psychology Strategist: One sentence - what this skill does and when to invoke it"
+  brand_color: "#0F172A"
+  default_prompt: "Use $price-psychology-strategist to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO AEO Landing Page Writer"
+  short_description: "ALWAYS use this when the request matches SEO AEO Landing Page Writer: Writes complete, structured landing pages optimized for SEO ranking, AEO citati..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $seo-aeo-landing-page-writer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

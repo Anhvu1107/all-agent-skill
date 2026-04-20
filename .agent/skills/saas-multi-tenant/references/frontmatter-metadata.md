@@ -1,0 +1,19 @@
+# Frontmatter Metadata Archive
+
+This file preserves upstream metadata moved out of `SKILL.md` so the runtime frontmatter stays strict: `name` and `description` only.
+
+```yaml
+risk: safe
+source: community
+date_added: '2026-03-28'
+tags:
+- multi-tenancy
+- saas
+- row-level-security
+- postgresql
+- tenant-isolation
+tools:
+- claude
+- cursor
+- gemini
+```

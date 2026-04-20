@@ -1,0 +1,8 @@
+interface:
+  display_name: "Receiving Code Review"
+  short_description: "ALWAYS use this when review feedback arrives and you need to verify, triage, and implement it carefully instead of agreeing performatively or applyin..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $receiving-code-review to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

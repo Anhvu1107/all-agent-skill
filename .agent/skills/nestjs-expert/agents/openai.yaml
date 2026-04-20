@@ -1,0 +1,8 @@
+interface:
+  display_name: "Nestjs Expert"
+  short_description: "ALWAYS use this when the request matches Nestjs Expert: You are an expert in Nest.js with deep knowledge of enterprise-grade Node.js application arch..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $nestjs-expert to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

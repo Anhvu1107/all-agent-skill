@@ -1,0 +1,8 @@
+interface:
+  display_name: "Stripe Automation"
+  short_description: "ALWAYS use this when the request matches Stripe Automation: Automate Stripe tasks via Rube MCP (Composio): customers, charges, subscriptions, invoice..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $stripe-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

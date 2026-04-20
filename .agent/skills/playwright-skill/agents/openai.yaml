@@ -1,0 +1,8 @@
+interface:
+  display_name: "Playwright Skill"
+  short_description: "ALWAYS use this when the request matches Playwright Skill: IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin sy..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $playwright-skill to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

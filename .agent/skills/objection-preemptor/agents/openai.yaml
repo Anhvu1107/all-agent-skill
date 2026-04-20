@@ -1,0 +1,8 @@
+interface:
+  display_name: "Objection Preemptor"
+  short_description: "ALWAYS use this when the request matches Objection Preemptor: One sentence - what this skill does and when to invoke it"
+  brand_color: "#2563EB"
+  default_prompt: "Use $objection-preemptor to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Cloud Devops"
+  short_description: "ALWAYS use this when the request matches Cloud Devops: Cloud infrastructure and DevOps workflow covering AWS, Azure, GCP, Kubernetes, Terraform, CI/C..."
+  brand_color: "#15803D"
+  default_prompt: "Use $cloud-devops to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

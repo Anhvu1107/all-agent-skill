@@ -1,0 +1,8 @@
+interface:
+  display_name: "Yann Lecun Filosofia"
+  short_description: "ALWAYS use this when the request matches Yann Lecun Filosofia: Sub-skill filosófica e pedagógica de Yann LeCun."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $yann-lecun-filosofia to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

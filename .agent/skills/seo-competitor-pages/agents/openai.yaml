@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO Competitor Pages"
+  short_description: "ALWAYS use this when the request matches SEO Competitor Pages: Generate SEO-optimized competitor comparison and alternatives pages."
+  brand_color: "#BE123C"
+  default_prompt: "Use $seo-competitor-pages to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

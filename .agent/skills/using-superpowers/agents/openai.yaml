@@ -1,0 +1,8 @@
+interface:
+  display_name: "Using Superpowers"
+  short_description: "ALWAYS use this when the request matches Using Superpowers: Use when starting any conversation - establishes how to find and use skills, requiring Sk..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $using-superpowers to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

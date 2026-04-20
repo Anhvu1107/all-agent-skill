@@ -1,0 +1,8 @@
+interface:
+  display_name: "Hybrid Cloud Architect"
+  short_description: "ALWAYS use this when the request matches Hybrid Cloud Architect: Expert hybrid cloud architect specializing in complex multi-cloud solutions across A..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $hybrid-cloud-architect to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

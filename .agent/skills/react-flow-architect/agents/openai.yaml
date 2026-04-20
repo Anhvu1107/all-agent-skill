@@ -1,0 +1,8 @@
+interface:
+  display_name: "React Flow Architect"
+  short_description: "ALWAYS use this when the request matches React Flow Architect: Build production-ready ReactFlow applications with hierarchical navigation, performanc..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $react-flow-architect to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

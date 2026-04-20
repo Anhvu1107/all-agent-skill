@@ -1,0 +1,8 @@
+interface:
+  display_name: "Nosql Expert"
+  short_description: "ALWAYS use this when the request matches Nosql Expert: Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB)."
+  brand_color: "#0F172A"
+  default_prompt: "Use $nosql-expert to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

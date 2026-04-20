@@ -1,0 +1,8 @@
+interface:
+  display_name: "Istio Traffic Management"
+  short_description: "ALWAYS use this when the request matches Istio Traffic Management: Comprehensive guide to Istio traffic management for production service mesh deploy..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $istio-traffic-management to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

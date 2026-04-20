@@ -1,0 +1,8 @@
+interface:
+  display_name: "Monday Automation"
+  short_description: "ALWAYS use this when the request matches Monday Automation: Automate Monday.com work management including boards, items, columns, groups, subitems, a..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $monday-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

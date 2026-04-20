@@ -1,0 +1,8 @@
+interface:
+  display_name: "N8n Validation Expert"
+  short_description: "ALWAYS use this when the request matches N8n Validation Expert: Expert guide for interpreting and fixing n8n validation errors."
+  brand_color: "#EA580C"
+  default_prompt: "Use $n8n-validation-expert to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Odoo Manufacturing Advisor"
+  short_description: "ALWAYS use this when the request matches Odoo Manufacturing Advisor: Expert guide for Odoo Manufacturing: Bills of Materials (BoM), Work Centers, rou..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $odoo-manufacturing-advisor to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Rayden USE"
+  short_description: "ALWAYS use this when the request matches Rayden USE: Build and maintain Rayden UI components and screens in Figma via Figma MCP with full design toke..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $rayden-use to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

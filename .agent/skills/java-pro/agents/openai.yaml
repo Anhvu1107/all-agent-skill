@@ -1,0 +1,8 @@
+interface:
+  display_name: "Java PRO"
+  short_description: "ALWAYS use this when the request matches Java PRO: Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $java-pro to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

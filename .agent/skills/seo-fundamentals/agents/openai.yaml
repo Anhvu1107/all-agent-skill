@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO Fundamentals"
+  short_description: "ALWAYS use this when the request matches SEO Fundamentals: SEO fundamentals, E-E-A-T, Core Web Vitals, and Google algorithm principles."
+  brand_color: "#EA580C"
+  default_prompt: "Use $seo-fundamentals to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

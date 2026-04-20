@@ -1,0 +1,8 @@
+interface:
+  display_name: "Web3 Testing"
+  short_description: "ALWAYS use this when the request matches Web3 Testing: Master comprehensive testing strategies for smart contracts using Hardhat, Foundry, and advanc..."
+  brand_color: "#15803D"
+  default_prompt: "Use $web3-testing to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

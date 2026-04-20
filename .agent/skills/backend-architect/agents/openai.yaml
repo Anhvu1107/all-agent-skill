@@ -1,0 +1,8 @@
+interface:
+  display_name: "Backend Architect"
+  short_description: "ALWAYS use this when the request matches Backend Architect: Expert backend architect specializing in scalable API design, microservices architecture..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $backend-architect to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

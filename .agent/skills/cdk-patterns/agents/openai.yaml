@@ -1,0 +1,8 @@
+interface:
+  display_name: "CDK Patterns"
+  short_description: "ALWAYS use this when the request matches CDK Patterns: Common AWS CDK patterns and constructs for building cloud infrastructure with TypeScript, Pyth..."
+  brand_color: "#374151"
+  default_prompt: "Use $cdk-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

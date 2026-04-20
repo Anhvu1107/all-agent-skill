@@ -1,0 +1,8 @@
+interface:
+  display_name: "Notebooklm"
+  short_description: "ALWAYS use this when the request matches Notebooklm: Interact with Google NotebookLM to query documentation with Gemini's source-grounded answers."
+  brand_color: "#BE123C"
+  default_prompt: "Use $notebooklm to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

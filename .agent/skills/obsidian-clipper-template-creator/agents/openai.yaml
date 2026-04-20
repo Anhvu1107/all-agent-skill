@@ -1,0 +1,8 @@
+interface:
+  display_name: "Obsidian Clipper Template Creator"
+  short_description: "ALWAYS use this when the request matches Obsidian Clipper Template Creator: Guide for creating templates for the Obsidian Web Clipper."
+  brand_color: "#EA580C"
+  default_prompt: "Use $obsidian-clipper-template-creator to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

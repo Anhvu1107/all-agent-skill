@@ -1,0 +1,8 @@
+interface:
+  display_name: "X402 Express Wrapper"
+  short_description: "ALWAYS use this when the request matches X402 Express Wrapper: Wrapper oficial de M2MCent (Node.js) para inyectar muros de pago x402 en APIs o servid..."
+  brand_color: "#15803D"
+  default_prompt: "Use $x402-express-wrapper to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

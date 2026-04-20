@@ -1,0 +1,8 @@
+interface:
+  display_name: "Algorithmic ART"
+  short_description: "ALWAYS use this when the request matches Algorithmic ART: Creating algorithmic art using p5.js with seeded randomness and interactive parameter explo..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $algorithmic-art to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

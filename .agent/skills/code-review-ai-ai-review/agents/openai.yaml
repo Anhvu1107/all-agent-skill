@@ -1,0 +1,8 @@
+interface:
+  display_name: "Code Review AI AI Review"
+  short_description: "ALWAYS use this when the request matches Code Review AI AI Review: You are an expert AI-powered code review specialist combining automated static ana..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $code-review-ai-ai-review to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

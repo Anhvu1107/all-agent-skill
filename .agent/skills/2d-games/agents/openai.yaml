@@ -1,0 +1,8 @@
+interface:
+  display_name: "2d Games"
+  short_description: "ALWAYS use this when the user mentions 2d Games, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in thi..."
+  brand_color: "#15803D"
+  default_prompt: "Use $2d-games to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

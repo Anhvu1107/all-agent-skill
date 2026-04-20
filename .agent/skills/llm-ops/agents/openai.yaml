@@ -1,0 +1,8 @@
+interface:
+  display_name: "LLM OPS"
+  short_description: "ALWAYS use this when the request matches LLM OPS: LLM Operations -- RAG, embeddings, vector databases, fine-tuning, prompt engineering avancado, cust..."
+  brand_color: "#374151"
+  default_prompt: "Use $llm-ops to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Unity ECS Patterns"
+  short_description: "ALWAYS use this when the request matches Unity ECS Patterns: Production patterns for Unity's Data-Oriented Technology Stack (DOTS) including Entity C..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $unity-ecs-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

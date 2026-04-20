@@ -1,0 +1,8 @@
+interface:
+  display_name: "K6 Load Testing"
+  short_description: "ALWAYS use this when the request matches K6 Load Testing: Comprehensive k6 load testing skill for API, browser, and scalability testing."
+  brand_color: "#0F172A"
+  default_prompt: "Use $k6-load-testing to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

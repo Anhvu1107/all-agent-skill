@@ -1,0 +1,8 @@
+interface:
+  display_name: "Product Manager Toolkit"
+  short_description: "ALWAYS use this when the request matches Product Manager Toolkit: Essential tools and frameworks for modern product management, from discovery to del..."
+  brand_color: "#15803D"
+  default_prompt: "Use $product-manager-toolkit to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

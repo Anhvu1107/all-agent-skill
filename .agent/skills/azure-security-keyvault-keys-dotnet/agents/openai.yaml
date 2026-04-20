@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Security Keyvault Keys Dotnet"
+  short_description: "ALWAYS use this when the user mentions Azure Security Keyvault Keys Dotnet, asks to build, debug, review, document, automate, test, configure, migrat..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $azure-security-keyvault-keys-dotnet to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

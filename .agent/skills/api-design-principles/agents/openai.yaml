@@ -1,0 +1,8 @@
+interface:
+  display_name: "API Design Principles"
+  short_description: "ALWAYS use this when the request matches API Design Principles: Master REST and GraphQL API design principles to build intuitive, scalable, and maint..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $api-design-principles to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

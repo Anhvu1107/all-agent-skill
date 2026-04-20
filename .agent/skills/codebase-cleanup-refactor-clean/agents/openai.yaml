@@ -1,0 +1,8 @@
+interface:
+  display_name: "Codebase Cleanup Refactor Clean"
+  short_description: "ALWAYS use this when the request matches Codebase Cleanup Refactor Clean: You are a code refactoring expert specializing in clean code principles, SO..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $codebase-cleanup-refactor-clean to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

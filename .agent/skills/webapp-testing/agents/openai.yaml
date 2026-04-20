@@ -1,0 +1,8 @@
+interface:
+  display_name: "Webapp Testing"
+  short_description: "ALWAYS use this when the task involves browser automation, UI verification, DOM inspection, end-to-end checks, or reproducing a web bug in a running..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $webapp-testing to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

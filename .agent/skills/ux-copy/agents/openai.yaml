@@ -1,0 +1,8 @@
+interface:
+  display_name: "UX Copy"
+  short_description: "ALWAYS use this when the request matches UX Copy: Generate UX microcopy in StyleSeed's Toss-inspired voice for buttons, empty states, errors, toasts..."
+  brand_color: "#15803D"
+  default_prompt: "Use $ux-copy to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

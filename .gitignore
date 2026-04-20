@@ -1,0 +1,23 @@
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+.idea/
+.vscode/
+.agent/preview.pid
+.agent/preview.log
+design-system/
+
+# Raw upstream mirrors are kept locally for audit, but release packages and git
+# should not include them because they create duplicate-skill noise for scanners.
+_upstreams/
+
+# Generated local archives live one directory above the bundle root.
+*.zip
+*.rar
+*.7z
+
+# Local/editor/runtime noise.
+.env
+.env.*
+*.log

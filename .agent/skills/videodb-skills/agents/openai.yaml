@@ -1,0 +1,8 @@
+interface:
+  display_name: "Videodb Skills"
+  short_description: "ALWAYS use this when the request matches Videodb Skills: Upload, stream, search, edit, transcribe, and generate AI video and audio using the VideoDB..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $videodb-skills to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

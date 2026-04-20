@@ -1,0 +1,8 @@
+interface:
+  display_name: "Market Sizing Analysis"
+  short_description: "ALWAYS use this when the request matches Market Sizing Analysis: Comprehensive market sizing methodologies for calculating Total Addressable Market (..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $market-sizing-analysis to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

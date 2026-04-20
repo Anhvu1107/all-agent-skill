@@ -1,0 +1,8 @@
+interface:
+  display_name: "Fixing Motion Performance"
+  short_description: "ALWAYS use this when the request matches Fixing Motion Performance: Audit and fix animation performance issues including layout thrashing, compositor..."
+  brand_color: "#15803D"
+  default_prompt: "Use $fixing-motion-performance to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

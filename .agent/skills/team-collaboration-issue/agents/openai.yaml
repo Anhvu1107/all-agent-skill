@@ -1,0 +1,8 @@
+interface:
+  display_name: "Team Collaboration Issue"
+  short_description: "ALWAYS use this when the request matches Team Collaboration Issue: You are a GitHub issue resolution expert specializing in systematic bug investigat..."
+  brand_color: "#15803D"
+  default_prompt: "Use $team-collaboration-issue to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

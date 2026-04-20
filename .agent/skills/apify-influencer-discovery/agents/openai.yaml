@@ -1,0 +1,8 @@
+interface:
+  display_name: "Apify Influencer Discovery"
+  short_description: "ALWAYS use this when the request matches Apify Influencer Discovery: Find and evaluate influencers for brand partnerships, verify authenticity, and t..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $apify-influencer-discovery to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

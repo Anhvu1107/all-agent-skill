@@ -1,0 +1,8 @@
+interface:
+  display_name: "Youtube Automation"
+  short_description: "ALWAYS use this when the request matches Youtube Automation: Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $youtube-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

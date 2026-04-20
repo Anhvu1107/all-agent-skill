@@ -1,0 +1,8 @@
+interface:
+  display_name: "Context Window Management"
+  short_description: "ALWAYS use this when the request matches Context Window Management: Strategies for managing LLM context windows including summarization, trimming, ro..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $context-window-management to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

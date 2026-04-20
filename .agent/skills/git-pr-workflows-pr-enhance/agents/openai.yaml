@@ -1,0 +1,8 @@
+interface:
+  display_name: "GIT PR Workflows PR Enhance"
+  short_description: "ALWAYS use this when the request matches GIT PR Workflows PR Enhance: You are a PR optimization expert specializing in creating high-quality pull req..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $git-pr-workflows-pr-enhance to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

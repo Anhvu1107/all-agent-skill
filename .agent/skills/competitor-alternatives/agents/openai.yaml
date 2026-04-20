@@ -1,0 +1,8 @@
+interface:
+  display_name: "Competitor Alternatives"
+  short_description: "ALWAYS use this when the request matches Competitor Alternatives: You are an expert in creating competitor comparison and alternative pages."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $competitor-alternatives to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

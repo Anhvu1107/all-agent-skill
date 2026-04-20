@@ -1,0 +1,8 @@
+interface:
+  display_name: "AI ML"
+  short_description: "ALWAYS use this when the request matches AI ML: AI and machine learning workflow covering LLM application development, RAG implementation, agent arch..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $ai-ml to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

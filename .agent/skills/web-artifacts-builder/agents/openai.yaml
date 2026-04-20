@@ -1,0 +1,8 @@
+interface:
+  display_name: "WEB Artifacts Builder"
+  short_description: "ALWAYS use this when the request matches WEB Artifacts Builder: Suite of tools for creating elaborate, multi-component HTML artifacts using modern fr..."
+  brand_color: "#15803D"
+  default_prompt: "Use $web-artifacts-builder to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

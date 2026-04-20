@@ -1,0 +1,8 @@
+interface:
+  display_name: "Error Debugging Error Trace"
+  short_description: "ALWAYS use this when the request matches Error Debugging Error Trace: You are an error tracking and observability expert specializing in implementing..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $error-debugging-error-trace to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "007"
+  short_description: "ALWAYS use this when the request matches 007: Security audit, hardening, threat modeling (STRIDE/PASTA), Red/Blue Team, OWASP checks, code review, in..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $007 to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

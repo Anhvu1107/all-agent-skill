@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Security Keyvault Keys Java"
+  short_description: "ALWAYS use this when the request matches Azure Security Keyvault Keys Java: Azure Key Vault Keys Java SDK for cryptographic key management."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $azure-security-keyvault-keys-java to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

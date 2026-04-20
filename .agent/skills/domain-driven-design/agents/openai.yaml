@@ -1,0 +1,8 @@
+interface:
+  display_name: "Domain Driven Design"
+  short_description: "ALWAYS use this when the request matches Domain Driven Design: Plan and route Domain-Driven Design work from strategic modeling to tactical implement..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $domain-driven-design to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

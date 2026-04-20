@@ -1,0 +1,8 @@
+interface:
+  display_name: "Multi Platform Apps Multi Platform"
+  short_description: "ALWAYS use this when the request matches Multi Platform Apps Multi Platform: Build and deploy the same feature consistently across web, mobile, and d..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $multi-platform-apps-multi-platform to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

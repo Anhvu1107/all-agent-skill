@@ -1,0 +1,8 @@
+interface:
+  display_name: "Last30days"
+  short_description: "ALWAYS use this when the user wants very recent signal from the last 30 days across Reddit, X, and the web, especially for recommendations, trend che..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $last30days to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

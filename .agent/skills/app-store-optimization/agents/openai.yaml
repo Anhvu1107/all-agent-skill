@@ -1,0 +1,8 @@
+interface:
+  display_name: "APP Store Optimization"
+  short_description: "ALWAYS use this when the user needs App Store or Google Play optimization, including ASO research, keyword strategy, listing copy, screenshots, launc..."
+  brand_color: "#374151"
+  default_prompt: "Use $app-store-optimization to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

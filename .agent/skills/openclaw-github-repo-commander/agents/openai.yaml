@@ -1,0 +1,8 @@
+interface:
+  display_name: "Openclaw Github Repo Commander"
+  short_description: "ALWAYS use this when the request matches Openclaw Github Repo Commander: 7-stage super workflow for GitHub repo audit, cleanup, PR review, and compet..."
+  brand_color: "#15803D"
+  default_prompt: "Use $openclaw-github-repo-commander to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Filesystem Context"
+  short_description: "ALWAYS use this when the request matches Filesystem Context: Use for file-based context management, dynamic context discovery, and reducing context w..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $filesystem-context to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

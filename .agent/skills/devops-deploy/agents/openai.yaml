@@ -1,0 +1,8 @@
+interface:
+  display_name: "Devops Deploy"
+  short_description: "ALWAYS use this when the request matches Devops Deploy: DevOps e deploy de aplicacoes — Docker, CI/CD com GitHub Actions, AWS Lambda, SAM, Terraform..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $devops-deploy to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

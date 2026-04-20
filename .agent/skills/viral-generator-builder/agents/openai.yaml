@@ -1,0 +1,8 @@
+interface:
+  display_name: "Viral Generator Builder"
+  short_description: "ALWAYS use this when the request matches Viral Generator Builder: Expert in building shareable generator tools that go viral - name generators, quiz..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $viral-generator-builder to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

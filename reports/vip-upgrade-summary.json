@@ -1,0 +1,73 @@
+﻿{
+    "outputFolder":  "D:\\skill\\skill\\agent-skills-vip-upgraded",
+    "archivePath":  "D:\\skill\\skill\\agent-skills-vip-upgraded.rar",
+    "upgradedSkills":  [
+                           "workspace-operating-system",
+                           "app-builder",
+                           "architecture",
+                           "systems-engineering",
+                           "frontend-design",
+                           "verification-before-completion",
+                           "skill-creator",
+                           "systematic-debugging",
+                           "test-driven-development",
+                           "dispatching-parallel-agents",
+                           "requesting-code-review",
+                           "receiving-code-review",
+                           "subagent-driven-development",
+                           "tdd-workflow",
+                           "using-git-worktrees",
+                           "executing-plans",
+                           "finishing-a-development-branch",
+                           "closed-loop-delivery",
+                           "parallel-agents",
+                           "ui-ux-pro-max"
+                       ],
+    "beforeMetrics":  {
+                          "totalSkills":  1409,
+                          "withReferences":  129,
+                          "withScripts":  73,
+                          "withAssets":  17,
+                          "withAgents":  29,
+                          "pushyDescriptions":  68,
+                          "useWhenDescriptions":  225
+                      },
+    "afterMetrics":  {
+                         "totalSkills":  1409,
+                         "withReferences":  142,
+                         "withScripts":  73,
+                         "withAssets":  17,
+                         "withAgents":  30,
+                         "pushyDescriptions":  101,
+                         "useWhenDescriptions":  198
+                     },
+    "beforeTriggerForward":  293,
+    "afterTriggerForward":  299,
+    "uiStacksBefore":  11,
+    "uiStacksAfter":  16,
+    "newUiStacks":  [
+                        "remix",
+                        "astro",
+                        "sveltekit",
+                        "expo-router"
+                    ],
+    "newReferenceFiles":  [
+                              "closed-loop-delivery\\references\\definition-of-done-template.md",
+                              "dispatching-parallel-agents\\references\\independence-checklist.md",
+                              "dispatching-parallel-agents\\references\\prompt-template.md",
+                              "executing-plans\\references\\checkpoint-patterns.md",
+                              "finishing-a-development-branch\\references\\branch-closeout-template.md",
+                              "parallel-agents\\references\\delegation-decision-tree.md",
+                              "receiving-code-review\\references\\feedback-triage.md",
+                              "requesting-code-review\\references\\review-request-template.md",
+                              "subagent-driven-development\\references\\task-pack-template.md",
+                              "systematic-debugging\\references\\evidence-capture.md",
+                              "systematic-debugging\\references\\root-cause-tracing.md",
+                              "tdd-workflow\\references\\tdd-decision-guide.md",
+                              "test-driven-development\\references\\red-green-refactor-checklist.md",
+                              "test-driven-development\\references\\test-shape-heuristics.md",
+                              "ui-ux-pro-max\\references\\design-review-checklist.md",
+                              "ui-ux-pro-max\\references\\stack-routing.md",
+                              "using-git-worktrees\\references\\worktree-layouts.md"
+                          ]
+}

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Skill Developer"
+  short_description: "ALWAYS use this when the request matches Skill Developer: Comprehensive guide for creating and managing skills in Claude Code with auto-activation sy..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $skill-developer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

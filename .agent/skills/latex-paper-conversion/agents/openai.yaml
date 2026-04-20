@@ -1,0 +1,8 @@
+interface:
+  display_name: "Latex Paper Conversion"
+  short_description: "ALWAYS use this when the request matches Latex Paper Conversion: This skill should be used when the user asks to convert an academic paper in LaTeX f..."
+  brand_color: "#374151"
+  default_prompt: "Use $latex-paper-conversion to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

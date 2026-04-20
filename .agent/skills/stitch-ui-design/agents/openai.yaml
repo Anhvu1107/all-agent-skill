@@ -1,0 +1,8 @@
+interface:
+  display_name: "Stitch UI Design"
+  short_description: "ALWAYS use this when the request matches Stitch UI Design: Expert guidance for crafting effective prompts in Google Stitch, the AI-powered UI design..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $stitch-ui-design to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

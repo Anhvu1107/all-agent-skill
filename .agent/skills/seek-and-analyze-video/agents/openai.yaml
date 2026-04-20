@@ -1,0 +1,8 @@
+interface:
+  display_name: "Seek AND Analyze Video"
+  short_description: "ALWAYS use this when the request matches Seek AND Analyze Video: Seek and analyze video content using Memories.ai Large Visual Memory Model for persi..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $seek-and-analyze-video to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

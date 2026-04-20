@@ -1,0 +1,8 @@
+interface:
+  display_name: "Voice AI Development"
+  short_description: "ALWAYS use this when the request matches Voice AI Development: Expert in building voice AI applications - from real-time voice agents to voice-enable..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $voice-ai-development to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

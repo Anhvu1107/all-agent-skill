@@ -1,0 +1,8 @@
+interface:
+  display_name: "Langgraph"
+  short_description: "ALWAYS use this when the request matches Langgraph: Expert in LangGraph - the production-grade framework for building stateful, multi-actor AI applic..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $langgraph to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Incident Responder"
+  short_description: "ALWAYS use this when the request matches Incident Responder: Expert SRE incident responder specializing in rapid problem resolution, modern observabi..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $incident-responder to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

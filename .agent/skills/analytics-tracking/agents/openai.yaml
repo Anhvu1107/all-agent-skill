@@ -1,0 +1,8 @@
+interface:
+  display_name: "Analytics Tracking"
+  short_description: "ALWAYS use this when the request matches Analytics Tracking: Design, audit, and improve analytics tracking systems that produce reliable, decision-re..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $analytics-tracking to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

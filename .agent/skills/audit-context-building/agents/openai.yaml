@@ -1,0 +1,8 @@
+interface:
+  display_name: "Audit Context Building"
+  short_description: "ALWAYS use this when the request matches Audit Context Building: Enables ultra-granular, line-by-line code analysis to build deep architectural conte..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $audit-context-building to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

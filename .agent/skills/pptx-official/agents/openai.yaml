@@ -1,0 +1,8 @@
+interface:
+  display_name: "Pptx Official"
+  short_description: "ALWAYS use this when the user needs an official-style `.pptx` workflow for deck creation, OOXML edits, or faithful presentation analysis."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $pptx-official to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

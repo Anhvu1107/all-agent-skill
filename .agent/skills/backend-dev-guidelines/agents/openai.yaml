@@ -1,0 +1,8 @@
+interface:
+  display_name: "Backend DEV Guidelines"
+  short_description: "ALWAYS use this when implementing or reviewing backend routes, controllers, services, repositories, middleware, validation, or data-access layers in..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $backend-dev-guidelines to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

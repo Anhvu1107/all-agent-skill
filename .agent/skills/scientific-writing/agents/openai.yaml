@@ -1,0 +1,8 @@
+interface:
+  display_name: "Scientific Writing"
+  short_description: "ALWAYS use this when the request matches Scientific Writing: This is the core skill for the deep research and writing tool—combining AI-driven deep r..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $scientific-writing to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

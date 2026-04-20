@@ -1,0 +1,8 @@
+interface:
+  display_name: "Wiki Page Writer"
+  short_description: "ALWAYS use this when the request matches Wiki Page Writer: You are a senior documentation engineer that generates comprehensive technical documentati..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $wiki-page-writer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

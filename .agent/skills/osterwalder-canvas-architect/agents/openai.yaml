@@ -1,0 +1,8 @@
+interface:
+  display_name: "Osterwalder Canvas Architect"
+  short_description: "ALWAYS use this when the request matches Osterwalder Canvas Architect: Iterative consultant agent for building and validating logically consistent 9-..."
+  brand_color: "#374151"
+  default_prompt: "Use $osterwalder-canvas-architect to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

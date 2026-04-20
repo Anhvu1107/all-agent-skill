@@ -1,0 +1,8 @@
+interface:
+  display_name: "Typescript PRO"
+  short_description: "ALWAYS use this when the request matches Typescript PRO: Master TypeScript with advanced types, generics, and strict type safety."
+  brand_color: "#15803D"
+  default_prompt: "Use $typescript-pro to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

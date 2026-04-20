@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Mgmt Apimanagement PY"
+  short_description: "ALWAYS use this when the request matches Azure Mgmt Apimanagement PY: Azure API Management SDK for Python."
+  brand_color: "#0F766E"
+  default_prompt: "Use $azure-mgmt-apimanagement-py to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

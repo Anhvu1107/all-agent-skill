@@ -1,0 +1,8 @@
+interface:
+  display_name: "Obsidian Bases"
+  short_description: "ALWAYS use this when the request matches Obsidian Bases: Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries."
+  brand_color: "#0F172A"
+  default_prompt: "Use $obsidian-bases to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

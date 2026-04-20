@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Eventhub TS"
+  short_description: "ALWAYS use this when the request matches Azure Eventhub TS: High-throughput event streaming and real-time data ingestion."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $azure-eventhub-ts to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

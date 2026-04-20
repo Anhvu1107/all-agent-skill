@@ -1,0 +1,8 @@
+interface:
+  display_name: "Lead Magnets"
+  short_description: "ALWAYS use this when the request matches Lead Magnets: Plan and optimize lead magnets for email capture and lead generation."
+  brand_color: "#2563EB"
+  default_prompt: "Use $lead-magnets to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

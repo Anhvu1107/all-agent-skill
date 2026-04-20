@@ -1,0 +1,8 @@
+interface:
+  display_name: "Browser Extension Builder"
+  short_description: "ALWAYS use this when the request matches Browser Extension Builder: Expert in building browser extensions that solve real problems - Chrome, Firefox..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $browser-extension-builder to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

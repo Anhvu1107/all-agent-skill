@@ -1,0 +1,8 @@
+interface:
+  display_name: "KPI Dashboard Design"
+  short_description: "ALWAYS use this when the request matches KPI Dashboard Design: Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboa..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $kpi-dashboard-design to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

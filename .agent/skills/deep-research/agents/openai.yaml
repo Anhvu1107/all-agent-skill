@@ -1,0 +1,8 @@
+interface:
+  display_name: "Deep Research"
+  short_description: "ALWAYS use this when the request matches Deep Research: Run autonomous research tasks that plan, search, read, and synthesize information into compre..."
+  brand_color: "#15803D"
+  default_prompt: "Use $deep-research to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

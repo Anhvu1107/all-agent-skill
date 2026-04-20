@@ -1,0 +1,8 @@
+interface:
+  display_name: "GO Concurrency Patterns"
+  short_description: "ALWAYS use this when the request matches GO Concurrency Patterns: Master Go concurrency with goroutines, channels, sync primitives, and context."
+  brand_color: "#15803D"
+  default_prompt: "Use $go-concurrency-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

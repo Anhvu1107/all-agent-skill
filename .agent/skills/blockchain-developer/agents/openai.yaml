@@ -1,0 +1,8 @@
+interface:
+  display_name: "Blockchain Developer"
+  short_description: "ALWAYS use this when the request matches Blockchain Developer: Build production-ready Web3 applications, smart contracts, and decentralized systems."
+  brand_color: "#15803D"
+  default_prompt: "Use $blockchain-developer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

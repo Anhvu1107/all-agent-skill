@@ -1,0 +1,8 @@
+interface:
+  display_name: "Full Output Enforcement"
+  short_description: "ALWAYS use this when the request matches Full Output Enforcement: Use when a task requires exhaustive unabridged output, complete files, or strict pr..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $full-output-enforcement to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

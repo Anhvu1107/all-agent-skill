@@ -1,0 +1,8 @@
+interface:
+  display_name: "Context7 Auto Research"
+  short_description: "ALWAYS use this when the request matches Context7 Auto Research: Automatically fetch latest library/framework documentation for Claude Code via Conte..."
+  brand_color: "#374151"
+  default_prompt: "Use $context7-auto-research to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Sankhya Dashboard Html JSP Custom Best Pratices"
+  short_description: "ALWAYS use this when the request matches Sankhya Dashboard Html JSP Custom Best Pratices: This skill should be used when the user asks for patterns..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $sankhya-dashboard-html-jsp-custom-best-pratices to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

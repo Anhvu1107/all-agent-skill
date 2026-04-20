@@ -1,0 +1,8 @@
+interface:
+  display_name: "Comfyui Gateway"
+  short_description: "ALWAYS use this when the request matches Comfyui Gateway: REST API gateway for ComfyUI servers."
+  brand_color: "#EA580C"
+  default_prompt: "Use $comfyui-gateway to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

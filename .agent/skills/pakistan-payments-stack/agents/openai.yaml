@@ -1,0 +1,8 @@
+interface:
+  display_name: "Pakistan Payments Stack"
+  short_description: "ALWAYS use this when the request matches Pakistan Payments Stack: Design and implement production-grade Pakistani payment integrations (JazzCash, Eas..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $pakistan-payments-stack to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

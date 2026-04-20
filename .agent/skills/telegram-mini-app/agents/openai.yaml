@@ -1,0 +1,8 @@
+interface:
+  display_name: "Telegram Mini APP"
+  short_description: "ALWAYS use this when the request matches Telegram Mini APP: Expert in building Telegram Mini Apps (TWA) - web apps that run inside Telegram with nati..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $telegram-mini-app to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

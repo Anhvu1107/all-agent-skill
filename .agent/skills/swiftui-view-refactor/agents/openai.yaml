@@ -1,0 +1,8 @@
+interface:
+  display_name: "Swiftui View Refactor"
+  short_description: "ALWAYS use this when the request matches Swiftui View Refactor: Refactor SwiftUI views into smaller components with stable, explicit data flow."
+  brand_color: "#374151"
+  default_prompt: "Use $swiftui-view-refactor to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

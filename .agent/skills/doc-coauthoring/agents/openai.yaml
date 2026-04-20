@@ -1,0 +1,8 @@
+interface:
+  display_name: "DOC Coauthoring"
+  short_description: "ALWAYS use this when the request matches DOC Coauthoring: Guide users through a structured workflow for co-authoring documentation."
+  brand_color: "#374151"
+  default_prompt: "Use $doc-coauthoring to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

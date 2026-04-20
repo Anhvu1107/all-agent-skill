@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Communication Callingserver Java"
+  short_description: "ALWAYS use this when the request matches Azure Communication Callingserver Java: ⚠️ DEPRECATED: This SDK has been renamed to Call Automation."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $azure-communication-callingserver-java to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

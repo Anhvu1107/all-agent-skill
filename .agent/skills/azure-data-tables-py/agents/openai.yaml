@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Data Tables PY"
+  short_description: "ALWAYS use this when the request matches Azure Data Tables PY: Azure Tables SDK for Python (Storage and Cosmos DB)."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $azure-data-tables-py to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

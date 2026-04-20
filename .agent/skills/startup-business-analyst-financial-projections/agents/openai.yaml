@@ -1,0 +1,8 @@
+interface:
+  display_name: "Startup Business Analyst Financial Projections"
+  short_description: "ALWAYS use this when the request matches Startup Business Analyst Financial Projections: Create detailed 3-5 year financial model with revenue, costs..."
+  brand_color: "#374151"
+  default_prompt: "Use $startup-business-analyst-financial-projections to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

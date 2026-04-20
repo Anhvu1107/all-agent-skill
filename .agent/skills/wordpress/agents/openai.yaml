@@ -1,0 +1,8 @@
+interface:
+  display_name: "Wordpress"
+  short_description: "ALWAYS use this when the request matches Wordpress: Complete WordPress development workflow covering theme development, plugin creation, WooCommerce..."
+  brand_color: "#374151"
+  default_prompt: "Use $wordpress to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

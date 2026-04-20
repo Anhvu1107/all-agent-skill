@@ -1,0 +1,8 @@
+interface:
+  display_name: "Telegram Automation"
+  short_description: "ALWAYS use this when the request matches Telegram Automation: Automate Telegram tasks via Rube MCP (Composio): send messages, manage chats, share pho..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $telegram-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

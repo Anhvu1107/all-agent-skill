@@ -1,0 +1,8 @@
+interface:
+  display_name: "Moyu"
+  short_description: "ALWAYS use this when the request matches Moyu: Anti-over-engineering guardrail that activates when an AI coding agent expands scope, adds abstraction..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $moyu to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Vexor"
+  short_description: "ALWAYS use this when the request matches Vexor: Vector-powered CLI for semantic file search with a Claude/Codex skill"
+  brand_color: "#BE123C"
+  default_prompt: "Use $vexor to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

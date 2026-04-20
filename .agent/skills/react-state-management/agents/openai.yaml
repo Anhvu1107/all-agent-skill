@@ -1,0 +1,8 @@
+interface:
+  display_name: "React State Management"
+  short_description: "ALWAYS use this when the request matches React State Management: Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Q..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $react-state-management to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

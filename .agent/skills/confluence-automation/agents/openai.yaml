@@ -1,0 +1,8 @@
+interface:
+  display_name: "Confluence Automation"
+  short_description: "ALWAYS use this when the request matches Confluence Automation: Automate Confluence page creation, content search, space management, labels, and hier..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $confluence-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

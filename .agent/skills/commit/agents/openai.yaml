@@ -1,0 +1,8 @@
+interface:
+  display_name: "Commit"
+  short_description: "ALWAYS use this skill when committing code changes — never commit directly without it."
+  brand_color: "#2563EB"
+  default_prompt: "Use $commit to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

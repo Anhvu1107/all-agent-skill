@@ -1,0 +1,8 @@
+interface:
+  display_name: "ML Engineer"
+  short_description: "ALWAYS use this when the request matches ML Engineer: Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks."
+  brand_color: "#374151"
+  default_prompt: "Use $ml-engineer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

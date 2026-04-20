@@ -1,0 +1,8 @@
+interface:
+  display_name: "Vector Index Tuning"
+  short_description: "ALWAYS use this when the request matches Vector Index Tuning: Optimize vector index performance for latency, recall, and memory."
+  brand_color: "#EA580C"
+  default_prompt: "Use $vector-index-tuning to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

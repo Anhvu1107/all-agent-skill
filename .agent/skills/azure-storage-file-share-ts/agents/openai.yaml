@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Storage File Share TS"
+  short_description: "ALWAYS use this when the request matches Azure Storage File Share TS: Azure File Share JavaScript/TypeScript SDK (@azure/storage-file-share) for SMB..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $azure-storage-file-share-ts to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

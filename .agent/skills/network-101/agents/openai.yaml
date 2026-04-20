@@ -1,0 +1,8 @@
+interface:
+  display_name: "Network 101"
+  short_description: "ALWAYS use this when the request matches Network 101: Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $network-101 to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

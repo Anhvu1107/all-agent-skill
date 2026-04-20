@@ -1,0 +1,8 @@
+interface:
+  display_name: "Dispatching Parallel Agents"
+  short_description: "ALWAYS use this when there are two or more independent investigations, failures, or implementation slices that can be worked in parallel without shar..."
+  brand_color: "#15803D"
+  default_prompt: "Use $dispatching-parallel-agents to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

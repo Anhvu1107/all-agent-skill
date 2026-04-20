@@ -1,0 +1,8 @@
+interface:
+  display_name: "Find Bugs"
+  short_description: "ALWAYS use this when the request matches Find Bugs: Find bugs, security vulnerabilities, and code quality issues in local branch changes."
+  brand_color: "#BE123C"
+  default_prompt: "Use $find-bugs to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

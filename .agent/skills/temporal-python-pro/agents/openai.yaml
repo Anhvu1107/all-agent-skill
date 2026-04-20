@@ -1,0 +1,8 @@
+interface:
+  display_name: "Temporal Python PRO"
+  short_description: "ALWAYS use this when the request matches Temporal Python PRO: Master Temporal workflow orchestration with Python SDK."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $temporal-python-pro to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Matplotlib"
+  short_description: "ALWAYS use this when the request matches Matplotlib: Matplotlib is Python's foundational visualization library for creating static, animated, and int..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $matplotlib to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Database Design"
+  short_description: "ALWAYS use this when the hard part is schemas, relationships, constraints, indexes, data integrity, query shape, or migration-safe data modeling."
+  brand_color: "#374151"
+  default_prompt: "Use $database-design to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

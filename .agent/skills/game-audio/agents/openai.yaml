@@ -1,0 +1,8 @@
+interface:
+  display_name: "Game Audio"
+  short_description: "ALWAYS use this when the user mentions Game Audio, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in t..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $game-audio to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

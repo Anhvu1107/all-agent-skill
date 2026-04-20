@@ -1,0 +1,8 @@
+interface:
+  display_name: "Verification Before Completion"
+  short_description: "ALWAYS use this before claiming a fix works, tests pass, code is ready, a PR is ready, or anything is done, merged, or shippable."
+  brand_color: "#BE123C"
+  default_prompt: "Use $verification-before-completion to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

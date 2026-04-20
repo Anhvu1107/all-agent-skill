@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure AI Contentsafety Java"
+  short_description: "ALWAYS use this when the request matches Azure AI Contentsafety Java: Build content moderation applications using the Azure AI Content Safety SDK for..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $azure-ai-contentsafety-java to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Saga Orchestration"
+  short_description: "ALWAYS use this when the request matches Saga Orchestration: Patterns for managing distributed transactions and long-running business processes."
+  brand_color: "#2563EB"
+  default_prompt: "Use $saga-orchestration to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

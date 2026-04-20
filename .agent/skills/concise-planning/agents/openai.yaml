@@ -1,0 +1,8 @@
+interface:
+  display_name: "Concise Planning"
+  short_description: "ALWAYS use this when the request matches Concise Planning: Use when a user asks for a plan for a coding task, to generate a clear, actionable, and at..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $concise-planning to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

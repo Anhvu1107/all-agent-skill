@@ -1,0 +1,8 @@
+interface:
+  display_name: "Internal Comms"
+  short_description: "ALWAYS use this when the request matches Internal Comms: A set of resources to help write internal communications using consistent company-ready form..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $internal-comms to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

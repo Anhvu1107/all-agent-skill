@@ -1,0 +1,8 @@
+interface:
+  display_name: "Crypto BD Agent"
+  short_description: "ALWAYS use this when the request matches Crypto BD Agent: Production-tested patterns for building AI agents that autonomously discover, > evaluate, a..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $crypto-bd-agent to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

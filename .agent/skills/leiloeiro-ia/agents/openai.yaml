@@ -1,0 +1,8 @@
+interface:
+  display_name: "Leiloeiro IA"
+  short_description: "ALWAYS use this when the request matches Leiloeiro IA: Especialista em leiloes judiciais e extrajudiciais de imoveis."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $leiloeiro-ia to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

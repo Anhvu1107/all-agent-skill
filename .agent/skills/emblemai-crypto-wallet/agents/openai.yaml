@@ -1,0 +1,8 @@
+interface:
+  display_name: "Emblemai Crypto Wallet"
+  short_description: "ALWAYS use this when the request matches Emblemai Crypto Wallet: Crypto wallet management across 7 blockchains via EmblemAI Agent Hustle API."
+  brand_color: "#BE123C"
+  default_prompt: "Use $emblemai-crypto-wallet to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Nodejs Best Practices"
+  short_description: "ALWAYS use this when implementing or reviewing Node.js application code, especially around runtime behavior, project structure, reliability, and serv..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $nodejs-best-practices to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

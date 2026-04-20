@@ -1,0 +1,8 @@
+interface:
+  display_name: "Claude Code Guide"
+  short_description: "ALWAYS use this when the request matches Claude Code Guide: To provide a comprehensive reference for configuring and using Claude Code (the agentic c..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $claude-code-guide to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

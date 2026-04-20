@@ -1,0 +1,8 @@
+interface:
+  display_name: "Odoo EDI Connector"
+  short_description: "ALWAYS use this when the request matches Odoo EDI Connector: Guide for implementing EDI (Electronic Data Interchange) with Odoo: X12, EDIFACT documen..."
+  brand_color: "#15803D"
+  default_prompt: "Use $odoo-edi-connector to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

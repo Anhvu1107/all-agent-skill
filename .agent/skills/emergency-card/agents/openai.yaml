@@ -1,0 +1,8 @@
+interface:
+  display_name: "Emergency Card"
+  short_description: "ALWAYS use this when the request matches Emergency Card: 生成紧急情况下快速访问的医疗信息摘要卡片。当用户需要旅行、就诊准备、紧急情况或询问\"紧急信息\"、\"医疗卡片\"、\"急救信息\"时使用此技能。提取关键信息（过敏、用药、急症、植入物），支持多..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $emergency-card to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

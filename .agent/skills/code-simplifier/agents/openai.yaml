@@ -1,0 +1,8 @@
+interface:
+  display_name: "Code Simplifier"
+  short_description: "ALWAYS use this when the request matches Code Simplifier: Simplifies and refines code for clarity, consistency, and maintainability while preserving..."
+  brand_color: "#15803D"
+  default_prompt: "Use $code-simplifier to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

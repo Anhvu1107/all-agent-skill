@@ -1,0 +1,8 @@
+interface:
+  display_name: "Dotnet Backend Patterns"
+  short_description: "ALWAYS use this when the request matches Dotnet Backend Patterns: Master C#/.NET patterns for building production-grade APIs, MCP servers, and enterp..."
+  brand_color: "#15803D"
+  default_prompt: "Use $dotnet-backend-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Systems Programming Rust Project"
+  short_description: "ALWAYS use this when the request matches Systems Programming Rust Project: You are a Rust project architecture expert specializing in scaffolding pro..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $systems-programming-rust-project to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

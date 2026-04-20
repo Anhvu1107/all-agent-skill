@@ -1,0 +1,8 @@
+interface:
+  display_name: "Blockrun"
+  short_description: "ALWAYS use this when the request matches Blockrun: BlockRun works with Claude Code and Google Antigravity."
+  brand_color: "#2563EB"
+  default_prompt: "Use $blockrun to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

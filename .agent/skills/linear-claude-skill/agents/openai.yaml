@@ -1,0 +1,8 @@
+interface:
+  display_name: "Linear Claude Skill"
+  short_description: "ALWAYS use this when the request matches Linear Claude Skill: Manage Linear issues, projects, and teams"
+  brand_color: "#374151"
+  default_prompt: "Use $linear-claude-skill to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

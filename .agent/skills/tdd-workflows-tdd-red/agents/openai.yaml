@@ -1,0 +1,8 @@
+interface:
+  display_name: "TDD Workflows TDD RED"
+  short_description: "ALWAYS use this when the request matches TDD Workflows TDD RED: Generate failing tests for the TDD red phase to define expected behavior and edge cas..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $tdd-workflows-tdd-red to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

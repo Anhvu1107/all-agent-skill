@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Eventgrid Java"
+  short_description: "ALWAYS use this when the request matches Azure Eventgrid Java: Build event-driven applications with Azure Event Grid SDK for Java."
+  brand_color: "#374151"
+  default_prompt: "Use $azure-eventgrid-java to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

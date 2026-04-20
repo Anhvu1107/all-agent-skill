@@ -1,0 +1,8 @@
+interface:
+  display_name: "UX Flow"
+  short_description: "ALWAYS use this when the request matches UX Flow: Design user flows and screen structure using StyleSeed UX patterns such as progressive disclosure..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $ux-flow to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

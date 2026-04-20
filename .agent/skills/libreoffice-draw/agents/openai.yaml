@@ -1,0 +1,8 @@
+interface:
+  display_name: "Libreoffice Draw"
+  short_description: "ALWAYS use this when the user or an upstream archive refers to `libreoffice-draw`, the nested skill path form for `draw`, or the equivalent slash pat..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $libreoffice-draw to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

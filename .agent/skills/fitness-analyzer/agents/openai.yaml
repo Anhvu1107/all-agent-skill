@@ -1,0 +1,8 @@
+interface:
+  display_name: "Fitness Analyzer"
+  short_description: "ALWAYS use this when the request matches Fitness Analyzer: 分析运动数据、识别运动模式、评估健身进展，并提供个性化训练建议。支持与慢性病数据的关联分析。"
+  brand_color: "#EA580C"
+  default_prompt: "Use $fitness-analyzer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

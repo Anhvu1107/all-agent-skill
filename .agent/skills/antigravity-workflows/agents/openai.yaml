@@ -1,0 +1,8 @@
+interface:
+  display_name: "Antigravity Workflows"
+  short_description: "ALWAYS use this when the request matches Antigravity Workflows: Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP deliver..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $antigravity-workflows to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

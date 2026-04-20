@@ -1,0 +1,8 @@
+interface:
+  display_name: "Scroll Experience"
+  short_description: "ALWAYS use this when the request matches Scroll Experience: Expert in building immersive scroll-driven experiences - parallax storytelling, scroll an..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $scroll-experience to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

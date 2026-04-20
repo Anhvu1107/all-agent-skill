@@ -1,0 +1,8 @@
+interface:
+  display_name: "Antigravity Design Expert"
+  short_description: "ALWAYS use this when the request matches Antigravity Design Expert: Core UI/UX engineering skill for building highly interactive, spatial, weightless..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $antigravity-design-expert to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

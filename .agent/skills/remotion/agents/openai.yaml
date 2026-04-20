@@ -1,0 +1,8 @@
+interface:
+  display_name: "Remotion"
+  short_description: "ALWAYS use this when the request matches Remotion: Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $remotion to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

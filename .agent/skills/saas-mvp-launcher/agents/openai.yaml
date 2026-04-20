@@ -1,0 +1,8 @@
+interface:
+  display_name: "Saas MVP Launcher"
+  short_description: "ALWAYS use this when the request matches Saas MVP Launcher: Use when planning or building a SaaS MVP from scratch."
+  brand_color: "#EA580C"
+  default_prompt: "Use $saas-mvp-launcher to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

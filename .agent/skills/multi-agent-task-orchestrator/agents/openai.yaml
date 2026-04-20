@@ -1,0 +1,8 @@
+interface:
+  display_name: "Multi Agent Task Orchestrator"
+  short_description: "ALWAYS use this when the request matches Multi Agent Task Orchestrator: Route tasks to specialized AI agents with anti-duplication, quality gates, an..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $multi-agent-task-orchestrator to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

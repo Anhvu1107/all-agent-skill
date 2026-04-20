@@ -1,0 +1,8 @@
+interface:
+  display_name: "Unsplash Integration"
+  short_description: "ALWAYS use this when the request matches Unsplash Integration: Integration skill for searching and fetching high-quality, free-to-use professional ph..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $unsplash-integration to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

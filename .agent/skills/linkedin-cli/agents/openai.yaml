@@ -1,0 +1,8 @@
+interface:
+  display_name: "Linkedin CLI"
+  short_description: "ALWAYS use this when the request matches Linkedin CLI: Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $linkedin-cli to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

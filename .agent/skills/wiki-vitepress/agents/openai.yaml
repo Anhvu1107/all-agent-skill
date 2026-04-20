@@ -1,0 +1,8 @@
+interface:
+  display_name: "Wiki Vitepress"
+  short_description: "ALWAYS use this when the request matches Wiki Vitepress: Transform generated wiki Markdown files into a polished VitePress static site with dark them..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $wiki-vitepress to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

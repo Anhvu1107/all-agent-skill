@@ -1,0 +1,8 @@
+interface:
+  display_name: "Social Content"
+  short_description: "ALWAYS use this when the request matches Social Content: You are an expert social media strategist with direct access to a scheduling platform that p..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $social-content to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

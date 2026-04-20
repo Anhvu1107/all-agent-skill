@@ -1,0 +1,8 @@
+interface:
+  display_name: "Chrome Extension Developer"
+  short_description: "ALWAYS use this when the request matches Chrome Extension Developer: Expert in building Chrome Extensions using Manifest V3."
+  brand_color: "#15803D"
+  default_prompt: "Use $chrome-extension-developer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

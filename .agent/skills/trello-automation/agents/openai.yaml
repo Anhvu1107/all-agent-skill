@@ -1,0 +1,8 @@
+interface:
+  display_name: "Trello Automation"
+  short_description: "ALWAYS use this when the request matches Trello Automation: Automate Trello boards, cards, and workflows via Rube MCP (Composio)."
+  brand_color: "#2563EB"
+  default_prompt: "Use $trello-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

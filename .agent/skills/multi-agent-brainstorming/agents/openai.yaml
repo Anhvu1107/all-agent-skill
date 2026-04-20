@@ -1,0 +1,8 @@
+interface:
+  display_name: "Multi Agent Brainstorming"
+  short_description: "ALWAYS use this when the request matches Multi Agent Brainstorming: Simulate a structured peer-review process using multiple specialized agents to va..."
+  brand_color: "#374151"
+  default_prompt: "Use $multi-agent-brainstorming to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

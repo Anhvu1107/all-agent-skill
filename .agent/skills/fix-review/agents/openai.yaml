@@ -1,0 +1,8 @@
+interface:
+  display_name: "FIX Review"
+  short_description: "ALWAYS use this when the request matches FIX Review: Verify fix commits address audit findings without new bugs"
+  brand_color: "#B91C1C"
+  default_prompt: "Use $fix-review to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

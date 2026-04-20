@@ -1,0 +1,8 @@
+interface:
+  display_name: "API Fuzzing BUG Bounty"
+  short_description: "ALWAYS use this when the request matches API Fuzzing BUG Bounty: Provide comprehensive techniques for testing REST, SOAP, and GraphQL APIs during bug..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $api-fuzzing-bug-bounty to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

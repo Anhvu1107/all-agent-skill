@@ -1,0 +1,8 @@
+interface:
+  display_name: "Idor Testing"
+  short_description: "ALWAYS use this when the request matches Idor Testing: Provide systematic methodologies for identifying and exploiting Insecure Direct Object Referen..."
+  brand_color: "#374151"
+  default_prompt: "Use $idor-testing to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

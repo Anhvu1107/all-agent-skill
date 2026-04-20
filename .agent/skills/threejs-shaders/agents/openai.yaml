@@ -1,0 +1,8 @@
+interface:
+  display_name: "Threejs Shaders"
+  short_description: "ALWAYS use this when the request matches Threejs Shaders: Three.js shaders - GLSL, ShaderMaterial, uniforms, custom effects."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $threejs-shaders to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

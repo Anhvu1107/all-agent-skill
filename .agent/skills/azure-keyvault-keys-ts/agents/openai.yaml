@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Keyvault Keys TS"
+  short_description: "ALWAYS use this when the request matches Azure Keyvault Keys TS: Manage cryptographic keys using Azure Key Vault Keys SDK for JavaScript (@azure/keyv..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $azure-keyvault-keys-ts to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

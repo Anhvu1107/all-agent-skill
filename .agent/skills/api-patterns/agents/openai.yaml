@@ -1,0 +1,8 @@
+interface:
+  display_name: "API Patterns"
+  short_description: "ALWAYS use this when the task involves API shape, contracts, auth, versioning, response structure, error handling, or service boundary design."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $api-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

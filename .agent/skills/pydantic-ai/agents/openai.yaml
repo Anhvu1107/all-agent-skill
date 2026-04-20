@@ -1,0 +1,8 @@
+interface:
+  display_name: "Pydantic AI"
+  short_description: "ALWAYS use this when the request matches Pydantic AI: Build production-ready AI agents with PydanticAI — type-safe tool use, structured outputs, depe..."
+  brand_color: "#15803D"
+  default_prompt: "Use $pydantic-ai to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

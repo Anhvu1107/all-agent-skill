@@ -1,0 +1,8 @@
+interface:
+  display_name: "Sleep Analyzer"
+  short_description: "ALWAYS use this when the request matches Sleep Analyzer: 分析睡眠数据、识别睡眠模式、评估睡眠质量，并提供个性化睡眠改善建议。支持与其他健康数据的关联分析。"
+  brand_color: "#7C3AED"
+  default_prompt: "Use $sleep-analyzer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

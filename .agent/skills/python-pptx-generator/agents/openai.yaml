@@ -1,0 +1,8 @@
+interface:
+  display_name: "Python Pptx Generator"
+  short_description: "ALWAYS use this when the request matches Python Pptx Generator: Generate complete Python scripts that build polished PowerPoint decks with python-ppt..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $python-pptx-generator to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

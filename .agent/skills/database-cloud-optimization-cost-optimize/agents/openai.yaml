@@ -1,0 +1,8 @@
+interface:
+  display_name: "Database Cloud Optimization Cost Optimize"
+  short_description: "ALWAYS use this when the request matches Database Cloud Optimization Cost Optimize: You are a cloud cost optimization expert specializing in reducing..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $database-cloud-optimization-cost-optimize to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

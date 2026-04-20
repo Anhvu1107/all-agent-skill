@@ -1,0 +1,8 @@
+interface:
+  display_name: "Analytics Product"
+  short_description: "ALWAYS use this when the request matches Analytics Product: Analytics de produto — PostHog, Mixpanel, eventos, funnels, cohorts, retencao, north star..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $analytics-product to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

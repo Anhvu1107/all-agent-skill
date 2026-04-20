@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Mgmt Applicationinsights Dotnet"
+  short_description: "ALWAYS use this when the request matches Azure Mgmt Applicationinsights Dotnet: Azure Application Insights SDK for .NET."
+  brand_color: "#2563EB"
+  default_prompt: "Use $azure-mgmt-applicationinsights-dotnet to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

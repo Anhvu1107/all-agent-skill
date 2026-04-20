@@ -1,0 +1,8 @@
+interface:
+  display_name: "NOT Human Search MCP"
+  short_description: "ALWAYS use this when the request matches NOT Human Search MCP: Search AI-ready websites, inspect indexed site details, verify MCP endpoints, and disc..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $not-human-search-mcp to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

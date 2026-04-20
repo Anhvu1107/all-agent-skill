@@ -1,0 +1,8 @@
+interface:
+  display_name: "Klaviyo Automation"
+  short_description: "ALWAYS use this when the request matches Klaviyo Automation: Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS campaigns, inspect camp..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $klaviyo-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

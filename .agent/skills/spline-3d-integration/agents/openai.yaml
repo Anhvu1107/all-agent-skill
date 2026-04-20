@@ -1,0 +1,8 @@
+interface:
+  display_name: "Spline 3d Integration"
+  short_description: "ALWAYS use this when the request matches Spline 3d Integration: Use when adding interactive 3D scenes from Spline.design to web projects, including R..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $spline-3d-integration to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

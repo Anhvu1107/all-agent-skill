@@ -1,0 +1,8 @@
+interface:
+  display_name: "Chat Widget"
+  short_description: "ALWAYS use this when the request matches Chat Widget: Build a real-time support chat system with a floating widget for users and an admin dashboard f..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $chat-widget to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

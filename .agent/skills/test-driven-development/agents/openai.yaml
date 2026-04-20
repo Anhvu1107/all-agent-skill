@@ -1,0 +1,8 @@
+interface:
+  display_name: "Test Driven Development"
+  short_description: "ALWAYS use this when implementing or changing behavior that can be defined by a failing test first, including bug fixes, parsing, validation, busines..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $test-driven-development to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

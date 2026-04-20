@@ -1,0 +1,383 @@
+{
+  "skillsRoot": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills",
+  "skillsSeen": 1440,
+  "descriptionsStrengthened": 75,
+  "updatedSkills": [
+    {
+      "skill": "10-andruia-skill-smith",
+      "oldTail": "Ingeniero de Sistemas de Andru.ia.",
+      "newDescription": "ALWAYS use this when the user mentions 10 Andruia Skill Smith, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on 10 Andruia Skill Smith; scope: Ingeniero de Sistemas de Andru.ia. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "2d-games",
+      "oldTail": "2D game development principles.",
+      "newDescription": "ALWAYS use this when the user mentions 2d Games, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on 2d Games; scope: 2D game development principles. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "3d-games",
+      "oldTail": "3D game development principles.",
+      "newDescription": "ALWAYS use this when the user mentions 3d Games, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on 3d Games; scope: 3D game development principles. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "ai-product",
+      "oldTail": "Every product will be AI-powered.",
+      "newDescription": "ALWAYS use this when the user mentions AI Product, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on AI Product; scope: Every product will be AI-powered. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "akf-trust-metadata",
+      "oldTail": "The AI native file format.",
+      "newDescription": "ALWAYS use this when the user mentions AKF Trust Metadata, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on AKF Trust Metadata; scope: The AI native file format. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-ai-openai-dotnet",
+      "oldTail": "Azure OpenAI SDK for .NET.",
+      "newDescription": "ALWAYS use this when the user mentions Azure AI Openai Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure AI Openai Dotnet; scope: Azure OpenAI SDK for .NET. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-ai-projects-dotnet",
+      "oldTail": "Azure AI Projects SDK for .NET.",
+      "newDescription": "ALWAYS use this when the user mentions Azure AI Projects Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure AI Projects Dotnet; scope: Azure AI Projects SDK for .NET. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-ai-projects-java",
+      "oldTail": "Azure AI Projects SDK for Java.",
+      "newDescription": "ALWAYS use this when the user mentions Azure AI Projects Java, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure AI Projects Java; scope: Azure AI Projects SDK for Java. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-ai-voicelive-dotnet",
+      "oldTail": "Azure AI Voice Live SDK for .NET.",
+      "newDescription": "ALWAYS use this when the user mentions Azure AI Voicelive Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure AI Voicelive Dotnet; scope: Azure AI Voice Live SDK for .NET. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-ai-voicelive-java",
+      "oldTail": "Azure AI VoiceLive SDK for Java.",
+      "newDescription": "ALWAYS use this when the user mentions Azure AI Voicelive Java, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure AI Voicelive Java; scope: Azure AI VoiceLive SDK for Java. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-compute-batch-java",
+      "oldTail": "Azure Batch SDK for Java.",
+      "newDescription": "ALWAYS use this when the user mentions Azure Compute Batch Java, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Compute Batch Java; scope: Azure Batch SDK for Java. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-cosmos-java",
+      "oldTail": "Azure Cosmos DB SDK for Java.",
+      "newDescription": "ALWAYS use this when the user mentions Azure Cosmos Java, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Cosmos Java; scope: Azure Cosmos DB SDK for Java. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-eventgrid-dotnet",
+      "oldTail": "Azure Event Grid SDK for .NET.",
+      "newDescription": "ALWAYS use this when the user mentions Azure Eventgrid Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Eventgrid Dotnet; scope: Azure Event Grid SDK for .NET. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-eventgrid-py",
+      "oldTail": "Azure Event Grid SDK for Python.",
+      "newDescription": "ALWAYS use this when the user mentions Azure Eventgrid PY, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Eventgrid PY; scope: Azure Event Grid SDK for Python. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-eventhub-dotnet",
+      "oldTail": "Azure Event Hubs SDK for .NET.",
+      "newDescription": "ALWAYS use this when the user mentions Azure Eventhub Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Eventhub Dotnet; scope: Azure Event Hubs SDK for .NET. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-eventhub-rust",
+      "oldTail": "Azure Event Hubs SDK for Rust.",
+      "newDescription": "ALWAYS use this when the user mentions Azure Eventhub Rust, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Eventhub Rust; scope: Azure Event Hubs SDK for Rust. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-identity-dotnet",
+      "oldTail": "Azure Identity SDK for .NET.",
+      "newDescription": "ALWAYS use this when the user mentions Azure Identity Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Identity Dotnet; scope: Azure Identity SDK for .NET. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-keyvault-keys-rust",
+      "oldTail": "Azure Key Vault Keys SDK for Rust.",
+      "newDescription": "ALWAYS use this when the user mentions Azure Keyvault Keys Rust, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Keyvault Keys Rust; scope: Azure Key Vault Keys SDK for Rust. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-keyvault-py",
+      "oldTail": "Azure Key Vault SDK for Python.",
+      "newDescription": "ALWAYS use this when the user mentions Azure Keyvault PY, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Keyvault PY; scope: Azure Key Vault SDK for Python. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-maps-search-dotnet",
+      "oldTail": "Azure Maps SDK for .NET.",
+      "newDescription": "ALWAYS use this when the user mentions Azure Maps Search Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Maps Search Dotnet; scope: Azure Maps SDK for .NET. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-mgmt-apicenter-dotnet",
+      "oldTail": "Azure API Center SDK for .NET.",
+      "newDescription": "ALWAYS use this when the user mentions Azure Mgmt Apicenter Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Mgmt Apicenter Dotnet; scope: Azure API Center SDK for .NET. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-monitor-query-java",
+      "oldTail": "Azure Monitor Query SDK for Java.",
+      "newDescription": "ALWAYS use this when the user mentions Azure Monitor Query Java, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Monitor Query Java; scope: Azure Monitor Query SDK for Java. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-search-documents-py",
+      "oldTail": "Azure AI Search SDK for Python.",
+      "newDescription": "ALWAYS use this when the user mentions Azure Search Documents PY, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Search Documents PY; scope: Azure AI Search SDK for Python. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-security-keyvault-keys-dotnet",
+      "oldTail": "Azure Key Vault Keys SDK for .NET.",
+      "newDescription": "ALWAYS use this when the user mentions Azure Security Keyvault Keys Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Security Keyvault Keys Dotnet; scope: Azure Key Vault Keys SDK for .NET. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-servicebus-dotnet",
+      "oldTail": "Azure Service Bus SDK for .NET.",
+      "newDescription": "ALWAYS use this when the user mentions Azure Servicebus Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Servicebus Dotnet; scope: Azure Service Bus SDK for .NET. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-storage-blob-py",
+      "oldTail": "Azure Blob Storage SDK for Python.",
+      "newDescription": "ALWAYS use this when the user mentions Azure Storage Blob PY, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Storage Blob PY; scope: Azure Blob Storage SDK for Python. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "azure-storage-blob-rust",
+      "oldTail": "Azure Blob Storage SDK for Rust.",
+      "newDescription": "ALWAYS use this when the user mentions Azure Storage Blob Rust, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Storage Blob Rust; scope: Azure Blob Storage SDK for Rust. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "bash-linux",
+      "oldTail": "Bash/Linux terminal patterns.",
+      "newDescription": "ALWAYS use this when the user mentions Bash Linux, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Bash Linux; scope: Bash/Linux terminal patterns. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "build",
+      "oldTail": "build",
+      "newDescription": "ALWAYS use this when the user mentions Build, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Build; scope: Build work. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "cc-skill-project-guidelines-example",
+      "oldTail": "Project Guidelines Skill (Example)",
+      "newDescription": "ALWAYS use this when the user mentions CC Skill Project Guidelines Example, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on CC Skill Project Guidelines Example; scope: Project Guidelines Skill (Example). Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "claude-win11-speckit-update-skill",
+      "oldTail": "Windows 11 system management",
+      "newDescription": "ALWAYS use this when the user mentions Claude Win11 Speckit Update Skill, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Claude Win11 Speckit Update Skill; scope: Windows 11 system management. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "create-pr",
+      "oldTail": "Alias for sentry-skills:pr-writer.",
+      "newDescription": "ALWAYS use this when the user mentions Create PR, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Create PR; scope: Alias for sentry-skills:pr-writer. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "debug-buttercup",
+      "oldTail": "All pods run in namespace crs.",
+      "newDescription": "ALWAYS use this when the user mentions Debug Buttercup, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Debug Buttercup; scope: All pods run in namespace crs. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "django-access-review",
+      "oldTail": "django-access-review",
+      "newDescription": "ALWAYS use this when the user mentions Django Access Review, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Django Access Review; scope: Django Access Review work. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "django-perf-review",
+      "oldTail": "Django performance code review.",
+      "newDescription": "ALWAYS use this when the user mentions Django Perf Review, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Django Perf Review; scope: Django performance code review. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "dx-optimizer",
+      "oldTail": "Developer Experience specialist.",
+      "newDescription": "ALWAYS use this when the user mentions DX Optimizer, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on DX Optimizer; scope: Developer Experience specialist. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "expo-deployment",
+      "oldTail": "Deploy Expo apps to production",
+      "newDescription": "ALWAYS use this when the user mentions Expo Deployment, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Expo Deployment; scope: Deploy Expo apps to production. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "expo-ui-jetpack-compose",
+      "oldTail": "expo-ui-jetpack-compose",
+      "newDescription": "ALWAYS use this when the user mentions Expo UI Jetpack Compose, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Expo UI Jetpack Compose; scope: Expo UI Jetpack Compose work. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "expo-ui-swift-ui",
+      "oldTail": "expo-ui-swift-ui",
+      "newDescription": "ALWAYS use this when the user mentions Expo UI Swift UI, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Expo UI Swift UI; scope: Expo UI Swift UI work. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "faf-wizard",
+      "oldTail": "Done-for-you .faf generator.",
+      "newDescription": "ALWAYS use this when the user mentions FAF Wizard, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on FAF Wizard; scope: Done-for-you .faf generator. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "family-health-analyzer",
+      "oldTail": "\u5206\u6790\u5bb6\u65cf\u75c5\u53f2\u3001\u8bc4\u4f30\u9057\u4f20\u98ce\u9669\u3001\u8bc6\u522b\u5bb6\u5ead\u5065\u5eb7\u6a21\u5f0f\u3001\u63d0\u4f9b\u4e2a\u6027\u5316\u9884\u9632\u5efa\u8bae",
+      "newDescription": "ALWAYS use this when the user mentions Family Health Analyzer, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Family Health Analyzer; scope: \u5206\u6790\u5bb6\u65cf\u75c5\u53f2\u3001\u8bc4\u4f30\u9057\u4f20\u98ce\u9669\u3001\u8bc6\u522b\u5bb6\u5ead\u5065\u5eb7\u6a21\u5f0f\u3001\u63d0\u4f9b\u4e2a\u6027\u5316\u9884\u9632\u5efa\u8bae. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "ffuf-claude-skill",
+      "oldTail": "Web fuzzing with ffuf",
+      "newDescription": "ALWAYS use this when the user mentions Ffuf Claude Skill, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Ffuf Claude Skill; scope: Web fuzzing with ffuf. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "file-organizer",
+      "oldTail": "6.",
+      "newDescription": "ALWAYS use this when the user mentions File Organizer, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on File Organizer; scope: File Organizer work. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "food-database-query",
+      "oldTail": "Food Database Query",
+      "newDescription": "ALWAYS use this when the user mentions Food Database Query, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Food Database Query; scope: Food Database Query work. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "fp-either-ref",
+      "oldTail": "Quick reference for Either type.",
+      "newDescription": "ALWAYS use this when the user mentions FP Either REF, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on FP Either REF; scope: Quick reference for Either type. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "fp-option-ref",
+      "oldTail": "Quick reference for Option type.",
+      "newDescription": "ALWAYS use this when the user mentions FP Option REF, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on FP Option REF; scope: Quick reference for Option type. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "fp-pipe-ref",
+      "oldTail": "Quick reference for pipe and flow.",
+      "newDescription": "ALWAYS use this when the user mentions FP Pipe REF, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on FP Pipe REF; scope: Quick reference for pipe and flow. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "fp-taskeither-ref",
+      "oldTail": "Quick reference for TaskEither.",
+      "newDescription": "ALWAYS use this when the user mentions FP Taskeither REF, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on FP Taskeither REF; scope: Quick reference for TaskEither. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "fp-types-ref",
+      "oldTail": "Quick reference for fp-ts types.",
+      "newDescription": "ALWAYS use this when the user mentions FP Types REF, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on FP Types REF; scope: Quick reference for fp-ts types. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "game-art",
+      "oldTail": "Game art principles.",
+      "newDescription": "ALWAYS use this when the user mentions Game ART, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Game ART; scope: Game art principles. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "game-audio",
+      "oldTail": "Game audio principles.",
+      "newDescription": "ALWAYS use this when the user mentions Game Audio, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Game Audio; scope: Game audio principles. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "game-design",
+      "oldTail": "Game design principles.",
+      "newDescription": "ALWAYS use this when the user mentions Game Design, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Game Design; scope: Game design principles. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "iterate-pr",
+      "oldTail": "Iterate on a PR until CI passes.",
+      "newDescription": "ALWAYS use this when the user mentions Iterate PR, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Iterate PR; scope: Iterate on a PR until CI passes. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "m365-agents-dotnet",
+      "oldTail": "Microsoft 365 Agents SDK for .NET.",
+      "newDescription": "ALWAYS use this when the user mentions M365 Agents Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on M365 Agents Dotnet; scope: Microsoft 365 Agents SDK for .NET. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "new-rails-project",
+      "oldTail": "Create a new Rails project",
+      "newDescription": "ALWAYS use this when the user mentions NEW Rails Project, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on NEW Rails Project; scope: Create a new Rails project. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "nextjs-best-practices",
+      "oldTail": "Next.js App Router principles.",
+      "newDescription": "ALWAYS use this when the user mentions Nextjs Best Practices, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Nextjs Best Practices; scope: Next.js App Router principles. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "performance-profiling",
+      "oldTail": "Performance profiling principles.",
+      "newDescription": "ALWAYS use this when the user mentions Performance Profiling, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Performance Profiling; scope: Performance profiling principles. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "phase-gated-debugging",
+      "oldTail": "Use when debugging any bug.",
+      "newDescription": "ALWAYS use this when the user mentions Phase Gated Debugging, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Phase Gated Debugging; scope: Use when debugging any bug. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "plotly",
+      "oldTail": "Interactive visualization library.",
+      "newDescription": "ALWAYS use this when the user mentions Plotly, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Plotly; scope: Interactive visualization library. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "powershell-windows",
+      "oldTail": "PowerShell Windows patterns.",
+      "newDescription": "ALWAYS use this when the user mentions Powershell Windows, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Powershell Windows; scope: PowerShell Windows patterns. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "pubmed-database",
+      "oldTail": "Direct REST API access to PubMed.",
+      "newDescription": "ALWAYS use this when the user mentions Pubmed Database, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Pubmed Database; scope: Direct REST API access to PubMed. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "pypict-skill",
+      "oldTail": "Pairwise test generation",
+      "newDescription": "ALWAYS use this when the user mentions Pypict Skill, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Pypict Skill; scope: Pairwise test generation. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "rehabilitation-analyzer",
+      "oldTail": "\u5206\u6790\u5eb7\u590d\u8bad\u7ec3\u6570\u636e\u3001\u8bc6\u522b\u5eb7\u590d\u6a21\u5f0f\u3001\u8bc4\u4f30\u5eb7\u590d\u8fdb\u5c55\uff0c\u5e76\u63d0\u4f9b\u4e2a\u6027\u5316\u5eb7\u590d\u5efa\u8bae",
+      "newDescription": "ALWAYS use this when the user mentions Rehabilitation Analyzer, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Rehabilitation Analyzer; scope: \u5206\u6790\u5eb7\u590d\u8bad\u7ec3\u6570\u636e\u3001\u8bc6\u522b\u5eb7\u590d\u6a21\u5f0f\u3001\u8bc4\u4f30\u5eb7\u590d\u8fdb\u5c55\uff0c\u5e76\u63d0\u4f9b\u4e2a\u6027\u5316\u5eb7\u590d\u5efa\u8bae. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "sexual-health-analyzer",
+      "oldTail": "Sexual Health Analyzer",
+      "newDescription": "ALWAYS use this when the user mentions Sexual Health Analyzer, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Sexual Health Analyzer; scope: Sexual Health Analyzer work. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "sharp-edges",
+      "oldTail": "sharp-edges",
+      "newDescription": "ALWAYS use this when the user mentions Sharp Edges, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Sharp Edges; scope: Sharp Edges work. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "speckit-updater",
+      "oldTail": "SpecKit Safe Update",
+      "newDescription": "ALWAYS use this when the user mentions Speckit Updater, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Speckit Updater; scope: SpecKit Safe Update. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "speed",
+      "oldTail": "Launch RSVP speed reader for text",
+      "newDescription": "ALWAYS use this when the user mentions Speed, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Speed; scope: Launch RSVP speed reader for text. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "tailwind-patterns",
+      "oldTail": "Tailwind CSS v4 principles.",
+      "newDescription": "ALWAYS use this when the user mentions Tailwind Patterns, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Tailwind Patterns; scope: Tailwind CSS v4 principles. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "uniprot-database",
+      "oldTail": "Direct REST API access to UniProt.",
+      "newDescription": "ALWAYS use this when the user mentions Uniprot Database, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Uniprot Database; scope: Direct REST API access to UniProt. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "upgrading-expo",
+      "oldTail": "Upgrade Expo SDK versions",
+      "newDescription": "ALWAYS use this when the user mentions Upgrading Expo, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Upgrading Expo; scope: Upgrade Expo SDK versions. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "vercel-ai-sdk-expert",
+      "oldTail": "Expert in the Vercel AI SDK.",
+      "newDescription": "ALWAYS use this when the user mentions Vercel AI SDK Expert, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Vercel AI SDK Expert; scope: Expert in the Vercel AI SDK. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "vr-ar",
+      "oldTail": "VR/AR development principles.",
+      "newDescription": "ALWAYS use this when the user mentions VR AR, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on VR AR; scope: VR/AR development principles. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "weightloss-analyzer",
+      "oldTail": "\u5206\u6790\u51cf\u80a5\u6570\u636e\u3001\u8ba1\u7b97\u4ee3\u8c22\u7387\u3001\u8ffd\u8e2a\u80fd\u91cf\u7f3a\u53e3\u3001\u7ba1\u7406\u51cf\u80a5\u9636\u6bb5",
+      "newDescription": "ALWAYS use this when the user mentions Weightloss Analyzer, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Weightloss Analyzer; scope: \u5206\u6790\u51cf\u80a5\u6570\u636e\u3001\u8ba1\u7b97\u4ee3\u8c22\u7387\u3001\u8ffd\u8e2a\u80fd\u91cf\u7f3a\u53e3\u3001\u7ba1\u7406\u51cf\u80a5\u9636\u6bb5. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "x-article-publisher-skill",
+      "oldTail": "Publish articles to X/Twitter",
+      "newDescription": "ALWAYS use this when the user mentions X Article Publisher Skill, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on X Article Publisher Skill; scope: Publish articles to X/Twitter. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    },
+    {
+      "skill": "yann-lecun-tecnico",
+      "oldTail": "Sub-skill t\u00e9cnica de Yann LeCun.",
+      "newDescription": "ALWAYS use this when the user mentions Yann Lecun Tecnico, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Yann Lecun Tecnico; scope: Sub-skill t\u00e9cnica de Yann LeCun. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output."
+    }
+  ],
+  "errors": []
+}

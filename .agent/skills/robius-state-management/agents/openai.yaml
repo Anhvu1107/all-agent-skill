@@ -1,0 +1,8 @@
+interface:
+  display_name: "Robius State Management"
+  short_description: "ALWAYS use this when the request matches Robius State Management: CRITICAL: Use for Robius state management patterns."
+  brand_color: "#EA580C"
+  default_prompt: "Use $robius-state-management to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

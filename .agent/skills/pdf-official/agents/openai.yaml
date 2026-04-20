@@ -1,0 +1,8 @@
+interface:
+  display_name: "PDF Official"
+  short_description: "ALWAYS use this when the user needs an official-style PDF workflow for extraction, manipulation, validation, forms, or OCR-aware document handling."
+  brand_color: "#374151"
+  default_prompt: "Use $pdf-official to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

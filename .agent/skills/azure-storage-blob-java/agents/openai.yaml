@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Storage Blob Java"
+  short_description: "ALWAYS use this when the request matches Azure Storage Blob Java: Build blob storage applications using the Azure Storage Blob SDK for Java."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $azure-storage-blob-java to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

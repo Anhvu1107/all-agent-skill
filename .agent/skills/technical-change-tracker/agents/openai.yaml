@@ -1,0 +1,8 @@
+interface:
+  display_name: "Technical Change Tracker"
+  short_description: "ALWAYS use this when the request matches Technical Change Tracker: Track code changes with structured JSON records, state machine enforcement, and AI..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $technical-change-tracker to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

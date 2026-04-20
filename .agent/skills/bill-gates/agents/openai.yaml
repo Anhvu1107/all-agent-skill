@@ -1,0 +1,8 @@
+interface:
+  display_name: "Bill Gates"
+  short_description: "ALWAYS use this when the request matches Bill Gates: Agente que simula Bill Gates — cofundador da Microsoft, arquiteto da industria de software comer..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $bill-gates to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

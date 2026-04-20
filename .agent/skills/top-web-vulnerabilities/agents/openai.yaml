@@ -1,0 +1,8 @@
+interface:
+  display_name: "TOP WEB Vulnerabilities"
+  short_description: "ALWAYS use this when the request matches TOP WEB Vulnerabilities: Provide a comprehensive, structured reference for the 100 most critical web applica..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $top-web-vulnerabilities to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO AEO Blog Writer"
+  short_description: "ALWAYS use this when the request matches SEO AEO Blog Writer: Writes long-form blog posts with TL;DR block, definition sentence, comparison table, an..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $seo-aeo-blog-writer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

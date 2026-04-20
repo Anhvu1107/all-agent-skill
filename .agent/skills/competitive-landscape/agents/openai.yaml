@@ -1,0 +1,8 @@
+interface:
+  display_name: "Competitive Landscape"
+  short_description: "ALWAYS use this when the request matches Competitive Landscape: Comprehensive frameworks for analyzing competition, identifying differentiation oppor..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $competitive-landscape to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Makepad Font"
+  short_description: "ALWAYS use this when the request matches Makepad Font: CRITICAL: Use for Makepad font and text rendering."
+  brand_color: "#2563EB"
+  default_prompt: "Use $makepad-font to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

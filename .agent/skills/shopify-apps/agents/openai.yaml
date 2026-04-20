@@ -1,0 +1,8 @@
+interface:
+  display_name: "Shopify Apps"
+  short_description: "ALWAYS use this when the request matches Shopify Apps: Expert patterns for Shopify app development including Remix/React Router apps, embedded apps w..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $shopify-apps to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

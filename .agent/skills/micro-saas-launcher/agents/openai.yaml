@@ -1,0 +1,8 @@
+interface:
+  display_name: "Micro Saas Launcher"
+  short_description: "ALWAYS use this when the request matches Micro Saas Launcher: Expert in launching small, focused SaaS products fast - the indie hacker approach to bu..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $micro-saas-launcher to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

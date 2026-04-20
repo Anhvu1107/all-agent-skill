@@ -1,0 +1,8 @@
+interface:
+  display_name: "Bdistill Behavioral Xray"
+  short_description: "ALWAYS use this when the request matches Bdistill Behavioral Xray: X-ray any AI model's behavioral patterns — refusal boundaries, hallucination tende..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $bdistill-behavioral-xray to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

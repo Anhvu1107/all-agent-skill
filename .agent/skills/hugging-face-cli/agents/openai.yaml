@@ -1,0 +1,8 @@
+interface:
+  display_name: "Hugging Face CLI"
+  short_description: "ALWAYS use this when the request matches Hugging Face CLI: Use the Hugging Face Hub CLI (`hf`) to download, upload, and manage models, datasets, and..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $hugging-face-cli to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

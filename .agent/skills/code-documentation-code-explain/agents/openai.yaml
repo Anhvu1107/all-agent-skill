@@ -1,0 +1,8 @@
+interface:
+  display_name: "Code Documentation Code Explain"
+  short_description: "ALWAYS use this when the request matches Code Documentation Code Explain: You are a code education expert specializing in explaining complex code thr..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $code-documentation-code-explain to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

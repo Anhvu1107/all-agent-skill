@@ -1,0 +1,8 @@
+interface:
+  display_name: "Workflow Orchestration Patterns"
+  short_description: "ALWAYS use this when the request matches Workflow Orchestration Patterns: Master workflow orchestration architecture with Temporal, covering fundamen..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $workflow-orchestration-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

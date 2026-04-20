@@ -1,0 +1,8 @@
+interface:
+  display_name: "20 Andruia Niche Intelligence"
+  short_description: "ALWAYS use this when the request matches 20 Andruia Niche Intelligence: Estratega de Inteligencia de Dominio de Andru.ia."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $20-andruia-niche-intelligence to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

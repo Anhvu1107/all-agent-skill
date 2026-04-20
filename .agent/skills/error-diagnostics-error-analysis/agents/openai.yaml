@@ -1,0 +1,8 @@
+interface:
+  display_name: "Error Diagnostics Error Analysis"
+  short_description: "ALWAYS use this when the request matches Error Diagnostics Error Analysis: You are an expert error analysis specialist with deep expertise in debuggi..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $error-diagnostics-error-analysis to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

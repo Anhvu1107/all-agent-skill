@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO Plan"
+  short_description: "ALWAYS use this when the request matches SEO Plan: Strategic SEO planning for new or existing websites."
+  brand_color: "#0F766E"
+  default_prompt: "Use $seo-plan to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

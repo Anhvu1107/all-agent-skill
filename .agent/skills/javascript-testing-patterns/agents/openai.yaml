@@ -1,0 +1,8 @@
+interface:
+  display_name: "Javascript Testing Patterns"
+  short_description: "ALWAYS use this when the request matches Javascript Testing Patterns: Comprehensive guide for implementing robust testing strategies in JavaScript/Ty..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $javascript-testing-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

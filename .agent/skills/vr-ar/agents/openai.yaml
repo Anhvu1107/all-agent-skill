@@ -1,0 +1,8 @@
+interface:
+  display_name: "VR AR"
+  short_description: "ALWAYS use this when the user mentions VR AR, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this d..."
+  brand_color: "#15803D"
+  default_prompt: "Use $vr-ar to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

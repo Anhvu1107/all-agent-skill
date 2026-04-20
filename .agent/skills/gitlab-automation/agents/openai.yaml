@@ -1,0 +1,8 @@
+interface:
+  display_name: "Gitlab Automation"
+  short_description: "ALWAYS use this when the request matches Gitlab Automation: Automate GitLab project management, issues, merge requests, pipelines, branches, and user..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $gitlab-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Hybrid Cloud Networking"
+  short_description: "ALWAYS use this when the request matches Hybrid Cloud Networking: Configure secure, high-performance connectivity between on-premises and cloud envir..."
+  brand_color: "#374151"
+  default_prompt: "Use $hybrid-cloud-networking to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "FAL Platform"
+  short_description: "ALWAYS use this when the request matches FAL Platform: Platform APIs for model management, pricing, and usage tracking"
+  brand_color: "#0F766E"
+  default_prompt: "Use $fal-platform to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

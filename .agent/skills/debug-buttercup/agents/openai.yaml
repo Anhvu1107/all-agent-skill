@@ -1,0 +1,8 @@
+interface:
+  display_name: "Debug Buttercup"
+  short_description: "ALWAYS use this when the user mentions Debug Buttercup, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $debug-buttercup to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Project Development"
+  short_description: "ALWAYS use this when the request matches Project Development: This skill covers the principles for identifying tasks suited to LLM processing, design..."
+  brand_color: "#374151"
+  default_prompt: "Use $project-development to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

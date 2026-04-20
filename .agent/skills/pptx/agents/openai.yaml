@@ -1,0 +1,8 @@
+interface:
+  display_name: "Pptx"
+  short_description: "ALWAYS use this when the user needs a slide deck created, edited, inspected, templated, split, merged, or validated, including any mention of slides..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $pptx to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

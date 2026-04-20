@@ -1,0 +1,8 @@
+interface:
+  display_name: "GDB CLI"
+  short_description: "ALWAYS use this when the request matches GDB CLI: GDB debugging assistant for AI agents - analyze core dumps, debug live processes, investigate crash..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $gdb-cli to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

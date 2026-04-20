@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO Sitemap"
+  short_description: "ALWAYS use this when the request matches SEO Sitemap: Analyze existing XML sitemaps or generate new ones with industry templates."
+  brand_color: "#EA580C"
+  default_prompt: "Use $seo-sitemap to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

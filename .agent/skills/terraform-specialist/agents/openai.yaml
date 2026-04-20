@@ -1,0 +1,8 @@
+interface:
+  display_name: "Terraform Specialist"
+  short_description: "ALWAYS use this when the request matches Terraform Specialist: Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state manageme..."
+  brand_color: "#15803D"
+  default_prompt: "Use $terraform-specialist to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

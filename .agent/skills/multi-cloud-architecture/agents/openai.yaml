@@ -1,0 +1,8 @@
+interface:
+  display_name: "Multi Cloud Architecture"
+  short_description: "ALWAYS use this when the request matches Multi Cloud Architecture: Decision framework and patterns for architecting applications across AWS, Azure, a..."
+  brand_color: "#15803D"
+  default_prompt: "Use $multi-cloud-architecture to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

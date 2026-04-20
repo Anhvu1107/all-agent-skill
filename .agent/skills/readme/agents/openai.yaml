@@ -1,0 +1,8 @@
+interface:
+  display_name: "Readme"
+  short_description: "ALWAYS use this when the request matches Readme: You are an expert technical writer creating comprehensive project documentation."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $readme to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

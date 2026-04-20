@@ -1,0 +1,8 @@
+interface:
+  display_name: "Slack Automation"
+  short_description: "ALWAYS use this when the request matches Slack Automation: Automate Slack workspace operations including messaging, search, channel management, and r..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $slack-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

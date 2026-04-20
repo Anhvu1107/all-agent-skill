@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO Cannibalization Detector"
+  short_description: "ALWAYS use this when the request matches SEO Cannibalization Detector: Analyzes multiple provided pages to identify keyword overlap and potential can..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $seo-cannibalization-detector to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

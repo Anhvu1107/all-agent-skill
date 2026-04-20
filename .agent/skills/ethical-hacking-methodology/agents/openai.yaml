@@ -1,0 +1,8 @@
+interface:
+  display_name: "Ethical Hacking Methodology"
+  short_description: "ALWAYS use this when the request matches Ethical Hacking Methodology: Master the complete penetration testing lifecycle from reconnaissance through r..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $ethical-hacking-methodology to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

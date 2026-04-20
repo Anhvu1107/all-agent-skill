@@ -1,0 +1,8 @@
+interface:
+  display_name: "Code Review Excellence"
+  short_description: "ALWAYS use this when the request matches Code Review Excellence: Transform code reviews from gatekeeping to knowledge sharing through constructive fe..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $code-review-excellence to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

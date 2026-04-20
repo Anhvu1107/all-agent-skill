@@ -1,0 +1,8 @@
+interface:
+  display_name: "Mobile Design"
+  short_description: "ALWAYS use this when the request is about mobile app screens, flows, native-feeling layouts, touch ergonomics, or platform-aware product UI for phone..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $mobile-design to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

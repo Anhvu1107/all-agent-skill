@@ -1,0 +1,8 @@
+interface:
+  display_name: "Apify Lead Generation"
+  short_description: "ALWAYS use this when the request matches Apify Lead Generation: Scrape leads from multiple platforms using Apify Actors."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $apify-lead-generation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Makepad Reference"
+  short_description: "ALWAYS use this when the request matches Makepad Reference: This category provides reference materials for debugging, code quality, and advanced layo..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $makepad-reference to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

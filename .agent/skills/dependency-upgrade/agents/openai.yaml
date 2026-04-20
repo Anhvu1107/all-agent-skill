@@ -1,0 +1,8 @@
+interface:
+  display_name: "Dependency Upgrade"
+  short_description: "ALWAYS use this when the request matches Dependency Upgrade: Master major dependency version upgrades, compatibility analysis, staged upgrade strateg..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $dependency-upgrade to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

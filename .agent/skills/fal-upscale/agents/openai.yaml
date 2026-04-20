@@ -1,0 +1,8 @@
+interface:
+  display_name: "FAL Upscale"
+  short_description: "ALWAYS use this when the request matches FAL Upscale: Upscale and enhance image and video resolution using AI"
+  brand_color: "#0F766E"
+  default_prompt: "Use $fal-upscale to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

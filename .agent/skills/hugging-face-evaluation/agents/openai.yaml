@@ -1,0 +1,8 @@
+interface:
+  display_name: "Hugging Face Evaluation"
+  short_description: "ALWAYS use this when the request matches Hugging Face Evaluation: Add and manage evaluation results in Hugging Face model cards."
+  brand_color: "#374151"
+  default_prompt: "Use $hugging-face-evaluation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

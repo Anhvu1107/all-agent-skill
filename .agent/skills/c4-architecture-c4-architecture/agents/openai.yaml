@@ -1,0 +1,8 @@
+interface:
+  display_name: "C4 Architecture C4 Architecture"
+  short_description: "ALWAYS use this when the request matches C4 Architecture C4 Architecture: Generate comprehensive C4 architecture documentation for an existing reposi..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $c4-architecture-c4-architecture to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

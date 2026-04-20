@@ -1,0 +1,8 @@
+interface:
+  display_name: "Error Debugging Multi Agent Review"
+  short_description: "ALWAYS use this when the request matches Error Debugging Multi Agent Review: Use when working with error debugging multi agent review"
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $error-debugging-multi-agent-review to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

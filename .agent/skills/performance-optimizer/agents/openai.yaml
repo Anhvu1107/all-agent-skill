@@ -1,0 +1,8 @@
+interface:
+  display_name: "Performance Optimizer"
+  short_description: "ALWAYS use this when the request matches Performance Optimizer: Identifies and fixes performance bottlenecks in code, databases, and APIs."
+  brand_color: "#BE123C"
+  default_prompt: "Use $performance-optimizer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

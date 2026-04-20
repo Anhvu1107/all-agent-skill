@@ -1,0 +1,8 @@
+interface:
+  display_name: "Lambdatest Agent Skills"
+  short_description: "ALWAYS use this when the request matches Lambdatest Agent Skills: Production-grade test automation skills for 46 frameworks across E2E, unit, mobile..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $lambdatest-agent-skills to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

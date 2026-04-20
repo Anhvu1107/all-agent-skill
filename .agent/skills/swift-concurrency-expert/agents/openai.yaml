@@ -1,0 +1,8 @@
+interface:
+  display_name: "Swift Concurrency Expert"
+  short_description: "ALWAYS use this when the request matches Swift Concurrency Expert: Review and fix Swift concurrency issues such as actor isolation and Sendable viola..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $swift-concurrency-expert to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

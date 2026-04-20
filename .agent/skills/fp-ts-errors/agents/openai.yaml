@@ -1,0 +1,8 @@
+interface:
+  display_name: "FP TS Errors"
+  short_description: "ALWAYS use this when the request matches FP TS Errors: Handle errors as values using fp-ts Either and TaskEither for cleaner, more predictable TypeSc..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $fp-ts-errors to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

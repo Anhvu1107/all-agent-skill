@@ -1,0 +1,8 @@
+interface:
+  display_name: "Apify Actorization"
+  short_description: "ALWAYS use this when the request matches Apify Actorization: Actorization converts existing software into reusable serverless applications compatible..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $apify-actorization to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

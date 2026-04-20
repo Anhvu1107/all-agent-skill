@@ -1,0 +1,8 @@
+interface:
+  display_name: "Makepad Basics"
+  short_description: "ALWAYS use this when the request matches Makepad Basics: CRITICAL: Use for Makepad getting started and app structure."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $makepad-basics to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

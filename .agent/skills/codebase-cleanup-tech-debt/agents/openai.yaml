@@ -1,0 +1,8 @@
+interface:
+  display_name: "Codebase Cleanup Tech Debt"
+  short_description: "ALWAYS use this when the request matches Codebase Cleanup Tech Debt: You are a technical debt expert specializing in identifying, quantifying, and pr..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $codebase-cleanup-tech-debt to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

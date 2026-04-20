@@ -1,0 +1,8 @@
+interface:
+  display_name: "Deployment Engineer"
+  short_description: "ALWAYS use this when the request matches Deployment Engineer: Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, an..."
+  brand_color: "#374151"
+  default_prompt: "Use $deployment-engineer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

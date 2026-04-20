@@ -1,0 +1,8 @@
+interface:
+  display_name: "3d Games"
+  short_description: "ALWAYS use this when the user mentions 3d Games, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in thi..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $3d-games to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Shader Programming Glsl"
+  short_description: "ALWAYS use this when the request matches Shader Programming Glsl: Expert guide for writing efficient GLSL shaders (Vertex/Fragment) for web and game..."
+  brand_color: "#374151"
+  default_prompt: "Use $shader-programming-glsl to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

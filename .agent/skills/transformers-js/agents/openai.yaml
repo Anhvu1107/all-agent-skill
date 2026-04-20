@@ -1,0 +1,8 @@
+interface:
+  display_name: "Transformers JS"
+  short_description: "ALWAYS use this when the request matches Transformers JS: Run Hugging Face models in JavaScript or TypeScript with Transformers.js in Node.js or the..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $transformers-js to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

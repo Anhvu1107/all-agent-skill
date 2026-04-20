@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO Hreflang"
+  short_description: "ALWAYS use this when the request matches SEO Hreflang: Hreflang and international SEO audit, validation, and generation."
+  brand_color: "#15803D"
+  default_prompt: "Use $seo-hreflang to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

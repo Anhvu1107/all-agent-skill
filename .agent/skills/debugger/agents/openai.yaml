@@ -1,0 +1,8 @@
+interface:
+  display_name: "Debugger"
+  short_description: "ALWAYS use this when the request matches Debugger: Debugging specialist for errors, test failures, and unexpected behavior."
+  brand_color: "#15803D"
+  default_prompt: "Use $debugger to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

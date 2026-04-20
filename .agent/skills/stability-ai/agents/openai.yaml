@@ -1,0 +1,8 @@
+interface:
+  display_name: "Stability AI"
+  short_description: "ALWAYS use this when the request matches Stability AI: Geracao de imagens via Stability AI (SD3.5, Ultra, Core)."
+  brand_color: "#BE123C"
+  default_prompt: "Use $stability-ai to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Variant Analysis"
+  short_description: "ALWAYS use this when the request matches Variant Analysis: Find similar vulnerabilities and bugs across codebases using pattern-based analysis."
+  brand_color: "#0F766E"
+  default_prompt: "Use $variant-analysis to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

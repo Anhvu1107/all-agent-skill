@@ -1,0 +1,8 @@
+interface:
+  display_name: "Service Mesh Expert"
+  short_description: "ALWAYS use this when the request matches Service Mesh Expert: Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networki..."
+  brand_color: "#374151"
+  default_prompt: "Use $service-mesh-expert to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

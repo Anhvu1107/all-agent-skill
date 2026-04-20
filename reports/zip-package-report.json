@@ -1,0 +1,13 @@
+{
+  "archive": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra.zip",
+  "format": "zip",
+  "files": 12345,
+  "inputBytes": 76627308,
+  "archiveBytes": 40313597,
+  "excludedDirs": [
+    ".git",
+    "__pycache__",
+    "_upstreams"
+  ],
+  "zipIntegrityTestPassed": true
+}

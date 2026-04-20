@@ -1,0 +1,8 @@
+interface:
+  display_name: "Observability Monitoring Monitor Setup"
+  short_description: "ALWAYS use this when the request matches Observability Monitoring Monitor Setup: You are a monitoring and observability expert specializing in implem..."
+  brand_color: "#15803D"
+  default_prompt: "Use $observability-monitoring-monitor-setup to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

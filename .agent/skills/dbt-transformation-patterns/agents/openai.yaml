@@ -1,0 +1,8 @@
+interface:
+  display_name: "DBT Transformation Patterns"
+  short_description: "ALWAYS use this when the request matches DBT Transformation Patterns: Production-ready patterns for dbt (data build tool) including model organizatio..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $dbt-transformation-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

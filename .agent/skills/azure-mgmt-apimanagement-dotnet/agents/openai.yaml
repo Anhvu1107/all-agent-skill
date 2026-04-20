@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Mgmt Apimanagement Dotnet"
+  short_description: "ALWAYS use this when the request matches Azure Mgmt Apimanagement Dotnet: Azure Resource Manager SDK for API Management in .NET."
+  brand_color: "#15803D"
+  default_prompt: "Use $azure-mgmt-apimanagement-dotnet to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

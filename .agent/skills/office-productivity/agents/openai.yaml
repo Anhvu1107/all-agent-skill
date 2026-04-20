@@ -1,0 +1,8 @@
+interface:
+  display_name: "Office Productivity"
+  short_description: "ALWAYS use this when the request matches Office Productivity: Office productivity workflow covering document creation, spreadsheet automation, presen..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $office-productivity to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

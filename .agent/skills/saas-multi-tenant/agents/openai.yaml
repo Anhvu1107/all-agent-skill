@@ -1,0 +1,8 @@
+interface:
+  display_name: "Saas Multi Tenant"
+  short_description: "ALWAYS use this when the request matches Saas Multi Tenant: Design and implement multi-tenant SaaS architectures with row-level security, tenant-scop..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $saas-multi-tenant to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

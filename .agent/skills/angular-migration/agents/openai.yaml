@@ -1,0 +1,8 @@
+interface:
+  display_name: "Angular Migration"
+  short_description: "ALWAYS use this when the request matches Angular Migration: Master AngularJS to Angular migration, including hybrid apps, component conversion, depen..."
+  brand_color: "#374151"
+  default_prompt: "Use $angular-migration to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Workflow Patterns"
+  short_description: "ALWAYS use this when the request matches Workflow Patterns: Use this skill when implementing tasks according to Conductor's TDD workflow, handling ph..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $workflow-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

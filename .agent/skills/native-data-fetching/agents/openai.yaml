@@ -1,0 +1,8 @@
+interface:
+  display_name: "Native Data Fetching"
+  short_description: "ALWAYS use this when the request matches Native Data Fetching: Use when implementing or debugging ANY network request, API call, or data fetching."
+  brand_color: "#0F172A"
+  default_prompt: "Use $native-data-fetching to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

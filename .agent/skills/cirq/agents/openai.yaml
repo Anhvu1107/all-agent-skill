@@ -1,0 +1,8 @@
+interface:
+  display_name: "Cirq"
+  short_description: "ALWAYS use this when the request matches Cirq: Cirq is Google Quantum AI's open-source framework for designing, simulating, and running quantum circu..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $cirq to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

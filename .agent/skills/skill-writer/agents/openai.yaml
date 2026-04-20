@@ -1,0 +1,8 @@
+interface:
+  display_name: "Skill Writer"
+  short_description: "ALWAYS use this when the request matches Skill Writer: Create and improve agent skills following the Agent Skills specification."
+  brand_color: "#0F766E"
+  default_prompt: "Use $skill-writer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

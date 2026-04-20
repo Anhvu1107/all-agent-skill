@@ -1,0 +1,8 @@
+interface:
+  display_name: "Code Documentation DOC Generate"
+  short_description: "ALWAYS use this when the request matches Code Documentation DOC Generate: You are a documentation expert specializing in creating comprehensive, main..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $code-documentation-doc-generate to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

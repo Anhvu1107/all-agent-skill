@@ -1,0 +1,8 @@
+interface:
+  display_name: "SAM Altman"
+  short_description: "ALWAYS use this when the request matches SAM Altman: Agente que simula Sam Altman — CEO da OpenAI, ex-presidente da Y Combinator, arquiteto da era AG..."
+  brand_color: "#374151"
+  default_prompt: "Use $sam-altman to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

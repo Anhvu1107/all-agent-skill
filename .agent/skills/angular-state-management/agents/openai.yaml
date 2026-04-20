@@ -1,0 +1,8 @@
+interface:
+  display_name: "Angular State Management"
+  short_description: "ALWAYS use this when the request matches Angular State Management: Master modern Angular state management with Signals, NgRx, and RxJS."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $angular-state-management to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

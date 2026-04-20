@@ -1,0 +1,8 @@
+interface:
+  display_name: "Context Compression"
+  short_description: "ALWAYS use this when the request matches Context Compression: When agent sessions generate millions of tokens of conversation history, compression be..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $context-compression to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Requesting Code Review"
+  short_description: "ALWAYS use this when a meaningful change is complete enough to need a review pass before merge, especially for major features, risky refactors, or wo..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $requesting-code-review to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Fixing Metadata"
+  short_description: "ALWAYS use this when the request matches Fixing Metadata: Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open..."
+  brand_color: "#15803D"
+  default_prompt: "Use $fixing-metadata to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

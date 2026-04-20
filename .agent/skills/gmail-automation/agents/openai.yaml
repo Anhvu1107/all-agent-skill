@@ -1,0 +1,8 @@
+interface:
+  display_name: "Gmail Automation"
+  short_description: "ALWAYS use this when the request matches Gmail Automation: Lightweight Gmail integration with standalone OAuth authentication."
+  brand_color: "#374151"
+  default_prompt: "Use $gmail-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

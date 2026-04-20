@@ -1,0 +1,8 @@
+interface:
+  display_name: "M365 Agents TS"
+  short_description: "ALWAYS use this when the request matches M365 Agents TS: Microsoft 365 Agents SDK for TypeScript/Node.js."
+  brand_color: "#374151"
+  default_prompt: "Use $m365-agents-ts to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

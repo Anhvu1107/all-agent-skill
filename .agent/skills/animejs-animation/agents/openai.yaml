@@ -1,0 +1,8 @@
+interface:
+  display_name: "Animejs Animation"
+  short_description: "ALWAYS use this when the request matches Animejs Animation: Advanced JavaScript animation library skill for creating complex, high-performance web an..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $animejs-animation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

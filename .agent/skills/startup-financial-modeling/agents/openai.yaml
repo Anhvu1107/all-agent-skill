@@ -1,0 +1,8 @@
+interface:
+  display_name: "Startup Financial Modeling"
+  short_description: "ALWAYS use this when the request matches Startup Financial Modeling: Build comprehensive 3-5 year financial models with revenue projections, cost str..."
+  brand_color: "#374151"
+  default_prompt: "Use $startup-financial-modeling to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

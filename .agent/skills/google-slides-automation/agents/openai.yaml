@@ -1,0 +1,8 @@
+interface:
+  display_name: "Google Slides Automation"
+  short_description: "ALWAYS use this when the request matches Google Slides Automation: Lightweight Google Slides integration with standalone OAuth authentication."
+  brand_color: "#0F172A"
+  default_prompt: "Use $google-slides-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

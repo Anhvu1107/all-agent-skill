@@ -1,0 +1,8 @@
+interface:
+  display_name: "Dbos Golang"
+  short_description: "ALWAYS use this when the request matches Dbos Golang: Guide for building reliable, fault-tolerant Go applications with DBOS durable workflows."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $dbos-golang to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

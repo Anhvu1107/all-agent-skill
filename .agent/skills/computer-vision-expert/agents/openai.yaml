@@ -1,0 +1,8 @@
+interface:
+  display_name: "Computer Vision Expert"
+  short_description: "ALWAYS use this when the request matches Computer Vision Expert: SOTA Computer Vision Expert (2026)."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $computer-vision-expert to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

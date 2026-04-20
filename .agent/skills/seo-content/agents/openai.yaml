@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO Content"
+  short_description: "ALWAYS use this when the request matches SEO Content: Content quality and E-E-A-T analysis with AI citation readiness assessment."
+  brand_color: "#BE123C"
+  default_prompt: "Use $seo-content to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Game Development VR AR"
+  short_description: "ALWAYS use this when the user or an upstream archive refers to `game-development-vr-ar`, the nested skill path form for `vr-ar`, or the equivalent sl..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $game-development-vr-ar to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

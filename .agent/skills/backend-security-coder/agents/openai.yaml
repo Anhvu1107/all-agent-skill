@@ -1,0 +1,8 @@
+interface:
+  display_name: "Backend Security Coder"
+  short_description: "ALWAYS use this when the request matches Backend Security Coder: Expert in secure backend coding practices specializing in input validation, authenti..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $backend-security-coder to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Qiskit"
+  short_description: "ALWAYS use this when the request matches Qiskit: Qiskit is the world's most popular open-source quantum computing framework with 13M+ downloads."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $qiskit to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

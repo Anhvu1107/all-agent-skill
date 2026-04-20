@@ -1,0 +1,8 @@
+interface:
+  display_name: "Canvas Design"
+  short_description: "ALWAYS use this when the output is a designed bitmap or canvas artifact such as posters, social graphics, composed visuals, or branded image assets r..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $canvas-design to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

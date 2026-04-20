@@ -1,0 +1,8 @@
+interface:
+  display_name: "Puzzle Activity Planner"
+  short_description: "ALWAYS use this when the request matches Puzzle Activity Planner: Plan puzzle-based activities for classrooms, parties, and events with pre-configure..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $puzzle-activity-planner to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

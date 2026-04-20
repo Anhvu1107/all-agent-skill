@@ -1,0 +1,428 @@
+{
+  "bundleRoot": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra",
+  "skillsRoot": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills",
+  "rawSkillMd": 4547,
+  "uniqueRawSlugs": 1437,
+  "canonicalSkillDirs": 1462,
+  "representedRawSlugs": 1437,
+  "missingUniqueRawSlugs": 0,
+  "missingSlugs": [],
+  "rawEntriesCovered": 4547,
+  "rawEntriesUncovered": 0,
+  "uncoveredRawEntries": [],
+  "duplicateRawSlugGroups": 1419,
+  "duplicateRawEntries": 3110,
+  "sourceCounts": {
+    "agent-archive": 48,
+    "antigravity-plugin": 3036,
+    "antigravity-skills": 1431,
+    "main": 18,
+    "superpowers": 14
+  },
+  "importedThisRun": [
+    {
+      "slug": "2d-games",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\2d-games",
+      "selectedSource": "_upstreams\\antigravity\\skills\\game-development\\2d-games\\SKILL.md",
+      "rawEntryCount": 5,
+      "variantSources": [
+        "_upstreams\\agent-archive\\.agent\\skills\\game-development\\2d-games\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\game-development\\2d-games\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\game-development\\2d-games\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-bundle-indie-game-dev\\skills\\game-development\\2d-games\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\game-development\\2d-games\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "3d-games",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\3d-games",
+      "selectedSource": "_upstreams\\antigravity\\skills\\game-development\\3d-games\\SKILL.md",
+      "rawEntryCount": 5,
+      "variantSources": [
+        "_upstreams\\agent-archive\\.agent\\skills\\game-development\\3d-games\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\game-development\\3d-games\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\game-development\\3d-games\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-bundle-indie-game-dev\\skills\\game-development\\3d-games\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\game-development\\3d-games\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "analyze-project",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\analyze-project",
+      "selectedSource": "_upstreams\\antigravity\\skills\\analyze-project\\SKILL.md",
+      "rawEntryCount": 1,
+      "variantSources": [
+        "_upstreams\\antigravity\\skills\\analyze-project\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "android-ui-verification",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\android-ui-verification",
+      "selectedSource": "_upstreams\\antigravity\\skills\\android_ui_verification\\SKILL.md",
+      "rawEntryCount": 3,
+      "variantSources": [
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\android_ui_verification\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\android_ui_verification\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\android_ui_verification\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "audit-skills",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\audit-skills",
+      "selectedSource": "_upstreams\\antigravity\\skills\\audit-skills\\SKILL.md",
+      "rawEntryCount": 1,
+      "variantSources": [
+        "_upstreams\\antigravity\\skills\\audit-skills\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "auri-core",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\auri-core",
+      "selectedSource": "_upstreams\\antigravity\\skills\\auri-core\\SKILL.md",
+      "rawEntryCount": 1,
+      "variantSources": [
+        "_upstreams\\antigravity\\skills\\auri-core\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "aws-compliance-checker",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\aws-compliance-checker",
+      "selectedSource": "_upstreams\\antigravity\\skills\\security\\aws-compliance-checker\\SKILL.md",
+      "rawEntryCount": 3,
+      "variantSources": [
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\security\\aws-compliance-checker\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\security\\aws-compliance-checker\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\security\\aws-compliance-checker\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "aws-iam-best-practices",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\aws-iam-best-practices",
+      "selectedSource": "_upstreams\\antigravity\\skills\\security\\aws-iam-best-practices\\SKILL.md",
+      "rawEntryCount": 3,
+      "variantSources": [
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\security\\aws-iam-best-practices\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\security\\aws-iam-best-practices\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\security\\aws-iam-best-practices\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "aws-secrets-rotation",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\aws-secrets-rotation",
+      "selectedSource": "_upstreams\\antigravity\\skills\\security\\aws-secrets-rotation\\SKILL.md",
+      "rawEntryCount": 3,
+      "variantSources": [
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\security\\aws-secrets-rotation\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\security\\aws-secrets-rotation\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\security\\aws-secrets-rotation\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "aws-security-audit",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\aws-security-audit",
+      "selectedSource": "_upstreams\\antigravity\\skills\\security\\aws-security-audit\\SKILL.md",
+      "rawEntryCount": 3,
+      "variantSources": [
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\security\\aws-security-audit\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\security\\aws-security-audit\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\security\\aws-security-audit\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "base",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\base",
+      "selectedSource": "_upstreams\\antigravity\\skills\\libreoffice\\base\\SKILL.md",
+      "rawEntryCount": 3,
+      "variantSources": [
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\libreoffice\\base\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\libreoffice\\base\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\libreoffice\\base\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "blockrun",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\blockrun",
+      "selectedSource": "_upstreams\\antigravity\\skills\\blockrun\\SKILL.md",
+      "rawEntryCount": 1,
+      "variantSources": [
+        "_upstreams\\antigravity\\skills\\blockrun\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "calc",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\calc",
+      "selectedSource": "_upstreams\\antigravity\\skills\\libreoffice\\calc\\SKILL.md",
+      "rawEntryCount": 3,
+      "variantSources": [
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\libreoffice\\calc\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\libreoffice\\calc\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\libreoffice\\calc\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "claude-code-expert",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\claude-code-expert",
+      "selectedSource": "_upstreams\\antigravity\\skills\\claude-code-expert\\SKILL.md",
+      "rawEntryCount": 1,
+      "variantSources": [
+        "_upstreams\\antigravity\\skills\\claude-code-expert\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "claude-in-chrome-troubleshooting",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\claude-in-chrome-troubleshooting",
+      "selectedSource": "_upstreams\\antigravity\\skills\\claude-in-chrome-troubleshooting\\SKILL.md",
+      "rawEntryCount": 1,
+      "variantSources": [
+        "_upstreams\\antigravity\\skills\\claude-in-chrome-troubleshooting\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "claude-settings-audit",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\claude-settings-audit",
+      "selectedSource": "_upstreams\\antigravity\\skills\\claude-settings-audit\\SKILL.md",
+      "rawEntryCount": 1,
+      "variantSources": [
+        "_upstreams\\antigravity\\skills\\claude-settings-audit\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "diary",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\diary",
+      "selectedSource": "_upstreams\\antigravity\\skills\\diary\\SKILL.md",
+      "rawEntryCount": 1,
+      "variantSources": [
+        "_upstreams\\antigravity\\skills\\diary\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "draw",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\draw",
+      "selectedSource": "_upstreams\\antigravity\\skills\\libreoffice\\draw\\SKILL.md",
+      "rawEntryCount": 3,
+      "variantSources": [
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\libreoffice\\draw\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\libreoffice\\draw\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\libreoffice\\draw\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "game-art",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\game-art",
+      "selectedSource": "_upstreams\\antigravity\\skills\\game-development\\game-art\\SKILL.md",
+      "rawEntryCount": 4,
+      "variantSources": [
+        "_upstreams\\agent-archive\\.agent\\skills\\game-development\\game-art\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\game-development\\game-art\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\game-development\\game-art\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\game-development\\game-art\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "game-audio",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\game-audio",
+      "selectedSource": "_upstreams\\antigravity\\skills\\game-development\\game-audio\\SKILL.md",
+      "rawEntryCount": 4,
+      "variantSources": [
+        "_upstreams\\agent-archive\\.agent\\skills\\game-development\\game-audio\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\game-development\\game-audio\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\game-development\\game-audio\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\game-development\\game-audio\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "game-design",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\game-design",
+      "selectedSource": "_upstreams\\antigravity\\skills\\game-development\\game-design\\SKILL.md",
+      "rawEntryCount": 5,
+      "variantSources": [
+        "_upstreams\\agent-archive\\.agent\\skills\\game-development\\game-design\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\game-development\\game-design\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\game-development\\game-design\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-bundle-indie-game-dev\\skills\\game-development\\game-design\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\game-development\\game-design\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "impress",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\impress",
+      "selectedSource": "_upstreams\\antigravity\\skills\\libreoffice\\impress\\SKILL.md",
+      "rawEntryCount": 3,
+      "variantSources": [
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\libreoffice\\impress\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\libreoffice\\impress\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\libreoffice\\impress\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "manage-skills",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\manage-skills",
+      "selectedSource": "_upstreams\\antigravity\\skills\\manage-skills\\SKILL.md",
+      "rawEntryCount": 1,
+      "variantSources": [
+        "_upstreams\\antigravity\\skills\\manage-skills\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "mobile-games",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\mobile-games",
+      "selectedSource": "_upstreams\\antigravity\\skills\\game-development\\mobile-games\\SKILL.md",
+      "rawEntryCount": 4,
+      "variantSources": [
+        "_upstreams\\agent-archive\\.agent\\skills\\game-development\\mobile-games\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\game-development\\mobile-games\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\game-development\\mobile-games\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\game-development\\mobile-games\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "molykit",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\molykit",
+      "selectedSource": "_upstreams\\antigravity\\skills\\molykit\\SKILL.md",
+      "rawEntryCount": 1,
+      "variantSources": [
+        "_upstreams\\antigravity\\skills\\molykit\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "multiplayer",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\multiplayer",
+      "selectedSource": "_upstreams\\antigravity\\skills\\game-development\\multiplayer\\SKILL.md",
+      "rawEntryCount": 4,
+      "variantSources": [
+        "_upstreams\\agent-archive\\.agent\\skills\\game-development\\multiplayer\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\game-development\\multiplayer\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\game-development\\multiplayer\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\game-development\\multiplayer\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "notebooklm",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\notebooklm",
+      "selectedSource": "_upstreams\\antigravity\\skills\\notebooklm\\SKILL.md",
+      "rawEntryCount": 1,
+      "variantSources": [
+        "_upstreams\\antigravity\\skills\\notebooklm\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "pc-games",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\pc-games",
+      "selectedSource": "_upstreams\\antigravity\\skills\\game-development\\pc-games\\SKILL.md",
+      "rawEntryCount": 4,
+      "variantSources": [
+        "_upstreams\\agent-archive\\.agent\\skills\\game-development\\pc-games\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\game-development\\pc-games\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\game-development\\pc-games\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\game-development\\pc-games\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "skill-optimizer",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\skill-optimizer",
+      "selectedSource": "_upstreams\\antigravity\\skills\\skill-optimizer\\SKILL.md",
+      "rawEntryCount": 1,
+      "variantSources": [
+        "_upstreams\\antigravity\\skills\\skill-optimizer\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "template-skill",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\template-skill",
+      "selectedSource": "_upstreams\\main\\template\\SKILL.md",
+      "rawEntryCount": 1,
+      "variantSources": [
+        "_upstreams\\main\\template\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "templates",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\templates",
+      "selectedSource": "_upstreams\\antigravity\\skills\\app-builder\\templates\\SKILL.md",
+      "rawEntryCount": 4,
+      "variantSources": [
+        "_upstreams\\agent-archive\\.agent\\skills\\app-builder\\templates\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\app-builder\\templates\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\app-builder\\templates\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\app-builder\\templates\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "vr-ar",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\vr-ar",
+      "selectedSource": "_upstreams\\antigravity\\skills\\game-development\\vr-ar\\SKILL.md",
+      "rawEntryCount": 4,
+      "variantSources": [
+        "_upstreams\\agent-archive\\.agent\\skills\\game-development\\vr-ar\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\game-development\\vr-ar\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\game-development\\vr-ar\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\game-development\\vr-ar\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "web-games",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\web-games",
+      "selectedSource": "_upstreams\\antigravity\\skills\\game-development\\web-games\\SKILL.md",
+      "rawEntryCount": 4,
+      "variantSources": [
+        "_upstreams\\agent-archive\\.agent\\skills\\game-development\\web-games\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\game-development\\web-games\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\game-development\\web-games\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\game-development\\web-games\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "writer",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\writer",
+      "selectedSource": "_upstreams\\antigravity\\skills\\libreoffice\\writer\\SKILL.md",
+      "rawEntryCount": 3,
+      "variantSources": [
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\libreoffice\\writer\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\libreoffice\\writer\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\libreoffice\\writer\\SKILL.md"
+      ]
+    },
+    {
+      "slug": "x402-express-wrapper",
+      "target": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra\\.agent\\skills\\x402-express-wrapper",
+      "selectedSource": "_upstreams\\antigravity\\skills\\skills\\x402-express-wrapper\\SKILL.md",
+      "rawEntryCount": 3,
+      "variantSources": [
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills-claude\\skills\\skills\\x402-express-wrapper\\SKILL.md",
+        "_upstreams\\antigravity\\plugins\\antigravity-awesome-skills\\skills\\skills\\x402-express-wrapper\\SKILL.md",
+        "_upstreams\\antigravity\\skills\\skills\\x402-express-wrapper\\SKILL.md"
+      ]
+    }
+  ],
+  "canonicalExtraSlugs": [
+    "app-builder-templates",
+    "game-development-2d-games",
+    "game-development-3d-games",
+    "game-development-game-art",
+    "game-development-game-audio",
+    "game-development-game-design",
+    "game-development-mobile-games",
+    "game-development-multiplayer",
+    "game-development-pc-games",
+    "game-development-vr-ar",
+    "game-development-web-games",
+    "libreoffice-base",
+    "libreoffice-calc",
+    "libreoffice-draw",
+    "libreoffice-impress",
+    "libreoffice-writer",
+    "nextjs-react-expert",
+    "security-aws-compliance-checker",
+    "security-aws-iam-best-practices",
+    "security-aws-secrets-rotation",
+    "security-aws-security-audit",
+    "skills-x402-express-wrapper",
+    "systems-engineering",
+    "template",
+    "workspace-operating-system"
+  ],
+  "canonicalExtraSlugCount": 25,
+  "allRawEntriesMapped": true,
+  "dedupeRule": "Raw upstream SKILL.md files are deduplicated by normalized frontmatter/folder slug so duplicate marketplace/plugin copies map to one canonical skill.",
+  "importedThisRunPreservedFromPreviousRun": true
+}

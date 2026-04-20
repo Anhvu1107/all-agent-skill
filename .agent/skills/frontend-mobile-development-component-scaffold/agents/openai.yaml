@@ -1,0 +1,8 @@
+interface:
+  display_name: "Frontend Mobile Development Component Scaffold"
+  short_description: "ALWAYS use this when the request matches Frontend Mobile Development Component Scaffold: You are a React component architecture expert specializing i..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $frontend-mobile-development-component-scaffold to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

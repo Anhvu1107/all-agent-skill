@@ -1,0 +1,8 @@
+interface:
+  display_name: "Angular UI Patterns"
+  short_description: "ALWAYS use this when the request matches Angular UI Patterns: Modern Angular UI patterns for loading states, error handling, and data display."
+  brand_color: "#15803D"
+  default_prompt: "Use $angular-ui-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

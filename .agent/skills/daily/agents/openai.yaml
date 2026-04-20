@@ -1,0 +1,8 @@
+interface:
+  display_name: "Daily"
+  short_description: "ALWAYS use this when the request matches Daily: Documentation and capabilities reference for Daily"
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $daily to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

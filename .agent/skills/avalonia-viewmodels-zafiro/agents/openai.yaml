@@ -1,0 +1,8 @@
+interface:
+  display_name: "Avalonia Viewmodels Zafiro"
+  short_description: "ALWAYS use this when the request matches Avalonia Viewmodels Zafiro: Optimal ViewModel and Wizard creation patterns for Avalonia using Zafiro and Rea..."
+  brand_color: "#15803D"
+  default_prompt: "Use $avalonia-viewmodels-zafiro to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

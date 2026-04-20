@@ -1,0 +1,8 @@
+interface:
+  display_name: "Postgres Best Practices"
+  short_description: "ALWAYS use this when the request matches Postgres Best Practices: Postgres performance optimization and best practices from Supabase."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $postgres-best-practices to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Data Engineering Data Driven Feature"
+  short_description: "ALWAYS use this when the request matches Data Engineering Data Driven Feature: Build features guided by data insights, A/B testing, and continuous me..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $data-engineering-data-driven-feature to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

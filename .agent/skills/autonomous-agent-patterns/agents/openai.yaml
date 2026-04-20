@@ -1,0 +1,8 @@
+interface:
+  display_name: "Autonomous Agent Patterns"
+  short_description: "ALWAYS use this when the request matches Autonomous Agent Patterns: Design patterns for building autonomous coding agents, inspired by [Cline](https..."
+  brand_color: "#374151"
+  default_prompt: "Use $autonomous-agent-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

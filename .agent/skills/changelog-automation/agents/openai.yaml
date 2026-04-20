@@ -1,0 +1,8 @@
+interface:
+  display_name: "Changelog Automation"
+  short_description: "ALWAYS use this when the request matches Changelog Automation: Automate changelog generation from commits, PRs, and releases following Keep a Changel..."
+  brand_color: "#374151"
+  default_prompt: "Use $changelog-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

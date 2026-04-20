@@ -1,0 +1,8 @@
+interface:
+  display_name: "Industrial Brutalist UI"
+  short_description: "ALWAYS use this when the request matches Industrial Brutalist UI: Use when creating raw industrial or tactical telemetry UIs with rigid grids, stark..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $industrial-brutalist-ui to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

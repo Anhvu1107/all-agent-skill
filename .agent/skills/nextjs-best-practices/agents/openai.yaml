@@ -1,0 +1,8 @@
+interface:
+  display_name: "Nextjs Best Practices"
+  short_description: "ALWAYS use this when the user mentions Nextjs Best Practices, asks to build, debug, review, document, automate, test, configure, migrate, or make dec..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $nextjs-best-practices to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

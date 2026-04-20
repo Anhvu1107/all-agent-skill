@@ -1,0 +1,8 @@
+interface:
+  display_name: "HIG Components Dialogs"
+  short_description: "ALWAYS use this when the request matches HIG Components Dialogs: Apple HIG guidance for presentation components including alerts, action sheets, popo..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $hig-components-dialogs to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

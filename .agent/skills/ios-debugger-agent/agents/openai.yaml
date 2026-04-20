@@ -1,0 +1,8 @@
+interface:
+  display_name: "IOS Debugger Agent"
+  short_description: "ALWAYS use this when the request matches IOS Debugger Agent: Debug the current iOS project on a booted simulator with XcodeBuildMCP."
+  brand_color: "#374151"
+  default_prompt: "Use $ios-debugger-agent to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

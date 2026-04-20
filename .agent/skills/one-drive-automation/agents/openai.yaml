@@ -1,0 +1,8 @@
+interface:
+  display_name: "ONE Drive Automation"
+  short_description: "ALWAYS use this when the request matches ONE Drive Automation: Automate OneDrive file management, search, uploads, downloads, sharing, permissions, a..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $one-drive-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

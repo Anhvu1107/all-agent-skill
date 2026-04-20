@@ -1,0 +1,8 @@
+interface:
+  display_name: "Hugging Face Paper Publisher"
+  short_description: "ALWAYS use this when the request matches Hugging Face Paper Publisher: Publish and manage research papers on Hugging Face Hub."
+  brand_color: "#15803D"
+  default_prompt: "Use $hugging-face-paper-publisher to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

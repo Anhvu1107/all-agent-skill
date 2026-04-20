@@ -1,0 +1,8 @@
+interface:
+  display_name: "Dbos Typescript"
+  short_description: "ALWAYS use this when the request matches Dbos Typescript: Guide for building reliable, fault-tolerant TypeScript applications with DBOS durable workf..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $dbos-typescript to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

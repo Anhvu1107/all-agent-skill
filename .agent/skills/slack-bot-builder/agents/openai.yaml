@@ -1,0 +1,8 @@
+interface:
+  display_name: "Slack BOT Builder"
+  short_description: "ALWAYS use this when the request matches Slack BOT Builder: Build Slack apps using the Bolt framework across Python, JavaScript, and Java."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $slack-bot-builder to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

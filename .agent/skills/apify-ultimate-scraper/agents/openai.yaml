@@ -1,0 +1,8 @@
+interface:
+  display_name: "Apify Ultimate Scraper"
+  short_description: "ALWAYS use this when the request matches Apify Ultimate Scraper: AI-driven data extraction from 55+ Actors across all major platforms."
+  brand_color: "#2563EB"
+  default_prompt: "Use $apify-ultimate-scraper to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Explain Like Socrates"
+  short_description: "ALWAYS use this when the request matches Explain Like Socrates: Explains concepts using Socratic-style dialogue."
+  brand_color: "#374151"
+  default_prompt: "Use $explain-like-socrates to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

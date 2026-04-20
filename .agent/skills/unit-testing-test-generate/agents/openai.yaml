@@ -1,0 +1,8 @@
+interface:
+  display_name: "Unit Testing Test Generate"
+  short_description: "ALWAYS use this when the request matches Unit Testing Test Generate: Generate comprehensive, maintainable unit tests across languages with strong cov..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $unit-testing-test-generate to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Skill Seekers"
+  short_description: "ALWAYS use this when the request matches Skill Seekers: -Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI s..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $skill-seekers to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

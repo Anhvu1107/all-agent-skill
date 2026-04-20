@@ -1,0 +1,8 @@
+interface:
+  display_name: "Beautiful Prose"
+  short_description: "ALWAYS use this when the request matches Beautiful Prose: A hard-edged writing style contract for timeless, forceful English prose without modern AI..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $beautiful-prose to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

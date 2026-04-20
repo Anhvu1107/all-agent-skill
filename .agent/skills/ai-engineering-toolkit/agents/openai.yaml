@@ -1,0 +1,8 @@
+interface:
+  display_name: "AI Engineering Toolkit"
+  short_description: "ALWAYS use this when the request matches AI Engineering Toolkit: 6 production-ready AI engineering workflows: prompt evaluation (8-dimension scoring)..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $ai-engineering-toolkit to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

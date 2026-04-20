@@ -1,0 +1,8 @@
+interface:
+  display_name: "FAL Audio"
+  short_description: "ALWAYS use this when the request matches FAL Audio: Text-to-speech and speech-to-text using fal.ai audio models"
+  brand_color: "#0F172A"
+  default_prompt: "Use $fal-audio to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

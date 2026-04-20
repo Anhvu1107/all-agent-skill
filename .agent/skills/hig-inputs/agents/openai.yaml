@@ -1,0 +1,8 @@
+interface:
+  display_name: "HIG Inputs"
+  short_description: "ALWAYS use this when the request matches HIG Inputs: Check for .claude/apple-design-context.md before asking questions."
+  brand_color: "#2563EB"
+  default_prompt: "Use $hig-inputs to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

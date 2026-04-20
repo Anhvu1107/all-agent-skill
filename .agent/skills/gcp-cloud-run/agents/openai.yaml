@@ -1,0 +1,8 @@
+interface:
+  display_name: "GCP Cloud RUN"
+  short_description: "ALWAYS use this when the request matches GCP Cloud RUN: Specialized skill for building production-ready serverless applications on GCP."
+  brand_color: "#BE123C"
+  default_prompt: "Use $gcp-cloud-run to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

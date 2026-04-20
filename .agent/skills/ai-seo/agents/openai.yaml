@@ -1,0 +1,8 @@
+interface:
+  display_name: "AI SEO"
+  short_description: "ALWAYS use this when the request matches AI SEO: Optimize content for AI search and LLM citations across AI Overviews, ChatGPT, Perplexity, Claude, G..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $ai-seo to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

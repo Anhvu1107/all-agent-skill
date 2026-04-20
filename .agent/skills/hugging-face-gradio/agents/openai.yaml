@@ -1,0 +1,8 @@
+interface:
+  display_name: "Hugging Face Gradio"
+  short_description: "ALWAYS use this when the request matches Hugging Face Gradio: Build or edit Gradio apps, layouts, components, and chat interfaces in Python."
+  brand_color: "#0F172A"
+  default_prompt: "Use $hugging-face-gradio to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

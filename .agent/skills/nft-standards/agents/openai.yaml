@@ -1,0 +1,8 @@
+interface:
+  display_name: "NFT Standards"
+  short_description: "ALWAYS use this when the request matches NFT Standards: Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features."
+  brand_color: "#15803D"
+  default_prompt: "Use $nft-standards to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

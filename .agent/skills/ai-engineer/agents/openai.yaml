@@ -1,0 +1,8 @@
+interface:
+  display_name: "AI Engineer"
+  short_description: "ALWAYS use this when the request matches AI Engineer: Build production-ready LLM applications, advanced RAG systems, and intelligent agents."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $ai-engineer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

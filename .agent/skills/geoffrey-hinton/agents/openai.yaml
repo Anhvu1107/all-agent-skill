@@ -1,0 +1,8 @@
+interface:
+  display_name: "Geoffrey Hinton"
+  short_description: "ALWAYS use this when the request matches Geoffrey Hinton: Agente que simula Geoffrey Hinton — Godfather of Deep Learning, Prêmio Turing 2018, criador..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $geoffrey-hinton to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

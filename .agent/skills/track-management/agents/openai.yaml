@@ -1,0 +1,8 @@
+interface:
+  display_name: "Track Management"
+  short_description: "ALWAYS use this when the request matches Track Management: Use this skill when creating, managing, or working with Conductor tracks - the logical wor..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $track-management to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

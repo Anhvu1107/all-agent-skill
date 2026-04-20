@@ -1,0 +1,8 @@
+interface:
+  display_name: "Interactive Portfolio"
+  short_description: "ALWAYS use this when the request matches Interactive Portfolio: Expert in building portfolios that actually land jobs and clients - not just showing..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $interactive-portfolio to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

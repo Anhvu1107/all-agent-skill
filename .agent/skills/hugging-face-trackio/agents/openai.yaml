@@ -1,0 +1,8 @@
+interface:
+  display_name: "Hugging Face Trackio"
+  short_description: "ALWAYS use this when the request matches Hugging Face Trackio: Track ML experiments with Trackio using Python logging, alerts, and CLI metric retriev..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $hugging-face-trackio to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

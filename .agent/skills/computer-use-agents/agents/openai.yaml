@@ -1,0 +1,8 @@
+interface:
+  display_name: "Computer USE Agents"
+  short_description: "ALWAYS use this when the request matches Computer USE Agents: Build AI agents that interact with computers like humans do - viewing screens, moving c..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $computer-use-agents to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

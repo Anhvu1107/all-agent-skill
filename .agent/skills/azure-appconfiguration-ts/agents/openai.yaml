@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Appconfiguration TS"
+  short_description: "ALWAYS use this when the request matches Azure Appconfiguration TS: Centralized configuration management with feature flags and dynamic refresh."
+  brand_color: "#EA580C"
+  default_prompt: "Use $azure-appconfiguration-ts to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

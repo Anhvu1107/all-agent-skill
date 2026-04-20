@@ -1,0 +1,8 @@
+interface:
+  display_name: "Subagent Driven Development"
+  short_description: "ALWAYS use this when you already have an implementation plan with mostly independent tasks and want to execute it through fresh, tightly-scoped subag..."
+  brand_color: "#15803D"
+  default_prompt: "Use $subagent-driven-development to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

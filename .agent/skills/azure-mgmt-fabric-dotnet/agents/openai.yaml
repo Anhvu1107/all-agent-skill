@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Mgmt Fabric Dotnet"
+  short_description: "ALWAYS use this when the request matches Azure Mgmt Fabric Dotnet: Azure Resource Manager SDK for Fabric in .NET."
+  brand_color: "#2563EB"
+  default_prompt: "Use $azure-mgmt-fabric-dotnet to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

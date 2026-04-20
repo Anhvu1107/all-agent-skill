@@ -1,0 +1,8 @@
+interface:
+  display_name: "Architecture"
+  short_description: "ALWAYS use this when the hard part is choosing system shape, boundaries, services, modules, tradeoffs, scaling direction, or refactor strategy before..."
+  brand_color: "#15803D"
+  default_prompt: "Use $architecture to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

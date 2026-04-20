@@ -1,0 +1,8 @@
+interface:
+  display_name: "X Article Publisher Skill"
+  short_description: "ALWAYS use this when the user mentions X Article Publisher Skill, asks to build, debug, review, document, automate, test, configure, migrate, or make..."
+  brand_color: "#15803D"
+  default_prompt: "Use $x-article-publisher-skill to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

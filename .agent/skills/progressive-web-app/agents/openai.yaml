@@ -1,0 +1,8 @@
+interface:
+  display_name: "Progressive WEB APP"
+  short_description: "Build Progressive Web Apps (PWAs) with offline support, installability, and caching strategies."
+  brand_color: "#2563EB"
+  default_prompt: "Use $progressive-web-app to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

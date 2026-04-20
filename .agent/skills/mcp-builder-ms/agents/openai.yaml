@@ -1,0 +1,8 @@
+interface:
+  display_name: "MCP Builder MS"
+  short_description: "ALWAYS use this when the request matches MCP Builder MS: Use this skill when building MCP servers to integrate external APIs or services, whether in..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $mcp-builder-ms to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

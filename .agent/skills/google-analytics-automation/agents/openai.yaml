@@ -1,0 +1,8 @@
+interface:
+  display_name: "Google Analytics Automation"
+  short_description: "ALWAYS use this when the request matches Google Analytics Automation: Automate Google Analytics tasks via Rube MCP (Composio): run reports, list acco..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $google-analytics-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

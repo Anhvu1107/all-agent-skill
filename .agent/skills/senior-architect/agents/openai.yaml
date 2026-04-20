@@ -1,0 +1,8 @@
+interface:
+  display_name: "Senior Architect"
+  short_description: "ALWAYS use this when the request matches Senior Architect: Complete toolkit for senior architect with modern tools and best practices."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $senior-architect to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

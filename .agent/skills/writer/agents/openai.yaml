@@ -1,0 +1,8 @@
+interface:
+  display_name: "Writer"
+  short_description: "ALWAYS use this when the request matches Writer: Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Wri..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $writer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Langchain Architecture"
+  short_description: "ALWAYS use this when the request matches Langchain Architecture: Master the LangChain framework for building sophisticated LLM applications with agen..."
+  brand_color: "#374151"
+  default_prompt: "Use $langchain-architecture to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

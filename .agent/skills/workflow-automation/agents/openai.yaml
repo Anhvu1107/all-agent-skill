@@ -1,0 +1,8 @@
+interface:
+  display_name: "Workflow Automation"
+  short_description: "ALWAYS use this when the request matches Workflow Automation: Workflow automation is the infrastructure that makes AI agents reliable."
+  brand_color: "#0F766E"
+  default_prompt: "Use $workflow-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

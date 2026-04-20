@@ -1,0 +1,8 @@
+interface:
+  display_name: "Wordpress Centric High SEO Optimized Blogwriting Skill"
+  short_description: "ALWAYS use this when the request matches Wordpress Centric High SEO Optimized Blogwriting Skill: Use this skill when the user asks to write a blog po..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $wordpress-centric-high-seo-optimized-blogwriting-skill to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

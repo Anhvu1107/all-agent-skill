@@ -1,0 +1,8 @@
+interface:
+  display_name: "Wiki Onboarding"
+  short_description: "ALWAYS use this when the request matches Wiki Onboarding: Generate two complementary onboarding documents that together give any engineer — from newc..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $wiki-onboarding to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

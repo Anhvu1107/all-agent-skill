@@ -1,0 +1,8 @@
+interface:
+  display_name: "Apify Audience Analysis"
+  short_description: "ALWAYS use this when the request matches Apify Audience Analysis: Understand audience demographics, preferences, behavior patterns, and engagement qu..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $apify-audience-analysis to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

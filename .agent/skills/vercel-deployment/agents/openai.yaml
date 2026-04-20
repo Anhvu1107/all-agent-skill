@@ -1,0 +1,8 @@
+interface:
+  display_name: "Vercel Deployment"
+  short_description: "ALWAYS use this when the request matches Vercel Deployment: Expert knowledge for deploying to Vercel with Next.js"
+  brand_color: "#BE123C"
+  default_prompt: "Use $vercel-deployment to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

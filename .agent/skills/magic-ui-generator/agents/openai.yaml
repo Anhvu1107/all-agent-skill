@@ -1,0 +1,8 @@
+interface:
+  display_name: "Magic UI Generator"
+  short_description: "ALWAYS use this when the request matches Magic UI Generator: Utilizes Magic by 21st.dev to generate, compare, and integrate multiple production-ready..."
+  brand_color: "#374151"
+  default_prompt: "Use $magic-ui-generator to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

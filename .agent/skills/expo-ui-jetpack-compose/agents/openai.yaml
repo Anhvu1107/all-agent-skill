@@ -1,0 +1,8 @@
+interface:
+  display_name: "Expo UI Jetpack Compose"
+  short_description: "ALWAYS use this when the user mentions Expo UI Jetpack Compose, asks to build, debug, review, document, automate, test, configure, migrate, or make d..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $expo-ui-jetpack-compose to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

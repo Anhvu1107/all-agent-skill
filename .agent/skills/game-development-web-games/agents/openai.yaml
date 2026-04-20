@@ -1,0 +1,8 @@
+interface:
+  display_name: "Game Development WEB Games"
+  short_description: "ALWAYS use this when the user or an upstream archive refers to `game-development-web-games`, the nested skill path form for `web-games`, or the equiv..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $game-development-web-games to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

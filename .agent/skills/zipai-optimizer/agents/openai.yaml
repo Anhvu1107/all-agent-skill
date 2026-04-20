@@ -1,0 +1,8 @@
+interface:
+  display_name: "Zipai Optimizer"
+  short_description: "ALWAYS use this when the request matches Zipai Optimizer: Adaptive token optimizer: intelligent filtering, surgical output, ambiguity-first, context-..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $zipai-optimizer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

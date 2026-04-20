@@ -1,0 +1,8 @@
+interface:
+  display_name: "Claude Code Expert"
+  short_description: "ALWAYS use this when the request matches Claude Code Expert: Especialista profundo em Claude Code - CLI da Anthropic."
+  brand_color: "#2563EB"
+  default_prompt: "Use $claude-code-expert to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Makepad Event Action"
+  short_description: "ALWAYS use this when the request matches Makepad Event Action: CRITICAL: Use for Makepad event and action handling."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $makepad-event-action to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

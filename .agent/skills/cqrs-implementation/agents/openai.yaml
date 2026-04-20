@@ -1,0 +1,8 @@
+interface:
+  display_name: "Cqrs Implementation"
+  short_description: "ALWAYS use this when the request matches Cqrs Implementation: Implement Command Query Responsibility Segregation for scalable architectures."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $cqrs-implementation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

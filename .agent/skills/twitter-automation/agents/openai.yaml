@@ -1,0 +1,8 @@
+interface:
+  display_name: "Twitter Automation"
+  short_description: "ALWAYS use this when the request matches Twitter Automation: Automate Twitter/X tasks via Rube MCP (Composio): posts, search, users, bookmarks, lists..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $twitter-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

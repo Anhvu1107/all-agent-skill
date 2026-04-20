@@ -1,0 +1,8 @@
+interface:
+  display_name: "Form CRO"
+  short_description: "ALWAYS use this when the request matches Form CRO: Optimize any form that is NOT signup or account registration — including lead capture, contact, de..."
+  brand_color: "#374151"
+  default_prompt: "Use $form-cro to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

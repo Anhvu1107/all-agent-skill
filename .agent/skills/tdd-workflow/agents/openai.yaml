@@ -1,0 +1,8 @@
+interface:
+  display_name: "TDD Workflow"
+  short_description: "ALWAYS use this when a bug fix or logic change should be locked down by tests first, especially when regression risk is higher than the cost of writi..."
+  brand_color: "#374151"
+  default_prompt: "Use $tdd-workflow to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

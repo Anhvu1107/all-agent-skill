@@ -1,0 +1,8 @@
+interface:
+  display_name: "AI Wrapper Product"
+  short_description: "ALWAYS use this when the request matches AI Wrapper Product: Expert in building products that wrap AI APIs (OpenAI, Anthropic, etc."
+  brand_color: "#2563EB"
+  default_prompt: "Use $ai-wrapper-product to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

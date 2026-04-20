@@ -1,0 +1,8 @@
+interface:
+  display_name: "Antigravity Skill Orchestrator"
+  short_description: "ALWAYS use this when the request matches Antigravity Skill Orchestrator: A meta-skill that understands task requirements, dynamically selects appropr..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $antigravity-skill-orchestrator to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

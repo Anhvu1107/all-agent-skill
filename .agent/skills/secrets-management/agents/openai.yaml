@@ -1,0 +1,8 @@
+interface:
+  display_name: "Secrets Management"
+  short_description: "ALWAYS use this when the request matches Secrets Management: Secure secrets management practices for CI/CD pipelines using Vault, AWS Secrets Manager..."
+  brand_color: "#15803D"
+  default_prompt: "Use $secrets-management to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

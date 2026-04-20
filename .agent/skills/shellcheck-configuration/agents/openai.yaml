@@ -1,0 +1,8 @@
+interface:
+  display_name: "Shellcheck Configuration"
+  short_description: "ALWAYS use this when the request matches Shellcheck Configuration: Master ShellCheck static analysis configuration and usage for shell script quality."
+  brand_color: "#374151"
+  default_prompt: "Use $shellcheck-configuration to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

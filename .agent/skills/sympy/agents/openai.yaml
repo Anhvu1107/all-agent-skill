@@ -1,0 +1,8 @@
+interface:
+  display_name: "Sympy"
+  short_description: "ALWAYS use this when the request matches Sympy: SymPy is a Python library for symbolic mathematics that enables exact computation using mathematical..."
+  brand_color: "#374151"
+  default_prompt: "Use $sympy to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

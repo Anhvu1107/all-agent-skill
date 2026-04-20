@@ -1,0 +1,8 @@
+interface:
+  display_name: "Design Orchestration"
+  short_description: "ALWAYS use this when the request matches Design Orchestration: Orchestrates design workflows by routing work through brainstorming, multi-agent revie..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $design-orchestration to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

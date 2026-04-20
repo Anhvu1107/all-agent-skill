@@ -1,0 +1,8 @@
+interface:
+  display_name: "UX Persuasion Engineer"
+  short_description: "ALWAYS use this when the request matches UX Persuasion Engineer: One sentence - what this skill does and when to invoke it"
+  brand_color: "#7C3AED"
+  default_prompt: "Use $ux-persuasion-engineer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

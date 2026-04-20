@@ -1,0 +1,8 @@
+interface:
+  display_name: "Nerdzao Elite"
+  short_description: "ALWAYS use this when the request matches Nerdzao Elite: Senior Elite Software Engineer (15+) and Senior Product Designer."
+  brand_color: "#EA580C"
+  default_prompt: "Use $nerdzao-elite to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

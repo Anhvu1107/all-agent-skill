@@ -1,0 +1,8 @@
+interface:
+  display_name: "Travel Health Analyzer"
+  short_description: "ALWAYS use this when the request matches Travel Health Analyzer: 分析旅行健康数据、评估目的地健康风险、提供疫苗接种建议、生成多语言紧急医疗信息卡片。支持WHO/CDC数据集成的专业级旅行健康风险评估。"
+  brand_color: "#EA580C"
+  default_prompt: "Use $travel-health-analyzer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

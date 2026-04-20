@@ -1,0 +1,8 @@
+interface:
+  display_name: "Claude API"
+  short_description: "ALWAYS use this when the request matches Claude API: Build, debug, and optimize Claude API / Anthropic SDK apps."
+  brand_color: "#0F172A"
+  default_prompt: "Use $claude-api to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

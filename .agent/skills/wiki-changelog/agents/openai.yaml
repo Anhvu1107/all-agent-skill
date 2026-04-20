@@ -1,0 +1,8 @@
+interface:
+  display_name: "Wiki Changelog"
+  short_description: "ALWAYS use this when the request matches Wiki Changelog: Generate structured changelogs from git history."
+  brand_color: "#BE123C"
+  default_prompt: "Use $wiki-changelog to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

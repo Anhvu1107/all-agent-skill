@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO AEO Content Cluster"
+  short_description: "ALWAYS use this when the request matches SEO AEO Content Cluster: Builds a topical authority map with a pillar page, prioritised cluster articles, co..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $seo-aeo-content-cluster to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

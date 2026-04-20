@@ -1,0 +1,8 @@
+interface:
+  display_name: "Blog Writing Guide"
+  short_description: "ALWAYS use this when the request matches Blog Writing Guide: This skill enforces Sentry's blog writing standards across every post — whether you're h..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $blog-writing-guide to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

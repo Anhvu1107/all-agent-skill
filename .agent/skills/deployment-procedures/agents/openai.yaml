@@ -1,0 +1,8 @@
+interface:
+  display_name: "Deployment Procedures"
+  short_description: "ALWAYS use this when shipping, releasing, promoting environments, or planning a deployment flow where ordering and rollback safety matter."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $deployment-procedures to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

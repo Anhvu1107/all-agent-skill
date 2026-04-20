@@ -1,0 +1,8 @@
+interface:
+  display_name: "Attack Tree Construction"
+  short_description: "ALWAYS use this when the request matches Attack Tree Construction: Build comprehensive attack trees to visualize threat paths."
+  brand_color: "#0F172A"
+  default_prompt: "Use $attack-tree-construction to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

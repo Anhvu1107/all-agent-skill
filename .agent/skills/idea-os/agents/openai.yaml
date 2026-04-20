@@ -1,0 +1,8 @@
+interface:
+  display_name: "Idea OS"
+  short_description: "ALWAYS use this when the request matches Idea OS: Five-phase pipeline (triage → clarify → research → PRD → plan) that turns a raw idea into four link..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $idea-os to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

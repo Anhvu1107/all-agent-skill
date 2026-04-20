@@ -1,0 +1,8 @@
+interface:
+  display_name: "Outlook Calendar Automation"
+  short_description: "ALWAYS use this when the request matches Outlook Calendar Automation: Automate Outlook Calendar tasks via Rube MCP (Composio): create events, manage..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $outlook-calendar-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

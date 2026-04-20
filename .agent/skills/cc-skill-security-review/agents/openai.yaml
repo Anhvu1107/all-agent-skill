@@ -1,0 +1,8 @@
+interface:
+  display_name: "CC Skill Security Review"
+  short_description: "ALWAYS use this when the request matches CC Skill Security Review: This skill ensures all code follows security best practices and identifies potenti..."
+  brand_color: "#374151"
+  default_prompt: "Use $cc-skill-security-review to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

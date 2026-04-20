@@ -1,0 +1,8 @@
+interface:
+  display_name: "Windows Shell Reliability"
+  short_description: "ALWAYS use this when the request matches Windows Shell Reliability: Reliable command execution on Windows: paths, encoding, and common binary pitfall..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $windows-shell-reliability to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

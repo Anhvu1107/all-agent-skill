@@ -1,0 +1,8 @@
+interface:
+  display_name: "Docusign Automation"
+  short_description: "ALWAYS use this when the request matches Docusign Automation: Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signatures, docu..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $docusign-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

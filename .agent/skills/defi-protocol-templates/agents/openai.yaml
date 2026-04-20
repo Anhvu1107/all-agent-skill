@@ -1,0 +1,8 @@
+interface:
+  display_name: "Defi Protocol Templates"
+  short_description: "ALWAYS use this when the request matches Defi Protocol Templates: Implement DeFi protocols with production-ready templates for staking, AMMs, governa..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $defi-protocol-templates to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

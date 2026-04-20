@@ -1,0 +1,8 @@
+interface:
+  display_name: "Memory Forensics"
+  short_description: "ALWAYS use this when the request matches Memory Forensics: Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory du..."
+  brand_color: "#374151"
+  default_prompt: "Use $memory-forensics to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

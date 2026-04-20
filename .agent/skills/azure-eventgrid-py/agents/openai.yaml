@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Eventgrid PY"
+  short_description: "ALWAYS use this when the user mentions Azure Eventgrid PY, asks to build, debug, review, document, automate, test, configure, migrate, or make decisi..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $azure-eventgrid-py to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Monitor Opentelemetry PY"
+  short_description: "ALWAYS use this when the request matches Azure Monitor Opentelemetry PY: Azure Monitor OpenTelemetry Distro for Python."
+  brand_color: "#BE123C"
+  default_prompt: "Use $azure-monitor-opentelemetry-py to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

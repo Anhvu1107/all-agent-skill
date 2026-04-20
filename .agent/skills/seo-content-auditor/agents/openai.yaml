@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO Content Auditor"
+  short_description: "ALWAYS use this when the request matches SEO Content Auditor: Analyzes provided content for quality, E-E-A-T signals, and SEO best practices."
+  brand_color: "#EA580C"
+  default_prompt: "Use $seo-content-auditor to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

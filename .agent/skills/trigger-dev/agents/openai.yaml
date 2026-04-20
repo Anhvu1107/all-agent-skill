@@ -1,0 +1,8 @@
+interface:
+  display_name: "Trigger DEV"
+  short_description: "ALWAYS use this when the request matches Trigger DEV: Trigger.dev expert for background jobs, AI workflows, and reliable async execution with excelle..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $trigger-dev to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

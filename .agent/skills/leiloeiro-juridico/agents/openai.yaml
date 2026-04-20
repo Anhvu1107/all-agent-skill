@@ -1,0 +1,8 @@
+interface:
+  display_name: "Leiloeiro Juridico"
+  short_description: "ALWAYS use this when the request matches Leiloeiro Juridico: Analise juridica de leiloes: nulidades, bem de familia, alienacao fiduciaria, CPC arts 8..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $leiloeiro-juridico to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

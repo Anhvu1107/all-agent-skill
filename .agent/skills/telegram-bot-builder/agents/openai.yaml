@@ -1,0 +1,8 @@
+interface:
+  display_name: "Telegram BOT Builder"
+  short_description: "ALWAYS use this when the request matches Telegram BOT Builder: Expert in building Telegram bots that solve real problems - from simple automation to..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $telegram-bot-builder to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

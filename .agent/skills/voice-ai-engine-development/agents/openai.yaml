@@ -1,0 +1,8 @@
+interface:
+  display_name: "Voice AI Engine Development"
+  short_description: "ALWAYS use this when the request matches Voice AI Engine Development: Build real-time conversational AI voice engines using async worker pipelines, s..."
+  brand_color: "#15803D"
+  default_prompt: "Use $voice-ai-engine-development to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

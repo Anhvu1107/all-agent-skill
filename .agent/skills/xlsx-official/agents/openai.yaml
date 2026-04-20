@@ -1,0 +1,8 @@
+interface:
+  display_name: "Xlsx Official"
+  short_description: "ALWAYS use this when the request matches Xlsx Official: Unless otherwise stated by the user or existing template"
+  brand_color: "#15803D"
+  default_prompt: "Use $xlsx-official to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

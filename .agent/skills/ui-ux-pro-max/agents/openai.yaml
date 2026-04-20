@@ -1,0 +1,8 @@
+interface:
+  display_name: "UI UX PRO MAX"
+  short_description: "ALWAYS use this for UI and UX direction, design-system choices, landing pages, dashboards, component styling, or stack-specific frontend implementati..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $ui-ux-pro-max to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

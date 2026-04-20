@@ -1,0 +1,8 @@
+interface:
+  display_name: "GPT Taste"
+  short_description: "ALWAYS use this when the request matches GPT Taste: Use when generating elite GSAP-heavy frontend pages with strict AIDA structure, wide hero typogra..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $gpt-taste to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

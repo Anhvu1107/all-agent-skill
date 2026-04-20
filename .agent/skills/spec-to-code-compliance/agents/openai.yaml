@@ -1,0 +1,8 @@
+interface:
+  display_name: "Spec TO Code Compliance"
+  short_description: "ALWAYS use this when the request matches Spec TO Code Compliance: Verifies code implements exactly what documentation specifies for blockchain audits."
+  brand_color: "#15803D"
+  default_prompt: "Use $spec-to-code-compliance to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

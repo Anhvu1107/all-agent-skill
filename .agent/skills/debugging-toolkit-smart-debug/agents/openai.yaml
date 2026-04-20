@@ -1,0 +1,8 @@
+interface:
+  display_name: "Debugging Toolkit Smart Debug"
+  short_description: "ALWAYS use this when the request matches Debugging Toolkit Smart Debug: Use when working with debugging toolkit smart debug"
+  brand_color: "#B91C1C"
+  default_prompt: "Use $debugging-toolkit-smart-debug to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

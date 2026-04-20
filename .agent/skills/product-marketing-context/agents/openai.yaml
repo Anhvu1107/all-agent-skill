@@ -1,0 +1,8 @@
+interface:
+  display_name: "Product Marketing Context"
+  short_description: "ALWAYS use this when the request matches Product Marketing Context: Create or update a reusable product marketing context document with positioning..."
+  brand_color: "#374151"
+  default_prompt: "Use $product-marketing-context to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

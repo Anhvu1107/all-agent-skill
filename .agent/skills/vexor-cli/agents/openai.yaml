@@ -1,0 +1,8 @@
+interface:
+  display_name: "Vexor CLI"
+  short_description: "ALWAYS use this when the request matches Vexor CLI: Semantic file discovery via `vexor`."
+  brand_color: "#0F172A"
+  default_prompt: "Use $vexor-cli to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

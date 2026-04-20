@@ -1,0 +1,8 @@
+interface:
+  display_name: "Hugging Face Model Trainer"
+  short_description: "ALWAYS use this when the request matches Hugging Face Model Trainer: Train or fine-tune TRL language models on Hugging Face Jobs, including SFT, DPO..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $hugging-face-model-trainer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

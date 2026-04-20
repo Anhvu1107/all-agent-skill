@@ -1,0 +1,8 @@
+interface:
+  display_name: "Zeroize Audit"
+  short_description: "ALWAYS use this when the request matches Zeroize Audit: Detects missing zeroization of sensitive data in source code and identifies zeroization remov..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $zeroize-audit to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

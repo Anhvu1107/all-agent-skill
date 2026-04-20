@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Keyvault Secrets TS"
+  short_description: "ALWAYS use this when the request matches Azure Keyvault Secrets TS: Manage secrets using Azure Key Vault Secrets SDK for JavaScript (@azure/keyvault-..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $azure-keyvault-secrets-ts to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

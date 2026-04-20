@@ -1,0 +1,8 @@
+interface:
+  display_name: "Agent Manager Skill"
+  short_description: "ALWAYS use this when the request matches Agent Manager Skill: Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cro..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $agent-manager-skill to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

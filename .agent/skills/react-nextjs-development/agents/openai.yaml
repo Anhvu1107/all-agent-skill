@@ -1,0 +1,8 @@
+interface:
+  display_name: "React Nextjs Development"
+  short_description: "ALWAYS use this when the request matches React Nextjs Development: React and Next.js 14+ application development with App Router, Server Components..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $react-nextjs-development to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Agent Tool Builder"
+  short_description: "ALWAYS use this when the request matches Agent Tool Builder: Tools are how AI agents interact with the world."
+  brand_color: "#15803D"
+  default_prompt: "Use $agent-tool-builder to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

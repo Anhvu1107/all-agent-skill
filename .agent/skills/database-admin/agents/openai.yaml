@@ -1,0 +1,8 @@
+interface:
+  display_name: "Database Admin"
+  short_description: "ALWAYS use this when the request matches Database Admin: Expert database administrator specializing in modern cloud databases, automation, and reliab..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $database-admin to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

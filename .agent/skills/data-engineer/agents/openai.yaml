@@ -1,0 +1,8 @@
+interface:
+  display_name: "Data Engineer"
+  short_description: "ALWAYS use this when the request matches Data Engineer: Build scalable data pipelines, modern data warehouses, and real-time streaming architectures."
+  brand_color: "#0F172A"
+  default_prompt: "Use $data-engineer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

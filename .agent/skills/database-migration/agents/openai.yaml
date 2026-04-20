@@ -1,0 +1,8 @@
+interface:
+  display_name: "Database Migration"
+  short_description: "ALWAYS use this when the request matches Database Migration: Master database schema and data migrations across ORMs (Sequelize, TypeORM, Prisma), inc..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $database-migration to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

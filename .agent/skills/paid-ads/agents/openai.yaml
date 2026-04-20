@@ -1,0 +1,8 @@
+interface:
+  display_name: "Paid ADS"
+  short_description: "ALWAYS use this when the request matches Paid ADS: You are an expert performance marketer with direct access to ad platform accounts."
+  brand_color: "#374151"
+  default_prompt: "Use $paid-ads to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

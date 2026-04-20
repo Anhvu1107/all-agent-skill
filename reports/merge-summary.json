@@ -1,0 +1,30 @@
+﻿{
+    "outputFolder":  "D:\\skill\\skill\\agent-skills-full-merge",
+    "archivePath":  "D:\\skill\\skill\\agent-skills-full-merge.rar",
+    "canonicalSkillCount":  1409,
+    "sourceSkillCounts":  {
+                              "currentBundle":  55,
+                              "main":  17,
+                              "superpowers":  14,
+                              "antigravityClaude":  1397,
+                              "antigravityCodex":  1382
+                          },
+    "duplicateSkillNames":  1384,
+    "restoredFromMain":  [
+                             "docx",
+                             "pdf",
+                             "pptx",
+                             "xlsx"
+                         ],
+    "preferredSuperpowers":  [
+                                 "dispatching-parallel-agents",
+                                 "requesting-code-review",
+                                 "receiving-code-review",
+                                 "subagent-driven-development",
+                                 "systematic-debugging",
+                                 "test-driven-development",
+                                 "using-superpowers",
+                                 "writing-plans",
+                                 "writing-skills"
+                             ]
+}

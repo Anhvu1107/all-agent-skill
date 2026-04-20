@@ -1,0 +1,8 @@
+interface:
+  display_name: "API Documenter"
+  short_description: "ALWAYS use this when the request matches API Documenter: Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $api-documenter to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Drizzle ORM Expert"
+  short_description: "ALWAYS use this when the request matches Drizzle ORM Expert: Expert in Drizzle ORM for TypeScript — schema design, relational queries, migrations, an..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $drizzle-orm-expert to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

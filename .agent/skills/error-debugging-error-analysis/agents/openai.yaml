@@ -1,0 +1,8 @@
+interface:
+  display_name: "Error Debugging Error Analysis"
+  short_description: "ALWAYS use this when the request matches Error Debugging Error Analysis: You are an expert error analysis specialist with deep expertise in debugging..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $error-debugging-error-analysis to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

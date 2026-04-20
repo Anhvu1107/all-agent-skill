@@ -1,0 +1,8 @@
+interface:
+  display_name: "Agents V2 PY"
+  short_description: "ALWAYS use this when the request matches Agents V2 PY: Build container-based Foundry Agents with Azure AI Projects SDK (ImageBasedHostedAgentDefiniti..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $agents-v2-py to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

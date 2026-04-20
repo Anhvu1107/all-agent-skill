@@ -1,0 +1,8 @@
+interface:
+  display_name: "Humanize Chinese"
+  short_description: "ALWAYS use this when the request matches Humanize Chinese: Detect and rewrite AI-like Chinese text with a practical workflow for scoring, humanizatio..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $humanize-chinese to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Testing QA"
+  short_description: "ALWAYS use this when the request matches Testing QA: Comprehensive testing and QA workflow covering unit testing, integration testing, E2E testing, b..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $testing-qa to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

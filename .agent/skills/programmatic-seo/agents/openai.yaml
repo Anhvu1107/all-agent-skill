@@ -1,0 +1,8 @@
+interface:
+  display_name: "Programmatic SEO"
+  short_description: "ALWAYS use this when the request matches Programmatic SEO: Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale usi..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $programmatic-seo to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

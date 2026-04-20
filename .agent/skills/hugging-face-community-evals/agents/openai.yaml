@@ -1,0 +1,8 @@
+interface:
+  display_name: "Hugging Face Community Evals"
+  short_description: "ALWAYS use this when the request matches Hugging Face Community Evals: Run local evaluations for Hugging Face Hub models with inspect-ai or lighteval."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $hugging-face-community-evals to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Production Code Audit"
+  short_description: "ALWAYS use this when the request matches Production Code Audit: Autonomously deep-scan entire codebase line-by-line, understand architecture and patt..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $production-code-audit to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

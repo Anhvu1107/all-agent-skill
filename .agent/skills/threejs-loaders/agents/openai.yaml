@@ -1,0 +1,8 @@
+interface:
+  display_name: "Threejs Loaders"
+  short_description: "ALWAYS use this when the request matches Threejs Loaders: Three.js asset loading - GLTF, textures, images, models, async patterns."
+  brand_color: "#2563EB"
+  default_prompt: "Use $threejs-loaders to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

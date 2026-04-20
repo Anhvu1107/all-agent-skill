@@ -1,0 +1,8 @@
+interface:
+  display_name: "Codebase Audit PRE Push"
+  short_description: "ALWAYS use this when the request matches Codebase Audit PRE Push: Deep audit before GitHub push: removes junk files, dead code, security holes, and o..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $codebase-audit-pre-push to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

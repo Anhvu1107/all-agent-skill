@@ -1,0 +1,8 @@
+interface:
+  display_name: "Python Packaging"
+  short_description: "ALWAYS use this when the request matches Python Packaging: Comprehensive guide to creating, structuring, and distributing Python packages using moder..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $python-packaging to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

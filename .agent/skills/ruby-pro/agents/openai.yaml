@@ -1,0 +1,8 @@
+interface:
+  display_name: "Ruby PRO"
+  short_description: "ALWAYS use this when the request matches Ruby PRO: Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization."
+  brand_color: "#BE123C"
+  default_prompt: "Use $ruby-pro to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

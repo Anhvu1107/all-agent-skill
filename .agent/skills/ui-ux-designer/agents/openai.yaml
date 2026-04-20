@@ -1,0 +1,8 @@
+interface:
+  display_name: "UI UX Designer"
+  short_description: "ALWAYS use this when the request matches UI UX Designer: Create interface designs, wireframes, and design systems."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $ui-ux-designer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

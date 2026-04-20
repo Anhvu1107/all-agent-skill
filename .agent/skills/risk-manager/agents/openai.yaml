@@ -1,0 +1,8 @@
+interface:
+  display_name: "Risk Manager"
+  short_description: "ALWAYS use this when the request matches Risk Manager: Monitor portfolio risk, R-multiples, and position limits."
+  brand_color: "#BE123C"
+  default_prompt: "Use $risk-manager to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

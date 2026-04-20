@@ -1,0 +1,8 @@
+interface:
+  display_name: "Busybox ON Windows"
+  short_description: "ALWAYS use this when the request matches Busybox ON Windows: How to use a Win32 build of BusyBox to run many of the standard UNIX command line tools..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $busybox-on-windows to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

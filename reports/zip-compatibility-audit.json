@@ -1,0 +1,151 @@
+{
+  "bundleRoot": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra",
+  "currentRuntimeSkills": 1462,
+  "zips": [
+    {
+      "zip": "C:\\Users\\anhvu\\Downloads\\skills-main.zip",
+      "skillMd": 18,
+      "uniqueFrontSlugs": 18,
+      "uniqueLeafSlugs": 18,
+      "uniquePathSlugs": 18,
+      "frontMissing": [],
+      "leafMissing": [],
+      "pathMissing": []
+    },
+    {
+      "zip": "C:\\Users\\anhvu\\Downloads\\superpowers-main.zip",
+      "skillMd": 14,
+      "uniqueFrontSlugs": 14,
+      "uniqueLeafSlugs": 14,
+      "uniquePathSlugs": 14,
+      "frontMissing": [],
+      "leafMissing": [],
+      "pathMissing": []
+    },
+    {
+      "zip": "C:\\Users\\anhvu\\Downloads\\antigravity-awesome-skills-main.zip",
+      "skillMd": 4467,
+      "uniqueFrontSlugs": 1431,
+      "uniqueLeafSlugs": 1431,
+      "uniquePathSlugs": 1431,
+      "frontMissing": [],
+      "leafMissing": [],
+      "pathMissing": []
+    }
+  ],
+  "allFrontSlugsCovered": true,
+  "allLeafSlugsCovered": true,
+  "allPathSlugsCovered": true,
+  "aliasSkillsAddedForPathCompatibility": [
+    {
+      "alias": "app-builder-templates",
+      "target": "templates",
+      "changed": false
+    },
+    {
+      "alias": "game-development-2d-games",
+      "target": "2d-games",
+      "changed": false
+    },
+    {
+      "alias": "game-development-3d-games",
+      "target": "3d-games",
+      "changed": false
+    },
+    {
+      "alias": "game-development-game-art",
+      "target": "game-art",
+      "changed": false
+    },
+    {
+      "alias": "game-development-game-audio",
+      "target": "game-audio",
+      "changed": false
+    },
+    {
+      "alias": "game-development-game-design",
+      "target": "game-design",
+      "changed": false
+    },
+    {
+      "alias": "game-development-mobile-games",
+      "target": "mobile-games",
+      "changed": false
+    },
+    {
+      "alias": "game-development-multiplayer",
+      "target": "multiplayer",
+      "changed": false
+    },
+    {
+      "alias": "game-development-pc-games",
+      "target": "pc-games",
+      "changed": false
+    },
+    {
+      "alias": "game-development-vr-ar",
+      "target": "vr-ar",
+      "changed": false
+    },
+    {
+      "alias": "game-development-web-games",
+      "target": "web-games",
+      "changed": false
+    },
+    {
+      "alias": "libreoffice-base",
+      "target": "base",
+      "changed": false
+    },
+    {
+      "alias": "libreoffice-calc",
+      "target": "calc",
+      "changed": false
+    },
+    {
+      "alias": "libreoffice-draw",
+      "target": "draw",
+      "changed": false
+    },
+    {
+      "alias": "libreoffice-impress",
+      "target": "impress",
+      "changed": false
+    },
+    {
+      "alias": "libreoffice-writer",
+      "target": "writer",
+      "changed": false
+    },
+    {
+      "alias": "security-aws-compliance-checker",
+      "target": "aws-compliance-checker",
+      "changed": false
+    },
+    {
+      "alias": "security-aws-iam-best-practices",
+      "target": "aws-iam-best-practices",
+      "changed": false
+    },
+    {
+      "alias": "security-aws-secrets-rotation",
+      "target": "aws-secrets-rotation",
+      "changed": false
+    },
+    {
+      "alias": "security-aws-security-audit",
+      "target": "aws-security-audit",
+      "changed": false
+    },
+    {
+      "alias": "skills-x402-express-wrapper",
+      "target": "x402-express-wrapper",
+      "changed": false
+    },
+    {
+      "alias": "template",
+      "target": "template-skill",
+      "changed": false
+    }
+  ]
+}

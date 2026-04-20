@@ -1,0 +1,8 @@
+interface:
+  display_name: "Agent Orchestration Improve Agent"
+  short_description: "ALWAYS use this when the request matches Agent Orchestration Improve Agent: Systematic improvement of existing agents through performance analysis, p..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $agent-orchestration-improve-agent to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

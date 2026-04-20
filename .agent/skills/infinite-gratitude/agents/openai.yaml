@@ -1,0 +1,8 @@
+interface:
+  display_name: "Infinite Gratitude"
+  short_description: "ALWAYS use this when the request matches Infinite Gratitude: Multi-agent research skill for parallel research execution (10 agents, battle-tested wit..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $infinite-gratitude to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

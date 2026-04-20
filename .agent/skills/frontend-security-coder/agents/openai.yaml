@@ -1,0 +1,8 @@
+interface:
+  display_name: "Frontend Security Coder"
+  short_description: "ALWAYS use this when the request matches Frontend Security Coder: Expert in secure frontend coding practices specializing in XSS prevention, output s..."
+  brand_color: "#15803D"
+  default_prompt: "Use $frontend-security-coder to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

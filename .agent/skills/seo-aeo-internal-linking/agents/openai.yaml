@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO AEO Internal Linking"
+  short_description: "ALWAYS use this when the request matches SEO AEO Internal Linking: Maps internal link opportunities between pages with anchor text, placement instruc..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $seo-aeo-internal-linking to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

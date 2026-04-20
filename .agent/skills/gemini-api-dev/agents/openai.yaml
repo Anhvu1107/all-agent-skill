@@ -1,0 +1,8 @@
+interface:
+  display_name: "Gemini API DEV"
+  short_description: "ALWAYS use this when the request matches Gemini API DEV: The Gemini API provides access to Google's most advanced AI models."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $gemini-api-dev to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

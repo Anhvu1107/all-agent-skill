@@ -1,0 +1,8 @@
+interface:
+  display_name: "C4 Context"
+  short_description: "ALWAYS use this when the request matches C4 Context: Expert C4 Context-level documentation specialist."
+  brand_color: "#EA580C"
+  default_prompt: "Use $c4-context to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

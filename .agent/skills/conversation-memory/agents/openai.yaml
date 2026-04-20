@@ -1,0 +1,8 @@
+interface:
+  display_name: "Conversation Memory"
+  short_description: "ALWAYS use this when the request matches Conversation Memory: Persistent memory systems for LLM conversations including short-term, long-term, and en..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $conversation-memory to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

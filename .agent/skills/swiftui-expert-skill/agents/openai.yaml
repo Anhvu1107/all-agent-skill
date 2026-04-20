@@ -1,0 +1,8 @@
+interface:
+  display_name: "Swiftui Expert Skill"
+  short_description: "ALWAYS use this when the request matches Swiftui Expert Skill: Write, review, or improve SwiftUI code following best practices for state management..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $swiftui-expert-skill to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

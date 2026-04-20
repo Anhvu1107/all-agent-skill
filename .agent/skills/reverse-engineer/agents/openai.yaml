@@ -1,0 +1,8 @@
+interface:
+  display_name: "Reverse Engineer"
+  short_description: "ALWAYS use this when the request matches Reverse Engineer: Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and s..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $reverse-engineer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

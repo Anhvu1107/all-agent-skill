@@ -1,0 +1,8 @@
+interface:
+  display_name: "Odoo Performance Tuner"
+  short_description: "ALWAYS use this when the request matches Odoo Performance Tuner: Expert guide for diagnosing and fixing Odoo performance issues: slow queries, worker..."
+  brand_color: "#374151"
+  default_prompt: "Use $odoo-performance-tuner to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "N8n Code Javascript"
+  short_description: "ALWAYS use this when the request matches N8n Code Javascript: Write JavaScript code in n8n Code nodes."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $n8n-code-javascript to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

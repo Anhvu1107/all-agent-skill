@@ -1,0 +1,8 @@
+interface:
+  display_name: "API Security Testing"
+  short_description: "ALWAYS use this when the request matches API Security Testing: API security testing workflow for REST and GraphQL APIs covering authentication, autho..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $api-security-testing to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

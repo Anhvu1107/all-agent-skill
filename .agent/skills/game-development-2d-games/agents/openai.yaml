@@ -1,0 +1,8 @@
+interface:
+  display_name: "Game Development 2d Games"
+  short_description: "ALWAYS use this when the user or an upstream archive refers to `game-development-2d-games`, the nested skill path form for `2d-games`, or the equival..."
+  brand_color: "#15803D"
+  default_prompt: "Use $game-development-2d-games to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

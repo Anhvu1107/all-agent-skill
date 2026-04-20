@@ -1,0 +1,8 @@
+interface:
+  display_name: "Avalonia Zafiro Development"
+  short_description: "ALWAYS use this when the request matches Avalonia Zafiro Development: Mandatory skills, conventions, and behavioral rules for Avalonia UI development..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $avalonia-zafiro-development to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

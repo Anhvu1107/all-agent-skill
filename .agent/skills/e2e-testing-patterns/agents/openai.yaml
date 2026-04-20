@@ -1,0 +1,8 @@
+interface:
+  display_name: "E2e Testing Patterns"
+  short_description: "ALWAYS use this when the request matches E2e Testing Patterns: Build reliable, fast, and maintainable end-to-end test suites that provide confidence..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $e2e-testing-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

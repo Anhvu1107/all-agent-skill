@@ -1,0 +1,8 @@
+interface:
+  display_name: "Expo DEV Client"
+  short_description: "ALWAYS use this when the request matches Expo DEV Client: Build and distribute Expo development clients locally or via TestFlight"
+  brand_color: "#15803D"
+  default_prompt: "Use $expo-dev-client to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

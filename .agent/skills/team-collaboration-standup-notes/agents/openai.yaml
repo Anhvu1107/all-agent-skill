@@ -1,0 +1,8 @@
+interface:
+  display_name: "Team Collaboration Standup Notes"
+  short_description: "ALWAYS use this when the request matches Team Collaboration Standup Notes: You are an expert team communication specialist focused on async-first sta..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $team-collaboration-standup-notes to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

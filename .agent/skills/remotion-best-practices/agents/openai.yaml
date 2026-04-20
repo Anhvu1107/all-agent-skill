@@ -1,0 +1,8 @@
+interface:
+  display_name: "Remotion Best Practices"
+  short_description: "ALWAYS use this when working with Remotion code, video compositions, rendering logic, timing, media assets, or React-based motion workflows."
+  brand_color: "#0F172A"
+  default_prompt: "Use $remotion-best-practices to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Plotly"
+  short_description: "ALWAYS use this when the user mentions Plotly, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $plotly to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

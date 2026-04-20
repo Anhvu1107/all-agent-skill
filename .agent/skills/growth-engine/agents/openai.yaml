@@ -1,0 +1,8 @@
+interface:
+  display_name: "Growth Engine"
+  short_description: "ALWAYS use this when the request matches Growth Engine: Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral loops, email m..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $growth-engine to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

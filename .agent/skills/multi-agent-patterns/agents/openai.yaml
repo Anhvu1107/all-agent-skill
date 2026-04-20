@@ -1,0 +1,8 @@
+interface:
+  display_name: "Multi Agent Patterns"
+  short_description: "ALWAYS use this when the request matches Multi Agent Patterns: This skill should be used when the user asks to \"design multi-agent system\", \"implemen..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $multi-agent-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

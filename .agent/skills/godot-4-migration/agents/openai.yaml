@@ -1,0 +1,8 @@
+interface:
+  display_name: "Godot 4 Migration"
+  short_description: "ALWAYS use this when the request matches Godot 4 Migration: Specialized guide for migrating Godot 3.x projects to Godot 4 (GDScript 2.0), covering sy..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $godot-4-migration to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

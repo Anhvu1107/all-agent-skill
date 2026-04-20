@@ -1,0 +1,8 @@
+interface:
+  display_name: "Julia PRO"
+  short_description: "ALWAYS use this when the request matches Julia PRO: Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and product..."
+  brand_color: "#374151"
+  default_prompt: "Use $julia-pro to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

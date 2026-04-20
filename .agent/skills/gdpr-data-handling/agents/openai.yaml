@@ -1,0 +1,8 @@
+interface:
+  display_name: "Gdpr Data Handling"
+  short_description: "ALWAYS use this when the request matches Gdpr Data Handling: Practical implementation guide for GDPR-compliant data processing, consent management, a..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $gdpr-data-handling to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

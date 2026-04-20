@@ -1,0 +1,8 @@
+interface:
+  display_name: "Copywriting"
+  short_description: "ALWAYS use this when the request matches Copywriting: Write rigorous, conversion-focused marketing copy for landing pages and emails."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $copywriting to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

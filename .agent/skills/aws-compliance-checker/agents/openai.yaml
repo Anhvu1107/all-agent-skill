@@ -1,0 +1,8 @@
+interface:
+  display_name: "AWS Compliance Checker"
+  short_description: "ALWAYS use this when the request matches AWS Compliance Checker: Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks"
+  brand_color: "#2563EB"
+  default_prompt: "Use $aws-compliance-checker to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

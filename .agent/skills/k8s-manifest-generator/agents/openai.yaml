@@ -1,0 +1,8 @@
+interface:
+  display_name: "K8s Manifest Generator"
+  short_description: "ALWAYS use this when the request matches K8s Manifest Generator: Step-by-step guidance for creating production-ready Kubernetes manifests including D..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $k8s-manifest-generator to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

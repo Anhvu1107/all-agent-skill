@@ -1,0 +1,8 @@
+interface:
+  display_name: "Server Management"
+  short_description: "ALWAYS use this when the request matches Server Management: Server management principles and decision-making."
+  brand_color: "#EA580C"
+  default_prompt: "Use $server-management to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

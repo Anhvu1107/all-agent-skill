@@ -1,0 +1,8 @@
+interface:
+  display_name: "Distributed Debugging Debug Trace"
+  short_description: "ALWAYS use this when the request matches Distributed Debugging Debug Trace: You are a debugging expert specializing in setting up comprehensive debug..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $distributed-debugging-debug-trace to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

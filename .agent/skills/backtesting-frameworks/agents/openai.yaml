@@ -1,0 +1,8 @@
+interface:
+  display_name: "Backtesting Frameworks"
+  short_description: "ALWAYS use this when the request matches Backtesting Frameworks: Build robust, production-grade backtesting systems that avoid common pitfalls and pr..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $backtesting-frameworks to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

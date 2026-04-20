@@ -1,0 +1,8 @@
+interface:
+  display_name: "C4 Container"
+  short_description: "ALWAYS use this when the request matches C4 Container: Expert C4 Container-level documentation specialist."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $c4-container to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

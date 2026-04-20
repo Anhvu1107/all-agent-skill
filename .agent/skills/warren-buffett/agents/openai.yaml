@@ -1,0 +1,8 @@
+interface:
+  display_name: "Warren Buffett"
+  short_description: "ALWAYS use this when the request matches Warren Buffett: Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire H..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $warren-buffett to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Code Refactoring Refactor Clean"
+  short_description: "ALWAYS use this when the request matches Code Refactoring Refactor Clean: You are a code refactoring expert specializing in clean code principles, SO..."
+  brand_color: "#374151"
+  default_prompt: "Use $code-refactoring-refactor-clean to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Building Native UI"
+  short_description: "ALWAYS use this when the request matches Building Native UI: Complete guide for building beautiful apps with Expo Router."
+  brand_color: "#EA580C"
+  default_prompt: "Use $building-native-ui to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

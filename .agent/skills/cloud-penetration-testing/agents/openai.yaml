@@ -1,0 +1,8 @@
+interface:
+  display_name: "Cloud Penetration Testing"
+  short_description: "ALWAYS use this when the request matches Cloud Penetration Testing: Conduct comprehensive security assessments of cloud infrastructure across Microso..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $cloud-penetration-testing to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

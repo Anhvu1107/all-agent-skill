@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO Image GEN"
+  short_description: "ALWAYS use this when the request matches SEO Image GEN: Generate SEO-focused images such as OG cards, hero images, schema assets, product visuals, an..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $seo-image-gen to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

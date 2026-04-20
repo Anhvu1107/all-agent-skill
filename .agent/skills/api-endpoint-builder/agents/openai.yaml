@@ -1,0 +1,8 @@
+interface:
+  display_name: "API Endpoint Builder"
+  short_description: "ALWAYS use this when the request matches API Endpoint Builder: Builds production-ready REST API endpoints with validation, error handling, authentica..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $api-endpoint-builder to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "LLM Application DEV Prompt Optimize"
+  short_description: "ALWAYS use this when the request matches LLM Application DEV Prompt Optimize: You are an expert prompt engineer specializing in crafting effective pr..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $llm-application-dev-prompt-optimize to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

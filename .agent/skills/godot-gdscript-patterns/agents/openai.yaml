@@ -1,0 +1,8 @@
+interface:
+  display_name: "Godot Gdscript Patterns"
+  short_description: "ALWAYS use this when the request matches Godot Gdscript Patterns: Master Godot 4 GDScript patterns including signals, scenes, state machines, and opt..."
+  brand_color: "#15803D"
+  default_prompt: "Use $godot-gdscript-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

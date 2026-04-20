@@ -1,0 +1,8 @@
+interface:
+  display_name: "API Documentation Generator"
+  short_description: "ALWAYS use this when the request matches API Documentation Generator: Generate comprehensive, developer-friendly API documentation from code, includi..."
+  brand_color: "#374151"
+  default_prompt: "Use $api-documentation-generator to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

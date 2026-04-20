@@ -1,0 +1,84 @@
+---
+name: fp-types-ref
+description: 'ALWAYS use this when the user mentions FP Types REF, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on FP Types REF; scope: Quick reference for fp-ts types. Apply the bundled workflow, references, scripts, Senior Master standard, and Codex strict review gate before final output.'
+---
+
+# fp-ts Quick Reference
+
+## Selective Reading Rule
+
+Start with:
+
+- `references/senior-master-standard.md`
+- `references/usage-routing.md`
+- `references/quality-checklist.md`
+
+Then load only the inherited docs, scripts, assets, or examples that match the user's actual task.
+
+## When to Use
+- You need help choosing between `Option`, `Either`, `Task`, `TaskEither`, or related fp-ts types.
+- The task is about imports, decision guidance, or selecting the right abstraction for a TypeScript flow.
+- You want a compact reference for common fp-ts type choices and patterns.
+
+## Which Type Should I Use?
+
+```
+Is the operation async?
+├─ NO: Does it involve errors?
+│   ├─ YES → Either<Error, Value>
+│   └─ NO: Might value be missing?
+│       ├─ YES → Option<Value>
+│       └─ NO → Just use the value
+└─ YES: Does it involve errors?
+    ├─ YES → TaskEither<Error, Value>
+    └─ NO: Might value be missing?
+        ├─ YES → TaskOption<Value>
+        └─ NO → Task<Value>
+```
+
+## Common Imports
+
+```typescript
+// Core
+import { pipe, flow } from 'fp-ts/function'
+
+// Types
+import * as O from 'fp-ts/Option'      // Maybe exists
+import * as E from 'fp-ts/Either'      // Success or failure
+import * as TE from 'fp-ts/TaskEither' // Async + failure
+import * as T from 'fp-ts/Task'        // Async (no failure)
+import * as A from 'fp-ts/Array'       // Array utilities
+```
+
+## One-Line Patterns
+
+| Need | Code |
+|------|------|
+| Wrap nullable | `O.fromNullable(value)` |
+| Default value | `O.getOrElse(() => default)` |
+| Transform if exists | `O.map(fn)` |
+| Chain optionals | `O.flatMap(fn)` |
+| Wrap try/catch | `E.tryCatch(() => risky(), toError)` |
+| Wrap async | `TE.tryCatch(() => fetch(url), toError)` |
+| Run pipe | `pipe(value, fn1, fn2, fn3)` |
+
+## Pattern Match
+
+```typescript
+// Option
+pipe(maybe, O.match(
+  () => 'nothing',
+  (val) => `got ${val}`
+))
+
+// Either
+pipe(result, E.match(
+  (err) => `error: ${err}`,
+  (val) => `success: ${val}`
+))
+```
+
+## Limitations
+- Use this skill only when the task clearly matches the scope described above.
+- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
+- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.

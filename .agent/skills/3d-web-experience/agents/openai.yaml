@@ -1,0 +1,8 @@
+interface:
+  display_name: "3d WEB Experience"
+  short_description: "ALWAYS use this when the request matches 3d WEB Experience: Expert in building 3D experiences for the web - Three.js, React Three Fiber, Spline, WebG..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $3d-web-experience to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

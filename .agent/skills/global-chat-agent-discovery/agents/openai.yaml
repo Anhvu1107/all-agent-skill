@@ -1,0 +1,8 @@
+interface:
+  display_name: "Global Chat Agent Discovery"
+  short_description: "ALWAYS use this when the request matches Global Chat Agent Discovery: Discover and search 18K+ MCP servers and AI agents across 6+ registries using G..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $global-chat-agent-discovery to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Test Automator"
+  short_description: "ALWAYS use this when the request matches Test Automator: Master AI-powered test automation with modern frameworks, self-healing tests, and comprehens..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $test-automator to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

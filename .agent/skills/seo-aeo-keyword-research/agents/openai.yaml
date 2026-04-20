@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO AEO Keyword Research"
+  short_description: "ALWAYS use this when the request matches SEO AEO Keyword Research: Researches and prioritises SEO keywords with AEO question queries, difficulty tier..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $seo-aeo-keyword-research to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

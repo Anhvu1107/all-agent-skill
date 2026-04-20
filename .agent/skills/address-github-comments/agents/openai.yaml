@@ -1,0 +1,8 @@
+interface:
+  display_name: "Address Github Comments"
+  short_description: "ALWAYS use this when the request matches Address Github Comments: Use when you need to address review or issue comments on an open GitHub Pull Reques..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $address-github-comments to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

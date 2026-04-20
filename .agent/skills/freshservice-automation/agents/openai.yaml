@@ -1,0 +1,8 @@
+interface:
+  display_name: "Freshservice Automation"
+  short_description: "ALWAYS use this when the request matches Freshservice Automation: Automate Freshservice ITSM tasks via Rube MCP (Composio): create/update tickets, bu..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $freshservice-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

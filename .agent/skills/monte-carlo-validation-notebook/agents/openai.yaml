@@ -1,0 +1,8 @@
+interface:
+  display_name: "Monte Carlo Validation Notebook"
+  short_description: "ALWAYS use this when the request matches Monte Carlo Validation Notebook: Generates SQL validation notebooks for dbt PR changes with before/after com..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $monte-carlo-validation-notebook to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

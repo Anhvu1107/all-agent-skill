@@ -1,0 +1,8 @@
+interface:
+  display_name: "Json Canvas"
+  short_description: "ALWAYS use this when the request matches Json Canvas: Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections."
+  brand_color: "#2563EB"
+  default_prompt: "Use $json-canvas to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

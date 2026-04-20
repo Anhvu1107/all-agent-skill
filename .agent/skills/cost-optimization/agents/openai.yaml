@@ -1,0 +1,8 @@
+interface:
+  display_name: "Cost Optimization"
+  short_description: "ALWAYS use this when the request matches Cost Optimization: Strategies and patterns for optimizing cloud costs across AWS, Azure, and GCP."
+  brand_color: "#2563EB"
+  default_prompt: "Use $cost-optimization to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

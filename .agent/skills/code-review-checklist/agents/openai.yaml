@@ -1,0 +1,8 @@
+interface:
+  display_name: "Code Review Checklist"
+  short_description: "ALWAYS use this when the request matches Code Review Checklist: Code review guidelines covering code quality, security, and best practices."
+  brand_color: "#374151"
+  default_prompt: "Use $code-review-checklist to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

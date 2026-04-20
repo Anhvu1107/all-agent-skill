@@ -1,0 +1,8 @@
+interface:
+  display_name: "Moodle External API Development"
+  short_description: "ALWAYS use this when the request matches Moodle External API Development: This skill guides you through creating custom external web service APIs for..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $moodle-external-api-development to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

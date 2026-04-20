@@ -1,0 +1,8 @@
+interface:
+  display_name: "Swiftui UI Patterns"
+  short_description: "ALWAYS use this when the request matches Swiftui UI Patterns: Apply proven SwiftUI UI patterns for navigation, sheets, async state, and reusable scre..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $swiftui-ui-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

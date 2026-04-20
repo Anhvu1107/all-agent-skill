@@ -1,0 +1,8 @@
+interface:
+  display_name: "HIG Components Search"
+  short_description: "ALWAYS use this when the request matches HIG Components Search: Apple HIG guidance for navigation-related components including search fields, page co..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $hig-components-search to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

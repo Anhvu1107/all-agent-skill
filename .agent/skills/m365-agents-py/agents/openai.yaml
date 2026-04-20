@@ -1,0 +1,8 @@
+interface:
+  display_name: "M365 Agents PY"
+  short_description: "ALWAYS use this when the request matches M365 Agents PY: Microsoft 365 Agents SDK for Python."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $m365-agents-py to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

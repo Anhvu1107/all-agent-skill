@@ -1,0 +1,8 @@
+interface:
+  display_name: "N8n Expression Syntax"
+  short_description: "ALWAYS use this when the request matches N8n Expression Syntax: Validate n8n expression syntax and fix common errors."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $n8n-expression-syntax to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

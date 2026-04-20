@@ -1,0 +1,8 @@
+interface:
+  display_name: "Daily News Report"
+  short_description: "ALWAYS use this when the request matches Daily News Report: Scrapes content based on a preset URL list, filters high-quality technical information, a..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $daily-news-report to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

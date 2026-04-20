@@ -1,0 +1,8 @@
+interface:
+  display_name: "UI Tokens"
+  short_description: "ALWAYS use this when the request matches UI Tokens: List, add, and update StyleSeed design tokens while keeping JSON sources, CSS variables, and dark..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $ui-tokens to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

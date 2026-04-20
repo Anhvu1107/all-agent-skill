@@ -1,0 +1,8 @@
+interface:
+  display_name: "Documentation Generation DOC Generate"
+  short_description: "ALWAYS use this when the request matches Documentation Generation DOC Generate: You are a documentation expert specializing in creating comprehensive..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $documentation-generation-doc-generate to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

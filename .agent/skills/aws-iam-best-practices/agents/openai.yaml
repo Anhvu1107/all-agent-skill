@@ -1,0 +1,8 @@
+interface:
+  display_name: "AWS IAM Best Practices"
+  short_description: "ALWAYS use this when the request matches AWS IAM Best Practices: IAM policy review, hardening, and least privilege implementation"
+  brand_color: "#2563EB"
+  default_prompt: "Use $aws-iam-best-practices to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

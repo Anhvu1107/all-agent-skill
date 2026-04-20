@@ -1,0 +1,8 @@
+interface:
+  display_name: "Helm Chart Scaffolding"
+  short_description: "ALWAYS use this when the request matches Helm Chart Scaffolding: Comprehensive guidance for creating, organizing, and managing Helm charts for packag..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $helm-chart-scaffolding to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

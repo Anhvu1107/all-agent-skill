@@ -1,0 +1,8 @@
+interface:
+  display_name: "Odoo Project Timesheet"
+  short_description: "ALWAYS use this when the request matches Odoo Project Timesheet: Expert guide for Odoo Project and Timesheets: task stages, billable time tracking, t..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $odoo-project-timesheet to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

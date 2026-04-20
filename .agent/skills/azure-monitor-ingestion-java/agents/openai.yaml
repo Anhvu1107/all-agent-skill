@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Monitor Ingestion Java"
+  short_description: "ALWAYS use this when the request matches Azure Monitor Ingestion Java: Azure Monitor Ingestion SDK for Java."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $azure-monitor-ingestion-java to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

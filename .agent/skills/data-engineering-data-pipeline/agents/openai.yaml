@@ -1,0 +1,8 @@
+interface:
+  display_name: "Data Engineering Data Pipeline"
+  short_description: "ALWAYS use this when the request matches Data Engineering Data Pipeline: You are a data pipeline architecture expert specializing in scalable, reliab..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $data-engineering-data-pipeline to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

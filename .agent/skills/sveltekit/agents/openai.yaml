@@ -1,0 +1,8 @@
+interface:
+  display_name: "Sveltekit"
+  short_description: "ALWAYS use this when the request matches Sveltekit: Build full-stack web applications with SvelteKit — file-based routing, SSR, SSG, API routes, and..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $sveltekit to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

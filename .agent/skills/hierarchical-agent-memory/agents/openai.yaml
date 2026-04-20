@@ -1,0 +1,8 @@
+interface:
+  display_name: "Hierarchical Agent Memory"
+  short_description: "ALWAYS use this when the request matches Hierarchical Agent Memory: Scoped CLAUDE.md memory system that reduces context token spend."
+  brand_color: "#374151"
+  default_prompt: "Use $hierarchical-agent-memory to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

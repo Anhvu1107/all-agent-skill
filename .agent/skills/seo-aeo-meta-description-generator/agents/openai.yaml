@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO AEO Meta Description Generator"
+  short_description: "ALWAYS use this when the request matches SEO AEO Meta Description Generator: Writes 3 title tag variants and 3 meta description variants per page wit..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $seo-aeo-meta-description-generator to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

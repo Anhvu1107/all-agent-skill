@@ -1,0 +1,8 @@
+interface:
+  display_name: "Fastapi PRO"
+  short_description: "ALWAYS use this when the request matches Fastapi PRO: Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $fastapi-pro to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Security AWS Secrets Rotation"
+  short_description: "ALWAYS use this when the user or an upstream archive refers to `security-aws-secrets-rotation`, the nested skill path form for `aws-secrets-rotation`..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $security-aws-secrets-rotation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

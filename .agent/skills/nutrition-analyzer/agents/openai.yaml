@@ -1,0 +1,8 @@
+interface:
+  display_name: "Nutrition Analyzer"
+  short_description: "ALWAYS use this when the request matches Nutrition Analyzer: 分析营养数据、识别营养模式、评估营养状况，并提供个性化营养建议。支持与运动、睡眠、慢性病数据的关联分析。"
+  brand_color: "#15803D"
+  default_prompt: "Use $nutrition-analyzer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

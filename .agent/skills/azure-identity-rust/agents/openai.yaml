@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Identity Rust"
+  short_description: "ALWAYS use this when the request matches Azure Identity Rust: Azure Identity SDK for Rust authentication."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $azure-identity-rust to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

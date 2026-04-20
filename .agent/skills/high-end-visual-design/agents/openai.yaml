@@ -1,0 +1,8 @@
+interface:
+  display_name: "High END Visual Design"
+  short_description: "ALWAYS use this when the request matches High END Visual Design: Use when designing expensive agency-grade interfaces with premium fonts, spatial rhy..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $high-end-visual-design to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Manage Skills"
+  short_description: "ALWAYS use this when the request matches Manage Skills: Discover, list, create, edit, toggle, copy, move, and delete AI agent skills across 11 tools..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $manage-skills to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

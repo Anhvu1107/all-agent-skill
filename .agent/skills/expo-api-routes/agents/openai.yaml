@@ -1,0 +1,8 @@
+interface:
+  display_name: "Expo API Routes"
+  short_description: "ALWAYS use this when the request matches Expo API Routes: Guidelines for creating API routes in Expo Router with EAS Hosting"
+  brand_color: "#EA580C"
+  default_prompt: "Use $expo-api-routes to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Skills X402 Express Wrapper"
+  short_description: "ALWAYS use this when the user or an upstream archive refers to `skills-x402-express-wrapper`, the nested skill path form for `x402-express-wrapper`..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $skills-x402-express-wrapper to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

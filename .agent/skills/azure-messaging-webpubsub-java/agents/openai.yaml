@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Messaging Webpubsub Java"
+  short_description: "ALWAYS use this when the request matches Azure Messaging Webpubsub Java: Build real-time web applications with Azure Web PubSub SDK for Java."
+  brand_color: "#BE123C"
+  default_prompt: "Use $azure-messaging-webpubsub-java to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

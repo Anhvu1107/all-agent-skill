@@ -1,0 +1,8 @@
+interface:
+  display_name: "Security AWS IAM Best Practices"
+  short_description: "ALWAYS use this when the user or an upstream archive refers to `security-aws-iam-best-practices`, the nested skill path form for `aws-iam-best-practi..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $security-aws-iam-best-practices to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Context Optimization"
+  short_description: "ALWAYS use this when the request matches Context Optimization: Context optimization extends the effective capacity of limited context windows through..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $context-optimization to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

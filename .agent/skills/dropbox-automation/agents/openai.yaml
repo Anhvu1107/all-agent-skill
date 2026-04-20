@@ -1,0 +1,8 @@
+interface:
+  display_name: "Dropbox Automation"
+  short_description: "ALWAYS use this when the request matches Dropbox Automation: Automate Dropbox file management, sharing, search, uploads, downloads, and folder operat..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $dropbox-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

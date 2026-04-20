@@ -1,0 +1,8 @@
+interface:
+  display_name: "Mermaid Expert"
+  short_description: "ALWAYS use this when the request matches Mermaid Expert: Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures."
+  brand_color: "#0F766E"
+  default_prompt: "Use $mermaid-expert to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

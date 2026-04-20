@@ -1,0 +1,8 @@
+interface:
+  display_name: "Startup Business Analyst Market Opportunity"
+  short_description: "ALWAYS use this when the request matches Startup Business Analyst Market Opportunity: Generate comprehensive market opportunity analysis with TAM/SAM..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $startup-business-analyst-market-opportunity to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

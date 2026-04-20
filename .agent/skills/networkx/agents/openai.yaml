@@ -1,0 +1,8 @@
+interface:
+  display_name: "Networkx"
+  short_description: "ALWAYS use this when the request matches Networkx: NetworkX is a Python package for creating, manipulating, and analyzing complex networks and graphs."
+  brand_color: "#BE123C"
+  default_prompt: "Use $networkx to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

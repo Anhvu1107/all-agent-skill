@@ -1,0 +1,8 @@
+interface:
+  display_name: "CC Skill Continuous Learning"
+  short_description: "ALWAYS use this when the request matches CC Skill Continuous Learning: Development skill from everything-claude-code"
+  brand_color: "#2563EB"
+  default_prompt: "Use $cc-skill-continuous-learning to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

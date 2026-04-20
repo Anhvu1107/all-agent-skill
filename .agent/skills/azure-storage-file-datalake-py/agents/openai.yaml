@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Storage File Datalake PY"
+  short_description: "ALWAYS use this when the request matches Azure Storage File Datalake PY: Azure Data Lake Storage Gen2 SDK for Python."
+  brand_color: "#0F172A"
+  default_prompt: "Use $azure-storage-file-datalake-py to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

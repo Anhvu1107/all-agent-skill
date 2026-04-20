@@ -1,0 +1,1499 @@
+# Agent Skills VVIP Pro Max Ultra Catalog
+
+Generated from `.agent/skills`. Use `search-index.json` for machine search and this file for human review.
+
+- Total runtime skill entries: 1462
+- Canonical skills: 1440
+- Namespace/path alias skills: 22
+
+## Review Notes
+
+- Alias skills preserve nested ZIP path slugs without duplicating large skill bodies.
+- Full long-form instructions, when needed, live in `references/full-skill-instructions.md`.
+- Upstream metadata moved out of strict frontmatter lives in `references/frontmatter-metadata.md`.
+
+## Agent Workflow And Quality
+
+- `ab-test-setup`: ALWAYS use this when the request matches AB Test Setup: Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness.
+- `acceptance-orchestrator`: ALWAYS use this when the request matches Acceptance Orchestrator: Use when a coding task should be driven end-to-end from issue intake through implementation, review, deployment, and acceptance verification with minim...
+- `advanced-evaluation`: ALWAYS use this when the request matches Advanced Evaluation: This skill should be used when the user asks to "implement LLM-as-judge", "compare model outputs", "create evaluation rubrics", "mitigate evaluation bias"...
+- `agent-evaluation`: ALWAYS use this when the request matches Agent Evaluation: Testing and benchmarking LLM agents including behavioral testing, capability assessment, reliability metrics, and production monitoring—where even top agents...
+- `agent-framework-azure-ai-py`: ALWAYS use this when the request matches Agent Framework Azure AI PY: Build persistent agents on Azure AI Foundry using the Microsoft Agent Framework Python SDK.
+- `agent-manager-skill`: ALWAYS use this when the request matches Agent Manager Skill: Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling.
+- `agent-memory-mcp`: ALWAYS use this when the request matches Agent Memory MCP: A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions).
+- `agent-memory-systems`: ALWAYS use this when the request matches Agent Memory Systems: Memory is the cornerstone of intelligent agents.
+- `agent-orchestration-improve-agent`: ALWAYS use this when the request matches Agent Orchestration Improve Agent: Systematic improvement of existing agents through performance analysis, prompt engineering, and continuous iteration.
+- `agent-orchestration-multi-agent-optimize`: ALWAYS use this when the request matches Agent Orchestration Multi Agent Optimize: Optimize multi-agent systems with coordinated profiling, workload distribution, and cost-aware orchestration.
+- `agent-orchestrator`: ALWAYS use this when the request matches Agent Orchestrator: Meta-skill que orquestra todos os agentes do ecossistema.
+- `agentflow`: ALWAYS use this when the request matches Agentflow: Orchestrate autonomous AI development pipelines through your Kanban board (Asana, GitHub Projects, Linear).
+- `agentfolio`: ALWAYS use this when the request matches Agentfolio: Skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory.
+- `agentic-actions-auditor`: ALWAYS use this when the request matches Agentic Actions Auditor: Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations including Claude Code Action, Gemini CLI, OpenAI Codex, and GitHu...
+- `agentmail`: ALWAYS use this when the request matches Agentmail: Email infrastructure for AI agents.
+- `agentphone`: ALWAYS use this when the request matches Agentphone: Build AI phone agents with AgentPhone API.
+- `agents-md`: ALWAYS use this when the request matches Agents MD: This skill should be used when the user asks to "create AGENTS.md", "update AGENTS.md", "maintain agent docs", "set up CLAUDE.md", or needs to keep agent instruction...
+- `agents-v2-py`: ALWAYS use this when the request matches Agents V2 PY: Build container-based Foundry Agents with Azure AI Projects SDK (ImageBasedHostedAgentDefinition).
+- `ai-agent-development`: ALWAYS use this when the request matches AI Agent Development: AI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents.
+- `ai-agents-architect`: ALWAYS use this when the request matches AI Agents Architect: Expert in designing and building autonomous AI agents.
+- `antigravity-skill-orchestrator`: ALWAYS use this when the request matches Antigravity Skill Orchestrator: A meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory...
+- `antigravity-workflows`: ALWAYS use this when the request matches Antigravity Workflows: Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA.
+- `architect-review`: ALWAYS use this when the request matches Architect Review: Master software architect specializing in modern architecture
+- `autonomous-agent-patterns`: ALWAYS use this when the request matches Autonomous Agent Patterns: Design patterns for building autonomous coding agents, inspired by [Cline](https://github.com/cline/cline) and [OpenAI Codex](https://github.com/open...
+- `autonomous-agents`: ALWAYS use this when the request matches Autonomous Agents: Autonomous agents are AI systems that can independently decompose goals, plan actions, execute tools, and self-correct without constant human guidance.
+- `awt-e2e-testing`: ALWAYS use this when the request matches AWT E2e Testing: AI-powered E2E web testing — eyes and hands for AI coding tools.
+- `azure-microsoft-playwright-testing-ts`: ALWAYS use this when the request matches Azure Microsoft Playwright Testing TS: Run Playwright tests at scale with cloud-hosted browsers and integrated Azure portal reporting.
+- `backtesting-frameworks`: ALWAYS use this when the request matches Backtesting Frameworks: Build robust, production-grade backtesting systems that avoid common pitfalls and produce reliable strategy performance estimates.
+- `bats-testing-patterns`: ALWAYS use this when the request matches Bats Testing Patterns: Master Bash Automated Testing System (Bats) for comprehensive shell script testing.
+- `cc-skill-security-review`: ALWAYS use this when the request matches CC Skill Security Review: This skill ensures all code follows security best practices and identifies potential vulnerabilities.
+- `cicd-automation-workflow-automate`: ALWAYS use this when the request matches Cicd Automation Workflow Automate: You are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development...
+- `cloud-penetration-testing`: ALWAYS use this when the request matches Cloud Penetration Testing: Conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP).
+- `code-review-ai-ai-review`: ALWAYS use this when the request matches Code Review AI AI Review: You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices.
+- `code-review-checklist`: ALWAYS use this when the request matches Code Review Checklist: Code review guidelines covering code quality, security, and best practices.
+- `code-review-excellence`: ALWAYS use this when the request matches Code Review Excellence: Transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement.
+- `code-reviewer`: ALWAYS use this when the request matches Code Reviewer: Elite code review expert specializing in modern AI-powered code
+- `codex-review`: ALWAYS use this when the request matches Codex Review: Professional code review with auto CHANGELOG generation, integrated with Codex AI.
+- `comprehensive-review-full-review`: ALWAYS use this when the request matches Comprehensive Review Full Review: Use when working with comprehensive review full review
+- `comprehensive-review-pr-enhance`: ALWAYS use this when the request matches Comprehensive Review PR Enhance: Generate structured PR descriptions from diffs, add review checklists, risk assessments, and test coverage summaries.
+- `computer-use-agents`: ALWAYS use this when the request matches Computer USE Agents: Build AI agents that interact with computers like humans do - viewing screens, moving cursors, clicking buttons, and typing text.
+- `context-agent`: ALWAYS use this when the request matches Context Agent: Agente de contexto para continuidade entre sessoes.
+- `crypto-bd-agent`: ALWAYS use this when the request matches Crypto BD Agent: Production-tested patterns for building AI agents that autonomously discover, > evaluate, and acquire token listings for cryptocurrency exchanges.
+- `debug-buttercup`: ALWAYS use this when the user mentions Debug Buttercup, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Debug Buttercup; sco...
+- `debugger`: ALWAYS use this when the request matches Debugger: Debugging specialist for errors, test failures, and unexpected behavior.
+- `debugging-strategies`: ALWAYS use this when the request matches Debugging Strategies: Transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches.
+- `debugging-toolkit-smart-debug`: ALWAYS use this when the request matches Debugging Toolkit Smart Debug: Use when working with debugging toolkit smart debug
+- `design-orchestration`: ALWAYS use this when the request matches Design Orchestration: Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order.
+- `differential-review`: ALWAYS use this when the request matches Differential Review: Security-focused code review for PRs, commits, and diffs.
+- `dispatching-parallel-agents`: ALWAYS use this when there are two or more independent investigations, failures, or implementation slices that can be worked in parallel without shared-state collisions.
+- `distributed-debugging-debug-trace`: ALWAYS use this when the request matches Distributed Debugging Debug Trace: You are a debugging expert specializing in setting up comprehensive debugging environments, distributed tracing, and diagnostic tools.
+- `django-access-review`: ALWAYS use this when the user mentions Django Access Review, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Django Access R...
+- `django-perf-review`: ALWAYS use this when the user mentions Django Perf Review, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Django Perf Revie...
+- `e2e-testing`: ALWAYS use this when the request matches E2e Testing: End-to-end testing workflow with Playwright for browser automation, visual regression, cross-browser testing, and CI/CD integration.
+- `e2e-testing-patterns`: ALWAYS use this when the request matches E2e Testing Patterns: Build reliable, fast, and maintainable end-to-end test suites that provide confidence to ship code quickly and catch regressions before users do.
+- `error-debugging-error-analysis`: ALWAYS use this when the request matches Error Debugging Error Analysis: You are an expert error analysis specialist with deep expertise in debugging distributed systems, analyzing production incidents, and implementi...
+- `error-debugging-error-trace`: ALWAYS use this when the request matches Error Debugging Error Trace: You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions.
+- `error-debugging-multi-agent-review`: ALWAYS use this when the request matches Error Debugging Multi Agent Review: Use when working with error debugging multi agent review
+- `error-diagnostics-smart-debug`: ALWAYS use this when the request matches Error Diagnostics Smart Debug: Use when working with error diagnostics smart debug
+- `evaluation`: ALWAYS use this when the request matches Evaluation: Build evaluation frameworks for agent systems.
+- `fal-workflow`: ALWAYS use this when the request matches FAL Workflow: Generate workflow JSON files for chaining AI models
+- `fix-review`: ALWAYS use this when the request matches FIX Review: Verify fix commits address audit findings without new bugs
+- `full-stack-orchestration-full-stack-feature`: ALWAYS use this when the request matches Full Stack Orchestration Full Stack Feature: Use when working with full stack orchestration full stack feature
+- `gh-review-requests`: ALWAYS use this when the request matches GH Review Requests: Fetch unread GitHub notifications for open PRs where review is requested from a specified team or opened by a team member.
+- `gha-security-review`: ALWAYS use this when the request matches GHA Security Review: Find exploitable vulnerabilities in GitHub Actions workflows.
+- `git-advanced-workflows`: ALWAYS use this when the request matches GIT Advanced Workflows: Master advanced Git techniques to maintain clean history, collaborate effectively, and recover from any situation with confidence.
+- `git-pr-workflows-git-workflow`: ALWAYS use this when the request matches GIT PR Workflows GIT Workflow: Orchestrate a comprehensive git workflow from code review through PR creation, leveraging specialized agents for quality assurance, testing, and...
+- `git-pr-workflows-onboard`: ALWAYS use this when the request matches GIT PR Workflows Onboard: You are an **expert onboarding specialist and knowledge transfer architect** with deep experience in remote-first organizations, technical team integr...
+- `git-pr-workflows-pr-enhance`: ALWAYS use this when the request matches GIT PR Workflows PR Enhance: You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews.
+- `github-workflow-automation`: ALWAYS use this when the request matches Github Workflow Automation: Patterns for automating GitHub workflows with AI assistance, inspired by [Gemini CLI](https://github.com/google-gemini/gemini-cli) and modern DevOps...
+- `gitops-workflow`: ALWAYS use this when the request matches Gitops Workflow: Complete guide to implementing GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments.
+- `global-chat-agent-discovery`: ALWAYS use this when the request matches Global Chat Agent Discovery: Discover and search 18K+ MCP servers and AI agents across 6+ registries using Global Chat's cross-protocol directory and MCP server.
+- `hierarchical-agent-memory`: ALWAYS use this when the request matches Hierarchical Agent Memory: Scoped CLAUDE.md memory system that reduces context token spend.
+- `hosted-agents`: ALWAYS use this when the request matches Hosted Agents: Build background agents in sandboxed environments.
+- `hosted-agents-v2-py`: ALWAYS use this when the request matches Hosted Agents V2 PY: Build hosted agents using Azure AI Projects SDK with ImageBasedHostedAgentDefinition.
+- `html-injection-testing`: ALWAYS use this when the request matches Html Injection Testing: Identify and exploit HTML injection vulnerabilities that allow attackers to inject malicious HTML content into web applications.
+- `hugging-face-community-evals`: ALWAYS use this when the request matches Hugging Face Community Evals: Run local evaluations for Hugging Face Hub models with inspect-ai or lighteval.
+- `hugging-face-evaluation`: ALWAYS use this when the request matches Hugging Face Evaluation: Add and manage evaluation results in Hugging Face model cards.
+- `ios-debugger-agent`: ALWAYS use this when the request matches IOS Debugger Agent: Debug the current iOS project on a booted simulator with XcodeBuildMCP.
+- `k6-load-testing`: ALWAYS use this when the request matches K6 Load Testing: Comprehensive k6 load testing skill for API, browser, and scalability testing.
+- `lambdatest-agent-skills`: ALWAYS use this when the request matches Lambdatest Agent Skills: Production-grade test automation skills for 46 frameworks across E2E, unit, mobile, BDD, visual, and cloud testing in 15+ languages.
+- `lightning-architecture-review`: ALWAYS use this when the request matches Lightning Architecture Review: Review Bitcoin Lightning Network protocol designs, compare channel factory approaches, and analyze Layer 2 scaling tradeoffs.
+- `llm-application-dev-langchain-agent`: ALWAYS use this when the request matches LLM Application DEV Langchain Agent: You are an expert LangChain agent developer specializing in production-grade AI systems using LangChain 0.1+ and LangGraph.
+- `llm-evaluation`: ALWAYS use this when the request matches LLM Evaluation: Master comprehensive evaluation strategies for LLM applications, from automated metrics to human evaluation and A/B testing.
+- `m365-agents-py`: ALWAYS use this when the request matches M365 Agents PY: Microsoft 365 Agents SDK for Python.
+- `m365-agents-ts`: ALWAYS use this when the request matches M365 Agents TS: Microsoft 365 Agents SDK for TypeScript/Node.js.
+- `ml-pipeline-workflow`: ALWAYS use this when the request matches ML Pipeline Workflow: Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment.
+- `multi-agent-brainstorming`: ALWAYS use this when the request matches Multi Agent Brainstorming: Simulate a structured peer-review process using multiple specialized agents to validate designs, surface hidden assumptions, and identify failure mod...
+- `multi-agent-patterns`: ALWAYS use this when the request matches Multi Agent Patterns: This skill should be used when the user asks to "design multi-agent system", "implement supervisor pattern", "create swarm architecture", "coordinate mult...
+- `multi-agent-task-orchestrator`: ALWAYS use this when the request matches Multi Agent Task Orchestrator: Route tasks to specialized AI agents with anti-duplication, quality gates, and 30-minute heartbeat monitoring
+- `n8n-workflow-patterns`: ALWAYS use this when the request matches N8n Workflow Patterns: Proven architectural patterns for building n8n workflows.
+- `odoo-automated-tests`: ALWAYS use this when the request matches Odoo Automated Tests: Write and run Odoo automated tests using TransactionCase, HttpCase, and browser tour tests.
+- `odoo-purchase-workflow`: ALWAYS use this when the request matches Odoo Purchase Workflow: Expert guide for Odoo Purchase: RFQ → PO → Receipt → Vendor Bill workflow, purchase agreements, vendor price lists, and 3-way matching.
+- `orchestrate-batch-refactor`: ALWAYS use this when the request matches Orchestrate Batch Refactor: Plan and execute large refactors with dependency-aware work packets and parallel analysis.
+- `parallel-agents`: ALWAYS use this when the task contains multiple independent research questions, code slices, or verification tracks that can proceed in parallel while the immediate local step continues.
+- `pentest-checklist`: ALWAYS use this when the request matches Pentest Checklist: Provide a comprehensive checklist for planning, executing, and following up on penetration tests.
+- `pentest-commands`: ALWAYS use this when the request matches Pentest Commands: Provide a comprehensive command reference for penetration testing tools including network scanning, exploitation, password cracking, and web application testing.
+- `performance-testing-review-ai-review`: ALWAYS use this when the request matches Performance Testing Review AI Review: You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOp...
+- `performance-testing-review-multi-agent-review`: ALWAYS use this when the request matches Performance Testing Review Multi Agent Review: Use when working with performance testing review multi agent review
+- `phase-gated-debugging`: ALWAYS use this when the user mentions Phase Gated Debugging, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Phase Gated De...
+- `pipecat-friday-agent`: ALWAYS use this when the request matches Pipecat Friday Agent: Build a low-latency, Iron Man-inspired tactical voice assistant (F.R.I.D.A.Y.) using Pipecat, Gemini, and OpenAI.
+- `receiving-code-review`: ALWAYS use this when review feedback arrives and you need to verify, triage, and implement it carefully instead of agreeing performatively or applying it blindly.
+- `requesting-code-review`: ALWAYS use this when a meaningful change is complete enough to need a review pass before merge, especially for major features, risky refactors, or work produced by delegated agents.
+- `saga-orchestration`: ALWAYS use this when the request matches Saga Orchestration: Patterns for managing distributed transactions and long-running business processes.
+- `screen-reader-testing`: ALWAYS use this when the request matches Screen Reader Testing: Practical guide to testing web applications with screen readers for comprehensive accessibility validation.
+- `smtp-penetration-testing`: ALWAYS use this when the request matches Smtp Penetration Testing: Conduct comprehensive security assessments of SMTP (Simple Mail Transfer Protocol) servers to identify vulnerabilities including open relays, user enu...
+- `social-orchestrator`: ALWAYS use this when the request matches Social Orchestrator: Orquestrador unificado de canais sociais — coordena Instagram, Telegram e WhatsApp em um unico fluxo de trabalho.
+- `sql-injection-testing`: ALWAYS use this when the request matches SQL Injection Testing: Execute comprehensive SQL injection vulnerability assessments on web applications to identify database security flaws, demonstrate exploitation technique...
+- `ssh-penetration-testing`: ALWAYS use this when the request matches SSH Penetration Testing: Conduct comprehensive SSH security assessments including enumeration, credential attacks, vulnerability exploitation, tunneling techniques, and post-ex...
+- `subagent-driven-development`: ALWAYS use this when you already have an implementation plan with mostly independent tasks and want to execute it through fresh, tightly-scoped subagents plus structured review after each task.
+- `systematic-debugging`: ALWAYS use this when the user mentions any bug, flaky behavior, failing test, broken build, regression, runtime error, performance mystery, or unexpected output, especially when guessing at fixes feels tempting.
+- `tdd-orchestrator`: ALWAYS use this when the request matches TDD Orchestrator: Master TDD orchestrator specializing in red-green-refactor discipline, multi-agent workflow coordination, and comprehensive test-driven development practices.
+- `tdd-workflow`: ALWAYS use this when a bug fix or logic change should be locked down by tests first, especially when regression risk is higher than the cost of writing focused tests.
+- `tdd-workflows-tdd-cycle`: ALWAYS use this when the request matches TDD Workflows TDD Cycle: Use when working with tdd workflows tdd cycle
+- `tdd-workflows-tdd-green`: ALWAYS use this when the request matches TDD Workflows TDD Green: Implement the minimal code needed to make failing tests pass in the TDD green phase.
+- `tdd-workflows-tdd-red`: ALWAYS use this when the request matches TDD Workflows TDD RED: Generate failing tests for the TDD red phase to define expected behavior and edge cases.
+- `tdd-workflows-tdd-refactor`: ALWAYS use this when the request matches TDD Workflows TDD Refactor: Use when working with tdd workflows tdd refactor
+- `test-automator`: ALWAYS use this when the request matches Test Automator: Master AI-powered test automation with modern frameworks, self-healing tests, and comprehensive quality engineering.
+- `test-driven-development`: ALWAYS use this when implementing or changing behavior that can be defined by a failing test first, including bug fixes, parsing, validation, business rules, state transitions, and regression-prone logic.
+- `test-fixing`: ALWAYS use this when the request matches Test Fixing: Systematically identify and fix all failing tests using smart grouping strategies.
+- `testing-patterns`: ALWAYS use this when choosing or improving test strategy, test shape, coverage boundaries, or the right mix of unit, integration, and end-to-end checks.
+- `testing-qa`: ALWAYS use this when the request matches Testing QA: Comprehensive testing and QA workflow covering unit testing, integration testing, E2E testing, browser automation, and quality assurance.
+- `unit-testing-test-generate`: ALWAYS use this when the request matches Unit Testing Test Generate: Generate comprehensive, maintainable unit tests across languages with strong coverage and edge case focus.
+- `vibers-code-review`: ALWAYS use this when the request matches Vibers Code Review: Human review workflow for AI-generated GitHub projects with spec-based feedback, security review, and follow-up PRs from the Vibers service.
+- `voice-agents`: ALWAYS use this when the request matches Voice Agents: Voice agents represent the frontier of AI interaction - humans speaking naturally with AI systems.
+- `web-security-testing`: ALWAYS use this when the request matches WEB Security Testing: Web application security testing workflow for OWASP Top 10 vulnerabilities including injection, XSS, authentication flaws, and access control issues.
+- `web3-testing`: ALWAYS use this when the request matches Web3 Testing: Master comprehensive testing strategies for smart contracts using Hardhat, Foundry, and advanced testing patterns.
+- `webapp-testing`: ALWAYS use this when the task involves browser automation, UI verification, DOM inspection, end-to-end checks, or reproducing a web bug in a running application.
+- `wordpress-penetration-testing`: ALWAYS use this when the request matches Wordpress Penetration Testing: Assess WordPress installations for common vulnerabilities and WordPress 7.0 attack surfaces.
+- `workflow-automation`: ALWAYS use this when the request matches Workflow Automation: Workflow automation is the infrastructure that makes AI agents reliable.
+- `workflow-orchestration-patterns`: ALWAYS use this when the request matches Workflow Orchestration Patterns: Master workflow orchestration architecture with Temporal, covering fundamental design decisions, resilience patterns, and best practices for bu...
+- `workflow-patterns`: ALWAYS use this when the request matches Workflow Patterns: Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding th...
+
+## Backend And Engineering
+
+- `akf-trust-metadata`: ALWAYS use this when the user mentions AKF Trust Metadata, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on AKF Trust Metadat...
+- `api-design-principles`: ALWAYS use this when the request matches API Design Principles: Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers and stand the test of time.
+- `api-documentation`: ALWAYS use this when the request matches API Documentation: API documentation workflow for generating OpenAPI specs, creating developer guides, and maintaining comprehensive API documentation.
+- `api-documentation-generator`: ALWAYS use this when the request matches API Documentation Generator: Generate comprehensive, developer-friendly API documentation from code, including endpoints, parameters, examples, and best practices
+- `api-documenter`: ALWAYS use this when the request matches API Documenter: Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience practices.
+- `api-fuzzing-bug-bounty`: ALWAYS use this when the request matches API Fuzzing BUG Bounty: Provide comprehensive techniques for testing REST, SOAP, and GraphQL APIs during bug bounty hunting and penetration testing engagements.
+- `api-patterns`: ALWAYS use this when the task involves API shape, contracts, auth, versioning, response structure, error handling, or service boundary design.
+- `api-security-best-practices`: ALWAYS use this when the request matches API Security Best Practices: Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vu...
+- `api-security-testing`: ALWAYS use this when the request matches API Security Testing: API security testing workflow for REST and GraphQL APIs covering authentication, authorization, rate limiting, input validation, and security best practices.
+- `api-testing-observability-api-mock`: ALWAYS use this when the request matches API Testing Observability API Mock: You are an API mocking expert specializing in realistic mock services for development, testing, and demos.
+- `apify-actor-development`: ALWAYS use this when the request matches Apify Actor Development: Important: Before you begin, fill in the generatedBy property in the meta section of .actor/actor.json.
+- `apify-actorization`: ALWAYS use this when the request matches Apify Actorization: Actorization converts existing software into reusable serverless applications compatible with the Apify platform.
+- `apify-audience-analysis`: ALWAYS use this when the request matches Apify Audience Analysis: Understand audience demographics, preferences, behavior patterns, and engagement quality across Facebook, Instagram, YouTube, and TikTok.
+- `apify-brand-reputation-monitoring`: ALWAYS use this when the request matches Apify Brand Reputation Monitoring: Scrape reviews, ratings, and brand mentions from multiple platforms using Apify Actors.
+- `apify-competitor-intelligence`: ALWAYS use this when the request matches Apify Competitor Intelligence: Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, and T...
+- `apify-content-analytics`: ALWAYS use this when the request matches Apify Content Analytics: Track engagement metrics, measure campaign ROI, and analyze content performance across Instagram, Facebook, YouTube, and TikTok.
+- `apify-ecommerce`: ALWAYS use this when the request matches Apify Ecommerce: Extract product data, prices, reviews, and seller information from any e-commerce platform using Apify's E-commerce Scraping Tool.
+- `apify-influencer-discovery`: ALWAYS use this when the request matches Apify Influencer Discovery: Find and evaluate influencers for brand partnerships, verify authenticity, and track collaboration performance across Instagram, Facebook, YouTube...
+- `apify-lead-generation`: ALWAYS use this when the request matches Apify Lead Generation: Scrape leads from multiple platforms using Apify Actors.
+- `apify-market-research`: ALWAYS use this when the request matches Apify Market Research: Analyze market conditions, geographic opportunities, pricing, consumer behavior, and product validation across Google Maps, Facebook, Instagram, Booking...
+- `apify-trend-analysis`: ALWAYS use this when the request matches Apify Trend Analysis: Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.
+- `apify-ultimate-scraper`: ALWAYS use this when the request matches Apify Ultimate Scraper: AI-driven data extraction from 55+ Actors across all major platforms.
+- `async-python-patterns`: ALWAYS use this when the request matches Async Python Patterns: Comprehensive guidance for implementing asynchronous Python applications using asyncio, concurrent programming patterns, and async/await for building hig...
+- `azure-ai-agents-persistent-dotnet`: ALWAYS use this when the request matches Azure AI Agents Persistent Dotnet: Azure AI Agents Persistent SDK for .NET.
+- `azure-ai-agents-persistent-java`: ALWAYS use this when the request matches Azure AI Agents Persistent Java: Azure AI Agents Persistent SDK for Java.
+- `azure-ai-anomalydetector-java`: ALWAYS use this when the request matches Azure AI Anomalydetector Java: Build anomaly detection applications with Azure AI Anomaly Detector SDK for Java.
+- `azure-ai-contentsafety-java`: ALWAYS use this when the request matches Azure AI Contentsafety Java: Build content moderation applications using the Azure AI Content Safety SDK for Java.
+- `azure-ai-document-intelligence-dotnet`: ALWAYS use this when the request matches Azure AI Document Intelligence Dotnet: Azure AI Document Intelligence SDK for .NET.
+- `azure-ai-formrecognizer-java`: ALWAYS use this when the request matches Azure AI Formrecognizer Java: Build document analysis applications using the Azure AI Document Intelligence SDK for Java.
+- `azure-ai-openai-dotnet`: ALWAYS use this when the user mentions Azure AI Openai Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure AI Open...
+- `azure-ai-projects-dotnet`: ALWAYS use this when the user mentions Azure AI Projects Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure AI Pr...
+- `azure-ai-projects-java`: ALWAYS use this when the user mentions Azure AI Projects Java, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure AI Proj...
+- `azure-ai-vision-imageanalysis-java`: ALWAYS use this when the request matches Azure AI Vision Imageanalysis Java: Build image analysis applications with Azure AI Vision SDK for Java.
+- `azure-ai-voicelive-dotnet`: ALWAYS use this when the user mentions Azure AI Voicelive Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure AI V...
+- `azure-ai-voicelive-java`: ALWAYS use this when the user mentions Azure AI Voicelive Java, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure AI Voi...
+- `azure-appconfiguration-java`: ALWAYS use this when the request matches Azure Appconfiguration Java: Azure App Configuration SDK for Java.
+- `azure-communication-callautomation-java`: ALWAYS use this when the request matches Azure Communication Callautomation Java: Build server-side call automation workflows including IVR systems, call routing, recording, and AI-powered interactions.
+- `azure-communication-callingserver-java`: ALWAYS use this when the request matches Azure Communication Callingserver Java: ⚠️ DEPRECATED: This SDK has been renamed to Call Automation.
+- `azure-communication-chat-java`: ALWAYS use this when the request matches Azure Communication Chat Java: Build real-time chat applications with thread management, messaging, participants, and read receipts.
+- `azure-communication-common-java`: ALWAYS use this when the request matches Azure Communication Common Java: Azure Communication Services common utilities for Java.
+- `azure-communication-sms-java`: ALWAYS use this when the request matches Azure Communication SMS Java: Send SMS messages with Azure Communication Services SMS Java SDK.
+- `azure-compute-batch-java`: ALWAYS use this when the user mentions Azure Compute Batch Java, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Compu...
+- `azure-cosmos-java`: ALWAYS use this when the user mentions Azure Cosmos Java, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Cosmos Java...
+- `azure-cosmos-rust`: ALWAYS use this when the request matches Azure Cosmos Rust: Azure Cosmos DB SDK for Rust (NoSQL API).
+- `azure-data-tables-java`: ALWAYS use this when the request matches Azure Data Tables Java: Build table storage applications using the Azure Tables SDK for Java.
+- `azure-eventgrid-dotnet`: ALWAYS use this when the user mentions Azure Eventgrid Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Eventgr...
+- `azure-eventgrid-java`: ALWAYS use this when the request matches Azure Eventgrid Java: Build event-driven applications with Azure Event Grid SDK for Java.
+- `azure-eventhub-dotnet`: ALWAYS use this when the user mentions Azure Eventhub Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Eventhub...
+- `azure-eventhub-java`: ALWAYS use this when the request matches Azure Eventhub Java: Build real-time streaming applications with Azure Event Hubs SDK for Java.
+- `azure-eventhub-rust`: ALWAYS use this when the user mentions Azure Eventhub Rust, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Eventhub R...
+- `azure-identity-dotnet`: ALWAYS use this when the user mentions Azure Identity Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Identity...
+- `azure-identity-java`: ALWAYS use this when the request matches Azure Identity Java: Authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD).
+- `azure-identity-rust`: ALWAYS use this when the request matches Azure Identity Rust: Azure Identity SDK for Rust authentication.
+- `azure-keyvault-certificates-rust`: ALWAYS use this when the request matches Azure Keyvault Certificates Rust: Azure Key Vault Certificates SDK for Rust.
+- `azure-keyvault-keys-rust`: ALWAYS use this when the user mentions Azure Keyvault Keys Rust, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Keyva...
+- `azure-keyvault-secrets-rust`: ALWAYS use this when the request matches Azure Keyvault Secrets Rust: Azure Key Vault Secrets SDK for Rust.
+- `azure-maps-search-dotnet`: ALWAYS use this when the user mentions Azure Maps Search Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Maps...
+- `azure-messaging-webpubsub-java`: ALWAYS use this when the request matches Azure Messaging Webpubsub Java: Build real-time web applications with Azure Web PubSub SDK for Java.
+- `azure-mgmt-apicenter-dotnet`: ALWAYS use this when the user mentions Azure Mgmt Apicenter Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Mg...
+- `azure-mgmt-apicenter-py`: ALWAYS use this when the request matches Azure Mgmt Apicenter PY: Azure API Center Management SDK for Python.
+- `azure-mgmt-apimanagement-dotnet`: ALWAYS use this when the request matches Azure Mgmt Apimanagement Dotnet: Azure Resource Manager SDK for API Management in .NET.
+- `azure-mgmt-apimanagement-py`: ALWAYS use this when the request matches Azure Mgmt Apimanagement PY: Azure API Management SDK for Python.
+- `azure-mgmt-applicationinsights-dotnet`: ALWAYS use this when the request matches Azure Mgmt Applicationinsights Dotnet: Azure Application Insights SDK for .NET.
+- `azure-mgmt-arizeaiobservabilityeval-dotnet`: ALWAYS use this when the request matches Azure Mgmt Arizeaiobservabilityeval Dotnet: Azure Resource Manager SDK for Arize AI Observability and Evaluation (.NET).
+- `azure-mgmt-botservice-dotnet`: ALWAYS use this when the request matches Azure Mgmt Botservice Dotnet: Azure Resource Manager SDK for Bot Service in .NET.
+- `azure-mgmt-fabric-dotnet`: ALWAYS use this when the request matches Azure Mgmt Fabric Dotnet: Azure Resource Manager SDK for Fabric in .NET.
+- `azure-mgmt-mongodbatlas-dotnet`: ALWAYS use this when the request matches Azure Mgmt Mongodbatlas Dotnet: Manage MongoDB Atlas Organizations as Azure ARM resources with unified billing through Azure Marketplace.
+- `azure-mgmt-weightsandbiases-dotnet`: ALWAYS use this when the request matches Azure Mgmt Weightsandbiases Dotnet: Azure Weights & Biases SDK for .NET.
+- `azure-monitor-ingestion-java`: ALWAYS use this when the request matches Azure Monitor Ingestion Java: Azure Monitor Ingestion SDK for Java.
+- `azure-monitor-query-java`: ALWAYS use this when the user mentions Azure Monitor Query Java, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Monit...
+- `azure-postgres-ts`: ALWAYS use this when the request matches Azure Postgres TS: Connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package.
+- `azure-resource-manager-cosmosdb-dotnet`: ALWAYS use this when the request matches Azure Resource Manager Cosmosdb Dotnet: Azure Resource Manager SDK for Cosmos DB in .NET.
+- `azure-resource-manager-durabletask-dotnet`: ALWAYS use this when the request matches Azure Resource Manager Durabletask Dotnet: Azure Resource Manager SDK for Durable Task Scheduler in .NET.
+- `azure-resource-manager-mysql-dotnet`: ALWAYS use this when the request matches Azure Resource Manager Mysql Dotnet: Azure MySQL Flexible Server SDK for .NET.
+- `azure-resource-manager-playwright-dotnet`: ALWAYS use this when the request matches Azure Resource Manager Playwright Dotnet: Azure Resource Manager SDK for Microsoft Playwright Testing in .NET.
+- `azure-resource-manager-postgresql-dotnet`: ALWAYS use this when the request matches Azure Resource Manager Postgresql Dotnet: Azure PostgreSQL Flexible Server SDK for .NET.
+- `azure-resource-manager-redis-dotnet`: ALWAYS use this when the request matches Azure Resource Manager Redis Dotnet: Azure Resource Manager SDK for Redis in .NET.
+- `azure-resource-manager-sql-dotnet`: ALWAYS use this when the request matches Azure Resource Manager SQL Dotnet: Azure Resource Manager SDK for Azure SQL in .NET.
+- `azure-search-documents-dotnet`: ALWAYS use this when the request matches Azure Search Documents Dotnet: Azure AI Search SDK for .NET (Azure.Search.Documents).
+- `azure-security-keyvault-keys-dotnet`: ALWAYS use this when the user mentions Azure Security Keyvault Keys Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on...
+- `azure-security-keyvault-keys-java`: ALWAYS use this when the request matches Azure Security Keyvault Keys Java: Azure Key Vault Keys Java SDK for cryptographic key management.
+- `azure-security-keyvault-secrets-java`: ALWAYS use this when the request matches Azure Security Keyvault Secrets Java: Azure Key Vault Secrets Java SDK for secret management.
+- `azure-servicebus-dotnet`: ALWAYS use this when the user mentions Azure Servicebus Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Servic...
+- `azure-storage-blob-java`: ALWAYS use this when the request matches Azure Storage Blob Java: Build blob storage applications using the Azure Storage Blob SDK for Java.
+- `azure-storage-blob-rust`: ALWAYS use this when the user mentions Azure Storage Blob Rust, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Storag...
+- `backend-architect`: ALWAYS use this when the request matches Backend Architect: Expert backend architect specializing in scalable API design, microservices architecture, and distributed systems.
+- `backend-development-feature-development`: ALWAYS use this when the request matches Backend Development Feature Development: Orchestrate end-to-end backend feature development from requirements to deployment.
+- `backend-security-coder`: ALWAYS use this when the request matches Backend Security Coder: Expert in secure backend coding practices specializing in input validation, authentication, and API security.
+- `biopython`: ALWAYS use this when the request matches Biopython: Biopython is a comprehensive set of freely available Python tools for biological computation.
+- `cc-skill-backend-patterns`: ALWAYS use this when the request matches CC Skill Backend Patterns: Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.
+- `claimable-postgres`: ALWAYS use this when the request matches Claimable Postgres: Provision instant temporary Postgres databases via Claimable Postgres by Neon (pg.new).
+- `claude-api`: ALWAYS use this when the request matches Claude API: Build, debug, and optimize Claude API / Anthropic SDK apps.
+- `database`: ALWAYS use this when the request matches Database: Database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering.
+- `database-admin`: ALWAYS use this when the request matches Database Admin: Expert database administrator specializing in modern cloud databases, automation, and reliability engineering.
+- `database-architect`: ALWAYS use this when the request matches Database Architect: Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures.
+- `database-cloud-optimization-cost-optimize`: ALWAYS use this when the request matches Database Cloud Optimization Cost Optimize: You are a cloud cost optimization expert specializing in reducing infrastructure expenses while maintaining performance and reliability.
+- `database-design`: ALWAYS use this when the hard part is schemas, relationships, constraints, indexes, data integrity, query shape, or migration-safe data modeling.
+- `database-migration`: ALWAYS use this when the request matches Database Migration: Master database schema and data migrations across ORMs (Sequelize, TypeORM, Prisma), including rollback strategies and zero-downtime deployments.
+- `database-migrations-migration-observability`: ALWAYS use this when the request matches Database Migrations Migration Observability: Migration monitoring, CDC, and observability infrastructure
+- `database-migrations-sql-migrations`: ALWAYS use this when the request matches Database Migrations SQL Migrations: SQL database migrations with zero-downtime strategies for PostgreSQL, MySQL, and SQL Server.
+- `database-optimizer`: ALWAYS use this when the request matches Database Optimizer: Expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures.
+- `dbos-python`: ALWAYS use this when the request matches Dbos Python: Guide for building reliable, fault-tolerant Python applications with DBOS durable workflows.
+- `dotnet-architect`: ALWAYS use this when the request matches Dotnet Architect: Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise application patterns.
+- `dotnet-backend`: ALWAYS use this when the request matches Dotnet Backend: Build ASP.NET Core 8+ backend services with EF Core, auth, background jobs, and production API patterns.
+- `dotnet-backend-patterns`: ALWAYS use this when the request matches Dotnet Backend Patterns: Master C#/.NET patterns for building production-grade APIs, MCP servers, and enterprise backends with modern best practices (2024/2025).
+- `fastapi-pro`: ALWAYS use this when the request matches Fastapi PRO: Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2.
+- `fastapi-router-py`: ALWAYS use this when the request matches Fastapi Router PY: Create FastAPI routers following established patterns with proper authentication, response models, and HTTP status codes.
+- `fastapi-templates`: ALWAYS use this when the request matches Fastapi Templates: Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling.
+- `food-database-query`: ALWAYS use this when the user mentions Food Database Query, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Food Database Qu...
+- `fp-backend`: ALWAYS use this when the request matches FP Backend: Functional programming patterns for Node.js/Deno backend development using fp-ts, ReaderTaskEither, and functional dependency injection
+- `gemini-api-dev`: ALWAYS use this when the request matches Gemini API DEV: The Gemini API provides access to Google's most advanced AI models.
+- `gemini-api-integration`: ALWAYS use this when the request matches Gemini API Integration: Use when integrating Google Gemini API into projects.
+- `java-pro`: ALWAYS use this when the request matches Java PRO: Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x.
+- `javascript-mastery`: ALWAYS use this when the request matches Javascript Mastery: 33+ essential JavaScript concepts every developer should know, inspired by [33-js-concepts](https://github.com/leonardomso/33-js-concepts).
+- `javascript-pro`: ALWAYS use this when the request matches Javascript PRO: Master modern JavaScript with ES6+, async patterns, and Node.js APIs.
+- `javascript-testing-patterns`: ALWAYS use this when the request matches Javascript Testing Patterns: Comprehensive guide for implementing robust testing strategies in JavaScript/TypeScript applications using modern testing frameworks and best pract...
+- `javascript-typescript-typescript-scaffold`: ALWAYS use this when the request matches Javascript Typescript Typescript Scaffold: You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications.
+- `m365-agents-dotnet`: ALWAYS use this when the user mentions M365 Agents Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on M365 Agents Dotne...
+- `microsoft-azure-webjobs-extensions-authentication-events-dotnet`: ALWAYS use this when the request matches Microsoft Azure Webjobs Extensions Authentication Events Dotnet: Microsoft Entra Authentication Events SDK for .NET.
+- `modern-javascript-patterns`: ALWAYS use this when the request matches Modern Javascript Patterns: Comprehensive guide for mastering modern JavaScript (ES6+) features, functional programming patterns, and best practices for writing clean, maintain...
+- `moodle-external-api-development`: ALWAYS use this when the request matches Moodle External API Development: This skill guides you through creating custom external web service APIs for Moodle LMS, following Moodle's external API framework and coding st...
+- `n8n-code-javascript`: ALWAYS use this when the request matches N8n Code Javascript: Write JavaScript code in n8n Code nodes.
+- `n8n-code-python`: ALWAYS use this when the request matches N8n Code Python: Write Python code in n8n Code nodes.
+- `n8n-node-configuration`: ALWAYS use this when the request matches N8n Node Configuration: Operation-aware node configuration guidance.
+- `neon-postgres`: ALWAYS use this when the request matches Neon Postgres: Expert patterns for Neon serverless Postgres, branching, connection pooling, and Prisma/Drizzle integration
+- `nodejs-backend-patterns`: ALWAYS use this when the request matches Nodejs Backend Patterns: Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural pat...
+- `nodejs-best-practices`: ALWAYS use this when implementing or reviewing Node.js application code, especially around runtime behavior, project structure, reliability, and server-side safety.
+- `odoo-rpc-api`: ALWAYS use this when the request matches Odoo RPC API: Expert on Odoo's external JSON-RPC and XML-RPC APIs.
+- `openapi-spec-generation`: ALWAYS use this when the request matches Openapi Spec Generation: Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns.
+- `playwright-java`: ALWAYS use this when the request matches Playwright Java: Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution.
+- `postgres-best-practices`: ALWAYS use this when the request matches Postgres Best Practices: Postgres performance optimization and best practices from Supabase.
+- `postgresql`: ALWAYS use this when the request matches Postgresql: Design a PostgreSQL-specific schema.
+- `postgresql-optimization`: ALWAYS use this when the request matches Postgresql Optimization: PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production database management.
+- `pubmed-database`: ALWAYS use this when the user mentions Pubmed Database, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Pubmed Database; sco...
+- `python-development-python-scaffold`: ALWAYS use this when the request matches Python Development Python Scaffold: You are a Python project architecture expert specializing in scaffolding production-ready Python applications.
+- `python-fastapi-development`: ALWAYS use this when the request matches Python Fastapi Development: Python FastAPI backend development with async patterns, SQLAlchemy, Pydantic, authentication, and production API patterns.
+- `python-packaging`: ALWAYS use this when the request matches Python Packaging: Comprehensive guide to creating, structuring, and distributing Python packages using modern packaging tools, pyproject.toml, and publishing to PyPI.
+- `python-patterns`: ALWAYS use this when the request matches Python Patterns: Python development principles and decision-making.
+- `python-performance-optimization`: ALWAYS use this when the request matches Python Performance Optimization: Profile and optimize Python code using cProfile, memory profilers, and performance best practices.
+- `python-pptx-generator`: ALWAYS use this when the request matches Python Pptx Generator: Generate complete Python scripts that build polished PowerPoint decks with python-pptx and real slide content.
+- `python-pro`: ALWAYS use this when the request matches Python PRO: Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices.
+- `python-testing-patterns`: ALWAYS use this when the request matches Python Testing Patterns: Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development.
+- `rust-async-patterns`: ALWAYS use this when the request matches Rust Async Patterns: Master Rust async programming with Tokio, async traits, error handling, and concurrent patterns.
+- `rust-pro`: ALWAYS use this when the request matches Rust PRO: Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming.
+- `sqlmap-database-pentesting`: ALWAYS use this when the request matches Sqlmap Database Pentesting: Provide systematic methodologies for automated SQL injection detection and exploitation using SQLMap.
+- `systems-programming-rust-project`: ALWAYS use this when the request matches Systems Programming Rust Project: You are a Rust project architecture expert specializing in scaffolding production-ready Rust applications.
+- `temporal-python-pro`: ALWAYS use this when the request matches Temporal Python PRO: Master Temporal workflow orchestration with Python SDK.
+- `temporal-python-testing`: ALWAYS use this when the request matches Temporal Python Testing: Comprehensive testing approaches for Temporal workflows using pytest, progressive disclosure resources for specific testing scenarios.
+- `trust-calibrator`: ALWAYS use this when the request matches Trust Calibrator: One sentence - what this skill does and when to invoke it
+- `uniprot-database`: ALWAYS use this when the user mentions Uniprot Database, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Uniprot Database; s...
+- `vector-database-engineer`: ALWAYS use this when the request matches Vector Database Engineer: Expert in vector databases, embedding strategies, and semantic search implementation.
+- `whatsapp-cloud-api`: ALWAYS use this when the request matches Whatsapp Cloud API: Integracao com WhatsApp Business Cloud API (Meta).
+- `zapier-make-patterns`: ALWAYS use this when the request matches Zapier Make Patterns: No-code automation democratizes workflow building.
+
+## Documents And Office
+
+- `base`: ALWAYS use this when the request matches Base: Database management, forms, reports, and data operations with LibreOffice Base.
+- `basecamp-automation`: ALWAYS use this when the request matches Basecamp Automation: Automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio).
+- `baseline-ui`: ALWAYS use this when the request matches Baseline UI: Validates animation durations, enforces typography scale, checks component accessibility, and prevents layout anti-patterns in Tailwind CSS projects.
+- `calc`: ALWAYS use this when the request matches Calc: Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.
+- `doc-coauthoring`: ALWAYS use this when the request matches DOC Coauthoring: Guide users through a structured workflow for co-authoring documentation.
+- `docker-expert`: ALWAYS use this when the request matches Docker Expert: You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orc...
+- `docs-architect`: ALWAYS use this when the request matches Docs Architect: Creates comprehensive technical documentation from existing codebases.
+- `documentation`: ALWAYS use this when the request matches Documentation: Documentation generation workflow covering API docs, architecture docs, README files, code comments, and technical writing.
+- `documentation-generation-doc-generate`: ALWAYS use this when the request matches Documentation Generation DOC Generate: You are a documentation expert specializing in creating comprehensive, maintainable documentation from code.
+- `documentation-templates`: ALWAYS use this when the user needs structured technical docs, runbooks, RFCs, checklists, onboarding docs, or repeatable document shapes instead of ad-hoc prose.
+- `docusign-automation`: ALWAYS use this when the request matches Docusign Automation: Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signatures, document management.
+- `docx`: ALWAYS use this when the user needs a Word document created, edited, inspected, validated, templated, or transformed, including tracked changes, comments, formatting-preserving updates, XML-level edits, or polished .d...
+- `docx-official`: ALWAYS use this when the user needs an official-style DOCX workflow for `.docx` creation, OOXML editing, redlining, document inspection, or validation.
+- `draw`: ALWAYS use this when the request matches Draw: Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw.
+- `impress`: ALWAYS use this when the request matches Impress: Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress.
+- `libreoffice-base` -> `base`: ALWAYS use this when the user or an upstream archive refers to `libreoffice-base`, the nested skill path form for `base`, or the equivalent slash path. This is a namespace-preserving alias that routes to `base` while...
+- `libreoffice-calc` -> `calc`: ALWAYS use this when the user or an upstream archive refers to `libreoffice-calc`, the nested skill path form for `calc`, or the equivalent slash path. This is a namespace-preserving alias that routes to `calc` while...
+- `libreoffice-draw` -> `draw`: ALWAYS use this when the user or an upstream archive refers to `libreoffice-draw`, the nested skill path form for `draw`, or the equivalent slash path. This is a namespace-preserving alias that routes to `draw` while...
+- `libreoffice-impress` -> `impress`: ALWAYS use this when the user or an upstream archive refers to `libreoffice-impress`, the nested skill path form for `impress`, or the equivalent slash path. This is a namespace-preserving alias that routes to `impres...
+- `libreoffice-writer` -> `writer`: ALWAYS use this when the user or an upstream archive refers to `libreoffice-writer`, the nested skill path form for `writer`, or the equivalent slash path. This is a namespace-preserving alias that routes to `writer`...
+- `pdf`: ALWAYS use this when the task involves reading, extracting, splitting, merging, rotating, creating, validating, OCR-ing, form-filling, or otherwise producing or modifying PDF files.
+- `pdf-official`: ALWAYS use this when the user needs an official-style PDF workflow for extraction, manipulation, validation, forms, or OCR-aware document handling.
+- `pptx`: ALWAYS use this when the user needs a slide deck created, edited, inspected, templated, split, merged, or validated, including any mention of slides, presentations, decks, speaker notes, or `.pptx` files.
+- `pptx-official`: ALWAYS use this when the user needs an official-style `.pptx` workflow for deck creation, OOXML edits, or faithful presentation analysis.
+- `writer`: ALWAYS use this when the request matches Writer: Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Writer.
+- `xlsx`: ALWAYS use this when the primary input or output is a spreadsheet, workbook, CSV, or tabular deliverable that needs formulas, formatting, cleanup, recalculation, charting, or Excel-compatible output.
+- `xlsx-official`: ALWAYS use this when the request matches Xlsx Official: Unless otherwise stated by the user or existing template
+
+## Frontend And UX
+
+- `00-andruia-consultant`: ALWAYS use this when the request matches 00 Andruia Consultant: Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia.
+- `10-andruia-skill-smith`: ALWAYS use this when the user mentions 10 Andruia Skill Smith, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on 10 Andruia Sk...
+- `20-andruia-niche-intelligence`: ALWAYS use this when the request matches 20 Andruia Niche Intelligence: Estratega de Inteligencia de Dominio de Andru.ia.
+- `agent-tool-builder`: ALWAYS use this when the request matches Agent Tool Builder: Tools are how AI agents interact with the world.
+- `android-ui-verification`: ALWAYS use this when the request matches Android UI Verification: Automated end-to-end UI testing and verification on an Android Emulator using ADB.
+- `angular-ui-patterns`: ALWAYS use this when the request matches Angular UI Patterns: Modern Angular UI patterns for loading states, error handling, and data display.
+- `api-endpoint-builder`: ALWAYS use this when the request matches API Endpoint Builder: Builds production-ready REST API endpoints with validation, error handling, authentication, and documentation.
+- `app-builder`: ALWAYS use this when the user mentions any app, website, dashboard, portal, admin panel, internal tool, SaaS product, mobile app, extension, or multi-surface feature, even if they describe it casually as a quick MVP...
+- `astro`: ALWAYS use this when the request matches Astro: Build content-focused websites with Astro — zero JS by default, islands architecture, multi-framework components, and Markdown/MDX support.
+- `astropy`: ALWAYS use this when the request matches Astropy: Astropy is the core Python package for astronomy, providing essential functionality for astronomical research and data analysis.
+- `audit-context-building`: ALWAYS use this when the request matches Audit Context Building: Enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding.
+- `azure-monitor-opentelemetry-exporter-java`: ALWAYS use this when the request matches Azure Monitor Opentelemetry Exporter Java: Azure Monitor OpenTelemetry Exporter for Java.
+- `azure-monitor-opentelemetry-exporter-py`: ALWAYS use this when the request matches Azure Monitor Opentelemetry Exporter PY: Azure Monitor OpenTelemetry Exporter for Python.
+- `backend-dev-guidelines`: ALWAYS use this when implementing or reviewing backend routes, controllers, services, repositories, middleware, validation, or data-access layers in a production-style Node.js/TypeScript service.
+- `bash-linux`: ALWAYS use this when the user mentions Bash Linux, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Bash Linux; scope: Bash/L...
+- `bazel-build-optimization`: ALWAYS use this when the request matches Bazel Build Optimization: Optimize Bazel builds for large-scale monorepos.
+- `blog-writing-guide`: ALWAYS use this when the request matches Blog Writing Guide: This skill enforces Sentry's blog writing standards across every post — whether you're helping an engineer write their first blog post or a marketer draft a...
+- `brand-guidelines`: ALWAYS use this when the request matches Brand Guidelines: Applies a consistent brand palette and typography system to artifacts that need a polished visual identity.
+- `brand-guidelines-anthropic`: ALWAYS use this when the request matches Brand Guidelines Anthropic: To access Anthropic's official brand identity and style resources, use this skill.
+- `brand-guidelines-community`: ALWAYS use this when the request matches Brand Guidelines Community: To access Anthropic's official brand identity and style resources, use this skill.
+- `browser-extension-builder`: ALWAYS use this when the request matches Browser Extension Builder: Expert in building browser extensions that solve real problems - Chrome, Firefox, and cross-browser extensions.
+- `build`: ALWAYS use this when the user mentions Build, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Build; scope: Build work. Appl...
+- `building-native-ui`: ALWAYS use this when the request matches Building Native UI: Complete guide for building beautiful apps with Expo Router.
+- `burp-suite-testing`: ALWAYS use this when the request matches Burp Suite Testing: Execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request...
+- `burpsuite-project-parser`: ALWAYS use this when the request matches Burpsuite Project Parser: Searches and explores Burp Suite project files (.burp) from the command line.
+- `cc-skill-frontend-patterns`: ALWAYS use this when the request matches CC Skill Frontend Patterns: Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.
+- `cc-skill-project-guidelines-example`: ALWAYS use this when the user mentions CC Skill Project Guidelines Example, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on...
+- `claude-code-guide`: ALWAYS use this when the request matches Claude Code Guide: To provide a comprehensive reference for configuring and using Claude Code (the agentic coding tool) to its full potential.
+- `comfyui-gateway`: ALWAYS use this when the request matches Comfyui Gateway: REST API gateway for ComfyUI servers.
+- `design-taste-frontend`: ALWAYS use this when the request matches Design Taste Frontend: Use when building high-agency frontend interfaces with strict design taste, calibrated color, responsive layout, and motion rules.
+- `earllm-build`: ALWAYS use this when the request matches Earllm Build: Build, maintain, and extend the EarLLM One Android project — a Kotlin/Compose app that connects Bluetooth earbuds to an LLM via voice pipeline.
+- `environment-setup-guide`: ALWAYS use this when the request matches Environment Setup Guide: Guide developers through setting up development environments with proper tools, dependencies, and configurations
+- `expo-api-routes`: ALWAYS use this when the request matches Expo API Routes: Guidelines for creating API routes in Expo Router with EAS Hosting
+- `expo-cicd-workflows`: ALWAYS use this when the request matches Expo Cicd Workflows: Helps understand and write EAS workflow YAML files for Expo projects.
+- `expo-deployment`: ALWAYS use this when the user mentions Expo Deployment, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Expo Deployment; sco...
+- `expo-dev-client`: ALWAYS use this when the request matches Expo DEV Client: Build and distribute Expo development clients locally or via TestFlight
+- `expo-tailwind-setup`: ALWAYS use this when the request matches Expo Tailwind Setup: Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling
+- `expo-ui-jetpack-compose`: ALWAYS use this when the user mentions Expo UI Jetpack Compose, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Expo UI Jetp...
+- `expo-ui-swift-ui`: ALWAYS use this when the user mentions Expo UI Swift UI, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Expo UI Swift UI; s...
+- `fp-react`: ALWAYS use this when the request matches FP React: Practical patterns for using fp-ts with React - hooks, state, forms, data fetching.
+- `fp-ts-react`: ALWAYS use this when the request matches FP TS React: Practical patterns for using fp-ts with React - hooks, state, forms, data fetching.
+- `frontend-design`: ALWAYS use this for any page, landing page, dashboard, component system, redesign, UI polish, motion work, typography choice, color system, or frontend visual-direction task, even if the user does not explicitly say d...
+- `frontend-dev-guidelines`: ALWAYS use this when implementing or reviewing frontend components, pages, feature slices, data fetching, or interaction patterns in a production React and TypeScript app.
+- `frontend-developer`: ALWAYS use this when the request matches Frontend Developer: Build React components, implement responsive layouts, and handle client-side state management.
+- `frontend-mobile-development-component-scaffold`: ALWAYS use this when the request matches Frontend Mobile Development Component Scaffold: You are a React component architecture expert specializing in scaffolding production-ready, accessible, and performant components.
+- `frontend-mobile-security-xss-scan`: ALWAYS use this when the request matches Frontend Mobile Security XSS Scan: You are a frontend security specialist focusing on Cross-Site Scripting (XSS) vulnerability detection and prevention.
+- `frontend-security-coder`: ALWAYS use this when the request matches Frontend Security Coder: Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns.
+- `frontend-slides`: ALWAYS use this when the request matches Frontend Slides: Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files.
+- `frontend-ui-dark-ts`: ALWAYS use this when the request matches Frontend UI Dark TS: A modern dark-themed React UI system using Tailwind CSS and Framer Motion.
+- `hugging-face-tool-builder`: ALWAYS use this when the request matches Hugging Face Tool Builder: Your purpose is now is to create reusable command line scripts and utilities for using the Hugging Face API, allowing chaining, piping and intermedia...
+- `industrial-brutalist-ui`: ALWAYS use this when the request matches Industrial Brutalist UI: Use when creating raw industrial or tactical telemetry UIs with rigid grids, stark typography, CRT effects, and high-density data.
+- `linux-privilege-escalation`: ALWAYS use this when the request matches Linux Privilege Escalation: Execute systematic privilege escalation assessments on Linux systems to identify and exploit misconfigurations, vulnerable services, and security we...
+- `linux-shell-scripting`: ALWAYS use this when the request matches Linux Shell Scripting: Provide production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis...
+- `linux-troubleshooting`: ALWAYS use this when the request matches Linux Troubleshooting: Linux system troubleshooting workflow for diagnosing and resolving system issues, performance problems, and service failures.
+- `macos-menubar-tuist-app`: ALWAYS use this when the request matches Macos Menubar Tuist APP: Build, refactor, or review SwiftUI macOS menubar apps that use Tuist.
+- `magic-ui-generator`: ALWAYS use this when the request matches Magic UI Generator: Utilizes Magic by 21st.dev to generate, compare, and integrate multiple production-ready UI component variations.
+- `mcp-builder`: ALWAYS use this when the user wants to build, extend, debug, or wire up an MCP server, tool connector, tool schema, or agent-facing external capability.
+- `mcp-builder-ms`: ALWAYS use this when the request matches MCP Builder MS: Use this skill when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).
+- `minimalist-ui`: ALWAYS use this when the request matches Minimalist UI: Use when creating clean editorial interfaces with warm monochrome palettes, crisp borders, restrained motion, and flat bento layouts.
+- `nextjs-app-router-patterns`: ALWAYS use this when the request matches Nextjs APP Router Patterns: Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development.
+- `nextjs-best-practices`: ALWAYS use this when the user mentions Nextjs Best Practices, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Nextjs Best Pr...
+- `nextjs-react-expert`: ALWAYS use this when the work is specifically about modern Next.js or React architecture, data flow, rendering strategy, routing, or performance-sensitive frontend behavior.
+- `nextjs-supabase-auth`: ALWAYS use this when the request matches Nextjs Supabase Auth: Expert integration of Supabase Auth with Next.js App Router
+- `odoo-xml-views-builder`: ALWAYS use this when the request matches Odoo XML Views Builder: Expert at building Odoo XML views: Form, List, Kanban, Search, Calendar, and Graph.
+- `personal-tool-builder`: ALWAYS use this when the request matches Personal Tool Builder: Expert in building custom tools that solve your own problems first.
+- `radix-ui-design-system`: ALWAYS use this when the request matches Radix UI Design System: Build accessible design systems with Radix UI primitives.
+- `react-best-practices`: ALWAYS use this when the request matches React Best Practices: Comprehensive performance optimization guide for React and Next.js applications, maintained by Vercel.
+- `react-component-performance`: ALWAYS use this when the request matches React Component Performance: Diagnose slow React components and suggest targeted performance fixes.
+- `react-flow-architect`: ALWAYS use this when the request matches React Flow Architect: Build production-ready ReactFlow applications with hierarchical navigation, performance optimization, and advanced state management.
+- `react-flow-node-ts`: ALWAYS use this when the request matches React Flow Node TS: Create React Flow node components following established patterns with proper TypeScript types and store integration.
+- `react-modernization`: ALWAYS use this when the request matches React Modernization: Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation.
+- `react-native-architecture`: ALWAYS use this when the request matches React Native Architecture: Production-ready patterns for React Native development with Expo, including navigation, state management, native modules, and offline-first architect...
+- `react-nextjs-development`: ALWAYS use this when the request matches React Nextjs Development: React and Next.js 14+ application development with App Router, Server Components, TypeScript, Tailwind CSS, and modern frontend patterns.
+- `react-patterns`: ALWAYS use this when the request matches React Patterns: Modern React patterns and principles.
+- `react-state-management`: ALWAYS use this when the request matches React State Management: Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query.
+- `react-ui-patterns`: ALWAYS use this when the request matches React UI Patterns: Modern React UI patterns for loading states, error handling, and data fetching.
+- `reference-builder`: ALWAYS use this when the request matches Reference Builder: Creates exhaustive technical references and API documentation.
+- `senior-frontend`: ALWAYS use this when the request matches Senior Frontend: Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications.
+- `seo-authority-builder`: ALWAYS use this when the request matches SEO Authority Builder: Analyzes content for E-E-A-T signals and suggests improvements to build authority and trust.
+- `slack-bot-builder`: ALWAYS use this when the request matches Slack BOT Builder: Build Slack apps using the Bolt framework across Python, JavaScript, and Java.
+- `stitch-ui-design`: ALWAYS use this when the request matches Stitch UI Design: Expert guidance for crafting effective prompts in Google Stitch, the AI-powered UI design tool by Google Labs.
+- `sveltekit`: ALWAYS use this when the request matches Sveltekit: Build full-stack web applications with SvelteKit — file-based routing, SSR, SSG, API routes, and form actions in one framework.
+- `swiftui-expert-skill`: ALWAYS use this when the request matches Swiftui Expert Skill: Write, review, or improve SwiftUI code following best practices for state management, view composition, performance, and iOS 26+ Liquid Glass adoption.
+- `swiftui-liquid-glass`: ALWAYS use this when the request matches Swiftui Liquid Glass: Implement or review SwiftUI Liquid Glass APIs with correct fallbacks and modifier order.
+- `swiftui-performance-audit`: ALWAYS use this when the request matches Swiftui Performance Audit: Audit SwiftUI performance issues from code review and profiling evidence.
+- `swiftui-ui-patterns`: ALWAYS use this when the request matches Swiftui UI Patterns: Apply proven SwiftUI UI patterns for navigation, sheets, async state, and reusable screens.
+- `swiftui-view-refactor`: ALWAYS use this when the request matches Swiftui View Refactor: Refactor SwiftUI views into smaller components with stable, explicit data flow.
+- `tailwind-design-system`: ALWAYS use this when the request matches Tailwind Design System: Build production-ready design systems with Tailwind CSS, including design tokens, component variants, responsive patterns, and accessibility.
+- `tailwind-patterns`: ALWAYS use this when the user mentions Tailwind Patterns, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Tailwind Patterns...
+- `telegram-bot-builder`: ALWAYS use this when the request matches Telegram BOT Builder: Expert in building Telegram bots that solve real problems - from simple automation to complex AI-powered bots.
+- `tmux`: ALWAYS use this when the request matches Tmux: Expert tmux session, window, and pane management for terminal multiplexing, persistent remote workflows, and shell scripting automation.
+- `ui-a11y`: ALWAYS use this when the request matches UI A11y: Audit a StyleSeed-based component or page for WCAG 2.2 AA issues and apply practical accessibility fixes where the code makes them safe.
+- `ui-component`: ALWAYS use this when the request matches UI Component: Generate a new UI component that follows StyleSeed Toss conventions for structure, tokens, accessibility, and component ergonomics.
+- `ui-page`: ALWAYS use this when the request matches UI Page: Scaffold a new mobile-first page using StyleSeed Toss layout patterns, section rhythm, and existing shell components.
+- `ui-pattern`: ALWAYS use this when the request matches UI Pattern: Generate reusable UI patterns such as card sections, grids, lists, forms, and chart wrappers using StyleSeed Toss primitives.
+- `ui-review`: ALWAYS use this when the request matches UI Review: Review UI code for StyleSeed design-system compliance, accessibility, mobile ergonomics, spacing discipline, and implementation quality.
+- `ui-setup`: ALWAYS use this when the request matches UI Setup: Interactive StyleSeed setup wizard for choosing app type, brand color, visual style, typography, and the first screen scaffold.
+- `ui-skills`: ALWAYS use this when the request matches UI Skills: Opinionated, evolving constraints to guide agents when building interfaces
+- `ui-tokens`: ALWAYS use this when the request matches UI Tokens: List, add, and update StyleSeed design tokens while keeping JSON sources, CSS variables, and dark-mode values in sync.
+- `ui-ux-designer`: ALWAYS use this when the request matches UI UX Designer: Create interface designs, wireframes, and design systems.
+- `ui-ux-pro-max`: ALWAYS use this for UI and UX direction, design-system choices, landing pages, dashboards, component styling, or stack-specific frontend implementation across React, Next.js, Remix, Svelte, SvelteKit, Astro, Vue, Nuxt...
+- `ui-visual-validator`: ALWAYS use this when the request matches UI Visual Validator: Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification.
+- `upgrading-expo`: ALWAYS use this when the user mentions Upgrading Expo, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Upgrading Expo; scope...
+- `ux-audit`: ALWAYS use this when the request matches UX Audit: Audit screens against Nielsen's heuristics and mobile UX best practices using the StyleSeed Toss design language as the implementation context.
+- `ux-copy`: ALWAYS use this when the request matches UX Copy: Generate UX microcopy in StyleSeed's Toss-inspired voice for buttons, empty states, errors, toasts, confirmations, and form guidance.
+- `ux-feedback`: ALWAYS use this when the request matches UX Feedback: Add loading, empty, error, and success feedback states to StyleSeed components and pages with practical mobile-first rules.
+- `ux-flow`: ALWAYS use this when the request matches UX Flow: Design user flows and screen structure using StyleSeed UX patterns such as progressive disclosure, hub-and-spoke navigation, and information pyramids.
+- `ux-persuasion-engineer`: ALWAYS use this when the request matches UX Persuasion Engineer: One sentence - what this skill does and when to invoke it
+- `uxui-principles`: ALWAYS use this when the request matches Uxui Principles: Evaluate interfaces against 168 research-backed UX/UI principles, detect antipatterns, and inject UX context into AI coding sessions.
+- `viral-generator-builder`: ALWAYS use this when the request matches Viral Generator Builder: Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools.
+- `vscode-extension-guide-en`: ALWAYS use this when the request matches Vscode Extension Guide EN: Guide for VS Code extension development from scaffolding to Marketplace publication
+- `web-artifacts-builder`: ALWAYS use this when the request matches WEB Artifacts Builder: Suite of tools for creating elaborate, multi-component HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui).
+- `web-design-guidelines`: ALWAYS use this when designing or reviewing website layout, structure, interaction patterns, accessibility, or production-facing web presentation.
+
+## Game Development
+
+- `2d-games`: ALWAYS use this when the user mentions 2d Games, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on 2d Games; scope: 2D game de...
+- `3d-games`: ALWAYS use this when the user mentions 3d Games, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on 3d Games; scope: 3D game de...
+- `3d-web-experience`: ALWAYS use this when the request matches 3d WEB Experience: Expert in building 3D experiences for the web - Three.js, React Three Fiber, Spline, WebGL, and interactive 3D scenes.
+- `game-art`: ALWAYS use this when the user mentions Game ART, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Game ART; scope: Game art p...
+- `game-audio`: ALWAYS use this when the user mentions Game Audio, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Game Audio; scope: Game a...
+- `game-design`: ALWAYS use this when the user mentions Game Design, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Game Design; scope: Game...
+- `game-development`: ALWAYS use this when the task is broadly about game development and you need to route by platform, engine, subsystem, or game-production concern before diving into implementation.
+- `game-development-2d-games` -> `2d-games`: ALWAYS use this when the user or an upstream archive refers to `game-development-2d-games`, the nested skill path form for `2d-games`, or the equivalent slash path. This is a namespace-preserving alias that routes to...
+- `game-development-3d-games` -> `3d-games`: ALWAYS use this when the user or an upstream archive refers to `game-development-3d-games`, the nested skill path form for `3d-games`, or the equivalent slash path. This is a namespace-preserving alias that routes to...
+- `game-development-game-art` -> `game-art`: ALWAYS use this when the user or an upstream archive refers to `game-development-game-art`, the nested skill path form for `game-art`, or the equivalent slash path. This is a namespace-preserving alias that routes to...
+- `game-development-game-audio` -> `game-audio`: ALWAYS use this when the user or an upstream archive refers to `game-development-game-audio`, the nested skill path form for `game-audio`, or the equivalent slash path. This is a namespace-preserving alias that routes...
+- `game-development-game-design` -> `game-design`: ALWAYS use this when the user or an upstream archive refers to `game-development-game-design`, the nested skill path form for `game-design`, or the equivalent slash path. This is a namespace-preserving alias that rout...
+- `game-development-mobile-games` -> `mobile-games`: ALWAYS use this when the user or an upstream archive refers to `game-development-mobile-games`, the nested skill path form for `mobile-games`, or the equivalent slash path. This is a namespace-preserving alias that ro...
+- `game-development-multiplayer` -> `multiplayer`: ALWAYS use this when the user or an upstream archive refers to `game-development-multiplayer`, the nested skill path form for `multiplayer`, or the equivalent slash path. This is a namespace-preserving alias that rout...
+- `game-development-pc-games` -> `pc-games`: ALWAYS use this when the user or an upstream archive refers to `game-development-pc-games`, the nested skill path form for `pc-games`, or the equivalent slash path. This is a namespace-preserving alias that routes to...
+- `game-development-vr-ar` -> `vr-ar`: ALWAYS use this when the user or an upstream archive refers to `game-development-vr-ar`, the nested skill path form for `vr-ar`, or the equivalent slash path. This is a namespace-preserving alias that routes to `vr-ar...
+- `game-development-web-games` -> `web-games`: ALWAYS use this when the user or an upstream archive refers to `game-development-web-games`, the nested skill path form for `web-games`, or the equivalent slash path. This is a namespace-preserving alias that routes t...
+- `mobile-games`: ALWAYS use this when the request matches Mobile Games: Mobile game development principles.
+- `multiplayer`: ALWAYS use this when the request matches Multiplayer: Multiplayer game development principles.
+- `pc-games`: ALWAYS use this when the request matches PC Games: PC and console game development principles.
+- `vr-ar`: ALWAYS use this when the user mentions VR AR, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on VR AR; scope: VR/AR developmen...
+- `web-games`: ALWAYS use this when the request matches WEB Games: Web browser game development principles.
+
+## General
+
+- `007`: ALWAYS use this when the request matches 007: Security audit, hardening, threat modeling (STRIDE/PASTA), Red/Blue Team, OWASP checks, code review, incident response, and infrastructure security for any project.
+- `accessibility-compliance-accessibility-audit`: ALWAYS use this when the request matches Accessibility Compliance Accessibility Audit: You are an accessibility expert specializing in WCAG compliance, inclusive design, and assistive technology compatibility.
+- `active-directory-attacks`: ALWAYS use this when the request matches Active Directory Attacks: Provide comprehensive techniques for attacking Microsoft Active Directory environments.
+- `activecampaign-automation`: ALWAYS use this when the request matches Activecampaign Automation: Automate ActiveCampaign tasks via Rube MCP (Composio): manage contacts, tags, list subscriptions, automation enrollment, and tasks.
+- `ad-creative`: ALWAYS use this when the request matches AD Creative: Create, iterate, and scale paid ad creative for Google Ads, Meta, LinkedIn, TikTok, and similar platforms.
+- `address-github-comments`: ALWAYS use this when the request matches Address Github Comments: Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI.
+- `adhx`: ALWAYS use this when the request matches Adhx: Fetch any X/Twitter post as clean LLM-friendly JSON.
+- `advogado-criminal`: ALWAYS use this when the request matches Advogado Criminal: Advogado criminalista especializado em Maria da Penha, violencia domestica, feminicidio, direito penal brasileiro, medidas protetivas, inquerito policial e a...
+- `advogado-especialista`: ALWAYS use this when the request matches Advogado Especialista: Advogado especialista em todas as areas do Direito brasileiro: familia, criminal, trabalhista, tributario, consumidor, imobiliario, empresarial, civil e...
+- `aegisops-ai`: ALWAYS use this when the request matches Aegisops AI: Autonomous DevSecOps & FinOps Guardrails.
+- `ai-analyzer`: ALWAYS use this when the request matches AI Analyzer: AI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。
+- `ai-dev-jobs-mcp`: ALWAYS use this when the request matches AI DEV Jobs MCP: Search 8,400+ AI and ML jobs across 489 companies, inspect listings and employers, match roles, and view salary and market stats via AI Dev Jobs MCP
+- `ai-engineer`: ALWAYS use this when the request matches AI Engineer: Build production-ready LLM applications, advanced RAG systems, and intelligent agents.
+- `ai-engineering-toolkit`: ALWAYS use this when the request matches AI Engineering Toolkit: 6 production-ready AI engineering workflows: prompt evaluation (8-dimension scoring), context budget planning, RAG pipeline design, agent security audit...
+- `ai-md`: ALWAYS use this when the request matches AI MD: Convert human-written CLAUDE.md into AI-native structured-label format.
+- `ai-ml`: ALWAYS use this when the request matches AI ML: AI and machine learning workflow covering LLM application development, RAG implementation, agent architecture, ML pipelines, and AI-powered features.
+- `ai-native-cli`: ALWAYS use this when the request matches AI Native CLI: Design spec with 98 rules for building CLI tools that AI agents can safely use.
+- `ai-product`: ALWAYS use this when the user mentions AI Product, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on AI Product; scope: Every...
+- `ai-studio-image`: ALWAYS use this when the request matches AI Studio Image: Geracao de imagens humanizadas via Google AI Studio (Gemini).
+- `ai-wrapper-product`: ALWAYS use this when the request matches AI Wrapper Product: Expert in building products that wrap AI APIs (OpenAI, Anthropic, etc.
+- `airflow-dag-patterns`: ALWAYS use this when the request matches Airflow DAG Patterns: Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment.
+- `airtable-automation`: ALWAYS use this when the request matches Airtable Automation: Automate Airtable tasks via Rube MCP (Composio): records, bases, tables, fields, views.
+- `algolia-search`: ALWAYS use this when the request matches Algolia Search: Expert patterns for Algolia search implementation, indexing strategies, React InstantSearch, and relevance tuning
+- `algorithmic-art`: ALWAYS use this when the request matches Algorithmic ART: Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration.
+- `alpha-vantage`: ALWAYS use this when the request matches Alpha Vantage: Access 20+ years of global financial data: equities, options, forex, crypto, commodities, economic indicators, and 50+ technical indicators.
+- `amazon-alexa`: ALWAYS use this when the request matches Amazon Alexa: Integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com...
+- `amplitude-automation`: ALWAYS use this when the request matches Amplitude Automation: Automate Amplitude tasks via Rube MCP (Composio): events, user activity, cohorts, user identification.
+- `analytics-product`: ALWAYS use this when the request matches Analytics Product: Analytics de produto — PostHog, Mixpanel, eventos, funnels, cohorts, retencao, north star metric, OKRs e dashboards de produto.
+- `analytics-tracking`: ALWAYS use this when the request matches Analytics Tracking: Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data.
+- `analyze-project`: ALWAYS use this when the request matches Analyze Project: Forensic root cause analyzer for Antigravity sessions.
+- `andrej-karpathy`: ALWAYS use this when the request matches Andrej Karpathy: Agente que simula Andrej Karpathy — ex-Director of AI da Tesla, co-fundador da OpenAI, fundador da Eureka Labs, e o maior educador de deep learning do mundo.
+- `android-jetpack-compose-expert`: ALWAYS use this when the request matches Android Jetpack Compose Expert: Expert guidance for building modern Android UIs with Jetpack Compose, covering state management, navigation, performance, and Material Design 3.
+- `angular`: ALWAYS use this when the request matches Angular: Modern Angular (v20+) expert with deep knowledge of Signals, Standalone Components, Zoneless applications, SSR/Hydration, and reactive patterns.
+- `angular-best-practices`: ALWAYS use this when the request matches Angular Best Practices: Angular performance optimization and best practices guide.
+- `angular-migration`: ALWAYS use this when the request matches Angular Migration: Master AngularJS to Angular migration, including hybrid apps, component conversion, dependency injection changes, and routing migration.
+- `angular-state-management`: ALWAYS use this when the request matches Angular State Management: Master modern Angular state management with Signals, NgRx, and RxJS.
+- `animejs-animation`: ALWAYS use this when the request matches Animejs Animation: Advanced JavaScript animation library skill for creating complex, high-performance web animations.
+- `anti-reversing-techniques`: ALWAYS use this when the request matches Anti Reversing Techniques: AUTHORIZED USE ONLY: This skill contains dual-use security techniques.
+- `antigravity-design-expert`: ALWAYS use this when the request matches Antigravity Design Expert: Core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
+- `app-builder-templates` -> `templates`: ALWAYS use this when the user or an upstream archive refers to `app-builder-templates`, the nested skill path form for `templates`, or the equivalent slash path. This is a namespace-preserving alias that routes to `te...
+- `app-store-changelog`: ALWAYS use this when the request matches APP Store Changelog: Generate user-facing App Store release notes from git history since the last tag.
+- `app-store-optimization`: ALWAYS use this when the user needs App Store or Google Play optimization, including ASO research, keyword strategy, listing copy, screenshots, launch prep, or store-performance analysis.
+- `appdeploy`: ALWAYS use this when the request matches Appdeploy: Deploy web apps with backend APIs, database, and file storage.
+- `application-performance-performance-optimization`: ALWAYS use this when the request matches Application Performance Performance Optimization: Optimize end-to-end application performance with profiling, observability, and backend/frontend tuning.
+- `architecture`: ALWAYS use this when the hard part is choosing system shape, boundaries, services, modules, tradeoffs, scaling direction, or refactor strategy before implementation starts.
+- `architecture-decision-records`: ALWAYS use this when the request matches Architecture Decision Records: Comprehensive patterns for creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the context and rationale behind...
+- `architecture-patterns`: ALWAYS use this when the request matches Architecture Patterns: Master proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design to build maintainable, testabl...
+- `arm-cortex-expert`: ALWAYS use this when the request matches ARM Cortex Expert: Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD).
+- `asana-automation`: ALWAYS use this when the request matches Asana Automation: Automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces.
+- `ask-questions-if-underspecified`: ALWAYS use this when the request matches ASK Questions IF Underspecified: Clarify requirements before implementing.
+- `attack-tree-construction`: ALWAYS use this when the request matches Attack Tree Construction: Build comprehensive attack trees to visualize threat paths.
+- `audio-transcriber`: ALWAYS use this when the request matches Audio Transcriber: Transform audio recordings into professional Markdown documentation with intelligent summaries using LLM integration
+- `audit-skills`: ALWAYS use this when the request matches Audit Skills: Expert security auditor for AI Skills and Bundles.
+- `auri-core`: ALWAYS use this when the request matches Auri Core: Auri: assistente de voz inteligente (Alexa + Claude claude-opus-4-20250805).
+- `auth-implementation-patterns`: ALWAYS use this when the request matches Auth Implementation Patterns: Build secure, scalable authentication and authorization systems using industry-standard patterns and modern best practices.
+- `avalonia-layout-zafiro`: ALWAYS use this when the request matches Avalonia Layout Zafiro: Guidelines for modern Avalonia UI layout using Zafiro.Avalonia, emphasizing shared styles, generic components, and avoiding XAML redundancy.
+- `avalonia-viewmodels-zafiro`: ALWAYS use this when the request matches Avalonia Viewmodels Zafiro: Optimal ViewModel and Wizard creation patterns for Avalonia using Zafiro and ReactiveUI.
+- `avalonia-zafiro-development`: ALWAYS use this when the request matches Avalonia Zafiro Development: Mandatory skills, conventions, and behavioral rules for Avalonia UI development using the Zafiro toolkit.
+- `avoid-ai-writing`: ALWAYS use this when the request matches Avoid AI Writing: Audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table
+- `awareness-stage-mapper`: ALWAYS use this when the request matches Awareness Stage Mapper: One sentence - what this skill does and when to invoke it
+- `axiom`: ALWAYS use this when the request matches Axiom: First-principles assumption auditor.
+- `azd-deployment`: ALWAYS use this when the request matches AZD Deployment: Deploy containerized frontend + backend applications to Azure Container Apps with remote builds, managed identity, and idempotent infrastructure.
+- `azure-ai-contentsafety-py`: ALWAYS use this when the request matches Azure AI Contentsafety PY: Azure AI Content Safety SDK for Python.
+- `azure-ai-contentsafety-ts`: ALWAYS use this when the request matches Azure AI Contentsafety TS: Analyze text and images for harmful content with customizable blocklists.
+- `azure-ai-contentunderstanding-py`: ALWAYS use this when the request matches Azure AI Contentunderstanding PY: Azure AI Content Understanding SDK for Python.
+- `azure-ai-document-intelligence-ts`: ALWAYS use this when the request matches Azure AI Document Intelligence TS: Extract text, tables, and structured data from documents using prebuilt and custom models.
+- `azure-ai-ml-py`: ALWAYS use this when the request matches Azure AI ML PY: Azure Machine Learning SDK v2 for Python.
+- `azure-ai-projects-py`: ALWAYS use this when the request matches Azure AI Projects PY: Build AI applications on Microsoft Foundry using the azure-ai-projects SDK.
+- `azure-ai-projects-ts`: ALWAYS use this when the request matches Azure AI Projects TS: High-level SDK for Azure AI Foundry projects with agents, connections, deployments, and evaluations.
+- `azure-ai-textanalytics-py`: ALWAYS use this when the request matches Azure AI Textanalytics PY: Azure AI Text Analytics SDK for sentiment analysis, entity recognition, key phrases, language detection, PII, and healthcare NLP.
+- `azure-ai-transcription-py`: ALWAYS use this when the request matches Azure AI Transcription PY: Azure AI Transcription SDK for Python.
+- `azure-ai-translation-document-py`: ALWAYS use this when the request matches Azure AI Translation Document PY: Azure AI Document Translation SDK for batch translation of documents with format preservation.
+- `azure-ai-translation-text-py`: ALWAYS use this when the request matches Azure AI Translation Text PY: Azure AI Text Translation SDK for real-time text translation, transliteration, language detection, and dictionary lookup.
+- `azure-ai-translation-ts`: ALWAYS use this when the request matches Azure AI Translation TS: Text and document translation with REST-style clients.
+- `azure-ai-vision-imageanalysis-py`: ALWAYS use this when the request matches Azure AI Vision Imageanalysis PY: Azure AI Vision Image Analysis SDK for captions, tags, objects, OCR, people detection, and smart cropping.
+- `azure-ai-voicelive-py`: ALWAYS use this when the request matches Azure AI Voicelive PY: Build real-time voice AI applications with bidirectional WebSocket communication.
+- `azure-ai-voicelive-ts`: ALWAYS use this when the request matches Azure AI Voicelive TS: Azure AI Voice Live SDK for JavaScript/TypeScript.
+- `azure-appconfiguration-py`: ALWAYS use this when the request matches Azure Appconfiguration PY: Azure App Configuration SDK for Python.
+- `azure-appconfiguration-ts`: ALWAYS use this when the request matches Azure Appconfiguration TS: Centralized configuration management with feature flags and dynamic refresh.
+- `azure-containerregistry-py`: ALWAYS use this when the request matches Azure Containerregistry PY: Azure Container Registry SDK for Python.
+- `azure-cosmos-db-py`: ALWAYS use this when the request matches Azure Cosmos DB PY: Build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles.
+- `azure-cosmos-py`: ALWAYS use this when the request matches Azure Cosmos PY: Azure Cosmos DB SDK for Python (NoSQL API).
+- `azure-cosmos-ts`: ALWAYS use this when the request matches Azure Cosmos TS: Azure Cosmos DB JavaScript/TypeScript SDK (@azure/cosmos) for data plane operations.
+- `azure-data-tables-py`: ALWAYS use this when the request matches Azure Data Tables PY: Azure Tables SDK for Python (Storage and Cosmos DB).
+- `azure-eventgrid-py`: ALWAYS use this when the user mentions Azure Eventgrid PY, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Eventgrid P...
+- `azure-eventhub-py`: ALWAYS use this when the request matches Azure Eventhub PY: Azure Event Hubs SDK for Python streaming.
+- `azure-eventhub-ts`: ALWAYS use this when the request matches Azure Eventhub TS: High-throughput event streaming and real-time data ingestion.
+- `azure-functions`: ALWAYS use this when the request matches Azure Functions: Expert patterns for Azure Functions development including isolated worker model, Durable Functions orchestration, cold start optimization, and production patte...
+- `azure-identity-py`: ALWAYS use this when the request matches Azure Identity PY: Azure Identity SDK for Python authentication.
+- `azure-identity-ts`: ALWAYS use this when the request matches Azure Identity TS: Authenticate to Azure services with various credential types.
+- `azure-keyvault-keys-ts`: ALWAYS use this when the request matches Azure Keyvault Keys TS: Manage cryptographic keys using Azure Key Vault Keys SDK for JavaScript (@azure/keyvault-keys).
+- `azure-keyvault-py`: ALWAYS use this when the user mentions Azure Keyvault PY, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Keyvault PY...
+- `azure-keyvault-secrets-ts`: ALWAYS use this when the request matches Azure Keyvault Secrets TS: Manage secrets using Azure Key Vault Secrets SDK for JavaScript (@azure/keyvault-secrets).
+- `azure-messaging-webpubsubservice-py`: ALWAYS use this when the request matches Azure Messaging Webpubsubservice PY: Azure Web PubSub Service SDK for Python.
+- `azure-mgmt-botservice-py`: ALWAYS use this when the request matches Azure Mgmt Botservice PY: Azure Bot Service Management SDK for Python.
+- `azure-mgmt-fabric-py`: ALWAYS use this when the request matches Azure Mgmt Fabric PY: Azure Fabric Management SDK for Python.
+- `azure-monitor-ingestion-py`: ALWAYS use this when the request matches Azure Monitor Ingestion PY: Azure Monitor Ingestion SDK for Python.
+- `azure-monitor-opentelemetry-py`: ALWAYS use this when the request matches Azure Monitor Opentelemetry PY: Azure Monitor OpenTelemetry Distro for Python.
+- `azure-monitor-opentelemetry-ts`: ALWAYS use this when the request matches Azure Monitor Opentelemetry TS: Auto-instrument Node.js applications with distributed tracing, metrics, and logs.
+- `azure-monitor-query-py`: ALWAYS use this when the request matches Azure Monitor Query PY: Azure Monitor Query SDK for Python.
+- `azure-search-documents-py`: ALWAYS use this when the user mentions Azure Search Documents PY, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Sear...
+- `azure-search-documents-ts`: ALWAYS use this when the request matches Azure Search Documents TS: Build search applications with vector, hybrid, and semantic search capabilities.
+- `azure-servicebus-py`: ALWAYS use this when the request matches Azure Servicebus PY: Azure Service Bus SDK for Python messaging.
+- `azure-servicebus-ts`: ALWAYS use this when the request matches Azure Servicebus TS: Enterprise messaging with queues, topics, and subscriptions.
+- `azure-speech-to-text-rest-py`: ALWAYS use this when the request matches Azure Speech TO Text Rest PY: Azure Speech to Text REST API for short audio (Python).
+- `azure-storage-blob-py`: ALWAYS use this when the user mentions Azure Storage Blob PY, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Azure Storage...
+- `azure-storage-blob-ts`: ALWAYS use this when the request matches Azure Storage Blob TS: Azure Blob Storage JavaScript/TypeScript SDK (@azure/storage-blob) for blob operations.
+- `azure-storage-file-datalake-py`: ALWAYS use this when the request matches Azure Storage File Datalake PY: Azure Data Lake Storage Gen2 SDK for Python.
+- `azure-storage-file-share-py`: ALWAYS use this when the request matches Azure Storage File Share PY: Azure Storage File Share SDK for Python.
+- `azure-storage-file-share-ts`: ALWAYS use this when the request matches Azure Storage File Share TS: Azure File Share JavaScript/TypeScript SDK (@azure/storage-file-share) for SMB file share operations.
+- `azure-storage-queue-py`: ALWAYS use this when the request matches Azure Storage Queue PY: Azure Queue Storage SDK for Python.
+- `azure-storage-queue-ts`: ALWAYS use this when the request matches Azure Storage Queue TS: Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations.
+- `azure-web-pubsub-ts`: ALWAYS use this when the request matches Azure WEB Pubsub TS: Real-time messaging with WebSocket connections and pub/sub patterns.
+- `bamboohr-automation`: ALWAYS use this when the request matches Bamboohr Automation: Automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates.
+- `bash-defensive-patterns`: ALWAYS use this when the request matches Bash Defensive Patterns: Master defensive Bash programming techniques for production-grade scripts.
+- `bash-pro`: ALWAYS use this when the request matches Bash PRO: Master of defensive Bash scripting for production automation, CI/CD pipelines, and system utilities.
+- `bash-scripting`: ALWAYS use this when the request matches Bash Scripting: Bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and testing.
+- `bdi-mental-states`: ALWAYS use this when the request matches BDI Mental States: This skill should be used when the user asks to "model agent mental states", "implement BDI architecture", "create belief-desire-intention models", "transfor...
+- `bdistill-behavioral-xray`: ALWAYS use this when the request matches Bdistill Behavioral Xray: X-ray any AI model's behavioral patterns — refusal boundaries, hallucination tendencies, reasoning style, formatting defaults.
+- `bdistill-knowledge-extraction`: ALWAYS use this when the request matches Bdistill Knowledge Extraction: Extract structured domain knowledge from AI models in-session or from local open-source models via Ollama.
+- `beautiful-prose`: ALWAYS use this when the request matches Beautiful Prose: A hard-edged writing style contract for timeless, forceful English prose without modern AI tics.
+- `behavioral-modes`: ALWAYS use this when the request matches Behavioral Modes: AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate).
+- `bevy-ecs-expert`: ALWAYS use this when the request matches Bevy ECS Expert: Master Bevy's Entity Component System (ECS) in Rust, covering Systems, Queries, Resources, and parallel scheduling.
+- `bill-gates`: ALWAYS use this when the request matches Bill Gates: Agente que simula Bill Gates — cofundador da Microsoft, arquiteto da industria de software comercial, estrategista tecnologico global, investidor sistemico e filant...
+- `billing-automation`: ALWAYS use this when the request matches Billing Automation: Master automated billing systems including recurring billing, invoice generation, dunning management, proration, and tax calculation.
+- `binary-analysis-patterns`: ALWAYS use this when the request matches Binary Analysis Patterns: Comprehensive patterns and techniques for analyzing compiled binaries, understanding assembly code, and reconstructing program logic.
+- `bitbucket-automation`: ALWAYS use this when the request matches Bitbucket Automation: Automate Bitbucket repositories, pull requests, branches, issues, and workspace management via Rube MCP (Composio).
+- `blockchain-developer`: ALWAYS use this when the request matches Blockchain Developer: Build production-ready Web3 applications, smart contracts, and decentralized systems.
+- `blockrun`: ALWAYS use this when the request matches Blockrun: BlockRun works with Claude Code and Google Antigravity.
+- `blueprint`: ALWAYS use this when the request matches Blueprint: Turn a one-line objective into a step-by-step construction plan any coding agent can execute cold.
+- `box-automation`: ALWAYS use this when the request matches BOX Automation: Automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's...
+- `brainstorming`: ALWAYS use this when the request matches Brainstorming: Socratic questioning protocol + user communication.
+- `brand-perception-psychologist`: ALWAYS use this when the request matches Brand Perception Psychologist: One sentence - what this skill does and when to invoke it
+- `brevo-automation`: ALWAYS use this when the request matches Brevo Automation: Automate Brevo (formerly Sendinblue) email marketing operations through Composio's Brevo toolkit via Rube MCP.
+- `broken-authentication`: ALWAYS use this when the request matches Broken Authentication: Identify and exploit authentication and session management vulnerabilities in web applications.
+- `browser-automation`: ALWAYS use this when the request matches Browser Automation: Browser automation powers web testing, scraping, and AI agent interactions.
+- `bug-hunter`: ALWAYS use this when the request matches BUG Hunter: Systematically finds and fixes bugs using proven debugging techniques.
+- `bullmq-specialist`: ALWAYS use this when the request matches Bullmq Specialist: BullMQ expert for Redis-backed job queues, background processing, and reliable async execution in Node.js/TypeScript applications.
+- `bun-development`: ALWAYS use this when the request matches BUN Development: Fast, modern JavaScript/TypeScript development with the Bun runtime, inspired by [oven-sh/bun](https://github.com/oven-sh/bun).
+- `business-analyst`: ALWAYS use this when the request matches Business Analyst: Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights.
+- `busybox-on-windows`: ALWAYS use this when the request matches Busybox ON Windows: How to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows.
+- `c-pro`: ALWAYS use this when the request matches C PRO: Write efficient C code with proper memory management, pointer
+- `c4-architecture-c4-architecture`: ALWAYS use this when the request matches C4 Architecture C4 Architecture: Generate comprehensive C4 architecture documentation for an existing repository/codebase using a bottom-up analysis approach.
+- `c4-code`: ALWAYS use this when the request matches C4 Code: Expert C4 Code-level documentation specialist.
+- `c4-component`: ALWAYS use this when the request matches C4 Component: Expert C4 Component-level documentation specialist.
+- `c4-container`: ALWAYS use this when the request matches C4 Container: Expert C4 Container-level documentation specialist.
+- `c4-context`: ALWAYS use this when the request matches C4 Context: Expert C4 Context-level documentation specialist.
+- `cal-com-automation`: ALWAYS use this when the request matches CAL COM Automation: Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams.
+- `calendly-automation`: ALWAYS use this when the request matches Calendly Automation: Automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composio).
+- `canva-automation`: ALWAYS use this when the request matches Canva Automation: Automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand templates, autofill.
+- `canvas-design`: ALWAYS use this when the output is a designed bitmap or canvas artifact such as posters, social graphics, composed visuals, or branded image assets rather than ordinary HTML UI.
+- `carrier-relationship-management`: ALWAYS use this when the request matches Carrier Relationship Management: Codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance, allocating freight, and maintainin...
+- `cc-skill-clickhouse-io`: ALWAYS use this when the request matches CC Skill Clickhouse IO: ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.
+- `cc-skill-coding-standards`: ALWAYS use this when the request matches CC Skill Coding Standards: Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.
+- `cc-skill-continuous-learning`: ALWAYS use this when the request matches CC Skill Continuous Learning: Development skill from everything-claude-code
+- `cc-skill-strategic-compact`: ALWAYS use this when the request matches CC Skill Strategic Compact: Development skill from everything-claude-code
+- `cdk-patterns`: ALWAYS use this when the request matches CDK Patterns: Common AWS CDK patterns and constructs for building cloud infrastructure with TypeScript, Python, or Java.
+- `changelog-automation`: ALWAYS use this when the request matches Changelog Automation: Automate changelog generation from commits, PRs, and releases following Keep a Changelog format.
+- `chat-widget`: ALWAYS use this when the request matches Chat Widget: Build a real-time support chat system with a floating widget for users and an admin dashboard for support staff.
+- `chrome-extension-developer`: ALWAYS use this when the request matches Chrome Extension Developer: Expert in building Chrome Extensions using Manifest V3.
+- `churn-prevention`: ALWAYS use this when the request matches Churn Prevention: Reduce voluntary and involuntary churn with cancel flows, save offers, dunning, win-back tactics, and retention strategy.
+- `circleci-automation`: ALWAYS use this when the request matches Circleci Automation: Automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor workflows/jobs, retrieve artifacts and test metadata.
+- `cirq`: ALWAYS use this when the request matches Cirq: Cirq is Google Quantum AI's open-source framework for designing, simulating, and running quantum circuits on quantum computers and simulators.
+- `citation-management`: ALWAYS use this when the request matches Citation Management: Manage citations systematically throughout the research and writing process.
+- `clarity-gate`: ALWAYS use this when the request matches Clarity Gate: Pre-ingestion verification for epistemic quality in RAG systems.
+- `clarvia-aeo-check`: ALWAYS use this when the request matches Clarvia AEO Check: Score any MCP server, API, or CLI for agent-readiness using Clarvia AEO (Agent Experience Optimization).
+- `claude-code-expert`: ALWAYS use this when the request matches Claude Code Expert: Especialista profundo em Claude Code - CLI da Anthropic.
+- `claude-d3js-skill`: ALWAYS use this when the request matches Claude D3js Skill: This skill provides guidance for creating sophisticated, interactive data visualisations using d3.js.
+- `claude-in-chrome-troubleshooting`: ALWAYS use this when the request matches Claude IN Chrome Troubleshooting: Diagnose and fix Claude in Chrome MCP extension connectivity issues.
+- `claude-monitor`: ALWAYS use this when the request matches Claude Monitor: Monitor de performance do Claude Code e sistema local.
+- `claude-scientific-skills`: ALWAYS use this when the request matches Claude Scientific Skills: Scientific research and analysis skills
+- `claude-settings-audit`: ALWAYS use this when the request matches Claude Settings Audit: Analyze a repository to generate recommended Claude Code settings.json permissions.
+- `claude-speed-reader`: ALWAYS use this when the request matches Claude Speed Reader: -Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting
+- `claude-win11-speckit-update-skill`: ALWAYS use this when the user mentions Claude Win11 Speckit Update Skill, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Cl...
+- `clean-code`: ALWAYS use this when the request matches Clean Code: Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments
+- `clerk-auth`: ALWAYS use this when the request matches Clerk Auth: Expert patterns for Clerk auth implementation, middleware, organizations, webhooks, and user sync
+- `clickup-automation`: ALWAYS use this when the request matches Clickup Automation: Automate ClickUp project management including tasks, spaces, folders, lists, comments, and team operations via Rube MCP (Composio).
+- `close-automation`: ALWAYS use this when the request matches Close Automation: Automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes.
+- `closed-loop-delivery`: ALWAYS use this when a coding task needs to reach a real done state with acceptance criteria, implementation, verification, review follow-through, and runtime proof where applicable.
+- `cloud-architect`: ALWAYS use this when the request matches Cloud Architect: Expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and mo...
+- `cloud-devops`: ALWAYS use this when the request matches Cloud Devops: Cloud infrastructure and DevOps workflow covering AWS, Azure, GCP, Kubernetes, Terraform, CI/CD, monitoring, and cloud-native development.
+- `cloudflare-workers-expert`: ALWAYS use this when the request matches Cloudflare Workers Expert: Expert in Cloudflare Workers and the Edge Computing ecosystem.
+- `cloudformation-best-practices`: ALWAYS use this when the request matches Cloudformation Best Practices: CloudFormation template optimization, nested stacks, drift detection, and production-ready patterns.
+- `coda-automation`: ALWAYS use this when the request matches Coda Automation: Automate Coda tasks via Rube MCP (Composio): manage docs, pages, tables, rows, formulas, permissions, and publishing.
+- `code-documentation-code-explain`: ALWAYS use this when the request matches Code Documentation Code Explain: You are a code education expert specializing in explaining complex code through clear narratives, visual diagrams, and step-by-step breakdowns.
+- `code-documentation-doc-generate`: ALWAYS use this when the request matches Code Documentation DOC Generate: You are a documentation expert specializing in creating comprehensive, maintainable documentation from code.
+- `code-refactoring-context-restore`: ALWAYS use this when the request matches Code Refactoring Context Restore: Use when working with code refactoring context restore
+- `code-refactoring-refactor-clean`: ALWAYS use this when the request matches Code Refactoring Refactor Clean: You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices.
+- `code-refactoring-tech-debt`: ALWAYS use this when the request matches Code Refactoring Tech Debt: You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software projects.
+- `code-simplifier`: ALWAYS use this when the request matches Code Simplifier: Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality.
+- `codebase-audit-pre-push`: ALWAYS use this when the request matches Codebase Audit PRE Push: Deep audit before GitHub push: removes junk files, dead code, security holes, and optimization issues.
+- `codebase-cleanup-deps-audit`: ALWAYS use this when the request matches Codebase Cleanup Deps Audit: You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security.
+- `codebase-cleanup-refactor-clean`: ALWAYS use this when the request matches Codebase Cleanup Refactor Clean: You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices.
+- `codebase-cleanup-tech-debt`: ALWAYS use this when the request matches Codebase Cleanup Tech Debt: You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software projects.
+- `codebase-to-wordpress-converter`: ALWAYS use this when the request matches Codebase TO Wordpress Converter: Expert skill for converting any codebase (React/HTML/Next.js) into a pixel-perfect, SEO-optimized, and dynamic WordPress theme.
+- `cold-email`: ALWAYS use this when the request matches Cold Email: Write B2B cold emails and follow-up sequences that earn replies.
+- `commit`: ALWAYS use this skill when committing code changes — never commit directly without it. Creates commits following Sentry conventions with proper conventional commit format and issue references. Trigger on any commit, g...
+- `competitive-landscape`: ALWAYS use this when the request matches Competitive Landscape: Comprehensive frameworks for analyzing competition, identifying differentiation opportunities, and developing winning market positioning strategies.
+- `competitor-alternatives`: ALWAYS use this when the request matches Competitor Alternatives: You are an expert in creating competitor comparison and alternative pages.
+- `computer-vision-expert`: ALWAYS use this when the request matches Computer Vision Expert: SOTA Computer Vision Expert (2026).
+- `concise-planning`: ALWAYS use this when the request matches Concise Planning: Use when a user asks for a plan for a coding task, to generate a clear, actionable, and atomic checklist.
+- `conductor-implement`: ALWAYS use this when the request matches Conductor Implement: Execute tasks from a track's implementation plan following TDD workflow
+- `conductor-manage`: ALWAYS use this when the request matches Conductor Manage: Manage track lifecycle: archive, restore, delete, rename, and cleanup
+- `conductor-new-track`: ALWAYS use this when the request matches Conductor NEW Track: Create a new track with specification and phased implementation plan
+- `conductor-revert`: ALWAYS use this when the request matches Conductor Revert: Git-aware undo by logical work unit (track, phase, or task)
+- `conductor-setup`: ALWAYS use this when the request matches Conductor Setup: Configure a Rails project to work with Conductor (parallel coding agents)
+- `conductor-status`: ALWAYS use this when the request matches Conductor Status: Display project status, active tracks, and next actions
+- `conductor-validator`: ALWAYS use this when the request matches Conductor Validator: Validates Conductor project artifacts for completeness, consistency, and correctness.
+- `confluence-automation`: ALWAYS use this when the request matches Confluence Automation: Automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio).
+- `constant-time-analysis`: ALWAYS use this when the request matches Constant Time Analysis: Analyze cryptographic code to detect operations that leak secret data through execution timing variations.
+- `content-creator`: ALWAYS use this when the request matches Content Creator: Professional-grade brand voice analysis, SEO optimization, and platform-specific content frameworks.
+- `content-marketer`: ALWAYS use this when the request matches Content Marketer: Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance market...
+- `content-strategy`: ALWAYS use this when the request matches Content Strategy: Plan a content strategy, topic clusters, editorial roadmap, and content mix for traffic, authority, and lead generation.
+- `context-compression`: ALWAYS use this when the request matches Context Compression: When agent sessions generate millions of tokens of conversation history, compression becomes mandatory.
+- `context-degradation`: ALWAYS use this when the request matches Context Degradation: Language models exhibit predictable degradation patterns as context length increases.
+- `context-driven-development`: ALWAYS use this when the request matches Context Driven Development: Guide for implementing and maintaining context as a managed artifact alongside code, enabling consistent AI interactions and team alignment through...
+- `context-fundamentals`: ALWAYS use this when the request matches Context Fundamentals: Context is the complete state available to a language model at inference time.
+- `context-guardian`: ALWAYS use this when the request matches Context Guardian: Guardiao de contexto que preserva dados criticos antes da compactacao automatica.
+- `context-management-context-restore`: ALWAYS use this when the request matches Context Management Context Restore: Use when working with context management context restore
+- `context-management-context-save`: ALWAYS use this when the request matches Context Management Context Save: Use when working with context management context save
+- `context-manager`: ALWAYS use this when the request matches Context Manager: Elite AI context engineering specialist mastering dynamic context management, vector databases, knowledge graphs, and intelligent memory systems.
+- `context-optimization`: ALWAYS use this when the request matches Context Optimization: Context optimization extends the effective capacity of limited context windows through strategic compression, masking, caching, and partitioning.
+- `context-window-management`: ALWAYS use this when the request matches Context Window Management: Strategies for managing LLM context windows including summarization, trimming, routing, and avoiding context rot
+- `context7-auto-research`: ALWAYS use this when the request matches Context7 Auto Research: Automatically fetch latest library/framework documentation for Claude Code via Context7 API.
+- `conversation-memory`: ALWAYS use this when the request matches Conversation Memory: Persistent memory systems for LLM conversations including short-term, long-term, and entity-based memory
+- `convertkit-automation`: ALWAYS use this when the request matches Convertkit Automation: Automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats.
+- `convex`: ALWAYS use this when the request matches Convex: Convex reactive backend expert: schema design, TypeScript functions, real-time subscriptions, auth, file storage, scheduling, and deployment.
+- `copilot-sdk`: ALWAYS use this when the request matches Copilot SDK: Build applications that programmatically interact with GitHub Copilot.
+- `copy-editing`: ALWAYS use this when the request matches Copy Editing: You are an expert copy editor specializing in marketing and conversion copy.
+- `copywriting`: ALWAYS use this when the request matches Copywriting: Write rigorous, conversion-focused marketing copy for landing pages and emails.
+- `copywriting-psychologist`: ALWAYS use this when the request matches Copywriting Psychologist: One sentence - what this skill does and when to invoke it
+- `core-components`: ALWAYS use this when the request matches Core Components: Core component library and design system patterns.
+- `cost-optimization`: ALWAYS use this when the request matches Cost Optimization: Strategies and patterns for optimizing cloud costs across AWS, Azure, and GCP.
+- `cpp-pro`: ALWAYS use this when the request matches CPP PRO: Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms.
+- `cqrs-implementation`: ALWAYS use this when the request matches Cqrs Implementation: Implement Command Query Responsibility Segregation for scalable architectures.
+- `create-branch`: ALWAYS use this when the request matches Create Branch: Create a git branch following Sentry naming conventions.
+- `create-issue-gate`: ALWAYS use this when the request matches Create Issue Gate: Use when starting a new implementation task and an issue must be created with strict acceptance criteria gating before execution.
+- `create-pr`: ALWAYS use this when the user mentions Create PR, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Create PR; scope: Alias fo...
+- `cred-omega`: ALWAYS use this when the request matches Cred Omega: CISO operacional enterprise para gestao total de credenciais e segredos.
+- `crewai`: ALWAYS use this when the request matches Crewai: Expert in CrewAI - the leading role-based multi-agent framework used by 60% of Fortune 500 companies.
+- `csharp-pro`: ALWAYS use this when the request matches Csharp PRO: Write modern C# code with advanced features like records, pattern matching, and async/await.
+- `customer-psychographic-profiler`: ALWAYS use this when the request matches Customer Psychographic Profiler: One sentence - what this skill does and when to invoke it
+- `customer-support`: ALWAYS use this when the request matches Customer Support: Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences.
+- `customs-trade-compliance`: ALWAYS use this when the request matches Customs Trade Compliance: Codified expertise for customs documentation, tariff classification, duty optimisation, restricted party screening, and regulatory compliance across m...
+- `daily`: ALWAYS use this when the request matches Daily: Documentation and capabilities reference for Daily
+- `daily-gift`: ALWAYS use this when the request matches Daily Gift: Relationship-aware daily gift engine with five-stage creative pipeline — editorial judgment, synthesis, concept generation, visual strategy, and rendering in H5, im...
+- `daily-news-report`: ALWAYS use this when the request matches Daily News Report: Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports.
+- `data-engineer`: ALWAYS use this when the request matches Data Engineer: Build scalable data pipelines, modern data warehouses, and real-time streaming architectures.
+- `data-engineering-data-driven-feature`: ALWAYS use this when the request matches Data Engineering Data Driven Feature: Build features guided by data insights, A/B testing, and continuous measurement using specialized agents for analysis, implementation, and...
+- `data-engineering-data-pipeline`: ALWAYS use this when the request matches Data Engineering Data Pipeline: You are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data p...
+- `data-quality-frameworks`: ALWAYS use this when the request matches Data Quality Frameworks: Implement data quality validation with Great Expectations, dbt tests, and data contracts.
+- `data-scientist`: ALWAYS use this when the request matches Data Scientist: Expert data scientist for advanced analytics, machine learning, and statistical modeling.
+- `data-storytelling`: ALWAYS use this when the request matches Data Storytelling: Transform raw data into compelling narratives that drive decisions and inspire action.
+- `data-structure-protocol`: ALWAYS use this when the request matches Data Structure Protocol: Give agents persistent structural memory of a codebase — navigate dependencies, track public APIs, and understand why connections exist without re-read...
+- `datadog-automation`: ALWAYS use this when the request matches Datadog Automation: Automate Datadog tasks via Rube MCP (Composio): query metrics, search logs, manage monitors/dashboards, create events and downtimes.
+- `dbos-golang`: ALWAYS use this when the request matches Dbos Golang: Guide for building reliable, fault-tolerant Go applications with DBOS durable workflows.
+- `dbos-typescript`: ALWAYS use this when the request matches Dbos Typescript: Guide for building reliable, fault-tolerant TypeScript applications with DBOS durable workflows.
+- `dbt-transformation-patterns`: ALWAYS use this when the request matches DBT Transformation Patterns: Production-ready patterns for dbt (data build tool) including model organization, testing strategies, documentation, and incremental processing.
+- `ddd-context-mapping`: ALWAYS use this when the request matches DDD Context Mapping: Map relationships between bounded contexts and define integration contracts using DDD context mapping patterns.
+- `ddd-strategic-design`: ALWAYS use this when the request matches DDD Strategic Design: Design DDD strategic artifacts including subdomains, bounded contexts, and ubiquitous language for complex business domains.
+- `ddd-tactical-patterns`: ALWAYS use this when the request matches DDD Tactical Patterns: Apply DDD tactical patterns in code using entities, value objects, aggregates, repositories, and domain events with explicit invariants.
+- `deep-research`: ALWAYS use this when the request matches Deep Research: Run autonomous research tasks that plan, search, read, and synthesize information into comprehensive reports.
+- `defi-protocol-templates`: ALWAYS use this when the request matches Defi Protocol Templates: Implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems.
+- `defuddle`: ALWAYS use this when the request matches Defuddle: Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens.
+- `dependency-management-deps-audit`: ALWAYS use this when the request matches Dependency Management Deps Audit: You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security.
+- `dependency-upgrade`: ALWAYS use this when the request matches Dependency Upgrade: Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testing approaches.
+- `deployment-engineer`: ALWAYS use this when the request matches Deployment Engineer: Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation.
+- `deployment-pipeline-design`: ALWAYS use this when the request matches Deployment Pipeline Design: Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies.
+- `deployment-procedures`: ALWAYS use this when shipping, releasing, promoting environments, or planning a deployment flow where ordering and rollback safety matter.
+- `deployment-validation-config-validate`: ALWAYS use this when the request matches Deployment Validation Config Validate: You are a configuration management expert specializing in validating, testing, and ensuring the correctness of application configurations.
+- `design-md`: ALWAYS use this when the request matches Design MD: Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files
+- `design-spells`: ALWAYS use this when the request matches Design Spells: Curated micro-interactions and design details that add "magic" and personality to websites and apps.
+- `devcontainer-setup`: ALWAYS use this when the request matches Devcontainer Setup: Creates devcontainers with Claude Code, language-specific tooling (Python/Node/Rust/Go), and persistent volumes.
+- `development`: ALWAYS use this when the request matches Development: Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack, and mobile development skills for end-to-end application delivery.
+- `devops-deploy`: ALWAYS use this when the request matches Devops Deploy: DevOps e deploy de aplicacoes — Docker, CI/CD com GitHub Actions, AWS Lambda, SAM, Terraform, infraestrutura como codigo e monitoramento.
+- `devops-troubleshooter`: ALWAYS use this when the request matches Devops Troubleshooter: Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability.
+- `diary`: ALWAYS use this when the request matches Diary: Unified Diary System: A context-preserving automated logger for multi-project development.
+- `discord-automation`: ALWAYS use this when the request matches Discord Automation: Automate Discord tasks via Rube MCP (Composio): messages, channels, roles, webhooks, reactions.
+- `discord-bot-architect`: ALWAYS use this when the request matches Discord BOT Architect: Specialized skill for building production-ready Discord bots.
+- `distributed-tracing`: ALWAYS use this when the request matches Distributed Tracing: Implement distributed tracing with Jaeger and Tempo for request flow visibility across microservices.
+- `django-pro`: ALWAYS use this when the request matches Django PRO: Master Django 5.x with async views, DRF, Celery, and Django Channels.
+- `domain-driven-design`: ALWAYS use this when the request matches Domain Driven Design: Plan and route Domain-Driven Design work from strategic modeling to tactical implementation and evented architecture patterns.
+- `drizzle-orm-expert`: ALWAYS use this when the request matches Drizzle ORM Expert: Expert in Drizzle ORM for TypeScript — schema design, relational queries, migrations, and serverless database integration.
+- `dropbox-automation`: ALWAYS use this when the request matches Dropbox Automation: Automate Dropbox file management, sharing, search, uploads, downloads, and folder operations via Rube MCP (Composio).
+- `dwarf-expert`: ALWAYS use this when the request matches Dwarf Expert: Provides expertise for analyzing DWARF debug files and understanding the DWARF debug format/standard (v3-v5).
+- `dx-optimizer`: ALWAYS use this when the user mentions DX Optimizer, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on DX Optimizer; scope: De...
+- `electron-development`: ALWAYS use this when the request matches Electron Development: Master Electron desktop app development with secure IPC, contextIsolation, preload scripts, multi-process architecture, electron-builder packaging, code s...
+- `elixir-pro`: ALWAYS use this when the request matches Elixir PRO: Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView.
+- `elon-musk`: ALWAYS use this when the request matches Elon Musk: Agente que simula Elon Musk com profundidade psicologica e comunicacional de alta fidelidade.
+- `email-sequence`: ALWAYS use this when the request matches Email Sequence: You are an expert in email marketing and automation.
+- `email-systems`: ALWAYS use this when the request matches Email Systems: Email has the highest ROI of any marketing channel.
+- `embedding-strategies`: ALWAYS use this when the request matches Embedding Strategies: Guide to selecting and optimizing embedding models for vector search applications.
+- `emblemai-crypto-wallet`: ALWAYS use this when the request matches Emblemai Crypto Wallet: Crypto wallet management across 7 blockchains via EmblemAI Agent Hustle API.
+- `emergency-card`: ALWAYS use this when the request matches Emergency Card: 生成紧急情况下快速访问的医疗信息摘要卡片。当用户需要旅行、就诊准备、紧急情况或询问"紧急信息"、"医疗卡片"、"急救信息"时使用此技能。提取关键信息（过敏、用药、急症、植入物），支持多格式输出（JSON、文本、二维码），用于急救或快速就医。
+- `emotional-arc-designer`: ALWAYS use this when the request matches Emotional ARC Designer: One sentence - what this skill does and when to invoke it
+- `employment-contract-templates`: ALWAYS use this when the request matches Employment Contract Templates: Templates and patterns for creating legally sound employment documentation including contracts, offer letters, and HR policies.
+- `energy-procurement`: ALWAYS use this when the request matches Energy Procurement: Codified expertise for electricity and gas procurement, tariff optimisation, demand charge management, renewable PPA evaluation, and multi-facility energy c...
+- `enhance-prompt`: ALWAYS use this when the request matches Enhance Prompt: Transforms vague UI ideas into polished, Stitch-optimized prompts.
+- `error-detective`: ALWAYS use this when the request matches Error Detective: Search logs and codebases for error patterns, stack traces, and anomalies.
+- `error-diagnostics-error-analysis`: ALWAYS use this when the request matches Error Diagnostics Error Analysis: You are an expert error analysis specialist with deep expertise in debugging distributed systems, analyzing production incidents, and implemen...
+- `error-diagnostics-error-trace`: ALWAYS use this when the request matches Error Diagnostics Error Trace: You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions.
+- `error-handling-patterns`: ALWAYS use this when the request matches Error Handling Patterns: Build resilient applications with robust error handling strategies that gracefully handle failures and provide excellent debugging experiences.
+- `ethical-hacking-methodology`: ALWAYS use this when the request matches Ethical Hacking Methodology: Master the complete penetration testing lifecycle from reconnaissance through reporting.
+- `event-sourcing-architect`: ALWAYS use this when the request matches Event Sourcing Architect: Expert in event sourcing, CQRS, and event-driven architecture patterns.
+- `event-store-design`: ALWAYS use this when the request matches Event Store Design: Design and implement event stores for event-sourced systems.
+- `evolution`: ALWAYS use this when the request matches Evolution: This skill enables makepad-skills to self-improve continuously during development.
+- `exa-search`: ALWAYS use this when the request matches EXA Search: Semantic search, similar content discovery, and structured research using Exa API.
+- `executing-plans`: ALWAYS use this when an approved plan, milestone list, or task sequence already exists and the job now is disciplined execution instead of strategy improvisation.
+- `explain-like-socrates`: ALWAYS use this when the request matches Explain Like Socrates: Explains concepts using Socratic-style dialogue.
+- `faf-expert`: ALWAYS use this when the request matches FAF Expert: Advanced .faf (Foundational AI-context Format) specialist.
+- `faf-wizard`: ALWAYS use this when the user mentions FAF Wizard, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on FAF Wizard; scope: Done-f...
+- `fal-audio`: ALWAYS use this when the request matches FAL Audio: Text-to-speech and speech-to-text using fal.ai audio models
+- `fal-generate`: ALWAYS use this when the request matches FAL Generate: Generate images and videos using fal.ai AI models
+- `fal-image-edit`: ALWAYS use this when the request matches FAL Image Edit: AI-powered image editing with style transfer and object removal
+- `fal-platform`: ALWAYS use this when the request matches FAL Platform: Platform APIs for model management, pricing, and usage tracking
+- `fal-upscale`: ALWAYS use this when the request matches FAL Upscale: Upscale and enhance image and video resolution using AI
+- `favicon`: ALWAYS use this when the request matches Favicon: Generate favicons from a source image
+- `fda-food-safety-auditor`: ALWAYS use this when the request matches FDA Food Safety Auditor: Expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance.
+- `fda-medtech-compliance-auditor`: ALWAYS use this when the request matches FDA Medtech Compliance Auditor: Expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820.
+- `ffuf-claude-skill`: ALWAYS use this when the user mentions Ffuf Claude Skill, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Ffuf Claude Skill...
+- `ffuf-web-fuzzing`: ALWAYS use this when the request matches Ffuf WEB Fuzzing: Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis
+- `figma-automation`: ALWAYS use this when the request matches Figma Automation: Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports.
+- `file-organizer`: ALWAYS use this when the user mentions File Organizer, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on File Organizer; scope...
+- `file-path-traversal`: ALWAYS use this when the request matches File Path Traversal: Identify and exploit file path traversal (directory traversal) vulnerabilities that allow attackers to read arbitrary files on the server, potentially incl...
+- `file-uploads`: ALWAYS use this when the request matches File Uploads: Expert at handling file uploads and cloud storage.
+- `filesystem-context`: ALWAYS use this when the request matches Filesystem Context: Use for file-based context management, dynamic context discovery, and reducing context window bloat.
+- `find-bugs`: ALWAYS use this when the request matches Find Bugs: Find bugs, security vulnerabilities, and code quality issues in local branch changes.
+- `finishing-a-development-branch`: ALWAYS use this when branch work looks complete and the next question is whether to push, open a PR, merge, keep, or safely clean up.
+- `firebase`: ALWAYS use this when the request matches Firebase: Firebase gives you a complete backend in minutes - auth, database, storage, functions, hosting.
+- `firecrawl-scraper`: ALWAYS use this when the request matches Firecrawl Scraper: Deep web scraping, screenshots, PDF parsing, and website crawling using Firecrawl API.
+- `firmware-analyst`: ALWAYS use this when the request matches Firmware Analyst: Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering.
+- `fitness-analyzer`: ALWAYS use this when the request matches Fitness Analyzer: 分析运动数据、识别运动模式、评估健身进展，并提供个性化训练建议。支持与慢性病数据的关联分析。
+- `fixing-accessibility`: ALWAYS use this when the request matches Fixing Accessibility: Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors.
+- `fixing-metadata`: ALWAYS use this when the request matches Fixing Metadata: Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph tags, Twitter cards, favicons, JSON-LD structured data, and ro...
+- `fixing-motion-performance`: ALWAYS use this when the request matches Fixing Motion Performance: Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects.
+- `flutter-expert`: ALWAYS use this when the request matches Flutter Expert: Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.
+- `form-cro`: ALWAYS use this when the request matches Form CRO: Optimize any form that is NOT signup or account registration — including lead capture, contact, demo request, application, survey, quote, and checkout forms.
+- `fp-async`: ALWAYS use this when the request matches FP Async: Practical async patterns using TaskEither - clean pipelines instead of try/catch hell, with real API examples
+- `fp-data-transforms`: ALWAYS use this when the request matches FP Data Transforms: Everyday data transformations using functional patterns - arrays, objects, grouping, aggregation, and null-safe access
+- `fp-either-ref`: ALWAYS use this when the user mentions FP Either REF, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on FP Either REF; scope...
+- `fp-errors`: ALWAYS use this when the request matches FP Errors: Stop throwing everywhere - handle errors as values using Either and TaskEither for cleaner, more predictable code
+- `fp-option-ref`: ALWAYS use this when the user mentions FP Option REF, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on FP Option REF; scope...
+- `fp-pipe-ref`: ALWAYS use this when the user mentions FP Pipe REF, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on FP Pipe REF; scope: Quic...
+- `fp-pragmatic`: ALWAYS use this when the request matches FP Pragmatic: A practical, jargon-free guide to functional programming - the 80/20 approach that gets results without the academic overhead
+- `fp-refactor`: ALWAYS use this when the request matches FP Refactor: Comprehensive guide for refactoring imperative TypeScript code to fp-ts functional patterns
+- `fp-taskeither-ref`: ALWAYS use this when the user mentions FP Taskeither REF, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on FP Taskeither REF...
+- `fp-ts-errors`: ALWAYS use this when the request matches FP TS Errors: Handle errors as values using fp-ts Either and TaskEither for cleaner, more predictable TypeScript code.
+- `fp-ts-pragmatic`: ALWAYS use this when the request matches FP TS Pragmatic: A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead.
+- `fp-types-ref`: ALWAYS use this when the user mentions FP Types REF, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on FP Types REF; scope: Qu...
+- `framework-migration-code-migrate`: ALWAYS use this when the request matches Framework Migration Code Migrate: You are a code migration expert specializing in transitioning codebases between frameworks, languages, versions, and platforms.
+- `framework-migration-deps-upgrade`: ALWAYS use this when the request matches Framework Migration Deps Upgrade: You are a dependency management expert specializing in safe, incremental upgrades of project dependencies.
+- `framework-migration-legacy-modernize`: ALWAYS use this when the request matches Framework Migration Legacy Modernize: Orchestrate a comprehensive legacy system modernization using the strangler fig pattern, enabling gradual replacement of outdated componen...
+- `free-tool-strategy`: ALWAYS use this when the request matches Free Tool Strategy: You are an expert in engineering-as-marketing strategy.
+- `freshdesk-automation`: ALWAYS use this when the request matches Freshdesk Automation: Automate Freshdesk helpdesk operations including tickets, contacts, companies, notes, and replies via Rube MCP (Composio).
+- `freshservice-automation`: ALWAYS use this when the request matches Freshservice Automation: Automate Freshservice ITSM tasks via Rube MCP (Composio): create/update tickets, bulk operations, service requests, and outbound emails.
+- `full-output-enforcement`: ALWAYS use this when the request matches Full Output Enforcement: Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code.
+- `gcp-cloud-run`: ALWAYS use this when the request matches GCP Cloud RUN: Specialized skill for building production-ready serverless applications on GCP.
+- `gdb-cli`: ALWAYS use this when the request matches GDB CLI: GDB debugging assistant for AI agents - analyze core dumps, debug live processes, investigate crashes and deadlocks with source code correlation
+- `gdpr-data-handling`: ALWAYS use this when the request matches Gdpr Data Handling: Practical implementation guide for GDPR-compliant data processing, consent management, and privacy controls.
+- `geo-fundamentals`: ALWAYS use this when the request matches GEO Fundamentals: Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity).
+- `geoffrey-hinton`: ALWAYS use this when the request matches Geoffrey Hinton: Agente que simula Geoffrey Hinton — Godfather of Deep Learning, Prêmio Turing 2018, criador do backpropagation e das Deep Belief Networks.
+- `git-hooks-automation`: ALWAYS use this when the request matches GIT Hooks Automation: Master Git hooks setup with Husky, lint-staged, pre-commit framework, and commitlint.
+- `git-pushing`: ALWAYS use this when the request matches GIT Pushing: Stage all changes, create a conventional commit, and push to the remote branch.
+- `github`: ALWAYS use this when the request matches Github: Use the `gh` CLI for issues, pull requests, Actions runs, and GitHub API queries.
+- `github-actions-templates`: ALWAYS use this when the request matches Github Actions Templates: Production-ready GitHub Actions workflow patterns for testing, building, and deploying applications.
+- `github-automation`: ALWAYS use this when the request matches Github Automation: Automate GitHub repositories, issues, pull requests, branches, CI/CD, and permissions via Rube MCP (Composio).
+- `github-issue-creator`: ALWAYS use this when the request matches Github Issue Creator: Turn error logs, screenshots, voice notes, and rough bug reports into crisp, developer-ready GitHub issues with repro steps, impact, and evidence.
+- `gitlab-automation`: ALWAYS use this when the request matches Gitlab Automation: Automate GitLab project management, issues, merge requests, pipelines, branches, and user operations via Rube MCP (Composio).
+- `gitlab-ci-patterns`: ALWAYS use this when the request matches Gitlab CI Patterns: Comprehensive GitLab CI/CD pipeline patterns for automated testing, building, and deployment.
+- `gmail-automation`: ALWAYS use this when the request matches Gmail Automation: Lightweight Gmail integration with standalone OAuth authentication.
+- `go-concurrency-patterns`: ALWAYS use this when the request matches GO Concurrency Patterns: Master Go concurrency with goroutines, channels, sync primitives, and context.
+- `go-playwright`: ALWAYS use this when the request matches GO Playwright: Expert capability for robust, stealthy, and efficient browser automation using Playwright Go.
+- `go-rod-master`: ALWAYS use this when the request matches GO ROD Master: Comprehensive guide for browser automation and web scraping with go-rod (Chrome DevTools Protocol) including stealth anti-bot-detection patterns.
+- `goal-analyzer`: ALWAYS use this when the request matches Goal Analyzer: 分析健康目标数据、识别目标模式、评估目标进度,并提供个性化目标管理建议。支持与营养、运动、睡眠等健康数据的关联分析。
+- `godot-4-migration`: ALWAYS use this when the request matches Godot 4 Migration: Specialized guide for migrating Godot 3.x projects to Godot 4 (GDScript 2.0), covering syntax changes, Tweens, and exports.
+- `godot-gdscript-patterns`: ALWAYS use this when the request matches Godot Gdscript Patterns: Master Godot 4 GDScript patterns including signals, scenes, state machines, and optimization.
+- `golang-pro`: ALWAYS use this when the request matches Golang PRO: Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices.
+- `google-analytics-automation`: ALWAYS use this when the request matches Google Analytics Automation: Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events.
+- `google-calendar-automation`: ALWAYS use this when the request matches Google Calendar Automation: Lightweight Google Calendar integration with standalone OAuth authentication.
+- `google-docs-automation`: ALWAYS use this when the request matches Google Docs Automation: Lightweight Google Docs integration with standalone OAuth authentication.
+- `google-drive-automation`: ALWAYS use this when the request matches Google Drive Automation: Lightweight Google Drive integration with standalone OAuth authentication.
+- `google-sheets-automation`: ALWAYS use this when the request matches Google Sheets Automation: Lightweight Google Sheets integration with standalone OAuth authentication.
+- `google-slides-automation`: ALWAYS use this when the request matches Google Slides Automation: Lightweight Google Slides integration with standalone OAuth authentication.
+- `googlesheets-automation`: ALWAYS use this when the request matches Googlesheets Automation: Automate Google Sheets operations (read, write, format, filter, manage spreadsheets) via Rube MCP (Composio).
+- `gpt-taste`: ALWAYS use this when the request matches GPT Taste: Use when generating elite GSAP-heavy frontend pages with strict AIDA structure, wide hero typography, and gapless bento grids.
+- `grafana-dashboards`: ALWAYS use this when the request matches Grafana Dashboards: Create and manage production-ready Grafana dashboards for comprehensive system observability.
+- `graphql`: ALWAYS use this when the request matches Graphql: GraphQL gives clients exactly the data they need - no more, no less.
+- `graphql-architect`: ALWAYS use this when the request matches Graphql Architect: Master modern GraphQL with federation, performance optimization, and enterprise security.
+- `growth-engine`: ALWAYS use this when the request matches Growth Engine: Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral loops, email marketing, CRM, referral programs e aquisicao organica.
+- `grpc-golang`: ALWAYS use this when the request matches Grpc Golang: Build production-ready gRPC services in Go with mTLS, streaming, and observability.
+- `haskell-pro`: ALWAYS use this when the request matches Haskell PRO: Expert Haskell engineer specializing in advanced type systems, pure
+- `headline-psychologist`: ALWAYS use this when the request matches Headline Psychologist: One sentence - what this skill does and when to invoke it
+- `helium-mcp`: ALWAYS use this when the request matches Helium MCP: Connect to Helium's MCP server for news research, media bias analysis, balanced perspectives, stock/options data, and semantic meme search across 3.2M+ articles and...
+- `helm-chart-scaffolding`: ALWAYS use this when the request matches Helm Chart Scaffolding: Comprehensive guidance for creating, organizing, and managing Helm charts for packaging and deploying Kubernetes applications.
+- `helpdesk-automation`: ALWAYS use this when the request matches Helpdesk Automation: Automate HelpDesk tasks via Rube MCP (Composio): list tickets, manage views, use canned responses, and configure custom fields.
+- `hig-components-content`: ALWAYS use this when the request matches HIG Components Content: Apple Human Interface Guidelines for content display components.
+- `hig-components-controls`: ALWAYS use this when the request matches HIG Components Controls: Check for .claude/apple-design-context.md before asking questions.
+- `hig-components-dialogs`: ALWAYS use this when the request matches HIG Components Dialogs: Apple HIG guidance for presentation components including alerts, action sheets, popovers, sheets, and digit entry views.
+- `hig-components-layout`: ALWAYS use this when the request matches HIG Components Layout: Apple Human Interface Guidelines for layout and navigation components.
+- `hig-components-menus`: ALWAYS use this when the request matches HIG Components Menus: Check for .claude/apple-design-context.md before asking questions.
+- `hig-components-search`: ALWAYS use this when the request matches HIG Components Search: Apple HIG guidance for navigation-related components including search fields, page controls, and path controls.
+- `hig-components-status`: ALWAYS use this when the request matches HIG Components Status: Apple HIG guidance for status and progress UI components including progress indicators, status bars, and activity rings.
+- `hig-components-system`: ALWAYS use this when the request matches HIG Components System: Apple HIG guidance for system experience components: widgets, live activities, notifications, complications, home screen quick actions, top shelf, watch...
+- `hig-foundations`: ALWAYS use this when the request matches HIG Foundations: Apple Human Interface Guidelines design foundations.
+- `hig-inputs`: ALWAYS use this when the request matches HIG Inputs: Check for .claude/apple-design-context.md before asking questions.
+- `hig-patterns`: ALWAYS use this when the request matches HIG Patterns: Apple Human Interface Guidelines interaction and UX patterns.
+- `hig-platforms`: ALWAYS use this when the request matches HIG Platforms: Apple Human Interface Guidelines for platform-specific design.
+- `hig-project-context`: ALWAYS use this when the request matches HIG Project Context: Create or update a shared Apple design context document that other HIG skills use to tailor guidance.
+- `hig-technologies`: ALWAYS use this when the request matches HIG Technologies: Check for .claude/apple-design-context.md before asking questions.
+- `high-end-visual-design`: ALWAYS use this when the request matches High END Visual Design: Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microinteractions.
+- `hono`: ALWAYS use this when the request matches Hono: Build ultra-fast web APIs and full-stack apps with Hono — runs on Cloudflare Workers, Deno, Bun, Node.js, and any WinterCG-compatible runtime.
+- `hr-pro`: ALWAYS use this when the request matches HR PRO: Professional, ethical HR partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations.
+- `hubspot-automation`: ALWAYS use this when the request matches Hubspot Automation: Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties) via Rube MCP using Composio integration.
+- `hubspot-integration`: ALWAYS use this when the request matches Hubspot Integration: Expert patterns for HubSpot CRM integration including OAuth authentication, CRM objects, associations, batch operations, webhooks, and custom objects.
+- `hugging-face-cli`: ALWAYS use this when the request matches Hugging Face CLI: Use the Hugging Face Hub CLI (`hf`) to download, upload, and manage models, datasets, and Spaces.
+- `hugging-face-dataset-viewer`: ALWAYS use this when the request matches Hugging Face Dataset Viewer: Query Hugging Face datasets through the Dataset Viewer API for splits, rows, search, filters, and parquet links.
+- `hugging-face-datasets`: ALWAYS use this when the request matches Hugging Face Datasets: Create and manage datasets on Hugging Face Hub.
+- `hugging-face-gradio`: ALWAYS use this when the request matches Hugging Face Gradio: Build or edit Gradio apps, layouts, components, and chat interfaces in Python.
+- `hugging-face-jobs`: ALWAYS use this when the request matches Hugging Face Jobs: Run workloads on Hugging Face Jobs with managed CPUs, GPUs, TPUs, secrets, and Hub persistence.
+- `hugging-face-model-trainer`: ALWAYS use this when the request matches Hugging Face Model Trainer: Train or fine-tune TRL language models on Hugging Face Jobs, including SFT, DPO, GRPO, and GGUF export.
+- `hugging-face-paper-publisher`: ALWAYS use this when the request matches Hugging Face Paper Publisher: Publish and manage research papers on Hugging Face Hub.
+- `hugging-face-papers`: ALWAYS use this when the request matches Hugging Face Papers: Read and analyze Hugging Face paper pages or arXiv papers with markdown and papers API metadata.
+- `hugging-face-trackio`: ALWAYS use this when the request matches Hugging Face Trackio: Track ML experiments with Trackio using Python logging, alerts, and CLI metric retrieval.
+- `hugging-face-vision-trainer`: ALWAYS use this when the request matches Hugging Face Vision Trainer: Train or fine-tune vision models on Hugging Face Jobs for detection, classification, and SAM or SAM2 segmentation.
+- `humanize-chinese`: ALWAYS use this when the request matches Humanize Chinese: Detect and rewrite AI-like Chinese text with a practical workflow for scoring, humanization, academic AIGC reduction, and style conversion.
+- `hybrid-cloud-architect`: ALWAYS use this when the request matches Hybrid Cloud Architect: Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware).
+- `hybrid-cloud-networking`: ALWAYS use this when the request matches Hybrid Cloud Networking: Configure secure, high-performance connectivity between on-premises and cloud environments using VPN, Direct Connect, and ExpressRoute.
+- `hybrid-search-implementation`: ALWAYS use this when the request matches Hybrid Search Implementation: Combine vector and keyword search for improved retrieval.
+- `i18n-localization`: ALWAYS use this when the request matches I18n Localization: Internationalization and localization patterns.
+- `iconsax-library`: ALWAYS use this when the request matches Iconsax Library: Extensive icon library and AI-driven icon generation skill for premium UI/UX design.
+- `idea-darwin`: ALWAYS use this when the request matches Idea Darwin: Darwinian idea evolution engine — toss rough ideas onto an evolution island, let them compete, crossbreed, and mutate through structured rounds to surface your str...
+- `idea-os`: ALWAYS use this when the request matches Idea OS: Five-phase pipeline (triage → clarify → research → PRD → plan) that turns a raw idea into four linked files: clarifying questions, deep research, a PRD with non-goals...
+- `identity-mirror`: ALWAYS use this when the request matches Identity Mirror: One sentence - what this skill does and when to invoke it
+- `ilya-sutskever`: ALWAYS use this when the request matches Ilya Sutskever: Agente que simula Ilya Sutskever — co-fundador da OpenAI, ex-Chief Scientist, fundador da SSI.
+- `image-studio`: ALWAYS use this when the request matches Image Studio: Studio de geracao de imagens inteligente — roteamento automatico entre ai-studio-image (fotos humanizadas/influencer) e stability-ai (arte/ ilustracao/edicao).
+- `imagen`: ALWAYS use this when the request matches Imagen: AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets.
+- `incident-responder`: ALWAYS use this when the request matches Incident Responder: Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management.
+- `incident-response-incident-response`: ALWAYS use this when the request matches Incident Response Incident Response: Use when working with incident response incident response
+- `incident-response-smart-fix`: ALWAYS use this when the request matches Incident Response Smart FIX: [Extended thinking: This workflow implements a sophisticated debugging and resolution pipeline that leverages AI-assisted debugging tools and obser...
+- `incident-runbook-templates`: ALWAYS use this when the request matches Incident Runbook Templates: Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication.
+- `indexing-issue-auditor`: ALWAYS use this when the request matches Indexing Issue Auditor: High-level technical SEO and site architecture auditor.
+- `infinite-gratitude`: ALWAYS use this when the request matches Infinite Gratitude: Multi-agent research skill for parallel research execution (10 agents, battle-tested with real case studies).
+- `inngest`: ALWAYS use this when the request matches Inngest: Inngest expert for serverless-first background jobs, event-driven workflows, and durable execution without managing queues or workers.
+- `instagram`: ALWAYS use this when the request matches Instagram: Integracao completa com Instagram via Graph API.
+- `instagram-automation`: ALWAYS use this when the request matches Instagram Automation: Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insights, and publishing limits.
+- `intelligent-routing`: ALWAYS use this when the request matches Intelligent Routing: Automatic agent selection and intelligent task routing.
+- `interactive-portfolio`: ALWAYS use this when the request matches Interactive Portfolio: Expert in building portfolios that actually land jobs and clients - not just showing work, but creating memorable experiences.
+- `intercom-automation`: ALWAYS use this when the request matches Intercom Automation: Automate Intercom tasks via Rube MCP (Composio): conversations, contacts, companies, segments, admins.
+- `internal-comms`: ALWAYS use this when the request matches Internal Comms: A set of resources to help write internal communications using consistent company-ready formats.
+- `internal-comms-anthropic`: ALWAYS use this when the request matches Internal Comms Anthropic: To write internal communications, use this skill for:
+- `internal-comms-community`: ALWAYS use this when the request matches Internal Comms Community: To write internal communications, use this skill for:
+- `interview-coach`: ALWAYS use this when the request matches Interview Coach: Full job search coaching system — JD decoding, resume, storybank, mock interviews, transcript analysis, comp negotiation.
+- `inventory-demand-planning`: ALWAYS use this when the request matches Inventory Demand Planning: Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift estimation at multi-location retai...
+- `ios-developer`: ALWAYS use this when the request matches IOS Developer: Develop native iOS applications with Swift/SwiftUI.
+- `issues`: ALWAYS use this when the request matches Issues: Interact with GitHub issues - create, list, and view issues.
+- `istio-traffic-management`: ALWAYS use this when the request matches Istio Traffic Management: Comprehensive guide to Istio traffic management for production service mesh deployments.
+- `it-manager-hospital`: ALWAYS use this when the request matches IT Manager Hospital: World-class Hospital IT Management Advisor specializing in clinical safety, digital maturity (HIMSS/ONA/JCI), and HIS/PEP ecosystems.
+- `it-manager-pro`: ALWAYS use this when the request matches IT Manager PRO: Elite IT Management Advisor specializing in data-driven strategy, executive communication, and human-centric leadership for the 2026 digital era.
+- `iterate-pr`: ALWAYS use this when the user mentions Iterate PR, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Iterate PR; scope: Iterat...
+- `itil-expert`: ALWAYS use this when the request matches Itil Expert: Expert advisor for ITIL 4 and ITIL 5 (2026 digital product paradigm), specialized in AI-native governance, sustainability, and value co-creation.
+- `jira-automation`: ALWAYS use this when the request matches Jira Automation: Automate Jira tasks via Rube MCP (Composio): issues, projects, sprints, boards, comments, users.
+- `jobgpt`: ALWAYS use this when the request matches Jobgpt: Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach using the JobGPT MCP server.
+- `jobs-to-be-done-analyst`: ALWAYS use this when the request matches Jobs TO BE Done Analyst: One sentence - what this skill does and when to invoke it
+- `jq`: ALWAYS use this when the request matches JQ: Expert jq usage for JSON querying, filtering, transformation, and pipeline integration.
+- `json-canvas`: ALWAYS use this when the request matches Json Canvas: Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections.
+- `julia-pro`: ALWAYS use this when the request matches Julia PRO: Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices.
+- `junta-leiloeiros`: ALWAYS use this when the request involves Brazilian Junta Comercial auctioneer data, scraping leiloeiro records, querying the SQLite dataset, running the FastAPI API, or exporting these records to CSV/JSON.
+- `k8s-manifest-generator`: ALWAYS use this when the request matches K8s Manifest Generator: Step-by-step guidance for creating production-ready Kubernetes manifests including Deployments, Services, ConfigMaps, Secrets, and PersistentVolumeClaims.
+- `k8s-security-policies`: ALWAYS use this when the request matches K8s Security Policies: Comprehensive guide for implementing NetworkPolicy, PodSecurityPolicy, RBAC, and Pod Security Standards in Kubernetes.
+- `kaizen`: ALWAYS use this when the request matches Kaizen: Guide for continuous improvement, error proofing, and standardization.
+- `keyword-extractor`: ALWAYS use this when the request matches Keyword Extractor: Extracts up to 50 highly relevant SEO keywords from text.
+- `klaviyo-automation`: ALWAYS use this when the request matches Klaviyo Automation: Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS campaigns, inspect campaign messages, track tags, and monitor send jobs.
+- `kotler-macro-analyzer`: ALWAYS use this when the request matches Kotler Macro Analyzer: Professional PESTEL/SWOT analysis agent based on Kotler's methodology for strategic market audits.
+- `kotlin-coroutines-expert`: ALWAYS use this when the request matches Kotlin Coroutines Expert: Expert patterns for Kotlin Coroutines and Flow, covering structured concurrency, error handling, and testing.
+- `kpi-dashboard-design`: ALWAYS use this when the request matches KPI Dashboard Design: Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboards that drive business decisions.
+- `kubernetes-architect`: ALWAYS use this when the request matches Kubernetes Architect: Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration.
+- `kubernetes-deployment`: ALWAYS use this when the request matches Kubernetes Deployment: Kubernetes deployment workflow for container orchestration, Helm charts, service mesh, and production-ready K8s configurations.
+- `landing-page-generator`: ALWAYS use this when the request matches Landing Page Generator: Generates high-converting Next.js/React landing pages with Tailwind CSS.
+- `langchain-architecture`: ALWAYS use this when the request matches Langchain Architecture: Master the LangChain framework for building sophisticated LLM applications with agents, chains, memory, and tool integration.
+- `langfuse`: ALWAYS use this when the request matches Langfuse: Expert in Langfuse - the open-source LLM observability platform.
+- `langgraph`: ALWAYS use this when the request matches Langgraph: Expert in LangGraph - the production-grade framework for building stateful, multi-actor AI applications.
+- `laravel-expert`: ALWAYS use this when the request matches Laravel Expert: Senior Laravel Engineer role for production-grade, maintainable, and idiomatic Laravel solutions.
+- `laravel-security-audit`: ALWAYS use this when the request matches Laravel Security Audit: Security auditor for Laravel applications.
+- `last30days`: ALWAYS use this when the user wants very recent signal from the last 30 days across Reddit, X, and the web, especially for recommendations, trend checks, prompting techniques, or current-topic research.
+- `latex-paper-conversion`: ALWAYS use this when the request matches Latex Paper Conversion: This skill should be used when the user asks to convert an academic paper in LaTeX from one format (e.g., Springer, IPOL) to another format (e.g., MDPI...
+- `launch-strategy`: ALWAYS use this when the request matches Launch Strategy: You are an expert in SaaS product launches and feature announcements.
+- `lead-magnets`: ALWAYS use this when the request matches Lead Magnets: Plan and optimize lead magnets for email capture and lead generation.
+- `legacy-modernizer`: ALWAYS use this when the request matches Legacy Modernizer: Refactor legacy codebases, migrate outdated frameworks, and implement gradual modernization.
+- `leiloeiro-avaliacao`: ALWAYS use this when the request matches Leiloeiro Avaliacao: Avaliacao pericial de imoveis em leilao.
+- `leiloeiro-edital`: ALWAYS use this when the request matches Leiloeiro Edital: Analise e auditoria de editais de leilao judicial e extrajudicial.
+- `leiloeiro-ia`: ALWAYS use this when the request matches Leiloeiro IA: Especialista em leiloes judiciais e extrajudiciais de imoveis.
+- `leiloeiro-juridico`: ALWAYS use this when the request matches Leiloeiro Juridico: Analise juridica de leiloes: nulidades, bem de familia, alienacao fiduciaria, CPC arts 829-903, Lei 9514/97, onus reais, embargos e jurisprudencia.
+- `leiloeiro-mercado`: ALWAYS use this when the request matches Leiloeiro Mercado: Analise de mercado imobiliario para leiloes.
+- `leiloeiro-risco`: ALWAYS use this when the request matches Leiloeiro Risco: Analise de risco em leiloes de imoveis.
+- `lex`: ALWAYS use this when the request matches LEX: Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding.
+- `lightning-channel-factories`: ALWAYS use this when the request matches Lightning Channel Factories: Technical reference on Lightning Network channel factories, multi-party channels, LSP architectures, and Bitcoin Layer 2 scaling without soft forks.
+- `lightning-factory-explainer`: ALWAYS use this when the request matches Lightning Factory Explainer: Explain Bitcoin Lightning channel factories and the SuperScalar protocol — scalable Lightning onboarding using shared UTXOs, Decker-Wattenhofer tre...
+- `linear-automation`: ALWAYS use this when the request matches Linear Automation: Automate Linear tasks via Rube MCP (Composio): issues, projects, cycles, teams, labels.
+- `linear-claude-skill`: ALWAYS use this when the request matches Linear Claude Skill: Manage Linear issues, projects, and teams
+- `linkedin-automation`: ALWAYS use this when the request matches Linkedin Automation: Automate LinkedIn tasks via Rube MCP (Composio): create posts, manage profile, company info, comments, and image uploads.
+- `linkedin-cli`: ALWAYS use this when the request matches Linkedin CLI: Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator.
+- `linkedin-profile-optimizer`: ALWAYS use this when the request matches Linkedin Profile Optimizer: High-intent expert for LinkedIn profile checks, authority building, and SEO optimization.
+- `linkerd-patterns`: ALWAYS use this when the request matches Linkerd Patterns: Production patterns for Linkerd service mesh - the lightweight, security-first service mesh for Kubernetes.
+- `lint-and-validate`: ALWAYS use this when the request matches Lint AND Validate: Automatic quality control, linting, and static analysis procedures.
+- `llm-app-patterns`: ALWAYS use this when the request matches LLM APP Patterns: Production-ready patterns for building LLM applications, inspired by [Dify](https://github.com/langgenius/dify) and industry best practices.
+- `llm-application-dev-ai-assistant`: ALWAYS use this when the request matches LLM Application DEV AI Assistant: You are an AI assistant development expert specializing in creating intelligent conversational interfaces, chatbots, and AI-powered applications.
+- `llm-application-dev-prompt-optimize`: ALWAYS use this when the request matches LLM Application DEV Prompt Optimize: You are an expert prompt engineer specializing in crafting effective prompts for LLMs through advanced techniques including constitutional...
+- `llm-ops`: ALWAYS use this when the request matches LLM OPS: LLM Operations -- RAG, embeddings, vector databases, fine-tuning, prompt engineering avancado, custos de LLM, evals de qualidade e arquiteturas de IA para producao.
+- `llm-prompt-optimizer`: ALWAYS use this when the request matches LLM Prompt Optimizer: Use when improving prompts for any LLM.
+- `llm-structured-output`: ALWAYS use this when the request matches LLM Structured Output: Get reliable JSON, enums, and typed objects from LLMs using response_format, tool_use, and schema-constrained decoding across OpenAI, Anthropic, and Goog...
+- `local-llm-expert`: ALWAYS use this when the request matches Local LLM Expert: Master local LLM inference, model selection, VRAM optimization, and local deployment using Ollama, llama.cpp, vLLM, and LM Studio.
+- `logistics-exception-management`: ALWAYS use this when the request matches Logistics Exception Management: Codified expertise for handling freight exceptions, shipment delays, damages, losses, and carrier disputes.
+- `loki-mode`: ALWAYS use this when the request matches Loki Mode: Version 2.35.0 | PRD to Production | Zero Human Intervention > Research-enhanced: OpenAI SDK, DeepMind, Anthropic, AWS Bedrock, Agent SDK, HN Production (2025)
+- `loss-aversion-designer`: ALWAYS use this when the request matches Loss Aversion Designer: One sentence - what this skill does and when to invoke it
+- `machine-learning-ops-ml-pipeline`: ALWAYS use this when the request matches Machine Learning OPS ML Pipeline: Design and implement a complete ML pipeline for: $ARGUMENTS
+- `macos-spm-app-packaging`: ALWAYS use this when the request matches Macos SPM APP Packaging: Scaffold, build, sign, and package SwiftPM macOS apps without Xcode projects.
+- `magic-animator`: ALWAYS use this when the request matches Magic Animator: AI-powered animation tool for creating motion in logos, UI, icons, and social media assets.
+- `mailchimp-automation`: ALWAYS use this when the request matches Mailchimp Automation: Automate Mailchimp email marketing including campaigns, audiences, subscribers, segments, and analytics via Rube MCP (Composio).
+- `make-automation`: ALWAYS use this when the request matches Make Automation: Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups.
+- `makepad-animation`: ALWAYS use this when the request matches Makepad Animation: CRITICAL: Use for Makepad animation system.
+- `makepad-basics`: ALWAYS use this when the request matches Makepad Basics: CRITICAL: Use for Makepad getting started and app structure.
+- `makepad-deployment`: ALWAYS use this when the request matches Makepad Deployment: CRITICAL: Use for Makepad packaging and deployment.
+- `makepad-dsl`: ALWAYS use this when the request matches Makepad DSL: CRITICAL: Use for Makepad DSL syntax and inheritance.
+- `makepad-event-action`: ALWAYS use this when the request matches Makepad Event Action: CRITICAL: Use for Makepad event and action handling.
+- `makepad-font`: ALWAYS use this when the request matches Makepad Font: CRITICAL: Use for Makepad font and text rendering.
+- `makepad-layout`: ALWAYS use this when the request matches Makepad Layout: CRITICAL: Use for Makepad layout system.
+- `makepad-platform`: ALWAYS use this when the request matches Makepad Platform: CRITICAL: Use for Makepad cross-platform support.
+- `makepad-reference`: ALWAYS use this when the request matches Makepad Reference: This category provides reference materials for debugging, code quality, and advanced layout patterns.
+- `makepad-shaders`: ALWAYS use this when the request matches Makepad Shaders: CRITICAL: Use for Makepad shader system.
+- `makepad-skills`: ALWAYS use this when the request matches Makepad Skills: Makepad UI development skills for Rust apps: setup, patterns, shaders, packaging, and troubleshooting.
+- `makepad-splash`: ALWAYS use this when the request matches Makepad Splash: CRITICAL: Use for Makepad Splash scripting language.
+- `makepad-widgets`: ALWAYS use this when the request matches Makepad Widgets: Version: makepad-widgets (dev branch) | Last Updated: 2026-01-19 > > Check for updates: https://crates.io/crates/makepad-widgets
+- `malware-analyst`: ALWAYS use this when the request matches Malware Analyst: Expert malware analyst specializing in defensive malware research, threat intelligence, and incident response.
+- `manage-skills`: ALWAYS use this when the request matches Manage Skills: Discover, list, create, edit, toggle, copy, move, and delete AI agent skills across 11 tools (Cursor, Claude, Agents, Windsurf, Copilot, Codex, Cline, Aider, Con...
+- `manifest`: ALWAYS use this when the request matches Manifest: Install and configure the Manifest observability plugin for your agents.
+- `market-sizing-analysis`: ALWAYS use this when the request matches Market Sizing Analysis: Comprehensive market sizing methodologies for calculating Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable...
+- `matematico-tao`: ALWAYS use this when the request matches Matematico TAO: Matemático ultra-avançado inspirado em Terence Tao.
+- `matplotlib`: ALWAYS use this when the request matches Matplotlib: Matplotlib is Python's foundational visualization library for creating static, animated, and interactive plots.
+- `maxia`: ALWAYS use this when the request matches Maxia: Connect to MAXIA AI-to-AI marketplace on Solana.
+- `memory-forensics`: ALWAYS use this when the request matches Memory Forensics: Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis.
+- `memory-safety-patterns`: ALWAYS use this when the request matches Memory Safety Patterns: Cross-language patterns for memory-safe programming including RAII, ownership, smart pointers, and resource management.
+- `memory-systems`: ALWAYS use this when the request matches Memory Systems: Design short-term, long-term, and graph-based memory architectures.
+- `mermaid-expert`: ALWAYS use this when the request matches Mermaid Expert: Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures.
+- `metasploit-framework`: ALWAYS use this when the request matches Metasploit Framework: ⚠️ AUTHORIZED USE ONLY > This skill is for educational purposes or authorized security assessments only.
+- `micro-saas-launcher`: ALWAYS use this when the request matches Micro Saas Launcher: Expert in launching small, focused SaaS products fast - the indie hacker approach to building profitable software.
+- `microservices-patterns`: ALWAYS use this when the request matches Microservices Patterns: Master microservices architecture patterns including service boundaries, inter-service communication, data management, and resilience patterns for build...
+- `microsoft-teams-automation`: ALWAYS use this when the request matches Microsoft Teams Automation: Automate Microsoft Teams tasks via Rube MCP (Composio): send messages, manage channels, create meetings, handle chats, and search messages.
+- `minecraft-bukkit-pro`: ALWAYS use this when the request matches Minecraft Bukkit PRO: Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs.
+- `miro-automation`: ALWAYS use this when the request matches Miro Automation: Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors.
+- `mise-configurator`: ALWAYS use this when the request matches Mise Configurator: Generate production-ready mise.toml setups for local development, CI/CD pipelines, and toolchain standardization.
+- `mixpanel-automation`: ALWAYS use this when the request matches Mixpanel Automation: Automate Mixpanel tasks via Rube MCP (Composio): events, segmentation, funnels, cohorts, user profiles, JQL queries.
+- `ml-engineer`: ALWAYS use this when the request matches ML Engineer: Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks.
+- `mlops-engineer`: ALWAYS use this when the request matches Mlops Engineer: Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools.
+- `mmx-cli`: ALWAYS use this when the request matches MMX CLI: Use mmx to generate text, images, video, speech, and music via the MiniMax AI platform.
+- `mobile-design`: ALWAYS use this when the request is about mobile app screens, flows, native-feeling layouts, touch ergonomics, or platform-aware product UI for phones and tablets.
+- `mobile-developer`: ALWAYS use this when the request matches Mobile Developer: Develop React Native, Flutter, or native mobile apps with modern architecture patterns.
+- `mobile-security-coder`: ALWAYS use this when the request matches Mobile Security Coder: Expert in secure mobile coding practices specializing in input validation, WebView security, and mobile-specific security patterns.
+- `molykit`: ALWAYS use this when the request matches Molykit: CRITICAL: Use for MolyKit AI chat toolkit.
+- `monday-automation`: ALWAYS use this when the request matches Monday Automation: Automate Monday.com work management including boards, items, columns, groups, subitems, and updates via Rube MCP (Composio).
+- `monetization`: ALWAYS use this when the request matches Monetization: Estrategia e implementacao de monetizacao para produtos digitais - Stripe, subscriptions, pricing experiments, freemium, upgrade flows, churn prevention, revenue...
+- `monorepo-architect`: ALWAYS use this when the request matches Monorepo Architect: Expert in monorepo architecture, build systems, and dependency management at scale.
+- `monorepo-management`: ALWAYS use this when the request matches Monorepo Management: Build efficient, scalable monorepos that enable code sharing, consistent tooling, and atomic changes across multiple packages and applications.
+- `monte-carlo-monitor-creation`: ALWAYS use this when the request matches Monte Carlo Monitor Creation: Guides creation of Monte Carlo monitors via MCP tools, producing monitors-as-code YAML for CI/CD deployment.
+- `monte-carlo-prevent`: ALWAYS use this when the request matches Monte Carlo Prevent: Surfaces Monte Carlo data observability context (table health, alerts, lineage, blast radius) before SQL/dbt edits.
+- `monte-carlo-push-ingestion`: ALWAYS use this when the request matches Monte Carlo Push Ingestion: Expert guide for pushing metadata, lineage, and query logs to Monte Carlo from any data warehouse.
+- `monte-carlo-validation-notebook`: ALWAYS use this when the request matches Monte Carlo Validation Notebook: Generates SQL validation notebooks for dbt PR changes with before/after comparison queries.
+- `moyu`: ALWAYS use this when the request matches Moyu: Anti-over-engineering guardrail that activates when an AI coding agent expands scope, adds abstractions, or changes files the user did not request.
+- `mtls-configuration`: ALWAYS use this when the request matches Mtls Configuration: Configure mutual TLS (mTLS) for zero-trust service-to-service communication.
+- `multi-advisor`: ALWAYS use this when the request matches Multi Advisor: Conselho de especialistas — consulta multiplos agentes do ecossistema em paralelo para analise multi-perspectiva de qualquer topico.
+- `multi-cloud-architecture`: ALWAYS use this when the request matches Multi Cloud Architecture: Decision framework and patterns for architecting applications across AWS, Azure, and GCP.
+- `multi-platform-apps-multi-platform`: ALWAYS use this when the request matches Multi Platform Apps Multi Platform: Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implement...
+- `n8n-expression-syntax`: ALWAYS use this when the request matches N8n Expression Syntax: Validate n8n expression syntax and fix common errors.
+- `n8n-mcp-tools-expert`: ALWAYS use this when the request matches N8n MCP Tools Expert: Expert guide for using n8n-mcp MCP tools effectively.
+- `n8n-validation-expert`: ALWAYS use this when the request matches N8n Validation Expert: Expert guide for interpreting and fixing n8n validation errors.
+- `nanobanana-ppt-skills`: ALWAYS use this when the request matches Nanobanana PPT Skills: AI-powered PPT generation with document analysis and styled images
+- `native-data-fetching`: ALWAYS use this when the request matches Native Data Fetching: Use when implementing or debugging ANY network request, API call, or data fetching.
+- `nerdzao-elite`: ALWAYS use this when the request matches Nerdzao Elite: Senior Elite Software Engineer (15+) and Senior Product Designer.
+- `nerdzao-elite-gemini-high`: ALWAYS use this when the request matches Nerdzao Elite Gemini High: Modo Elite Coder + UX Pixel-Perfect otimizado especificamente para Gemini 3.1 Pro High.
+- `nestjs-expert`: ALWAYS use this when the request matches Nestjs Expert: You are an expert in Nest.js with deep knowledge of enterprise-grade Node.js application architecture, dependency injection patterns, decorators, middleware, gua...
+- `network-101`: ALWAYS use this when the request matches Network 101: Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments.
+- `network-engineer`: ALWAYS use this when the request matches Network Engineer: Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization.
+- `networkx`: ALWAYS use this when the request matches Networkx: NetworkX is a Python package for creating, manipulating, and analyzing complex networks and graphs.
+- `new-rails-project`: ALWAYS use this when the user mentions NEW Rails Project, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on NEW Rails Project...
+- `nft-standards`: ALWAYS use this when the request matches NFT Standards: Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features.
+- `nosql-expert`: ALWAYS use this when the request matches Nosql Expert: Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB).
+- `not-human-search-mcp`: ALWAYS use this when the request matches NOT Human Search MCP: Search AI-ready websites, inspect indexed site details, verify MCP endpoints, and discover tools and APIs using the Not Human Search MCP server
+- `notebooklm`: ALWAYS use this when the request matches Notebooklm: Interact with Google NotebookLM to query documentation with Gemini's source-grounded answers.
+- `notion-automation`: ALWAYS use this when the request matches Notion Automation: Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks, comments, users.
+- `notion-template-business`: ALWAYS use this when the request matches Notion Template Business: Expert in building and selling Notion templates as a business - not just making templates, but building a sustainable digital product business.
+- `nutrition-analyzer`: ALWAYS use this when the request matches Nutrition Analyzer: 分析营养数据、识别营养模式、评估营养状况，并提供个性化营养建议。支持与运动、睡眠、慢性病数据的关联分析。
+- `nx-workspace-patterns`: ALWAYS use this when the request matches NX Workspace Patterns: Configure and optimize Nx monorepo workspaces.
+- `objection-preemptor`: ALWAYS use this when the request matches Objection Preemptor: One sentence - what this skill does and when to invoke it
+- `observability-engineer`: ALWAYS use this when the request matches Observability Engineer: Build production-ready monitoring, logging, and tracing systems.
+- `observability-monitoring-monitor-setup`: ALWAYS use this when the request matches Observability Monitoring Monitor Setup: You are a monitoring and observability expert specializing in implementing comprehensive monitoring solutions.
+- `observability-monitoring-slo-implement`: ALWAYS use this when the request matches Observability Monitoring SLO Implement: You are an SLO (Service Level Objective) expert specializing in implementing reliability standards and error budget-based engineering pr...
+- `obsidian-bases`: ALWAYS use this when the request matches Obsidian Bases: Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries.
+- `obsidian-cli`: ALWAYS use this when the request matches Obsidian CLI: Use the Obsidian CLI to read, create, search, and manage vault content, or to develop and debug Obsidian plugins and themes from the command line.
+- `obsidian-clipper-template-creator`: ALWAYS use this when the request matches Obsidian Clipper Template Creator: Guide for creating templates for the Obsidian Web Clipper.
+- `obsidian-markdown`: ALWAYS use this when the request matches Obsidian Markdown: Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax.
+- `odoo-accounting-setup`: ALWAYS use this when the request matches Odoo Accounting Setup: Expert guide for configuring Odoo Accounting: chart of accounts, journals, fiscal positions, taxes, payment terms, and bank reconciliation.
+- `odoo-backup-strategy`: ALWAYS use this when the request matches Odoo Backup Strategy: Complete Odoo backup and restore strategy: database dumps, filestore backup, automated scheduling, cloud storage upload, and tested restore procedures.
+- `odoo-docker-deployment`: ALWAYS use this when the request matches Odoo Docker Deployment: Production-ready Docker and docker-compose setup for Odoo with PostgreSQL, persistent volumes, environment-based configuration, and Nginx reverse proxy.
+- `odoo-ecommerce-configurator`: ALWAYS use this when the request matches Odoo Ecommerce Configurator: Expert guide for Odoo eCommerce and Website: product catalog, payment providers, shipping methods, SEO, and order-to-fulfillment workflow.
+- `odoo-edi-connector`: ALWAYS use this when the request matches Odoo EDI Connector: Guide for implementing EDI (Electronic Data Interchange) with Odoo: X12, EDIFACT document mapping, partner onboarding, and automated order processing.
+- `odoo-hr-payroll-setup`: ALWAYS use this when the request matches Odoo HR Payroll Setup: Expert guide for Odoo HR and Payroll: salary structures, payslip rules, leave policies, employee contracts, and payroll journal entries.
+- `odoo-inventory-optimizer`: ALWAYS use this when the request matches Odoo Inventory Optimizer: Expert guide for Odoo Inventory: stock valuation (FIFO/AVCO), reordering rules, putaway strategies, routes, and multi-warehouse configuration.
+- `odoo-l10n-compliance`: ALWAYS use this when the request matches Odoo L10n Compliance: Country-specific Odoo localization: tax configuration, e-invoicing (CFDI, FatturaPA, SAF-T), fiscal reporting, and country chart of accounts setup.
+- `odoo-manufacturing-advisor`: ALWAYS use this when the request matches Odoo Manufacturing Advisor: Expert guide for Odoo Manufacturing: Bills of Materials (BoM), Work Centers, routings, MRP planning, and production order workflows.
+- `odoo-migration-helper`: ALWAYS use this when the request matches Odoo Migration Helper: Step-by-step guide for migrating Odoo custom modules between versions (v14→v15→v16→v17).
+- `odoo-module-developer`: ALWAYS use this when the request matches Odoo Module Developer: Expert guide for creating custom Odoo modules.
+- `odoo-orm-expert`: ALWAYS use this when the request matches Odoo ORM Expert: Master Odoo ORM patterns: search, browse, create, write, domain filters, computed fields, and performance-safe query techniques.
+- `odoo-performance-tuner`: ALWAYS use this when the request matches Odoo Performance Tuner: Expert guide for diagnosing and fixing Odoo performance issues: slow queries, worker configuration, memory limits, PostgreSQL tuning, and profiling tools.
+- `odoo-project-timesheet`: ALWAYS use this when the request matches Odoo Project Timesheet: Expert guide for Odoo Project and Timesheets: task stages, billable time tracking, timesheet approval, budget alerts, and invoicing from timesheets.
+- `odoo-qweb-templates`: ALWAYS use this when the request matches Odoo Qweb Templates: Expert in Odoo QWeb templating for PDF reports, email templates, and website pages.
+- `odoo-sales-crm-expert`: ALWAYS use this when the request matches Odoo Sales CRM Expert: Expert guide for Odoo Sales and CRM: pipeline stages, quotation templates, pricelists, sales teams, lead scoring, and forecasting.
+- `odoo-security-rules`: ALWAYS use this when the request matches Odoo Security Rules: Expert in Odoo access control: ir.model.access.csv, record rules (ir.rule), groups, and multi-company security patterns.
+- `odoo-shopify-integration`: ALWAYS use this when the request matches Odoo Shopify Integration: Connect Odoo with Shopify: sync products, inventory, orders, and customers using the Shopify API and Odoo's external API or connector modules.
+- `odoo-upgrade-advisor`: ALWAYS use this when the request matches Odoo Upgrade Advisor: Step-by-step Odoo version upgrade advisor: pre-upgrade checklist, community vs enterprise upgrade path, OCA module compatibility, and post-upgrade validat...
+- `odoo-woocommerce-bridge`: ALWAYS use this when the request matches Odoo Woocommerce Bridge: Sync Odoo with WooCommerce: products, inventory, orders, and customers via WooCommerce REST API and Odoo external API.
+- `office-productivity`: ALWAYS use this when the request matches Office Productivity: Office productivity workflow covering document creation, spreadsheet automation, presentation generation, and integration with LibreOffice and Microsoft Of...
+- `on-call-handoff-patterns`: ALWAYS use this when the request matches ON Call Handoff Patterns: Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.
+- `onboarding-cro`: ALWAYS use this when the request matches Onboarding CRO: You are an expert in user onboarding and activation.
+- `onboarding-psychologist`: ALWAYS use this when the request matches Onboarding Psychologist: One sentence - what this skill does and when to invoke it
+- `one-drive-automation`: ALWAYS use this when the request matches ONE Drive Automation: Automate OneDrive file management, search, uploads, downloads, sharing, permissions, and folder operations via Rube MCP (Composio).
+- `os-scripting`: ALWAYS use this when the request matches OS Scripting: Operating system and shell scripting troubleshooting workflow for Linux, macOS, and Windows.
+- `oss-hunter`: ALWAYS use this when the request matches OSS Hunter: Automatically hunt for high-impact OSS contribution opportunities in trending repositories.
+- `osterwalder-canvas-architect`: ALWAYS use this when the request matches Osterwalder Canvas Architect: Iterative consultant agent for building and validating logically consistent 9-block Business Model Canvases.
+- `outlook-automation`: ALWAYS use this when the request matches Outlook Automation: Automate Outlook tasks via Rube MCP (Composio): emails, calendar, contacts, folders, attachments.
+- `outlook-calendar-automation`: ALWAYS use this when the request matches Outlook Calendar Automation: Automate Outlook Calendar tasks via Rube MCP (Composio): create events, manage attendees, find meeting times, and handle invitations.
+- `page-cro`: ALWAYS use this when the request matches Page CRO: Analyze and optimize individual pages for conversion performance.
+- `pagerduty-automation`: ALWAYS use this when the request matches Pagerduty Automation: Automate PagerDuty tasks via Rube MCP (Composio): manage incidents, services, schedules, escalation policies, and on-call rotations.
+- `paid-ads`: ALWAYS use this when the request matches Paid ADS: You are an expert performance marketer with direct access to ad platform accounts.
+- `pakistan-payments-stack`: ALWAYS use this when the request matches Pakistan Payments Stack: Design and implement production-grade Pakistani payment integrations (JazzCash, Easypaisa, bank/PSP rails, optional Raast) for SaaS with PKR billing, w...
+- `payment-integration`: ALWAYS use this when the request matches Payment Integration: Integrate Stripe, PayPal, and payment processors.
+- `paypal-integration`: ALWAYS use this when the request matches Paypal Integration: Master PayPal payment integration including Express Checkout, IPN handling, recurring billing, and refund workflows.
+- `paywall-upgrade-cro`: ALWAYS use this when the request matches Paywall Upgrade CRO: You are an expert in in-app paywalls and upgrade flows.
+- `pci-compliance`: ALWAYS use this when the request matches PCI Compliance: Master PCI DSS (Payment Card Industry Data Security Standard) compliance for secure payment processing and handling of cardholder data.
+- `performance-engineer`: ALWAYS use this when the request matches Performance Engineer: Expert performance engineer specializing in modern observability,
+- `performance-optimizer`: ALWAYS use this when the request matches Performance Optimizer: Identifies and fixes performance bottlenecks in code, databases, and APIs.
+- `performance-profiling`: ALWAYS use this when the user mentions Performance Profiling, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Performance Pr...
+- `php-pro`: ALWAYS use this when the request matches PHP PRO: Write idiomatic PHP code with generators, iterators, SPL data structures, and modern OOP features.
+- `pipedrive-automation`: ALWAYS use this when the request matches Pipedrive Automation: Automate Pipedrive CRM operations including deals, contacts, organizations, activities, notes, and pipeline management via Rube MCP (Composio).
+- `pitch-psychologist`: ALWAYS use this when the request matches Pitch Psychologist: One sentence - what this skill does and when to invoke it
+- `plaid-fintech`: ALWAYS use this when the request matches Plaid Fintech: Expert patterns for Plaid API integration including Link token flows, transactions sync, identity verification, Auth for ACH, balance checks, webhook handling, a...
+- `plan-writing`: ALWAYS use this when the user needs a concrete execution plan, milestone list, staged rollout, or implementation sequence rather than immediate coding.
+- `planning-with-files`: ALWAYS use this when the request matches Planning With Files: Work like Manus: Use persistent markdown files as your "working memory on disk.
+- `playwright-skill`: ALWAYS use this when the request matches Playwright Skill: IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation, global, or project-specific).
+- `plotly`: ALWAYS use this when the user mentions Plotly, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Plotly; scope: Interactive vi...
+- `podcast-generation`: ALWAYS use this when the request matches Podcast Generation: Generate real audio narratives from text content using Azure OpenAI's Realtime API.
+- `polars`: ALWAYS use this when the request matches Polars: Fast in-memory DataFrame library for datasets that fit in RAM.
+- `popup-cro`: ALWAYS use this when the request matches Popup CRO: Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust.
+- `posix-shell-pro`: ALWAYS use this when the request matches Posix Shell PRO: Expert in strict POSIX sh scripting for maximum portability across Unix-like systems.
+- `posthog-automation`: ALWAYS use this when the request matches Posthog Automation: Automate PostHog tasks via Rube MCP (Composio): events, feature flags, projects, user profiles, annotations.
+- `postmark-automation`: ALWAYS use this when the request matches Postmark Automation: Automate Postmark email delivery tasks via Rube MCP (Composio): send templated emails, manage templates, monitor delivery stats and bounces.
+- `postmortem-writing`: ALWAYS use this when the request matches Postmortem Writing: Comprehensive guide to writing effective, blameless postmortems that drive organizational learning and prevent incident recurrence.
+- `powershell-windows`: ALWAYS use this when the user mentions Powershell Windows, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Powershell Window...
+- `pr-writer`: ALWAYS use this when the request matches PR Writer: Create pull requests following Sentry's engineering practices.
+- `price-psychology-strategist`: ALWAYS use this when the request matches Price Psychology Strategist: One sentence - what this skill does and when to invoke it
+- `pricing-strategy`: ALWAYS use this when the request matches Pricing Strategy: Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives.
+- `prisma-expert`: ALWAYS use this when the request matches Prisma Expert: You are an expert in Prisma ORM with deep knowledge of schema design, migrations, query optimization, relations modeling, and database operations across PostgreS...
+- `privacy-by-design`: ALWAYS use this when the request matches Privacy BY Design: Use when building apps that collect user data.
+- `product-design`: ALWAYS use this when the request matches Product Design: Design de produto nivel Apple — sistemas visuais, UX flows, acessibilidade, linguagem visual proprietaria, design tokens, prototipagem e handoff.
+- `product-inventor`: ALWAYS use this when the request matches Product Inventor: Product Inventor e Design Alchemist de nivel maximo — combina Product Thinking, Design Systems, UI Engineering, Psicologia Cognitiva, Storytelling e execucao...
+- `product-manager`: ALWAYS use this when the request matches Product Manager: Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates, and 32 SaaS metrics with formulas.
+- `product-manager-toolkit`: ALWAYS use this when the request matches Product Manager Toolkit: Essential tools and frameworks for modern product management, from discovery to delivery.
+- `production-code-audit`: ALWAYS use this when the request matches Production Code Audit: Autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporat...
+- `production-scheduling`: ALWAYS use this when the request matches Production Scheduling: Codified expertise for production scheduling, job sequencing, line balancing, changeover optimisation, and bottleneck resolution in discrete and batch ma...
+- `professional-proofreader`: ALWAYS use this when the request matches Professional Proofreader: Use when a user asks to "proofread", "review and correct", "fix grammar", "improve readability while keeping my voice", and to proofread a document fi...
+- `progressive-estimation`: ALWAYS use this when the request matches Progressive Estimation: Estimate AI-assisted and hybrid human+agent development work with research-backed PERT statistics and calibration feedback loops
+- `progressive-web-app`: Build Progressive Web Apps (PWAs) with offline support, installability, and caching strategies. Trigger whenever the user mentions PWA, service workers, web app manifests, Workbox, 'add to home screen', or wants their...
+- `project-development`: ALWAYS use this when the request matches Project Development: This skill covers the principles for identifying tasks suited to LLM processing, designing effective project architectures, and iterating rapidly using age...
+- `project-skill-audit`: ALWAYS use this when the request matches Project Skill Audit: Audit a project and recommend the highest-value skills to add or update.
+- `projection-patterns`: ALWAYS use this when the request matches Projection Patterns: Build read models and projections from event streams.
+- `prometheus-configuration`: ALWAYS use this when the request matches Prometheus Configuration: Complete guide to Prometheus setup, metric collection, scrape configuration, and recording rules.
+- `prompt-caching`: ALWAYS use this when the request matches Prompt Caching: Caching strategies for LLM prompts including Anthropic prompt caching, response caching, and CAG (Cache Augmented Generation)
+- `prompt-engineer`: ALWAYS use this when the request matches Prompt Engineer: Transforms user prompts into optimized prompts using frameworks (RTF, RISEN, Chain of Thought, RODES, Chain of Density, RACE, RISE, STAR, SOAP, CLEAR, GROW)
+- `prompt-engineering`: ALWAYS use this when the request matches Prompt Engineering: Expert guide on prompt engineering patterns, best practices, and optimization techniques.
+- `prompt-engineering-patterns`: ALWAYS use this when the request matches Prompt Engineering Patterns: Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
+- `prompt-library`: ALWAYS use this when the request matches Prompt Library: A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best pract...
+- `protect-mcp-governance`: ALWAYS use this when the request matches Protect MCP Governance: Agent governance skill for MCP tool calls — Cedar policy authoring, shadow-to-enforce rollout, and Ed25519 receipt verification.
+- `protocol-reverse-engineering`: ALWAYS use this when the request matches Protocol Reverse Engineering: Comprehensive techniques for capturing, analyzing, and documenting network protocols for security research, interoperability, and debugging.
+- `puzzle-activity-planner`: ALWAYS use this when the request matches Puzzle Activity Planner: Plan puzzle-based activities for classrooms, parties, and events with pre-configured generator links
+- `pydantic-ai`: ALWAYS use this when the request matches Pydantic AI: Build production-ready AI agents with PydanticAI — type-safe tool use, structured outputs, dependency injection, and multi-model support.
+- `pydantic-models-py`: ALWAYS use this when the request matches Pydantic Models PY: Create Pydantic models following the multi-model pattern for clean API contracts.
+- `pypict-skill`: ALWAYS use this when the user mentions Pypict Skill, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Pypict Skill; scope: Pa...
+- `qiskit`: ALWAYS use this when the request matches Qiskit: Qiskit is the world's most popular open-source quantum computing framework with 13M+ downloads.
+- `quality-nonconformance`: ALWAYS use this when the request matches Quality Nonconformance: Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and supplier quality management in regula...
+- `quant-analyst`: ALWAYS use this when the request matches Quant Analyst: Build financial models, backtest trading strategies, and analyze market data.
+- `rag-engineer`: ALWAYS use this when the request matches RAG Engineer: Expert in building Retrieval-Augmented Generation systems.
+- `rag-implementation`: ALWAYS use this when the request matches RAG Implementation: RAG (Retrieval-Augmented Generation) implementation workflow covering embedding selection, vector database setup, chunking strategies, and retrieval optimiz...
+- `rayden-code`: ALWAYS use this when the request matches Rayden Code: Generate React code with Rayden UI components using correct props, tokens, and premium layout patterns
+- `rayden-use`: ALWAYS use this when the request matches Rayden USE: Build and maintain Rayden UI components and screens in Figma via Figma MCP with full design token enforcement
+- `readme`: ALWAYS use this when the request matches Readme: You are an expert technical writer creating comprehensive project documentation.
+- `recallmax`: ALWAYS use this when the request matches Recallmax: FREE — God-tier long-context memory for AI agents.
+- `reddit-automation`: ALWAYS use this when the request matches Reddit Automation: Automate Reddit tasks via Rube MCP (Composio): search subreddits, create posts, manage comments, and browse top content.
+- `redesign-existing-projects`: ALWAYS use this when the request matches Redesign Existing Projects: Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites.
+- `referral-program`: ALWAYS use this when the request matches Referral Program: You are an expert in viral growth and referral marketing with access to referral program data and third-party tools.
+- `rehabilitation-analyzer`: ALWAYS use this when the user mentions Rehabilitation Analyzer, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Rehabilitati...
+- `remotion`: ALWAYS use this when the request matches Remotion: Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays
+- `remotion-best-practices`: ALWAYS use this when working with Remotion code, video compositions, rendering logic, timing, media assets, or React-based motion workflows.
+- `render-automation`: ALWAYS use this when the request matches Render Automation: Automate Render tasks via Rube MCP (Composio): services, deployments, projects.
+- `returns-reverse-logistics`: ALWAYS use this when the request matches Returns Reverse Logistics: Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims...
+- `reverse-engineer`: ALWAYS use this when the request matches Reverse Engineer: Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis.
+- `revops`: ALWAYS use this when the request matches Revops: Design and improve revenue operations, lead lifecycle rules, scoring, routing, handoffs, and CRM process automation.
+- `risk-manager`: ALWAYS use this when the request matches Risk Manager: Monitor portfolio risk, R-multiples, and position limits.
+- `risk-metrics-calculation`: ALWAYS use this when the request matches Risk Metrics Calculation: Calculate portfolio risk metrics including VaR, CVaR, Sharpe, Sortino, and drawdown analysis.
+- `robius-app-architecture`: ALWAYS use this when the request matches Robius APP Architecture: CRITICAL: Use for Robius app architecture patterns.
+- `robius-event-action`: ALWAYS use this when the request matches Robius Event Action: CRITICAL: Use for Robius event and action patterns.
+- `robius-matrix-integration`: ALWAYS use this when the request matches Robius Matrix Integration: CRITICAL: Use for Matrix SDK integration with Makepad.
+- `robius-state-management`: ALWAYS use this when the request matches Robius State Management: CRITICAL: Use for Robius state management patterns.
+- `robius-widget-patterns`: ALWAYS use this when the request matches Robius Widget Patterns: CRITICAL: Use for Robius widget patterns.
+- `ruby-pro`: ALWAYS use this when the request matches Ruby PRO: Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization.
+- `saas-multi-tenant`: ALWAYS use this when the request matches Saas Multi Tenant: Design and implement multi-tenant SaaS architectures with row-level security, tenant-scoped queries, shared-schema isolation, and safe cross-tenant admin pat...
+- `saas-mvp-launcher`: ALWAYS use this when the request matches Saas MVP Launcher: Use when planning or building a SaaS MVP from scratch.
+- `sales-automator`: ALWAYS use this when the request matches Sales Automator: Draft cold emails, follow-ups, and proposal templates.
+- `sales-enablement`: ALWAYS use this when the request matches Sales Enablement: Create sales collateral such as decks, one-pagers, objection docs, demo scripts, playbooks, and proposal templates.
+- `salesforce-automation`: ALWAYS use this when the request matches Salesforce Automation: Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, opportunities, SOQL queries.
+- `salesforce-development`: ALWAYS use this when the request matches Salesforce Development: Expert patterns for Salesforce platform development including Lightning Web Components (LWC), Apex triggers and classes, REST/Bulk APIs, Connected Apps...
+- `sam-altman`: ALWAYS use this when the request matches SAM Altman: Agente que simula Sam Altman — CEO da OpenAI, ex-presidente da Y Combinator, arquiteto da era AGI.
+- `sankhya-dashboard-html-jsp-custom-best-pratices`: ALWAYS use this when the request matches Sankhya Dashboard Html JSP Custom Best Pratices: This skill should be used when the user asks for patterns, best practices, creation, or fixing of Sankhya dashboards using HTML...
+- `sast-configuration`: ALWAYS use this when the request matches Sast Configuration: Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive security scanning across multiple programmi...
+- `satori`: ALWAYS use this when the request matches Satori: Clinically informed wisdom companion blending psychology and philosophy into a structured thinking partner
+- `scala-pro`: ALWAYS use this when the request matches Scala PRO: Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing.
+- `scanning-tools`: ALWAYS use this when the request matches Scanning Tools: Master essential security scanning tools for network discovery, vulnerability assessment, web application testing, wireless security, and compliance validation.
+- `scanpy`: ALWAYS use this when the request matches Scanpy: Scanpy is a scalable Python toolkit for analyzing single-cell RNA-seq data, built on AnnData.
+- `scarcity-urgency-psychologist`: ALWAYS use this when the request matches Scarcity Urgency Psychologist: One sentence - what this skill does and when to invoke it
+- `schema-markup`: ALWAYS use this when the request matches Schema Markup: Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact.
+- `scientific-writing`: ALWAYS use this when the request matches Scientific Writing: This is the core skill for the deep research and writing tool—combining AI-driven deep research with well-formatted written outputs.
+- `scikit-learn`: ALWAYS use this when the request matches Scikit Learn: Machine learning in Python with scikit-learn.
+- `screenshots`: ALWAYS use this when the request matches Screenshots: Generate marketing screenshots of your app using Playwright.
+- `scroll-experience`: ALWAYS use this when the request matches Scroll Experience: Expert in building immersive scroll-driven experiences - parallax storytelling, scroll animations, interactive narratives, and cinematic web experiences.
+- `seaborn`: ALWAYS use this when the request matches Seaborn: Seaborn is a Python visualization library for creating publication-quality statistical graphics.
+- `search-specialist`: ALWAYS use this when the request matches Search Specialist: Expert web researcher using advanced search techniques and
+- `secrets-management`: ALWAYS use this when the request matches Secrets Management: Secure secrets management practices for CI/CD pipelines using Vault, AWS Secrets Manager, and other tools.
+- `seek-and-analyze-video`: ALWAYS use this when the request matches Seek AND Analyze Video: Seek and analyze video content using Memories.ai Large Visual Memory Model for persistent video intelligence
+- `segment-automation`: ALWAYS use this when the request matches Segment Automation: Automate Segment tasks via Rube MCP (Composio): track events, identify users, manage groups, page views, aliases, batch operations.
+- `segment-cdp`: ALWAYS use this when the request matches Segment CDP: Expert patterns for Segment Customer Data Platform including Analytics.js, server-side tracking, tracking plans with Protocols, identity resolution, destinations c...
+- `semgrep-rule-creator`: ALWAYS use this when the request matches Semgrep Rule Creator: Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and code patterns.
+- `semgrep-rule-variant-creator`: ALWAYS use this when the request matches Semgrep Rule Variant Creator: Creates language variants of existing Semgrep rules.
+- `sendgrid-automation`: ALWAYS use this when the request matches Sendgrid Automation: Automate SendGrid email delivery workflows including marketing campaigns (Single Sends), contact and list management, sender identity setup, and email anal...
+- `senior-architect`: ALWAYS use this when the request matches Senior Architect: Complete toolkit for senior architect with modern tools and best practices.
+- `senior-fullstack`: ALWAYS use this when the request matches Senior Fullstack: Complete toolkit for senior fullstack with modern tools and best practices.
+- `sentry-automation`: ALWAYS use this when the request matches Sentry Automation: Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure alerts, track releases, monitor projects and teams.
+- `sequence-psychologist`: ALWAYS use this when the request matches Sequence Psychologist: One sentence - what this skill does and when to invoke it
+- `server-management`: ALWAYS use this when the request matches Server Management: Server management principles and decision-making.
+- `service-mesh-expert`: ALWAYS use this when the request matches Service Mesh Expert: Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns.
+- `service-mesh-observability`: ALWAYS use this when the request matches Service Mesh Observability: Complete guide to observability patterns for Istio, Linkerd, and service mesh deployments.
+- `shadcn`: ALWAYS use this when adding, customizing, debugging, or composing shadcn/ui components, registries, themes, or CLI-driven design-system setup in a project.
+- `shader-programming-glsl`: ALWAYS use this when the request matches Shader Programming Glsl: Expert guide for writing efficient GLSL shaders (Vertex/Fragment) for web and game engines, covering syntax, uniforms, and common effects.
+- `sharp-edges`: ALWAYS use this when the user mentions Sharp Edges, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Sharp Edges; scope: Shar...
+- `shellcheck-configuration`: ALWAYS use this when the request matches Shellcheck Configuration: Master ShellCheck static analysis configuration and usage for shell script quality.
+- `shodan-reconnaissance`: ALWAYS use this when the request matches Shodan Reconnaissance: Provide systematic methodologies for leveraging Shodan as a reconnaissance tool during penetration testing engagements.
+- `shopify-apps`: ALWAYS use this when the request matches Shopify Apps: Expert patterns for Shopify app development including Remix/React Router apps, embedded apps with App Bridge, webhook handling, GraphQL Admin API, Polaris compone...
+- `shopify-automation`: ALWAYS use this when the request matches Shopify Automation: Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections.
+- `shopify-development`: ALWAYS use this when the request matches Shopify Development: Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid.
+- `signup-flow-cro`: ALWAYS use this when the request matches Signup Flow CRO: You are an expert in optimizing signup and registration flows.
+- `similarity-search-patterns`: ALWAYS use this when the request matches Similarity Search Patterns: Implement efficient similarity search with vector databases.
+- `simplify-code`: ALWAYS use this when the request matches Simplify Code: Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes.
+- `site-architecture`: ALWAYS use this when the request matches Site Architecture: Plan or restructure website hierarchy, navigation, URL patterns, breadcrumbs, and internal linking.
+- `skill-check`: ALWAYS use this when the request matches Skill Check: Validate Claude Code skills against the agentskills specification.
+- `skill-creator`: ALWAYS use this when creating, rewriting, packaging, evaluating, or tightening any skill, trigger description, skill metadata, or bundled resource in this repository.
+- `skill-creator-ms`: ALWAYS use this when the request matches Skill Creator MS: Guide for creating effective skills for AI coding agents working with Azure SDKs and Microsoft Foundry services.
+- `skill-developer`: ALWAYS use this when the request matches Skill Developer: Comprehensive guide for creating and managing skills in Claude Code with auto-activation system, following Anthropic's official best practices including the 50...
+- `skill-improver`: ALWAYS use this when the request matches Skill Improver: Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards.
+- `skill-installer`: ALWAYS use this when the request matches Skill Installer: Instala, valida, registra e verifica novas skills no ecossistema.
+- `skill-optimizer`: ALWAYS use this when the request matches Skill Optimizer: Diagnose and optimize Agent Skills (SKILL.md) with real session data and research-backed static analysis.
+- `skill-rails-upgrade`: ALWAYS use this when the request matches Skill Rails Upgrade: Analyze Rails apps and provide upgrade assessments
+- `skill-router`: ALWAYS use this when the request matches Skill Router: Use when the user is unsure which skill to use or where to start.
+- `skill-scanner`: ALWAYS use this when the request matches Skill Scanner: Scan agent skills for security issues before adoption.
+- `skill-seekers`: ALWAYS use this when the request matches Skill Seekers: -Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes.
+- `skill-sentinel`: ALWAYS use this when the request matches Skill Sentinel: Auditoria e evolucao do ecossistema de skills.
+- `skill-writer`: ALWAYS use this when the request matches Skill Writer: Create and improve agent skills following the Agent Skills specification.
+- `skills-x402-express-wrapper` -> `x402-express-wrapper`: ALWAYS use this when the user or an upstream archive refers to `skills-x402-express-wrapper`, the nested skill path form for `x402-express-wrapper`, or the equivalent slash path. This is a namespace-preserving alias t...
+- `slack-automation`: ALWAYS use this when the request matches Slack Automation: Automate Slack workspace operations including messaging, search, channel management, and reaction workflows through Composio's Slack toolkit.
+- `slack-gif-creator`: ALWAYS use this when the request matches Slack GIF Creator: Knowledge and utilities for creating animated GIFs optimized for Slack.
+- `sleep-analyzer`: ALWAYS use this when the request matches Sleep Analyzer: 分析睡眠数据、识别睡眠模式、评估睡眠质量，并提供个性化睡眠改善建议。支持与其他健康数据的关联分析。
+- `slo-implementation`: ALWAYS use this when the request matches SLO Implementation: Framework for defining and implementing Service Level Indicators (SLIs), Service Level Objectives (SLOs), and error budgets.
+- `snowflake-development`: ALWAYS use this when the request matches Snowflake Development: Comprehensive Snowflake development assistant covering SQL best practices, data pipeline design (Dynamic Tables, Streams, Tasks, Snowpipe), Cortex AI fun...
+- `social-content`: ALWAYS use this when the request matches Social Content: You are an expert social media strategist with direct access to a scheduling platform that publishes to all major social networks.
+- `social-proof-architect`: ALWAYS use this when the request matches Social Proof Architect: One sentence - what this skill does and when to invoke it
+- `software-architecture`: ALWAYS use this when the request matches Software Architecture: Guide for quality focused software architecture.
+- `solidity-security`: ALWAYS use this when the request matches Solidity Security: Master smart contract security best practices, vulnerability prevention, and secure Solidity development patterns.
+- `spark-optimization`: ALWAYS use this when the request matches Spark Optimization: Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning.
+- `spec-to-code-compliance`: ALWAYS use this when the request matches Spec TO Code Compliance: Verifies code implements exactly what documentation specifies for blockchain audits.
+- `speckit-updater`: ALWAYS use this when the user mentions Speckit Updater, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Speckit Updater; sco...
+- `speed`: ALWAYS use this when the user mentions Speed, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Speed; scope: Launch RSVP spee...
+- `spline-3d-integration`: ALWAYS use this when the request matches Spline 3d Integration: Use when adding interactive 3D scenes from Spline.design to web projects, including React embedding and runtime control API.
+- `sql-optimization-patterns`: ALWAYS use this when the request matches SQL Optimization Patterns: Transform slow database queries into lightning-fast operations through systematic optimization, proper indexing, and query plan analysis.
+- `sql-pro`: ALWAYS use this when the request matches SQL PRO: Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques.
+- `square-automation`: ALWAYS use this when the request matches Square Automation: Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations.
+- `sred-project-organizer`: ALWAYS use this when the request matches Sred Project Organizer: Take a list of projects and their related documentation, and organize them into the SRED format for submission.
+- `sred-work-summary`: ALWAYS use this when the request matches Sred Work Summary: Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can then be documented as SRED projects.
+- `stability-ai`: ALWAYS use this when the request matches Stability AI: Geracao de imagens via Stability AI (SD3.5, Ultra, Core).
+- `startup-analyst`: ALWAYS use this when the request matches Startup Analyst: Expert startup business analyst specializing in market sizing, financial modeling, competitive analysis, and strategic planning for early-stage companies.
+- `startup-business-analyst-business-case`: ALWAYS use this when the request matches Startup Business Analyst Business Case: Generate comprehensive investor-ready business case document with market, solution, financials, and strategy
+- `startup-business-analyst-financial-projections`: ALWAYS use this when the request matches Startup Business Analyst Financial Projections: Create detailed 3-5 year financial model with revenue, costs, cash flow, and scenarios
+- `startup-business-analyst-market-opportunity`: ALWAYS use this when the request matches Startup Business Analyst Market Opportunity: Generate comprehensive market opportunity analysis with TAM/SAM/SOM calculations
+- `startup-financial-modeling`: ALWAYS use this when the request matches Startup Financial Modeling: Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scenario planning for early-stage s...
+- `startup-metrics-framework`: ALWAYS use this when the request matches Startup Metrics Framework: Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business models from seed through Series A.
+- `statsmodels`: ALWAYS use this when the request matches Statsmodels: Statsmodels is Python's premier library for statistical modeling, providing tools for estimation, inference, and diagnostics across a wide range of statistical met...
+- `steve-jobs`: ALWAYS use this when the request matches Steve Jobs: Agente que simula Steve Jobs — cofundador da Apple, CEO da Pixar, fundador da NeXT, o maior designer de produtos tecnologicos da historia e o mais influente apresen...
+- `stitch-design-taste`: ALWAYS use this when the request matches Stitch Design Taste: Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules.
+- `stitch-loop`: ALWAYS use this when the request matches Stitch Loop: Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern
+- `stride-analysis-patterns`: ALWAYS use this when the request matches Stride Analysis Patterns: Apply STRIDE methodology to systematically identify threats.
+- `stripe-automation`: ALWAYS use this when the request matches Stripe Automation: Automate Stripe tasks via Rube MCP (Composio): customers, charges, subscriptions, invoices, products, refunds.
+- `stripe-integration`: ALWAYS use this when the request matches Stripe Integration: Master Stripe payment processing integration for robust, PCI-compliant payment flows including checkout, subscriptions, webhooks, and refunds.
+- `subject-line-psychologist`: ALWAYS use this when the request matches Subject Line Psychologist: One sentence - what this skill does and when to invoke it
+- `supabase-automation`: ALWAYS use this when the request matches Supabase Automation: Automate Supabase database queries, table management, project administration, storage, edge functions, and SQL execution via Rube MCP (Composio).
+- `superpowers-lab`: ALWAYS use this when the request matches Superpowers LAB: Lab environment for Claude superpowers
+- `supply-chain-risk-auditor`: ALWAYS use this when the request matches Supply Chain Risk Auditor: Identifies dependencies at heightened risk of exploitation or takeover.
+- `swift-concurrency-expert`: ALWAYS use this when the request matches Swift Concurrency Expert: Review and fix Swift concurrency issues such as actor isolation and Sendable violations.
+- `sympy`: ALWAYS use this when the request matches Sympy: SymPy is a Python library for symbolic mathematics that enables exact computation using mathematical symbols rather than numerical approximations.
+- `systems-engineering`: ALWAYS use this when the request sounds like a platform, robotics stack, digital twin, telemetry-heavy system, operator workflow, simulation-first program, or any software effort that is bigger than normal app delivery.
+- `tanstack-query-expert`: ALWAYS use this when the request matches Tanstack Query Expert: Expert in TanStack Query (React Query) — asynchronous state management.
+- `task-intelligence`: ALWAYS use this when the request matches Task Intelligence: Protocolo de Inteligência Pré-Tarefa — ativa TODOS os agentes relevantes do ecossistema ANTES de executar qualquer tarefa solicitada pelo usuário.
+- `tavily-web`: ALWAYS use this when the request matches Tavily WEB: Web search, content extraction, crawling, and research capabilities using Tavily API.
+- `tcm-constitution-analyzer`: ALWAYS use this when the request matches TCM Constitution Analyzer: 分析中医体质数据、识别体质类型、评估体质特征,并提供个性化养生建议。支持与营养、运动、睡眠等健康数据的关联分析。
+- `team-collaboration-issue`: ALWAYS use this when the request matches Team Collaboration Issue: You are a GitHub issue resolution expert specializing in systematic bug investigation, feature implementation, and collaborative development workflows.
+- `team-collaboration-standup-notes`: ALWAYS use this when the request matches Team Collaboration Standup Notes: You are an expert team communication specialist focused on async-first standup practices, AI-assisted note generation from commit history, and...
+- `team-composition-analysis`: ALWAYS use this when the request matches Team Composition Analysis: Design optimal team structures, hiring plans, compensation strategies, and equity allocation for early-stage startups from pre-seed through Series A.
+- `technical-change-tracker`: ALWAYS use this when the request matches Technical Change Tracker: Track code changes with structured JSON records, state machine enforcement, and AI session handoff for bot continuity
+- `telegram`: ALWAYS use this when the request matches Telegram: Integracao completa com Telegram Bot API.
+- `telegram-automation`: ALWAYS use this when the request matches Telegram Automation: Automate Telegram tasks via Rube MCP (Composio): send messages, manage chats, share photos/documents, and handle bot commands.
+- `telegram-mini-app`: ALWAYS use this when the request matches Telegram Mini APP: Expert in building Telegram Mini Apps (TWA) - web apps that run inside Telegram with native-like experience.
+- `template` -> `template-skill`: ALWAYS use this when the user or an upstream archive refers to `template`, the nested skill path form for `template-skill`, or the equivalent slash path. This is a namespace-preserving alias that routes to `template-s...
+- `template-skill`: ALWAYS use this when the user asks for a minimal reusable SKILL.md template, official skill scaffold shape, or a starting skeleton for a new skill; treat it as a template artifact, not as a domain execution skill.
+- `templates`: ALWAYS use this when the request matches Templates: Project scaffolding templates for new applications.
+- `temporal-golang-pro`: ALWAYS use this when the request matches Temporal Golang PRO: Use when building durable distributed systems with Temporal Go SDK.
+- `terraform-aws-modules`: ALWAYS use this when the request matches Terraform AWS Modules: Terraform module creation for AWS — reusable modules, state management, and HCL best practices.
+- `terraform-infrastructure`: ALWAYS use this when the request matches Terraform Infrastructure: Terraform infrastructure as code workflow for provisioning cloud resources, creating reusable modules, and managing infrastructure at scale.
+- `terraform-module-library`: ALWAYS use this when the request matches Terraform Module Library: Production-ready Terraform module patterns for AWS, Azure, and GCP infrastructure.
+- `terraform-skill`: ALWAYS use this when the request matches Terraform Skill: Terraform infrastructure as code best practices
+- `terraform-specialist`: ALWAYS use this when the request matches Terraform Specialist: Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state management, and enterprise infrastructure patterns.
+- `theme-factory`: ALWAYS use this when the task is to pick or apply a coherent visual theme across slides, docs, reports, landing pages, or other styled artifacts rather than designing colors and fonts from scratch each time.
+- `threat-mitigation-mapping`: ALWAYS use this when the request matches Threat Mitigation Mapping: Map identified threats to appropriate security controls and mitigations.
+- `threat-modeling-expert`: ALWAYS use this when the request matches Threat Modeling Expert: Expert in threat modeling methodologies, security architecture review, and risk assessment.
+- `threejs-animation`: ALWAYS use this when the request matches Threejs Animation: Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing.
+- `threejs-fundamentals`: ALWAYS use this when the request matches Threejs Fundamentals: Three.js scene setup, cameras, renderer, Object3D hierarchy, coordinate systems.
+- `threejs-geometry`: ALWAYS use this when the request matches Threejs Geometry: Three.js geometry creation - built-in shapes, BufferGeometry, custom geometry, instancing.
+- `threejs-interaction`: ALWAYS use this when the request matches Threejs Interaction: Three.js interaction - raycasting, controls, mouse/touch input, object selection.
+- `threejs-lighting`: ALWAYS use this when the request matches Threejs Lighting: Three.js lighting - light types, shadows, environment lighting.
+- `threejs-loaders`: ALWAYS use this when the request matches Threejs Loaders: Three.js asset loading - GLTF, textures, images, models, async patterns.
+- `threejs-materials`: ALWAYS use this when the request matches Threejs Materials: Three.js materials - PBR, basic, phong, shader materials, material properties.
+- `threejs-postprocessing`: ALWAYS use this when the request matches Threejs Postprocessing: Three.js post-processing - EffectComposer, bloom, DOF, screen effects.
+- `threejs-shaders`: ALWAYS use this when the request matches Threejs Shaders: Three.js shaders - GLSL, ShaderMaterial, uniforms, custom effects.
+- `threejs-skills`: ALWAYS use this when the request matches Threejs Skills: Create 3D scenes, interactive experiences, and visual effects using Three.js.
+- `threejs-textures`: ALWAYS use this when the request matches Threejs Textures: Three.js textures - texture types, UV mapping, environment maps, texture settings.
+- `tiktok-automation`: ALWAYS use this when the request matches Tiktok Automation: Automate TikTok tasks via Rube MCP (Composio): upload/publish videos, post photos, manage content, and view user profiles/stats.
+- `todoist-automation`: ALWAYS use this when the request matches Todoist Automation: Automate Todoist task management, projects, sections, filtering, and bulk operations via Rube MCP (Composio).
+- `tool-design`: ALWAYS use this when the request matches Tool Design: Build tools that agents can use effectively, including architectural reduction patterns.
+- `tool-use-guardian`: ALWAYS use this when the request matches Tool USE Guardian: FREE — Intelligent tool-call reliability wrapper.
+- `top-web-vulnerabilities`: ALWAYS use this when the request matches TOP WEB Vulnerabilities: Provide a comprehensive, structured reference for the 100 most critical web application vulnerabilities organized by category.
+- `track-management`: ALWAYS use this when the request matches Track Management: Use this skill when creating, managing, or working with Conductor tracks - the logical work units for features, bugs, and refactors.
+- `transformers-js`: ALWAYS use this when the request matches Transformers JS: Run Hugging Face models in JavaScript or TypeScript with Transformers.js in Node.js or the browser.
+- `trello-automation`: ALWAYS use this when the request matches Trello Automation: Automate Trello boards, cards, and workflows via Rube MCP (Composio).
+- `trigger-dev`: ALWAYS use this when the request matches Trigger DEV: Trigger.dev expert for background jobs, AI workflows, and reliable async execution with excellent developer experience and TypeScript-first design.
+- `trpc-fullstack`: ALWAYS use this when the request matches Trpc Fullstack: Build end-to-end type-safe APIs with tRPC — routers, procedures, middleware, subscriptions, and Next.js/React integration patterns.
+- `turborepo-caching`: ALWAYS use this when the request matches Turborepo Caching: Configure Turborepo for efficient monorepo builds with local and remote caching.
+- `tutorial-engineer`: ALWAYS use this when the request matches Tutorial Engineer: Creates step-by-step tutorials and educational content from code.
+- `twilio-communications`: ALWAYS use this when the request matches Twilio Communications: Build communication features with Twilio: SMS messaging, voice calls, WhatsApp Business API, and user verification (2FA).
+- `twitter-automation`: ALWAYS use this when the request matches Twitter Automation: Automate Twitter/X tasks via Rube MCP (Composio): posts, search, users, bookmarks, lists, media.
+- `typescript-advanced-types`: ALWAYS use this when the request matches Typescript Advanced Types: Comprehensive guidance for mastering TypeScript's advanced type system including generics, conditional types, mapped types, template literal types, a...
+- `typescript-expert`: ALWAYS use this when the request matches Typescript Expert: TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and mode...
+- `typescript-pro`: ALWAYS use this when the request matches Typescript PRO: Master TypeScript with advanced types, generics, and strict type safety.
+- `uncle-bob-craft`: ALWAYS use this when the request matches Uncle BOB Craft: Use when performing code review, writing or refactoring code, or discussing architecture; complements clean-code and does not replace project linter/formatter.
+- `unity-developer`: ALWAYS use this when the request matches Unity Developer: Build Unity games with optimized C# scripts, efficient rendering, and proper asset management.
+- `unity-ecs-patterns`: ALWAYS use this when the request matches Unity ECS Patterns: Production patterns for Unity's Data-Oriented Technology Stack (DOTS) including Entity Component System, Job System, and Burst Compiler.
+- `unreal-engine-cpp-pro`: ALWAYS use this when the request matches Unreal Engine CPP PRO: Expert guide for Unreal Engine 5.x C++ development, covering UObject hygiene, performance patterns, and best practices.
+- `unsplash-integration`: ALWAYS use this when the request matches Unsplash Integration: Integration skill for searching and fetching high-quality, free-to-use professional photography from Unsplash.
+- `upstash-qstash`: ALWAYS use this when the request matches Upstash Qstash: Upstash QStash expert for serverless message queues, scheduled jobs, and reliable HTTP-based task delivery without managing infrastructure.
+- `using-git-worktrees`: ALWAYS use this when the task is risky, parallel, branch-oriented, or likely to mix with unrelated local changes unless it happens inside an isolated worktree.
+- `using-neon`: ALWAYS use this when the request matches Using Neon: Neon is a serverless Postgres platform that separates compute and storage to offer autoscaling, branching, instant restore, and scale-to-zero.
+- `using-superpowers`: ALWAYS use this when the request matches Using Superpowers: Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions
+- `uv-package-manager`: ALWAYS use this when the request matches UV Package Manager: Comprehensive guide to using uv, an extremely fast Python package installer and resolver written in Rust, for modern Python project management and dependenc...
+- `variant-analysis`: ALWAYS use this when the request matches Variant Analysis: Find similar vulnerabilities and bugs across codebases using pattern-based analysis.
+- `varlock`: ALWAYS use this when the request matches Varlock: Secure-by-default environment variable management for Claude Code sessions.
+- `varlock-claude-skill`: ALWAYS use this when the request matches Varlock Claude Skill: Secure environment variable management ensuring secrets are never exposed in Claude sessions, terminals, logs, or git commits
+- `vector-index-tuning`: ALWAYS use this when the request matches Vector Index Tuning: Optimize vector index performance for latency, recall, and memory.
+- `vercel-ai-sdk-expert`: ALWAYS use this when the user mentions Vercel AI SDK Expert, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Vercel AI SDK E...
+- `vercel-automation`: ALWAYS use this when the request matches Vercel Automation: Automate Vercel tasks via Rube MCP (Composio): manage deployments, domains, DNS, env vars, projects, and teams.
+- `vercel-deployment`: ALWAYS use this when the request matches Vercel Deployment: Expert knowledge for deploying to Vercel with Next.js
+- `verification-before-completion`: ALWAYS use this before claiming a fix works, tests pass, code is ready, a PR is ready, or anything is done, merged, or shippable.
+- `vexor`: ALWAYS use this when the request matches Vexor: Vector-powered CLI for semantic file search with a Claude/Codex skill
+- `vexor-cli`: ALWAYS use this when the request matches Vexor CLI: Semantic file discovery via `vexor`.
+- `vibe-code-auditor`: ALWAYS use this when the request matches Vibe Code Auditor: Audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.
+- `viboscope`: ALWAYS use this when the request matches Viboscope: Psychological compatibility matching — find cofounders, collaborators, and friends through validated psychometrics
+- `videodb`: ALWAYS use this when the request matches Videodb: Video and audio perception, indexing, and editing.
+- `videodb-skills`: ALWAYS use this when the request matches Videodb Skills: Upload, stream, search, edit, transcribe, and generate AI video and audio using the VideoDB SDK.
+- `visual-emotion-engineer`: ALWAYS use this when the request matches Visual Emotion Engineer: One sentence - what this skill does and when to invoke it
+- `vizcom`: ALWAYS use this when the request matches Vizcom: AI-powered product design tool for transforming sketches into full-fidelity 3D renders.
+- `voice-ai-development`: ALWAYS use this when the request matches Voice AI Development: Expert in building voice AI applications - from real-time voice agents to voice-enabled apps.
+- `voice-ai-engine-development`: ALWAYS use this when the request matches Voice AI Engine Development: Build real-time conversational AI voice engines using async worker pipelines, streaming transcription, LLM agents, and TTS synthesis with interrupt...
+- `warren-buffett`: ALWAYS use this when the request matches Warren Buffett: Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Charlie...
+- `wcag-audit-patterns`: ALWAYS use this when the request matches Wcag Audit Patterns: Comprehensive guide to auditing web content against WCAG 2.2 guidelines with actionable remediation strategies.
+- `web-performance-optimization`: ALWAYS use this when the request matches WEB Performance Optimization: Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance
+- `web-scraper`: ALWAYS use this when the request matches WEB Scraper: Web scraping inteligente multi-estrategia.
+- `webflow-automation`: ALWAYS use this when the request matches Webflow Automation: Automate Webflow CMS collections, site publishing, page management, asset uploads, and ecommerce orders via Rube MCP (Composio).
+- `weightloss-analyzer`: ALWAYS use this when the user mentions Weightloss Analyzer, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Weightloss Analy...
+- `wellally-tech`: ALWAYS use this when the request matches Wellally Tech: Integrate multiple digital health data sources, connect to [WellAlly.tech](https://www.wellally.tech/) knowledge base, providing data import and knowledge refere...
+- `whatsapp-automation`: ALWAYS use this when the request matches Whatsapp Automation: Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts.
+- `wiki-architect`: ALWAYS use this when the request matches Wiki Architect: You are a documentation architect that produces structured wiki catalogues and onboarding guides from codebases.
+- `wiki-changelog`: ALWAYS use this when the request matches Wiki Changelog: Generate structured changelogs from git history.
+- `wiki-onboarding`: ALWAYS use this when the request matches Wiki Onboarding: Generate two complementary onboarding documents that together give any engineer — from newcomer to principal — a complete understanding of a codebase.
+- `wiki-page-writer`: ALWAYS use this when the request matches Wiki Page Writer: You are a senior documentation engineer that generates comprehensive technical documentation pages with evidence-based depth.
+- `wiki-qa`: ALWAYS use this when the request matches Wiki QA: Answer repository questions grounded entirely in source code evidence.
+- `wiki-researcher`: ALWAYS use this when the request matches Wiki Researcher: You are an expert software engineer and systems analyst.
+- `wiki-vitepress`: ALWAYS use this when the request matches Wiki Vitepress: Transform generated wiki Markdown files into a polished VitePress static site with dark theme and interactive Mermaid diagrams.
+- `windows-privilege-escalation`: ALWAYS use this when the request matches Windows Privilege Escalation: Provide systematic methodologies for discovering and exploiting privilege escalation vulnerabilities on Windows systems during penetration testing...
+- `windows-shell-reliability`: ALWAYS use this when the request matches Windows Shell Reliability: Reliable command execution on Windows: paths, encoding, and common binary pitfalls.
+- `wireshark-analysis`: ALWAYS use this when the request matches Wireshark Analysis: Execute comprehensive network traffic analysis using Wireshark to capture, filter, and examine network packets for security investigations, performance opti...
+- `wordpress`: ALWAYS use this when the request matches Wordpress: Complete WordPress development workflow covering theme development, plugin creation, WooCommerce integration, performance optimization, and security hardening.
+- `wordpress-plugin-development`: ALWAYS use this when the request matches Wordpress Plugin Development: WordPress plugin development workflow covering plugin architecture, hooks, admin interfaces, REST API, security best practices, and WordPress 7.0...
+- `wordpress-theme-development`: ALWAYS use this when the request matches Wordpress Theme Development: WordPress theme development workflow covering theme architecture, template hierarchy, custom post types, block editor support, responsive design, a...
+- `wordpress-woocommerce-development`: ALWAYS use this when the request matches Wordpress Woocommerce Development: WooCommerce store development workflow covering store setup, payment integration, shipping configuration, customization, and WordPress 7.0 fe...
+- `workspace-operating-system`: ALWAYS use this for broad, ambiguous, multi-step, or repository-wide work in this bundle, especially when the right skill choice, execution order, or quality bar is not obvious from the request alone.
+- `wrike-automation`: ALWAYS use this when the request matches Wrike Automation: Automate Wrike project management via Rube MCP (Composio): create tasks/folders, manage projects, assign work, and track progress.
+- `writing-plans`: ALWAYS use this when the request matches Writing Plans: Use when you have a spec or requirements for a multi-step task, before touching code
+- `writing-skills`: ALWAYS use this when the request matches Writing Skills: Use when creating new skills, editing existing skills, or verifying skills work before deployment
+- `x-article-publisher-skill`: ALWAYS use this when the user mentions X Article Publisher Skill, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on X Article...
+- `x-twitter-scraper`: ALWAYS use this when the request matches X Twitter Scraper: X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction too...
+- `x402-express-wrapper`: ALWAYS use this when the request matches X402 Express Wrapper: Wrapper oficial de M2MCent (Node.js) para inyectar muros de pago x402 en APIs o servidores Model Context Protocol (MCP).
+- `xvary-stock-research`: ALWAYS use this when the request matches Xvary Stock Research: Thesis-driven equity analysis from public SEC EDGAR and market data; /analyze, /score, /compare workflows with bundled Python tools (Claude Code, Cursor...
+- `yann-lecun`: ALWAYS use this when the request matches Yann Lecun: Agente que simula Yann LeCun — inventor das Convolutional Neural Networks, Chief AI Scientist da Meta, Prêmio Turing 2018.
+- `yann-lecun-debate`: ALWAYS use this when the request matches Yann Lecun Debate: Sub-skill de debates e posições de Yann LeCun.
+- `yann-lecun-filosofia`: ALWAYS use this when the request matches Yann Lecun Filosofia: Sub-skill filosófica e pedagógica de Yann LeCun.
+- `yann-lecun-tecnico`: ALWAYS use this when the user mentions Yann Lecun Tecnico, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Yann Lecun Tecnic...
+- `yes-md`: ALWAYS use this when the request matches YES MD: 6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks.
+- `youtube-automation`: ALWAYS use this when the request matches Youtube Automation: Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments.
+- `youtube-summarizer`: ALWAYS use this when the request matches Youtube Summarizer: Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks
+- `zendesk-automation`: ALWAYS use this when the request matches Zendesk Automation: Automate Zendesk tasks via Rube MCP (Composio): tickets, users, organizations, replies.
+- `zeroize-audit`: ALWAYS use this when the request matches Zeroize Audit: Detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level analysis, and cont...
+- `zipai-optimizer`: ALWAYS use this when the request matches Zipai Optimizer: Adaptive token optimizer: intelligent filtering, surgical output, ambiguity-first, context-window-aware, VCS-aware.
+- `zod-validation-expert`: ALWAYS use this when the request matches ZOD Validation Expert: Expert in Zod — TypeScript-first schema validation.
+- `zoho-crm-automation`: ALWAYS use this when the request matches Zoho CRM Automation: Automate Zoho CRM tasks via Rube MCP (Composio): create/update records, search contacts, manage leads, and convert leads.
+- `zoom-automation`: ALWAYS use this when the request matches Zoom Automation: Automate Zoom meeting creation, management, recordings, webinars, and participant tracking via Rube MCP (Composio).
+- `zustand-store-ts`: ALWAYS use this when the request matches Zustand Store TS: Create Zustand stores following established patterns with proper TypeScript types and middleware.
+
+## Security
+
+- `aws-compliance-checker`: ALWAYS use this when the request matches AWS Compliance Checker: Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks
+- `aws-cost-cleanup`: ALWAYS use this when the request matches AWS Cost Cleanup: Automated cleanup of unused AWS resources to reduce costs
+- `aws-cost-optimizer`: ALWAYS use this when the request matches AWS Cost Optimizer: Comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer
+- `aws-iam-best-practices`: ALWAYS use this when the request matches AWS IAM Best Practices: IAM policy review, hardening, and least privilege implementation
+- `aws-penetration-testing`: ALWAYS use this when the request matches AWS Penetration Testing: Provide comprehensive techniques for penetration testing AWS cloud environments.
+- `aws-secrets-rotation`: ALWAYS use this when the request matches AWS Secrets Rotation: Automate AWS secrets rotation for RDS, API keys, and credentials
+- `aws-security-audit`: ALWAYS use this when the request matches AWS Security Audit: Comprehensive AWS security posture assessment using AWS CLI and security best practices
+- `aws-serverless`: ALWAYS use this when the request matches AWS Serverless: Specialized skill for building production-ready serverless applications on AWS.
+- `aws-skills`: ALWAYS use this when the request matches AWS Skills: AWS development with infrastructure automation and cloud architecture patterns
+- `idor-testing`: ALWAYS use this when the request matches Idor Testing: Provide systematic methodologies for identifying and exploiting Insecure Direct Object Reference (IDOR) vulnerabilities in web applications.
+- `privilege-escalation-methods`: ALWAYS use this when the request matches Privilege Escalation Methods: Provide comprehensive techniques for escalating privileges from a low-privileged user to root/administrator access on compromised Linux and Window...
+- `red-team-tactics`: ALWAYS use this when the request matches RED Team Tactics: Authorized adversary-simulation and detection-engineering patterns for defensive security work.
+- `red-team-tools`: ALWAYS use this when the request matches RED Team Tools: Implement proven methodologies and tool workflows from top security researchers for effective reconnaissance, vulnerability discovery, and bug bounty hunting.
+- `security-audit`: ALWAYS use this when the request matches Security Audit: Comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening.
+- `security-auditor`: ALWAYS use this when the request matches Security Auditor: Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
+- `security-aws-compliance-checker` -> `aws-compliance-checker`: ALWAYS use this when the user or an upstream archive refers to `security-aws-compliance-checker`, the nested skill path form for `aws-compliance-checker`, or the equivalent slash path. This is a namespace-preserving a...
+- `security-aws-iam-best-practices` -> `aws-iam-best-practices`: ALWAYS use this when the user or an upstream archive refers to `security-aws-iam-best-practices`, the nested skill path form for `aws-iam-best-practices`, or the equivalent slash path. This is a namespace-preserving a...
+- `security-aws-secrets-rotation` -> `aws-secrets-rotation`: ALWAYS use this when the user or an upstream archive refers to `security-aws-secrets-rotation`, the nested skill path form for `aws-secrets-rotation`, or the equivalent slash path. This is a namespace-preserving alias...
+- `security-aws-security-audit` -> `aws-security-audit`: ALWAYS use this when the user or an upstream archive refers to `security-aws-security-audit`, the nested skill path form for `aws-security-audit`, or the equivalent slash path. This is a namespace-preserving alias tha...
+- `security-bluebook-builder`: ALWAYS use this when the request matches Security Bluebook Builder: Build a minimal but real security policy for sensitive apps.
+- `security-compliance-compliance-check`: ALWAYS use this when the request matches Security Compliance Compliance Check: You are a compliance expert specializing in regulatory requirements for software systems including GDPR, HIPAA, SOC2, PCI-DSS, and other i...
+- `security-requirement-extraction`: ALWAYS use this when the request matches Security Requirement Extraction: Derive security requirements from threat models and business context.
+- `security-scanning-security-dependencies`: ALWAYS use this when the request matches Security Scanning Security Dependencies: You are a security expert specializing in dependency vulnerability analysis, SBOM generation, and supply chain security.
+- `security-scanning-security-hardening`: ALWAYS use this when the request matches Security Scanning Security Hardening: Coordinate multi-layer security scanning and hardening across application, infrastructure, and compliance controls.
+- `security-scanning-security-sast`: ALWAYS use this when the request matches Security Scanning Security Sast: Static Application Security Testing (SAST) for code vulnerability analysis across multiple languages and frameworks
+- `vulnerability-scanner`: ALWAYS use this when the request matches Vulnerability Scanner: Advanced vulnerability analysis principles.
+- `xss-html-injection`: ALWAYS use this when the request matches XSS Html Injection: Execute comprehensive client-side injection vulnerability assessments on web applications to identify XSS and HTML injection flaws, demonstrate exploitation...
+
+## Specialized Domains
+
+- `ai-seo`: ALWAYS use this when the request matches AI SEO: Optimize content for AI search and LLM citations across AI Overviews, ChatGPT, Perplexity, Claude, Gemini, and similar systems.
+- `claude-ally-health`: ALWAYS use this when the request matches Claude Ally Health: A health assistant skill for medical information analysis, symptom tracking, and wellness guidance.
+- `family-health-analyzer`: ALWAYS use this when the user mentions Family Health Analyzer, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Family Health...
+- `health-trend-analyzer`: ALWAYS use this when the request matches Health Trend Analyzer: 分析一段时间内健康数据的趋势和模式。关联药物、症状、生命体征、化验结果和其他健康指标的变化。识别令人担忧的趋势、改善情况，并提供数据驱动的洞察。当用户询问健康趋势、模式、随时间的变化或"我的健康状况有什么变化？"时使用。支持多维度分析（体重/BMI、症状、药物依从性、化验结果、情绪睡眠），相关性分析，变化...
+- `legal-advisor`: ALWAYS use this when the request matches Legal Advisor: Draft privacy policies, terms of service, disclaimers, and legal notices.
+- `local-legal-seo-audit`: ALWAYS use this when the request matches Local Legal SEO Audit: Audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, direct...
+- `marketing-ideas`: ALWAYS use this when the request matches Marketing Ideas: Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system.
+- `marketing-psychology`: ALWAYS use this when the request matches Marketing Psychology: Apply behavioral science and mental models to marketing decisions, prioritized using a psychological leverage and feasibility scoring system.
+- `mental-health-analyzer`: ALWAYS use this when the request matches Mental Health Analyzer: 分析心理健康数据、识别心理模式、评估心理健康状况、提供个性化心理健康建议。支持与睡眠、运动、营养等其他健康数据的关联分析。
+- `occupational-health-analyzer`: ALWAYS use this when the request matches Occupational Health Analyzer: 分析职业健康数据、识别工作相关健康风险、评估职业健康状况、提供个性化职业健康建议。支持与睡眠、运动、心理健康等其他健康数据的关联分析。
+- `openclaw-github-repo-commander`: ALWAYS use this when the request matches Openclaw Github Repo Commander: 7-stage super workflow for GitHub repo audit, cleanup, PR review, and competitor analysis
+- `oral-health-analyzer`: ALWAYS use this when the request matches Oral Health Analyzer: 分析口腔健康数据、识别口腔问题模式、评估口腔健康状况、提供个性化口腔健康建议。支持与营养、慢性病、用药等其他健康数据的关联分析。
+- `product-marketing-context`: ALWAYS use this when the request matches Product Marketing Context: Create or update a reusable product marketing context document with positioning, audience, ICP, use cases, and messaging.
+- `programmatic-seo`: ALWAYS use this when the request matches Programmatic SEO: Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data.
+- `seo`: ALWAYS use this when the request matches SEO: Run a broad SEO audit across technical SEO, on-page SEO, schema, sitemaps, content quality, AI search readiness, and GEO.
+- `seo-aeo-blog-writer`: ALWAYS use this when the request matches SEO AEO Blog Writer: Writes long-form blog posts with TL;DR block, definition sentence, comparison table, and 5-question FAQ for SEO ranking and AEO citation.
+- `seo-aeo-content-cluster`: ALWAYS use this when the request matches SEO AEO Content Cluster: Builds a topical authority map with a pillar page, prioritised cluster articles, content types, internal link map, and content gap analysis.
+- `seo-aeo-content-quality-auditor`: ALWAYS use this when the request matches SEO AEO Content Quality Auditor: Audits content for SEO and AEO performance with scored reports, severity-ranked fix lists, and projected scores after fixes.
+- `seo-aeo-internal-linking`: ALWAYS use this when the request matches SEO AEO Internal Linking: Maps internal link opportunities between pages with anchor text, placement instructions, orphan page detection, and cannibalization checks.
+- `seo-aeo-keyword-research`: ALWAYS use this when the request matches SEO AEO Keyword Research: Researches and prioritises SEO keywords with AEO question queries, difficulty tiers, cannibalization checks, and a content map.
+- `seo-aeo-landing-page-writer`: ALWAYS use this when the request matches SEO AEO Landing Page Writer: Writes complete, structured landing pages optimized for SEO ranking, AEO citation, and visitor conversion.
+- `seo-aeo-meta-description-generator`: ALWAYS use this when the request matches SEO AEO Meta Description Generator: Writes 3 title tag variants and 3 meta description variants per page with SERP preview, OG tags, and Twitter Card tags.
+- `seo-aeo-schema-generator`: ALWAYS use this when the request matches SEO AEO Schema Generator: Generates valid JSON-LD structured data for 10 schema types with rich result eligibility validation and implementation-ready script blocks.
+- `seo-audit`: ALWAYS use this when the request matches SEO Audit: Diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance.
+- `seo-cannibalization-detector`: ALWAYS use this when the request matches SEO Cannibalization Detector: Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues.
+- `seo-competitor-pages`: ALWAYS use this when the request matches SEO Competitor Pages: Generate SEO-optimized competitor comparison and alternatives pages.
+- `seo-content`: ALWAYS use this when the request matches SEO Content: Content quality and E-E-A-T analysis with AI citation readiness assessment.
+- `seo-content-auditor`: ALWAYS use this when the request matches SEO Content Auditor: Analyzes provided content for quality, E-E-A-T signals, and SEO best practices.
+- `seo-content-planner`: ALWAYS use this when the request matches SEO Content Planner: Creates comprehensive content outlines and topic clusters for SEO.
+- `seo-content-refresher`: ALWAYS use this when the request matches SEO Content Refresher: Identifies outdated elements in provided content and suggests updates to maintain freshness.
+- `seo-content-writer`: ALWAYS use this when the request matches SEO Content Writer: Writes SEO-optimized content based on provided keywords and topic briefs.
+- `seo-dataforseo`: ALWAYS use this when the request matches SEO Dataforseo: Use DataForSEO for live SERPs, keyword metrics, backlinks, competitor analysis, on-page checks, and AI visibility data.
+- `seo-forensic-incident-response`: ALWAYS use this when the request matches SEO Forensic Incident Response: Investigate sudden drops in organic traffic or rankings and run a structured forensic SEO incident response with triage, root-cause analysis and...
+- `seo-fundamentals`: ALWAYS use this when the request matches SEO Fundamentals: SEO fundamentals, E-E-A-T, Core Web Vitals, and Google algorithm principles.
+- `seo-geo`: ALWAYS use this when the request matches SEO GEO: Optimize content for AI Overviews, ChatGPT, Perplexity, and other AI search systems.
+- `seo-hreflang`: ALWAYS use this when the request matches SEO Hreflang: Hreflang and international SEO audit, validation, and generation.
+- `seo-image-gen`: ALWAYS use this when the request matches SEO Image GEN: Generate SEO-focused images such as OG cards, hero images, schema assets, product visuals, and infographics.
+- `seo-images`: ALWAYS use this when the request matches SEO Images: Image optimization analysis for SEO and performance.
+- `seo-keyword-strategist`: ALWAYS use this when the request matches SEO Keyword Strategist: Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords based on the topic.
+- `seo-meta-optimizer`: ALWAYS use this when the request matches SEO Meta Optimizer: Creates optimized meta titles, descriptions, and URL suggestions based on character limits and best practices.
+- `seo-page`: ALWAYS use this when the request matches SEO Page: Deep single-page SEO analysis covering on-page elements, content quality, technical meta tags, schema, images, and performance.
+- `seo-plan`: ALWAYS use this when the request matches SEO Plan: Strategic SEO planning for new or existing websites.
+- `seo-programmatic`: ALWAYS use this when the request matches SEO Programmatic: Plan and audit programmatic SEO pages generated at scale from structured data.
+- `seo-schema`: ALWAYS use this when the request matches SEO Schema: Detect, validate, and generate Schema.org structured data.
+- `seo-sitemap`: ALWAYS use this when the request matches SEO Sitemap: Analyze existing XML sitemaps or generate new ones with industry templates.
+- `seo-snippet-hunter`: ALWAYS use this when the request matches SEO Snippet Hunter: Formats content to be eligible for featured snippets and SERP features.
+- `seo-structure-architect`: ALWAYS use this when the request matches SEO Structure Architect: Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal linking opportunities.
+- `seo-technical`: ALWAYS use this when the request matches SEO Technical: Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, structured data, JavaScript rendering, and related platform signa...
+- `sexual-health-analyzer`: ALWAYS use this when the user mentions Sexual Health Analyzer, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in this domain, or the task clearly depends on Sexual Health...
+- `skin-health-analyzer`: ALWAYS use this when the request matches Skin Health Analyzer: Analyze skin health data, identify skin problem patterns, assess skin health status.
+- `social-post-writer-seo`: ALWAYS use this when the request matches Social Post Writer SEO: Social Media Strategist and Content Writer.
+- `travel-health-analyzer`: ALWAYS use this when the request matches Travel Health Analyzer: 分析旅行健康数据、评估目的地健康风险、提供疫苗接种建议、生成多语言紧急医疗信息卡片。支持WHO/CDC数据集成的专业级旅行健康风险评估。
+- `wordpress-centric-high-seo-optimized-blogwriting-skill`: ALWAYS use this when the request matches Wordpress Centric High SEO Optimized Blogwriting Skill: Use this skill when the user asks to write a blog post, article, or SEO content.

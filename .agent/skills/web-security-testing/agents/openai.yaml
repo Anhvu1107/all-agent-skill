@@ -1,0 +1,8 @@
+interface:
+  display_name: "WEB Security Testing"
+  short_description: "ALWAYS use this when the request matches WEB Security Testing: Web application security testing workflow for OWASP Top 10 vulnerabilities including i..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $web-security-testing to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

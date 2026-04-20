@@ -1,0 +1,8 @@
+interface:
+  display_name: "TDD Workflows TDD Green"
+  short_description: "ALWAYS use this when the request matches TDD Workflows TDD Green: Implement the minimal code needed to make failing tests pass in the TDD green phase."
+  brand_color: "#15803D"
+  default_prompt: "Use $tdd-workflows-tdd-green to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

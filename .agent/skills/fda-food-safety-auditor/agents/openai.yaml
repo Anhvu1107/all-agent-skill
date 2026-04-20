@@ -1,0 +1,8 @@
+interface:
+  display_name: "FDA Food Safety Auditor"
+  short_description: "ALWAYS use this when the request matches FDA Food Safety Auditor: Expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance."
+  brand_color: "#2563EB"
+  default_prompt: "Use $fda-food-safety-auditor to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Zoom Automation"
+  short_description: "ALWAYS use this when the request matches Zoom Automation: Automate Zoom meeting creation, management, recordings, webinars, and participant tracking..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $zoom-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

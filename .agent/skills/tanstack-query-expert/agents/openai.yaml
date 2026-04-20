@@ -1,0 +1,8 @@
+interface:
+  display_name: "Tanstack Query Expert"
+  short_description: "ALWAYS use this when the request matches Tanstack Query Expert: Expert in TanStack Query (React Query) — asynchronous state management."
+  brand_color: "#15803D"
+  default_prompt: "Use $tanstack-query-expert to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

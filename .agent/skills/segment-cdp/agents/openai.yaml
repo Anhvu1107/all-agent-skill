@@ -1,0 +1,8 @@
+interface:
+  display_name: "Segment CDP"
+  short_description: "ALWAYS use this when the request matches Segment CDP: Expert patterns for Segment Customer Data Platform including Analytics.js, server-side tracking..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $segment-cdp to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

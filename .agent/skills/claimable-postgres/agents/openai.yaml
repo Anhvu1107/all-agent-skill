@@ -1,0 +1,8 @@
+interface:
+  display_name: "Claimable Postgres"
+  short_description: "ALWAYS use this when the request matches Claimable Postgres: Provision instant temporary Postgres databases via Claimable Postgres by Neon (pg.new)."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $claimable-postgres to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

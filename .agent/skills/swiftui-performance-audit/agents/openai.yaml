@@ -1,0 +1,8 @@
+interface:
+  display_name: "Swiftui Performance Audit"
+  short_description: "ALWAYS use this when the request matches Swiftui Performance Audit: Audit SwiftUI performance issues from code review and profiling evidence."
+  brand_color: "#2563EB"
+  default_prompt: "Use $swiftui-performance-audit to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

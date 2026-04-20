@@ -1,0 +1,8 @@
+interface:
+  display_name: "UI Review"
+  short_description: "ALWAYS use this when the request matches UI Review: Review UI code for StyleSeed design-system compliance, accessibility, mobile ergonomics, spacing..."
+  brand_color: "#15803D"
+  default_prompt: "Use $ui-review to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

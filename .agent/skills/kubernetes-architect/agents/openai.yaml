@@ -1,0 +1,8 @@
+interface:
+  display_name: "Kubernetes Architect"
+  short_description: "ALWAYS use this when the request matches Kubernetes Architect: Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitO..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $kubernetes-architect to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

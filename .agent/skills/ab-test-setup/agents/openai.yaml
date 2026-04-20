@@ -1,0 +1,8 @@
+interface:
+  display_name: "AB Test Setup"
+  short_description: "ALWAYS use this when the request matches AB Test Setup: Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and e..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $ab-test-setup to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Cosmos PY"
+  short_description: "ALWAYS use this when the request matches Azure Cosmos PY: Azure Cosmos DB SDK for Python (NoSQL API)."
+  brand_color: "#2563EB"
+  default_prompt: "Use $azure-cosmos-py to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Odoo XML Views Builder"
+  short_description: "ALWAYS use this when the request matches Odoo XML Views Builder: Expert at building Odoo XML views: Form, List, Kanban, Search, Calendar, and Graph."
+  brand_color: "#0F766E"
+  default_prompt: "Use $odoo-xml-views-builder to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

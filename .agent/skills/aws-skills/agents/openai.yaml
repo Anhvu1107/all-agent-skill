@@ -1,0 +1,8 @@
+interface:
+  display_name: "AWS Skills"
+  short_description: "ALWAYS use this when the request matches AWS Skills: AWS development with infrastructure automation and cloud architecture patterns"
+  brand_color: "#2563EB"
+  default_prompt: "Use $aws-skills to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

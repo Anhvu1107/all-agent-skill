@@ -1,0 +1,8 @@
+interface:
+  display_name: "Simplify Code"
+  short_description: "ALWAYS use this when the request matches Simplify Code: Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $simplify-code to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

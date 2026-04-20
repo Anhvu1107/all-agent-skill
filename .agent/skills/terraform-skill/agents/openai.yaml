@@ -1,0 +1,8 @@
+interface:
+  display_name: "Terraform Skill"
+  short_description: "ALWAYS use this when the request matches Terraform Skill: Terraform infrastructure as code best practices"
+  brand_color: "#0F766E"
+  default_prompt: "Use $terraform-skill to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

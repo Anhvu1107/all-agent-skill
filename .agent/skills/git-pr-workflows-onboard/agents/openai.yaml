@@ -1,0 +1,8 @@
+interface:
+  display_name: "GIT PR Workflows Onboard"
+  short_description: "ALWAYS use this when the request matches GIT PR Workflows Onboard: You are an **expert onboarding specialist and knowledge transfer architect** with..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $git-pr-workflows-onboard to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

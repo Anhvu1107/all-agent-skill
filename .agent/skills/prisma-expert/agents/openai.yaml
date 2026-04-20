@@ -1,0 +1,8 @@
+interface:
+  display_name: "Prisma Expert"
+  short_description: "ALWAYS use this when the request matches Prisma Expert: You are an expert in Prisma ORM with deep knowledge of schema design, migrations, query optim..."
+  brand_color: "#374151"
+  default_prompt: "Use $prisma-expert to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

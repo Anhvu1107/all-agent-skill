@@ -1,0 +1,8 @@
+interface:
+  display_name: "Testing Patterns"
+  short_description: "ALWAYS use this when choosing or improving test strategy, test shape, coverage boundaries, or the right mix of unit, integration, and end-to-end chec..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $testing-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

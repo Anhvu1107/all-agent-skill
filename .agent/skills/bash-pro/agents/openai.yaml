@@ -1,0 +1,8 @@
+interface:
+  display_name: "Bash PRO"
+  short_description: "ALWAYS use this when the request matches Bash PRO: Master of defensive Bash scripting for production automation, CI/CD pipelines, and system utilitie..."
+  brand_color: "#374151"
+  default_prompt: "Use $bash-pro to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

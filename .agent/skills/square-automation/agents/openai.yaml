@@ -1,0 +1,8 @@
+interface:
+  display_name: "Square Automation"
+  short_description: "ALWAYS use this when the request matches Square Automation: Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $square-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

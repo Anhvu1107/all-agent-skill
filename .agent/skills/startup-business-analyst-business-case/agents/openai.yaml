@@ -1,0 +1,8 @@
+interface:
+  display_name: "Startup Business Analyst Business Case"
+  short_description: "ALWAYS use this when the request matches Startup Business Analyst Business Case: Generate comprehensive investor-ready business case document with ma..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $startup-business-analyst-business-case to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

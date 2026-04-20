@@ -1,0 +1,8 @@
+interface:
+  display_name: "Webflow Automation"
+  short_description: "ALWAYS use this when the request matches Webflow Automation: Automate Webflow CMS collections, site publishing, page management, asset uploads, and e..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $webflow-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

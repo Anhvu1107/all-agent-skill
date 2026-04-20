@@ -1,0 +1,8 @@
+interface:
+  display_name: "Citation Management"
+  short_description: "ALWAYS use this when the request matches Citation Management: Manage citations systematically throughout the research and writing process."
+  brand_color: "#BE123C"
+  default_prompt: "Use $citation-management to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

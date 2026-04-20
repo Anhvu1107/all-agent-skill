@@ -1,0 +1,8 @@
+interface:
+  display_name: "Performance Testing Review AI Review"
+  short_description: "ALWAYS use this when the request matches Performance Testing Review AI Review: You are an expert AI-powered code review specialist combining automate..."
+  brand_color: "#15803D"
+  default_prompt: "Use $performance-testing-review-ai-review to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

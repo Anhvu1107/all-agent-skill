@@ -1,0 +1,8 @@
+interface:
+  display_name: "YES MD"
+  short_description: "ALWAYS use this when the request matches YES MD: 6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enf..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $yes-md to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

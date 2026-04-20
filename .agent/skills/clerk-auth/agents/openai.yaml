@@ -1,0 +1,8 @@
+interface:
+  display_name: "Clerk Auth"
+  short_description: "ALWAYS use this when the request matches Clerk Auth: Expert patterns for Clerk auth implementation, middleware, organizations, webhooks, and user sync"
+  brand_color: "#EA580C"
+  default_prompt: "Use $clerk-auth to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Local Legal SEO Audit"
+  short_description: "ALWAYS use this when the request matches Local Legal SEO Audit: Audit and improve local SEO for law firms, attorneys, forensic experts and legal/prof..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $local-legal-seo-audit to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Codebase Cleanup Deps Audit"
+  short_description: "ALWAYS use this when the request matches Codebase Cleanup Deps Audit: You are a dependency security expert specializing in vulnerability scanning, li..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $codebase-cleanup-deps-audit to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

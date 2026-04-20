@@ -1,0 +1,8 @@
+interface:
+  display_name: "Wcag Audit Patterns"
+  short_description: "ALWAYS use this when the request matches Wcag Audit Patterns: Comprehensive guide to auditing web content against WCAG 2.2 guidelines with actionable..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $wcag-audit-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

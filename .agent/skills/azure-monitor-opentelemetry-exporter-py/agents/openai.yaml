@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Monitor Opentelemetry Exporter PY"
+  short_description: "ALWAYS use this when the request matches Azure Monitor Opentelemetry Exporter PY: Azure Monitor OpenTelemetry Exporter for Python."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $azure-monitor-opentelemetry-exporter-py to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

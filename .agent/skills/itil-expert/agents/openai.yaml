@@ -1,0 +1,8 @@
+interface:
+  display_name: "Itil Expert"
+  short_description: "ALWAYS use this when the request matches Itil Expert: Expert advisor for ITIL 4 and ITIL 5 (2026 digital product paradigm), specialized in AI-native..."
+  brand_color: "#374151"
+  default_prompt: "Use $itil-expert to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

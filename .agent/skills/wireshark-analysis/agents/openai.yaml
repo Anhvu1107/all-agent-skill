@@ -1,0 +1,8 @@
+interface:
+  display_name: "Wireshark Analysis"
+  short_description: "ALWAYS use this when the request matches Wireshark Analysis: Execute comprehensive network traffic analysis using Wireshark to capture, filter, and e..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $wireshark-analysis to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

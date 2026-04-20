@@ -1,0 +1,8 @@
+interface:
+  display_name: "Microservices Patterns"
+  short_description: "ALWAYS use this when the request matches Microservices Patterns: Master microservices architecture patterns including service boundaries, inter-servi..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $microservices-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

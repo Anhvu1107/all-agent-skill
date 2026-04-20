@@ -1,0 +1,8 @@
+interface:
+  display_name: "Odoo Inventory Optimizer"
+  short_description: "ALWAYS use this when the request matches Odoo Inventory Optimizer: Expert guide for Odoo Inventory: stock valuation (FIFO/AVCO), reordering rules, pu..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $odoo-inventory-optimizer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

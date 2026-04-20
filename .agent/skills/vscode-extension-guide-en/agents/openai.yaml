@@ -1,0 +1,8 @@
+interface:
+  display_name: "Vscode Extension Guide EN"
+  short_description: "ALWAYS use this when the request matches Vscode Extension Guide EN: Guide for VS Code extension development from scaffolding to Marketplace publicati..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $vscode-extension-guide-en to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

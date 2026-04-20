@@ -1,0 +1,8 @@
+interface:
+  display_name: "Backend Development Feature Development"
+  short_description: "ALWAYS use this when the request matches Backend Development Feature Development: Orchestrate end-to-end backend feature development from requirement..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $backend-development-feature-development to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

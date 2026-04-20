@@ -1,0 +1,8 @@
+interface:
+  display_name: "Uncle BOB Craft"
+  short_description: "ALWAYS use this when the request matches Uncle BOB Craft: Use when performing code review, writing or refactoring code, or discussing architecture; c..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $uncle-bob-craft to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

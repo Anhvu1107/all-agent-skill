@@ -1,0 +1,8 @@
+interface:
+  display_name: "Scala PRO"
+  short_description: "ALWAYS use this when the request matches Scala PRO: Master enterprise-grade Scala development with functional programming, distributed systems, and b..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $scala-pro to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

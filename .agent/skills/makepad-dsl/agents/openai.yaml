@@ -1,0 +1,8 @@
+interface:
+  display_name: "Makepad DSL"
+  short_description: "ALWAYS use this when the request matches Makepad DSL: CRITICAL: Use for Makepad DSL syntax and inheritance."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $makepad-dsl to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

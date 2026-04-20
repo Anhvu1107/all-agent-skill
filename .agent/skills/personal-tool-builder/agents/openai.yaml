@@ -1,0 +1,8 @@
+interface:
+  display_name: "Personal Tool Builder"
+  short_description: "ALWAYS use this when the request matches Personal Tool Builder: Expert in building custom tools that solve your own problems first."
+  brand_color: "#EA580C"
+  default_prompt: "Use $personal-tool-builder to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

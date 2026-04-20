@@ -1,0 +1,8 @@
+interface:
+  display_name: "Framework Migration Code Migrate"
+  short_description: "ALWAYS use this when the request matches Framework Migration Code Migrate: You are a code migration expert specializing in transitioning codebases be..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $framework-migration-code-migrate to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Threejs Materials"
+  short_description: "ALWAYS use this when the request matches Threejs Materials: Three.js materials - PBR, basic, phong, shader materials, material properties."
+  brand_color: "#374151"
+  default_prompt: "Use $threejs-materials to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

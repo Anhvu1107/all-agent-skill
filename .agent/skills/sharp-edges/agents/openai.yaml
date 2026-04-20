@@ -1,0 +1,8 @@
+interface:
+  display_name: "Sharp Edges"
+  short_description: "ALWAYS use this when the user mentions Sharp Edges, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $sharp-edges to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

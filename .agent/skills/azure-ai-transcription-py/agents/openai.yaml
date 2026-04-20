@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure AI Transcription PY"
+  short_description: "ALWAYS use this when the request matches Azure AI Transcription PY: Azure AI Transcription SDK for Python."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $azure-ai-transcription-py to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

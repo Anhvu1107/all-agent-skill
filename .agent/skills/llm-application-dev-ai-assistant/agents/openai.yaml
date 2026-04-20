@@ -1,0 +1,8 @@
+interface:
+  display_name: "LLM Application DEV AI Assistant"
+  short_description: "ALWAYS use this when the request matches LLM Application DEV AI Assistant: You are an AI assistant development expert specializing in creating intell..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $llm-application-dev-ai-assistant to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Impress"
+  short_description: "ALWAYS use this when the request matches Impress: Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $impress to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

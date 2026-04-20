@@ -1,0 +1,8 @@
+interface:
+  display_name: "Bats Testing Patterns"
+  short_description: "ALWAYS use this when the request matches Bats Testing Patterns: Master Bash Automated Testing System (Bats) for comprehensive shell script testing."
+  brand_color: "#0F172A"
+  default_prompt: "Use $bats-testing-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

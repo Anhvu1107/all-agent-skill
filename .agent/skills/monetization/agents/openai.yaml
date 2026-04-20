@@ -1,0 +1,8 @@
+interface:
+  display_name: "Monetization"
+  short_description: "ALWAYS use this when the request matches Monetization: Estrategia e implementacao de monetizacao para produtos digitais - Stripe, subscriptions, pric..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $monetization to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

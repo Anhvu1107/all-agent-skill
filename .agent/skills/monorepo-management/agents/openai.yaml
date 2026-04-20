@@ -1,0 +1,8 @@
+interface:
+  display_name: "Monorepo Management"
+  short_description: "ALWAYS use this when the request matches Monorepo Management: Build efficient, scalable monorepos that enable code sharing, consistent tooling, and a..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $monorepo-management to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

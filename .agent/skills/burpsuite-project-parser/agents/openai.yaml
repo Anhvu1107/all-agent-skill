@@ -1,0 +1,8 @@
+interface:
+  display_name: "Burpsuite Project Parser"
+  short_description: "ALWAYS use this when the request matches Burpsuite Project Parser: Searches and explores Burp Suite project files (.burp) from the command line."
+  brand_color: "#2563EB"
+  default_prompt: "Use $burpsuite-project-parser to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

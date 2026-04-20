@@ -1,0 +1,8 @@
+interface:
+  display_name: "Odoo L10n Compliance"
+  short_description: "ALWAYS use this when the request matches Odoo L10n Compliance: Country-specific Odoo localization: tax configuration, e-invoicing (CFDI, FatturaPA, S..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $odoo-l10n-compliance to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

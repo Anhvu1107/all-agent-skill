@@ -1,0 +1,8 @@
+interface:
+  display_name: "Skill Rails Upgrade"
+  short_description: "ALWAYS use this when the request matches Skill Rails Upgrade: Analyze Rails apps and provide upgrade assessments"
+  brand_color: "#15803D"
+  default_prompt: "Use $skill-rails-upgrade to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

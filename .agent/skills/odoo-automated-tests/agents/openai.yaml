@@ -1,0 +1,8 @@
+interface:
+  display_name: "Odoo Automated Tests"
+  short_description: "ALWAYS use this when the request matches Odoo Automated Tests: Write and run Odoo automated tests using TransactionCase, HttpCase, and browser tour t..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $odoo-automated-tests to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

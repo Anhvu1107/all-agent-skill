@@ -1,0 +1,8 @@
+interface:
+  display_name: "Hono"
+  short_description: "ALWAYS use this when the request matches Hono: Build ultra-fast web APIs and full-stack apps with Hono — runs on Cloudflare Workers, Deno, Bun, Node..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $hono to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

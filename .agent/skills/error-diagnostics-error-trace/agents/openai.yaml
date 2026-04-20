@@ -1,0 +1,8 @@
+interface:
+  display_name: "Error Diagnostics Error Trace"
+  short_description: "ALWAYS use this when the request matches Error Diagnostics Error Trace: You are an error tracking and observability expert specializing in implementi..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $error-diagnostics-error-trace to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

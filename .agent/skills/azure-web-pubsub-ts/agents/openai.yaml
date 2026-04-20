@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure WEB Pubsub TS"
+  short_description: "ALWAYS use this when the request matches Azure WEB Pubsub TS: Real-time messaging with WebSocket connections and pub/sub patterns."
+  brand_color: "#0F172A"
+  default_prompt: "Use $azure-web-pubsub-ts to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

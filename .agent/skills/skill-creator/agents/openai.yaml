@@ -1,0 +1,8 @@
+interface:
+  display_name: "Skill Creator"
+  short_description: "ALWAYS use this when creating, rewriting, packaging, evaluating, or tightening any skill, trigger description, skill metadata, or bundled resource in..."
+  brand_color: "#374151"
+  default_prompt: "Use $skill-creator to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

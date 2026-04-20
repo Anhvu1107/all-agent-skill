@@ -1,0 +1,8 @@
+interface:
+  display_name: "Diary"
+  short_description: "ALWAYS use this when the request matches Diary: Unified Diary System: A context-preserving automated logger for multi-project development."
+  brand_color: "#2563EB"
+  default_prompt: "Use $diary to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

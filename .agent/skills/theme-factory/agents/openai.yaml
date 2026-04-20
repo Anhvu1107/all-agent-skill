@@ -1,0 +1,8 @@
+interface:
+  display_name: "Theme Factory"
+  short_description: "ALWAYS use this when the task is to pick or apply a coherent visual theme across slides, docs, reports, landing pages, or other styled artifacts rath..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $theme-factory to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Libreoffice Impress"
+  short_description: "ALWAYS use this when the user or an upstream archive refers to `libreoffice-impress`, the nested skill path form for `impress`, or the equivalent sla..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $libreoffice-impress to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Cold Email"
+  short_description: "ALWAYS use this when the request matches Cold Email: Write B2B cold emails and follow-up sequences that earn replies."
+  brand_color: "#BE123C"
+  default_prompt: "Use $cold-email to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

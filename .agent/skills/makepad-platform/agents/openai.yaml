@@ -1,0 +1,8 @@
+interface:
+  display_name: "Makepad Platform"
+  short_description: "ALWAYS use this when the request matches Makepad Platform: CRITICAL: Use for Makepad cross-platform support."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $makepad-platform to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

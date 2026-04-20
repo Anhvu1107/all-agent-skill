@@ -1,0 +1,8 @@
+interface:
+  display_name: "M365 Agents Dotnet"
+  short_description: "ALWAYS use this when the user mentions M365 Agents Dotnet, asks to build, debug, review, document, automate, test, configure, migrate, or make decisi..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $m365-agents-dotnet to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Yann Lecun Tecnico"
+  short_description: "ALWAYS use this when the user mentions Yann Lecun Tecnico, asks to build, debug, review, document, automate, test, configure, migrate, or make decisi..."
+  brand_color: "#374151"
+  default_prompt: "Use $yann-lecun-tecnico to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

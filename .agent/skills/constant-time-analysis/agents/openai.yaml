@@ -1,0 +1,8 @@
+interface:
+  display_name: "Constant Time Analysis"
+  short_description: "ALWAYS use this when the request matches Constant Time Analysis: Analyze cryptographic code to detect operations that leak secret data through execut..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $constant-time-analysis to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

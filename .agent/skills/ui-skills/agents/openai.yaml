@@ -1,0 +1,8 @@
+interface:
+  display_name: "UI Skills"
+  short_description: "ALWAYS use this when the request matches UI Skills: Opinionated, evolving constraints to guide agents when building interfaces"
+  brand_color: "#7C3AED"
+  default_prompt: "Use $ui-skills to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Awareness Stage Mapper"
+  short_description: "ALWAYS use this when the request matches Awareness Stage Mapper: One sentence - what this skill does and when to invoke it"
+  brand_color: "#15803D"
+  default_prompt: "Use $awareness-stage-mapper to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Uniprot Database"
+  short_description: "ALWAYS use this when the user mentions Uniprot Database, asks to build, debug, review, document, automate, test, configure, migrate, or make decision..."
+  brand_color: "#15803D"
+  default_prompt: "Use $uniprot-database to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

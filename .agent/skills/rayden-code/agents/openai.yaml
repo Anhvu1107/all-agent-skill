@@ -1,0 +1,8 @@
+interface:
+  display_name: "Rayden Code"
+  short_description: "ALWAYS use this when the request matches Rayden Code: Generate React code with Rayden UI components using correct props, tokens, and premium layout p..."
+  brand_color: "#374151"
+  default_prompt: "Use $rayden-code to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

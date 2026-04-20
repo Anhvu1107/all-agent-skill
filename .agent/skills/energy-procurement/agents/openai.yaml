@@ -1,0 +1,8 @@
+interface:
+  display_name: "Energy Procurement"
+  short_description: "ALWAYS use this when the request matches Energy Procurement: Codified expertise for electricity and gas procurement, tariff optimisation, demand char..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $energy-procurement to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

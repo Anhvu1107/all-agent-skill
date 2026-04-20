@@ -1,0 +1,8 @@
+interface:
+  display_name: "Task Intelligence"
+  short_description: "ALWAYS use this when the request matches Task Intelligence: Protocolo de Inteligência Pré-Tarefa — ativa TODOS os agentes relevantes do ecossistema A..."
+  brand_color: "#374151"
+  default_prompt: "Use $task-intelligence to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

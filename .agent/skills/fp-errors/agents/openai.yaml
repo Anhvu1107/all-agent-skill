@@ -1,0 +1,8 @@
+interface:
+  display_name: "FP Errors"
+  short_description: "ALWAYS use this when the request matches FP Errors: Stop throwing everywhere - handle errors as values using Either and TaskEither for cleaner, more..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $fp-errors to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

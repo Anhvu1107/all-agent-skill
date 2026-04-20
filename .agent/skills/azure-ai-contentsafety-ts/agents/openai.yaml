@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure AI Contentsafety TS"
+  short_description: "ALWAYS use this when the request matches Azure AI Contentsafety TS: Analyze text and images for harmful content with customizable blocklists."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $azure-ai-contentsafety-ts to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

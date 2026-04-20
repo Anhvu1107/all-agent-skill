@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO Structure Architect"
+  short_description: "ALWAYS use this when the request matches SEO Structure Architect: Analyzes and optimizes content structure including header hierarchy, suggests schem..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $seo-structure-architect to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Agent Orchestration Multi Agent Optimize"
+  short_description: "ALWAYS use this when the request matches Agent Orchestration Multi Agent Optimize: Optimize multi-agent systems with coordinated profiling, workload..."
+  brand_color: "#374151"
+  default_prompt: "Use $agent-orchestration-multi-agent-optimize to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

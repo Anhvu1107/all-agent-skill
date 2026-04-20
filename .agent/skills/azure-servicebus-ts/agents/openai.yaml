@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Servicebus TS"
+  short_description: "ALWAYS use this when the request matches Azure Servicebus TS: Enterprise messaging with queues, topics, and subscriptions."
+  brand_color: "#2563EB"
+  default_prompt: "Use $azure-servicebus-ts to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

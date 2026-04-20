@@ -1,0 +1,8 @@
+interface:
+  display_name: "Database Architect"
+  short_description: "ALWAYS use this when the request matches Database Architect: Expert database architect specializing in data layer design from scratch, technology sel..."
+  brand_color: "#374151"
+  default_prompt: "Use $database-architect to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

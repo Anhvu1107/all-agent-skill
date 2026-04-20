@@ -1,0 +1,8 @@
+interface:
+  display_name: "Golang PRO"
+  short_description: "ALWAYS use this when the request matches Golang PRO: Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and produc..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $golang-pro to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

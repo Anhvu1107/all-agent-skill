@@ -1,0 +1,8 @@
+interface:
+  display_name: "Brainstorming"
+  short_description: "ALWAYS use this when the request matches Brainstorming: Socratic questioning protocol + user communication."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $brainstorming to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

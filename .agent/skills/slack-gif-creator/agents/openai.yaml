@@ -1,0 +1,8 @@
+interface:
+  display_name: "Slack GIF Creator"
+  short_description: "ALWAYS use this when the request matches Slack GIF Creator: Knowledge and utilities for creating animated GIFs optimized for Slack."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $slack-gif-creator to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

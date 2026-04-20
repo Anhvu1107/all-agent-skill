@@ -1,0 +1,8 @@
+interface:
+  display_name: "Amplitude Automation"
+  short_description: "ALWAYS use this when the request matches Amplitude Automation: Automate Amplitude tasks via Rube MCP (Composio): events, user activity, cohorts, user..."
+  brand_color: "#15803D"
+  default_prompt: "Use $amplitude-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

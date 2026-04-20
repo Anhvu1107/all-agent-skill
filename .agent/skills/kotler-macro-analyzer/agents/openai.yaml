@@ -1,0 +1,8 @@
+interface:
+  display_name: "Kotler Macro Analyzer"
+  short_description: "ALWAYS use this when the request matches Kotler Macro Analyzer: Professional PESTEL/SWOT analysis agent based on Kotler's methodology for strategic m..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $kotler-macro-analyzer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Writing Plans"
+  short_description: "ALWAYS use this when the request matches Writing Plans: Use when you have a spec or requirements for a multi-step task, before touching code"
+  brand_color: "#0F766E"
+  default_prompt: "Use $writing-plans to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

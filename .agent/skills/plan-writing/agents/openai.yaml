@@ -1,0 +1,8 @@
+interface:
+  display_name: "Plan Writing"
+  short_description: "ALWAYS use this when the user needs a concrete execution plan, milestone list, staged rollout, or implementation sequence rather than immediate codin..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $plan-writing to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

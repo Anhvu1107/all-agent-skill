@@ -1,0 +1,8 @@
+interface:
+  display_name: "FP Backend"
+  short_description: "ALWAYS use this when the request matches FP Backend: Functional programming patterns for Node.js/Deno backend development using fp-ts, ReaderTaskEith..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $fp-backend to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

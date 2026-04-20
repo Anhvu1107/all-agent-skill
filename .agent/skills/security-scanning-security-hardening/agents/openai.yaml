@@ -1,0 +1,8 @@
+interface:
+  display_name: "Security Scanning Security Hardening"
+  short_description: "ALWAYS use this when the request matches Security Scanning Security Hardening: Coordinate multi-layer security scanning and hardening across applicat..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $security-scanning-security-hardening to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

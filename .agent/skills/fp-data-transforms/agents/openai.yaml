@@ -1,0 +1,8 @@
+interface:
+  display_name: "FP Data Transforms"
+  short_description: "ALWAYS use this when the request matches FP Data Transforms: Everyday data transformations using functional patterns - arrays, objects, grouping, agg..."
+  brand_color: "#15803D"
+  default_prompt: "Use $fp-data-transforms to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

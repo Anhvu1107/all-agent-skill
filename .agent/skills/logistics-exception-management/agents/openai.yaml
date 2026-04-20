@@ -1,0 +1,8 @@
+interface:
+  display_name: "Logistics Exception Management"
+  short_description: "ALWAYS use this when the request matches Logistics Exception Management: Codified expertise for handling freight exceptions, shipment delays, damages..."
+  brand_color: "#15803D"
+  default_prompt: "Use $logistics-exception-management to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

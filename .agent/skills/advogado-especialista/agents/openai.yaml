@@ -1,0 +1,8 @@
+interface:
+  display_name: "Advogado Especialista"
+  short_description: "ALWAYS use this when the request matches Advogado Especialista: Advogado especialista em todas as areas do Direito brasileiro: familia, criminal, tra..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $advogado-especialista to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

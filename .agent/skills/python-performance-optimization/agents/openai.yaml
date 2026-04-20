@@ -1,0 +1,8 @@
+interface:
+  display_name: "Python Performance Optimization"
+  short_description: "ALWAYS use this when the request matches Python Performance Optimization: Profile and optimize Python code using cProfile, memory profilers, and perf..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $python-performance-optimization to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

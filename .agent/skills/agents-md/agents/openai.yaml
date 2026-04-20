@@ -1,0 +1,8 @@
+interface:
+  display_name: "Agents MD"
+  short_description: "ALWAYS use this when the request matches Agents MD: This skill should be used when the user asks to \"create AGENTS.md\", \"update AGENTS.md\", \"maintain..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $agents-md to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

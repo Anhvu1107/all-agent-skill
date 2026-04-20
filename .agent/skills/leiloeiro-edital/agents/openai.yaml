@@ -1,0 +1,8 @@
+interface:
+  display_name: "Leiloeiro Edital"
+  short_description: "ALWAYS use this when the request matches Leiloeiro Edital: Analise e auditoria de editais de leilao judicial e extrajudicial."
+  brand_color: "#0F172A"
+  default_prompt: "Use $leiloeiro-edital to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

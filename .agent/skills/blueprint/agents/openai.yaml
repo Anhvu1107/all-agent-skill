@@ -1,0 +1,8 @@
+interface:
+  display_name: "Blueprint"
+  short_description: "ALWAYS use this when the request matches Blueprint: Turn a one-line objective into a step-by-step construction plan any coding agent can execute cold."
+  brand_color: "#374151"
+  default_prompt: "Use $blueprint to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Software Architecture"
+  short_description: "ALWAYS use this when the request matches Software Architecture: Guide for quality focused software architecture."
+  brand_color: "#2563EB"
+  default_prompt: "Use $software-architecture to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

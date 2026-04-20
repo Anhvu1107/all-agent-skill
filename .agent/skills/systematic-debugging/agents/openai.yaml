@@ -1,0 +1,8 @@
+interface:
+  display_name: "Systematic Debugging"
+  short_description: "ALWAYS use this when the user mentions any bug, flaky behavior, failing test, broken build, regression, runtime error, performance mystery, or unexpe..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $systematic-debugging to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

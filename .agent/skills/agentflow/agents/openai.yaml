@@ -1,0 +1,8 @@
+interface:
+  display_name: "Agentflow"
+  short_description: "ALWAYS use this when the request matches Agentflow: Orchestrate autonomous AI development pipelines through your Kanban board (Asana, GitHub Projects..."
+  brand_color: "#374151"
+  default_prompt: "Use $agentflow to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

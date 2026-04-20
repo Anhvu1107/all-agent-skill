@@ -1,0 +1,8 @@
+interface:
+  display_name: "Using GIT Worktrees"
+  short_description: "ALWAYS use this when the task is risky, parallel, branch-oriented, or likely to mix with unrelated local changes unless it happens inside an isolated..."
+  brand_color: "#15803D"
+  default_prompt: "Use $using-git-worktrees to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

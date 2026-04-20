@@ -1,0 +1,8 @@
+interface:
+  display_name: "UI A11y"
+  short_description: "ALWAYS use this when the request matches UI A11y: Audit a StyleSeed-based component or page for WCAG 2.2 AA issues and apply practical accessibility..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $ui-a11y to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

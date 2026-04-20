@@ -1,0 +1,8 @@
+interface:
+  display_name: "Makepad Splash"
+  short_description: "ALWAYS use this when the request matches Makepad Splash: CRITICAL: Use for Makepad Splash scripting language."
+  brand_color: "#0F172A"
+  default_prompt: "Use $makepad-splash to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

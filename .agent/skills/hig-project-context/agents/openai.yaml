@@ -1,0 +1,8 @@
+interface:
+  display_name: "HIG Project Context"
+  short_description: "ALWAYS use this when the request matches HIG Project Context: Create or update a shared Apple design context document that other HIG skills use to ta..."
+  brand_color: "#15803D"
+  default_prompt: "Use $hig-project-context to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Defuddle"
+  short_description: "ALWAYS use this when the request matches Defuddle: Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $defuddle to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

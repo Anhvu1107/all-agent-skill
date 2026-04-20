@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure AI Voicelive TS"
+  short_description: "ALWAYS use this when the request matches Azure AI Voicelive TS: Azure AI Voice Live SDK for JavaScript/TypeScript."
+  brand_color: "#0F766E"
+  default_prompt: "Use $azure-ai-voicelive-ts to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

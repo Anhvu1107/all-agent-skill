@@ -1,0 +1,8 @@
+interface:
+  display_name: "Tavily WEB"
+  short_description: "ALWAYS use this when the request matches Tavily WEB: Web search, content extraction, crawling, and research capabilities using Tavily API."
+  brand_color: "#EA580C"
+  default_prompt: "Use $tavily-web to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Paywall Upgrade CRO"
+  short_description: "ALWAYS use this when the request matches Paywall Upgrade CRO: You are an expert in in-app paywalls and upgrade flows."
+  brand_color: "#2563EB"
+  default_prompt: "Use $paywall-upgrade-cro to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

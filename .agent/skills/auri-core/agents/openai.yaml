@@ -1,0 +1,8 @@
+interface:
+  display_name: "Auri Core"
+  short_description: "ALWAYS use this when the request matches Auri Core: Auri: assistente de voz inteligente (Alexa + Claude claude-opus-4-20250805)."
+  brand_color: "#0F766E"
+  default_prompt: "Use $auri-core to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

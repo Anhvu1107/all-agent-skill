@@ -1,0 +1,8 @@
+interface:
+  display_name: "CAL COM Automation"
+  short_description: "ALWAYS use this when the request matches CAL COM Automation: Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, con..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $cal-com-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

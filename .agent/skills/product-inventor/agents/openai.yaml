@@ -1,0 +1,8 @@
+interface:
+  display_name: "Product Inventor"
+  short_description: "ALWAYS use this when the request matches Product Inventor: Product Inventor e Design Alchemist de nivel maximo — combina Product Thinking, Design Sys..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $product-inventor to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

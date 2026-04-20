@@ -1,0 +1,8 @@
+interface:
+  display_name: "Product Manager"
+  short_description: "ALWAYS use this when the request matches Product Manager: Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates, and 32 SaaS metrics..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $product-manager to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Andrej Karpathy"
+  short_description: "ALWAYS use this when the request matches Andrej Karpathy: Agente que simula Andrej Karpathy — ex-Director of AI da Tesla, co-fundador da OpenAI, fund..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $andrej-karpathy to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

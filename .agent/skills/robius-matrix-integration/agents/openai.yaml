@@ -1,0 +1,8 @@
+interface:
+  display_name: "Robius Matrix Integration"
+  short_description: "ALWAYS use this when the request matches Robius Matrix Integration: CRITICAL: Use for Matrix SDK integration with Makepad."
+  brand_color: "#BE123C"
+  default_prompt: "Use $robius-matrix-integration to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

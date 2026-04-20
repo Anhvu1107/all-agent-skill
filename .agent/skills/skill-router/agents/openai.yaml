@@ -1,0 +1,8 @@
+interface:
+  display_name: "Skill Router"
+  short_description: "ALWAYS use this when the request matches Skill Router: Use when the user is unsure which skill to use or where to start."
+  brand_color: "#15803D"
+  default_prompt: "Use $skill-router to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

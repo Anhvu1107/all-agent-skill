@@ -1,0 +1,8 @@
+interface:
+  display_name: "Outlook Automation"
+  short_description: "ALWAYS use this when the request matches Outlook Automation: Automate Outlook tasks via Rube MCP (Composio): emails, calendar, contacts, folders, att..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $outlook-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

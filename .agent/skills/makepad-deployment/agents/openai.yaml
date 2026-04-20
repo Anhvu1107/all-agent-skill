@@ -1,0 +1,8 @@
+interface:
+  display_name: "Makepad Deployment"
+  short_description: "ALWAYS use this when the request matches Makepad Deployment: CRITICAL: Use for Makepad packaging and deployment."
+  brand_color: "#BE123C"
+  default_prompt: "Use $makepad-deployment to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Tiktok Automation"
+  short_description: "ALWAYS use this when the request matches Tiktok Automation: Automate TikTok tasks via Rube MCP (Composio): upload/publish videos, post photos, manage..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $tiktok-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

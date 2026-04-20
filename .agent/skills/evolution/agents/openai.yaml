@@ -1,0 +1,8 @@
+interface:
+  display_name: "Evolution"
+  short_description: "ALWAYS use this when the request matches Evolution: This skill enables makepad-skills to self-improve continuously during development."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $evolution to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

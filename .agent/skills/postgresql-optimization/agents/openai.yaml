@@ -1,0 +1,8 @@
+interface:
+  display_name: "Postgresql Optimization"
+  short_description: "ALWAYS use this when the request matches Postgresql Optimization: PostgreSQL database optimization workflow for query tuning, indexing strategies, pe..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $postgresql-optimization to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

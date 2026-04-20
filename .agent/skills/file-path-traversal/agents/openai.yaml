@@ -1,0 +1,8 @@
+interface:
+  display_name: "File Path Traversal"
+  short_description: "ALWAYS use this when the request matches File Path Traversal: Identify and exploit file path traversal (directory traversal) vulnerabilities that all..."
+  brand_color: "#374151"
+  default_prompt: "Use $file-path-traversal to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Resource Manager Durabletask Dotnet"
+  short_description: "ALWAYS use this when the request matches Azure Resource Manager Durabletask Dotnet: Azure Resource Manager SDK for Durable Task Scheduler in .NET."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $azure-resource-manager-durabletask-dotnet to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

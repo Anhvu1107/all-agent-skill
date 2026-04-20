@@ -1,0 +1,8 @@
+interface:
+  display_name: "CC Skill Clickhouse IO"
+  short_description: "ALWAYS use this when the request matches CC Skill Clickhouse IO: ClickHouse database patterns, query optimization, analytics, and data engineering be..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $cc-skill-clickhouse-io to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

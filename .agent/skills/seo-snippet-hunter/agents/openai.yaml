@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEO Snippet Hunter"
+  short_description: "ALWAYS use this when the request matches SEO Snippet Hunter: Formats content to be eligible for featured snippets and SERP features."
+  brand_color: "#BE123C"
+  default_prompt: "Use $seo-snippet-hunter to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

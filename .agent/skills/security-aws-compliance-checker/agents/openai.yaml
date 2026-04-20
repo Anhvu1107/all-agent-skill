@@ -1,0 +1,8 @@
+interface:
+  display_name: "Security AWS Compliance Checker"
+  short_description: "ALWAYS use this when the user or an upstream archive refers to `security-aws-compliance-checker`, the nested skill path form for `aws-compliance-chec..."
+  brand_color: "#EA580C"
+  default_prompt: "Use $security-aws-compliance-checker to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

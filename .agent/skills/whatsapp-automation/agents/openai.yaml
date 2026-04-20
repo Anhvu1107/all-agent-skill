@@ -1,0 +1,8 @@
+interface:
+  display_name: "Whatsapp Automation"
+  short_description: "ALWAYS use this when the request matches Whatsapp Automation: Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templat..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $whatsapp-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

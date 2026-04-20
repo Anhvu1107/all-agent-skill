@@ -1,0 +1,8 @@
+interface:
+  display_name: "Skill Creator MS"
+  short_description: "ALWAYS use this when the request matches Skill Creator MS: Guide for creating effective skills for AI coding agents working with Azure SDKs and Micro..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $skill-creator-ms to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

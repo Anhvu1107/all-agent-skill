@@ -1,0 +1,8 @@
+interface:
+  display_name: "Daily Gift"
+  short_description: "ALWAYS use this when the request matches Daily Gift: Relationship-aware daily gift engine with five-stage creative pipeline — editorial judgment, syn..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $daily-gift to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

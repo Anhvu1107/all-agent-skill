@@ -1,0 +1,8 @@
+interface:
+  display_name: "Service Mesh Observability"
+  short_description: "ALWAYS use this when the request matches Service Mesh Observability: Complete guide to observability patterns for Istio, Linkerd, and service mesh de..."
+  brand_color: "#15803D"
+  default_prompt: "Use $service-mesh-observability to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

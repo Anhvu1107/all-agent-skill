@@ -1,0 +1,8 @@
+interface:
+  display_name: "Grpc Golang"
+  short_description: "ALWAYS use this when the request matches Grpc Golang: Build production-ready gRPC services in Go with mTLS, streaming, and observability."
+  brand_color: "#0F172A"
+  default_prompt: "Use $grpc-golang to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Monte Carlo Push Ingestion"
+  short_description: "ALWAYS use this when the request matches Monte Carlo Push Ingestion: Expert guide for pushing metadata, lineage, and query logs to Monte Carlo from a..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $monte-carlo-push-ingestion to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

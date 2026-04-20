@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure AI Translation Document PY"
+  short_description: "ALWAYS use this when the request matches Azure AI Translation Document PY: Azure AI Document Translation SDK for batch translation of documents with..."
+  brand_color: "#374151"
+  default_prompt: "Use $azure-ai-translation-document-py to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

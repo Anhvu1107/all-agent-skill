@@ -1,0 +1,8 @@
+interface:
+  display_name: "UI Visual Validator"
+  short_description: "ALWAYS use this when the request matches UI Visual Validator: Rigorous visual validation expert specializing in UI testing, design system compliance..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $ui-visual-validator to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

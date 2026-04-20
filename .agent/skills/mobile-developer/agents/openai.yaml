@@ -1,0 +1,8 @@
+interface:
+  display_name: "Mobile Developer"
+  short_description: "ALWAYS use this when the request matches Mobile Developer: Develop React Native, Flutter, or native mobile apps with modern architecture patterns."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $mobile-developer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

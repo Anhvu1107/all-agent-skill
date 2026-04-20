@@ -1,0 +1,82 @@
+{
+  "timestampLocal": "2026-04-21T03:35:05",
+  "bundleRoot": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra",
+  "gitRemote": "git@github.com:Anhvu1107/all-agent-skill.git",
+  "recommendedUserPackage": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra.zip",
+  "compatibilityRarPackage": "D:\\skill\\skill\\agent-skills-vvip-pro-max-ultra.rar",
+  "releasePackagingPolicy": {
+    "zipBuiltForEaseOfUse": true,
+    "cleanReleaseExcludesRawUpstreamsDirectory": true,
+    "gitIgnoresRawUpstreamsDirectory": true,
+    "rawCoveragePreservedInReports": true,
+    "rawUpstreamsRemainInWorkingSourceFolder": true
+  },
+  "health": {
+    "totalSkills": 1462,
+    "withReferences": 1462,
+    "withAgents": 1462,
+    "withSeniorMasterStandard": 1462,
+    "withSeniorMasterLink": 1462,
+    "withCodexStrictGate": 1462,
+    "withStrictFrontmatter": 1462,
+    "withNameMatchingFolder": 1462,
+    "withCompactSkillMd": 1462,
+    "withAgentImplicitPolicy": 1462,
+    "withAgentPromptMatchingSkill": 1462,
+    "pushyDescriptions": 1462,
+    "triggerForwardDescriptions": 1462,
+    "skillsWithRootMarkdownDocs": 0,
+    "catalogTotal": 1462,
+    "catalogMatchesLiveCount": true
+  },
+  "healthZeroes": {
+    "invalidSkills": 0,
+    "brokenLinks": 0,
+    "topMissingReferences": 0,
+    "topMissingAgents": 0,
+    "topMissingSeniorMasterStandard": 0,
+    "topMissingCodexStrictGate": 0,
+    "topExtraFrontmatter": 0,
+    "topLongSkillMdBodies": 0,
+    "topAgentPromptMismatch": 0,
+    "nestedSkillMdRemaining": 0
+  },
+  "upstreamCoverage": {
+    "rawSkillMd": 4547,
+    "uniqueRawSlugs": 1437,
+    "canonicalSkillDirs": 1462,
+    "representedRawSlugs": 1437,
+    "rawEntriesCovered": 4547,
+    "rawEntriesUncovered": 0,
+    "missingUniqueRawSlugs": 0,
+    "allRawEntriesMapped": true
+  },
+  "zipCompatibility": {
+    "allFrontSlugsCovered": true,
+    "allLeafSlugsCovered": true,
+    "allPathSlugsCovered": true
+  },
+  "aliasSkills": {
+    "declared": 22,
+    "errors": 0
+  },
+  "nestedSkillMirrorArchive": {
+    "remainingNestedSkillMd": 0,
+    "latestValidationFound": 0,
+    "latestValidationArchived": 0
+  },
+  "catalogAndSearch": {
+    "total": 1462,
+    "canonical": 1440,
+    "aliases": 22,
+    "catalogPath": "CATALOG.md",
+    "searchIndexPath": "search-index.json",
+    "ndjsonPath": "search-index.ndjson"
+  },
+  "ciTooling": {
+    "validateWorkflow": ".github/workflows/validate-skills.yml",
+    "packageSmokeWorkflow": ".github/workflows/package-smoke-test.yml",
+    "releaseValidator": "scripts/validate_release.py",
+    "packageBuilder": "scripts/package_release.py"
+  }
+}

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Macos Menubar Tuist APP"
+  short_description: "ALWAYS use this when the request matches Macos Menubar Tuist APP: Build, refactor, or review SwiftUI macOS menubar apps that use Tuist."
+  brand_color: "#0F766E"
+  default_prompt: "Use $macos-menubar-tuist-app to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

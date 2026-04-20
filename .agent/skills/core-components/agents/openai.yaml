@@ -1,0 +1,8 @@
+interface:
+  display_name: "Core Components"
+  short_description: "ALWAYS use this when the request matches Core Components: Core component library and design system patterns."
+  brand_color: "#2563EB"
+  default_prompt: "Use $core-components to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

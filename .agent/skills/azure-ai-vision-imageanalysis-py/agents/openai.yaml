@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure AI Vision Imageanalysis PY"
+  short_description: "ALWAYS use this when the request matches Azure AI Vision Imageanalysis PY: Azure AI Vision Image Analysis SDK for captions, tags, objects, OCR, peopl..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $azure-ai-vision-imageanalysis-py to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

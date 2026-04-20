@@ -1,0 +1,8 @@
+interface:
+  display_name: "SQL Optimization Patterns"
+  short_description: "ALWAYS use this when the request matches SQL Optimization Patterns: Transform slow database queries into lightning-fast operations through systematic..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $sql-optimization-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

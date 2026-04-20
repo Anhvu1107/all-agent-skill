@@ -1,0 +1,8 @@
+interface:
+  display_name: "Minecraft Bukkit PRO"
+  short_description: "ALWAYS use this when the request matches Minecraft Bukkit PRO: Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs."
+  brand_color: "#EA580C"
+  default_prompt: "Use $minecraft-bukkit-pro to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

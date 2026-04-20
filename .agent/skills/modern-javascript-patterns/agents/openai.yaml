@@ -1,0 +1,8 @@
+interface:
+  display_name: "Modern Javascript Patterns"
+  short_description: "ALWAYS use this when the request matches Modern Javascript Patterns: Comprehensive guide for mastering modern JavaScript (ES6+) features, functional..."
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $modern-javascript-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

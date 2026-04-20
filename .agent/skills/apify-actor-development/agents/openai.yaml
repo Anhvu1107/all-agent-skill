@@ -1,0 +1,8 @@
+interface:
+  display_name: "Apify Actor Development"
+  short_description: "ALWAYS use this when the request matches Apify Actor Development: Important: Before you begin, fill in the generatedBy property in the meta section o..."
+  brand_color: "#0F766E"
+  default_prompt: "Use $apify-actor-development to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

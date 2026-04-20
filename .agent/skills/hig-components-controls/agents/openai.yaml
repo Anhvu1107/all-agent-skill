@@ -1,0 +1,8 @@
+interface:
+  display_name: "HIG Components Controls"
+  short_description: "ALWAYS use this when the request matches HIG Components Controls: Check for .claude/apple-design-context.md before asking questions."
+  brand_color: "#0F766E"
+  default_prompt: "Use $hig-components-controls to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

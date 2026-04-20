@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Resource Manager Postgresql Dotnet"
+  short_description: "ALWAYS use this when the request matches Azure Resource Manager Postgresql Dotnet: Azure PostgreSQL Flexible Server SDK for .NET."
+  brand_color: "#0F766E"
+  default_prompt: "Use $azure-resource-manager-postgresql-dotnet to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

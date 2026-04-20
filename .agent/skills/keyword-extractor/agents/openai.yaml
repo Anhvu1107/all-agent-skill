@@ -1,0 +1,8 @@
+interface:
+  display_name: "Keyword Extractor"
+  short_description: "ALWAYS use this when the request matches Keyword Extractor: Extracts up to 50 highly relevant SEO keywords from text."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $keyword-extractor to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

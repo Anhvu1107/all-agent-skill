@@ -1,0 +1,8 @@
+interface:
+  display_name: "Churn Prevention"
+  short_description: "ALWAYS use this when the request matches Churn Prevention: Reduce voluntary and involuntary churn with cancel flows, save offers, dunning, win-back t..."
+  brand_color: "#2563EB"
+  default_prompt: "Use $churn-prevention to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

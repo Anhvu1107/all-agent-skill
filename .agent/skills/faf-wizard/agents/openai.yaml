@@ -1,0 +1,8 @@
+interface:
+  display_name: "FAF Wizard"
+  short_description: "ALWAYS use this when the user mentions FAF Wizard, asks to build, debug, review, document, automate, test, configure, migrate, or make decisions in t..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $faf-wizard to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

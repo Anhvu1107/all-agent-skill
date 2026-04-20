@@ -1,0 +1,8 @@
+interface:
+  display_name: "Hugging Face Dataset Viewer"
+  short_description: "ALWAYS use this when the request matches Hugging Face Dataset Viewer: Query Hugging Face datasets through the Dataset Viewer API for splits, rows, se..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $hugging-face-dataset-viewer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Vector Database Engineer"
+  short_description: "ALWAYS use this when the request matches Vector Database Engineer: Expert in vector databases, embedding strategies, and semantic search implementati..."
+  brand_color: "#BE123C"
+  default_prompt: "Use $vector-database-engineer to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

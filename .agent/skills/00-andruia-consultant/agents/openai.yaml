@@ -1,0 +1,8 @@
+interface:
+  display_name: "00 Andruia Consultant"
+  short_description: "ALWAYS use this when the request matches 00 Andruia Consultant: Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $00-andruia-consultant to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

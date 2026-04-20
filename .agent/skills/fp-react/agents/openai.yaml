@@ -1,0 +1,8 @@
+interface:
+  display_name: "FP React"
+  short_description: "ALWAYS use this when the request matches FP React: Practical patterns for using fp-ts with React - hooks, state, forms, data fetching."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $fp-react to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

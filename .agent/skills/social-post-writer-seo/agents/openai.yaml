@@ -1,0 +1,8 @@
+interface:
+  display_name: "Social Post Writer SEO"
+  short_description: "ALWAYS use this when the request matches Social Post Writer SEO: Social Media Strategist and Content Writer."
+  brand_color: "#BE123C"
+  default_prompt: "Use $social-post-writer-seo to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

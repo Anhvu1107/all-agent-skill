@@ -1,0 +1,8 @@
+interface:
+  display_name: "Frontend Design"
+  short_description: "ALWAYS use this for any page, landing page, dashboard, component system, redesign, UI polish, motion work, typography choice, color system, or fronte..."
+  brand_color: "#15803D"
+  default_prompt: "Use $frontend-design to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

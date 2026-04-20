@@ -1,0 +1,8 @@
+interface:
+  display_name: "Openapi Spec Generation"
+  short_description: "ALWAYS use this when the request matches Openapi Spec Generation: Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and..."
+  brand_color: "#15803D"
+  default_prompt: "Use $openapi-spec-generation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

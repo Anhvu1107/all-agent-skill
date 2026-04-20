@@ -1,0 +1,8 @@
+interface:
+  display_name: "Similarity Search Patterns"
+  short_description: "ALWAYS use this when the request matches Similarity Search Patterns: Implement efficient similarity search with vector databases."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $similarity-search-patterns to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

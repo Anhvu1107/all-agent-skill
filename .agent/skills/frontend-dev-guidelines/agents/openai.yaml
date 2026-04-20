@@ -1,0 +1,8 @@
+interface:
+  display_name: "Frontend DEV Guidelines"
+  short_description: "ALWAYS use this when implementing or reviewing frontend components, pages, feature slices, data fetching, or interaction patterns in a production Rea..."
+  brand_color: "#0F172A"
+  default_prompt: "Use $frontend-dev-guidelines to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

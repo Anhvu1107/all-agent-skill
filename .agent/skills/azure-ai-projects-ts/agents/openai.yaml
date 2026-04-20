@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure AI Projects TS"
+  short_description: "ALWAYS use this when the request matches Azure AI Projects TS: High-level SDK for Azure AI Foundry projects with agents, connections, deployments, an..."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $azure-ai-projects-ts to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Design Taste Frontend"
+  short_description: "ALWAYS use this when the request matches Design Taste Frontend: Use when building high-agency frontend interfaces with strict design taste, calibrate..."
+  brand_color: "#B91C1C"
+  default_prompt: "Use $design-taste-frontend to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

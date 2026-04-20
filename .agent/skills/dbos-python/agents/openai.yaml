@@ -1,0 +1,8 @@
+interface:
+  display_name: "Dbos Python"
+  short_description: "ALWAYS use this when the request matches Dbos Python: Guide for building reliable, fault-tolerant Python applications with DBOS durable workflows."
+  brand_color: "#BE123C"
+  default_prompt: "Use $dbos-python to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true

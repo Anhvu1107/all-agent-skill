@@ -1,0 +1,8 @@
+interface:
+  display_name: "Canva Automation"
+  short_description: "ALWAYS use this when the request matches Canva Automation: Automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand templates..."
+  brand_color: "#374151"
+  default_prompt: "Use $canva-automation to handle this task with the relevant workflow, references, scripts, and quality checks."
+
+policy:
+  allow_implicit_invocation: true
