@@ -65,8 +65,7 @@ def collect_markdown_links(skill_md: Path) -> list[str]:
 def resolve_missing_links(skill_dir: Path, links: Iterable[str]) -> list[str]:
     missing: list[str] = []
     for link in links:
-        normalized = link.replace("/", "\\")
-        target = (skill_dir / normalized).resolve()
+        target = (skill_dir / link).resolve()
         if not target.exists():
             missing.append(link)
     return missing
